@@ -61,7 +61,8 @@ jobs:
           Automated update via GitHub Actions (parser + manifest hash).
           EOF
           )"
-          git push
+          git pull --rebase origin main
+          git push origin main
 
       - name: Verify manifest on GitHub raw
         run: |
