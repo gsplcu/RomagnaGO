@@ -22,6 +22,7 @@ on:
       - 'lib/start_content/**'
       - 'tool/gen_start_content_baseline.dart'
       - 'tool/sync_start_content.dart'
+      - 'tool/publish_start_content.dart'
       - '.github/workflows/sync-start-content.yml'
 
 permissions:
@@ -34,19 +35,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Dart
-        uses: dart-lang/setup-dart@v1
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
         with:
-          sdk: stable
+          channel: stable
 
       - name: Install dependencies
-        run: dart pub get
+        run: flutter pub get
 
-      - name: Regenerate JSON from Dart baselines
-        run: dart run tool/gen_start_content_baseline.dart
-
-      - name: Sync from Start Romagna websites (parsers)
-        run: dart run tool/sync_start_content.dart
+      - name: Generate and sync start content
+        run: dart run tool/publish_start_content.dart
 
       - name: Commit and push if content changed
         run: |
