@@ -1,0 +1,145 @@
+{
+  "estrazione": "Orari da route_F024.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F024.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F024",
+    "name": "Linea F024",
+    "direzioni_percorso": [
+      "Piazza Borello > Pinarella",
+      "Piazza Borello > Sarsina",
+      "Pinarella > Piazza Borello",
+      "Sarsina > Piazza Borello"
+    ],
+    "route_id": "F024"
+  },
+  "totale_trips": 8,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Piazza Borello > Pinarella",
+      "capolinea_partenza": {
+        "stop_id": "12311",
+        "stop_name": "Piazza Borello"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10891",
+        "stop_name": "Pinarella"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:40:00",
+        "14:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036256",
+          "service_id": "833_1000000006965",
+          "start_time": "07:40:00",
+          "end_time": "08:30:00"
+        },
+        {
+          "trip_id": "833_1036257",
+          "service_id": "833_1000000006965",
+          "start_time": "14:15:00",
+          "end_time": "15:05:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Piazza Borello > Sarsina",
+      "capolinea_partenza": {
+        "stop_id": "12312",
+        "stop_name": "Piazza Borello"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13302",
+        "stop_name": "Sarsina"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "12:50:00",
+        "18:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033654",
+          "service_id": "833_1000000006965",
+          "start_time": "12:50:00",
+          "end_time": "13:30:00"
+        },
+        {
+          "trip_id": "833_1033655",
+          "service_id": "833_1000000006965",
+          "start_time": "18:40:00",
+          "end_time": "19:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Pinarella > Piazza Borello",
+      "capolinea_partenza": {
+        "stop_id": "10892",
+        "stop_name": "Pinarella"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "12312",
+        "stop_name": "Piazza Borello"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "12:05:00",
+        "17:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033656",
+          "service_id": "833_1000000006965",
+          "start_time": "12:05:00",
+          "end_time": "12:45:00"
+        },
+        {
+          "trip_id": "833_1033657",
+          "service_id": "833_1000000006965",
+          "start_time": "17:55:00",
+          "end_time": "18:35:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Sarsina > Piazza Borello",
+      "capolinea_partenza": {
+        "stop_id": "13301",
+        "stop_name": "Sarsina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "12311",
+        "stop_name": "Piazza Borello"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:00:00",
+        "13:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036254",
+          "service_id": "833_1000000006965",
+          "start_time": "07:00:00",
+          "end_time": "07:35:00"
+        },
+        {
+          "trip_id": "833_1036255",
+          "service_id": "833_1000000006965",
+          "start_time": "13:35:00",
+          "end_time": "14:10:00"
+        }
+      ]
+    }
+  ]
+}

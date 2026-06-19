@@ -1,0 +1,81 @@
+{
+  "estrazione": "Orari da route_F167.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F167.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F167",
+    "name": "Linea F167",
+    "direzioni_percorso": [
+      "44 Pinzon Porto > Sogliano Capolinea",
+      "Sogliano Capolinea > 44 Carducci"
+    ],
+    "route_id": "F167"
+  },
+  "totale_trips": 4,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "44 Pinzon Porto > Sogliano Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "E00045",
+        "stop_name": "44 Pinzon Porto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "14100",
+        "stop_name": "Sogliano Capolinea"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "12:35:00",
+        "18:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031470",
+          "service_id": "833_1000000006965",
+          "start_time": "12:35:00",
+          "end_time": "13:30:00"
+        },
+        {
+          "trip_id": "833_1031471",
+          "service_id": "833_1000000006965",
+          "start_time": "18:25:00",
+          "end_time": "19:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Sogliano Capolinea > 44 Carducci",
+      "capolinea_partenza": {
+        "stop_id": "14100",
+        "stop_name": "Sogliano Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "E00062",
+        "stop_name": "44 Carducci"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:20:00",
+        "13:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036056",
+          "service_id": "833_1000000006965",
+          "start_time": "07:20:00",
+          "end_time": "08:17:00"
+        },
+        {
+          "trip_id": "833_1036057",
+          "service_id": "833_1000000006965",
+          "start_time": "13:45:00",
+          "end_time": "14:42:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "estrazione": "Orari da route_155.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_155.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "155",
+    "name": "Linea 155",
+    "direzioni_percorso": [
+      "Circ.Ne Al Molino > Faenza Fs E",
+      "Faenza Fs E > Bassette Monti",
+      "Faenza Fs E > Farini Liceo"
+    ],
+    "route_id": "155"
+  },
+  "totale_trips": 3,
+  "totale_direzioni_percorso": 3,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Circ.Ne Al Molino > Faenza Fs E",
+      "capolinea_partenza": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780440",
+        "stop_name": "Faenza Fs E"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "13:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888221",
+          "service_id": "674_1000000002117",
+          "start_time": "13:30:00",
+          "end_time": "14:16:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Faenza Fs E > Bassette Monti",
+      "capolinea_partenza": {
+        "stop_id": "780440",
+        "stop_name": "Faenza Fs E"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "707410",
+        "stop_name": "Bassette Monti"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888220",
+          "service_id": "674_1000000002115",
+          "start_time": "06:45:00",
+          "end_time": "07:44:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Faenza Fs E > Farini Liceo",
+      "capolinea_partenza": {
+        "stop_id": "780440",
+        "stop_name": "Faenza Fs E"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700390",
+        "stop_name": "Farini Liceo"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888219",
+          "service_id": "674_1000000002111",
+          "start_time": "06:45:00",
+          "end_time": "07:34:00"
+        }
+      ]
+    }
+  ]
+}

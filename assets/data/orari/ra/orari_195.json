@@ -1,0 +1,499 @@
+{
+  "estrazione": "Orari da route_195.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_195.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "195",
+    "name": "Linea 195",
+    "direzioni_percorso": [
+      "Biblioteca > Faenza Fs F",
+      "Biblioteca > Riolo Istituto Alberghiero",
+      "Faenza Fs F > Biblioteca",
+      "Faenza Fs F > Ravenna Fs-P.Bus",
+      "Faenza Fs F > Riolo Istituto Alberghiero",
+      "Faenza Fs F > Stab. Terme",
+      "P.Le Enichem > Riolo Istituto Alberghiero",
+      "Ravenna Fs-P.Bus > P.Le Enichem",
+      "Riolo Istituto Alberghiero > Biblioteca",
+      "Riolo Istituto Alberghiero > Faenza Fs F",
+      "Riolo Istituto Alberghiero > P.Le Enichem",
+      "Stab. Terme > Faenza Fs F"
+    ],
+    "route_id": "195"
+  },
+  "totale_trips": 38,
+  "totale_direzioni_percorso": 12,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Biblioteca > Faenza Fs F",
+      "capolinea_partenza": {
+        "stop_id": "779010",
+        "stop_name": "Biblioteca"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "trip_count": 7,
+      "orari_partenza": [
+        "06:35:00",
+        "08:00:00",
+        "09:30:00",
+        "13:04:00",
+        "15:35:00",
+        "16:35:00",
+        "18:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888240",
+          "service_id": "674_1000000002117",
+          "start_time": "06:35:00",
+          "end_time": "07:34:00"
+        },
+        {
+          "trip_id": "674_2888283",
+          "service_id": "674_1000000002120",
+          "start_time": "08:00:00",
+          "end_time": "08:53:00"
+        },
+        {
+          "trip_id": "674_2888241",
+          "service_id": "674_1000000002117",
+          "start_time": "09:30:00",
+          "end_time": "10:24:00"
+        },
+        {
+          "trip_id": "674_2888242",
+          "service_id": "674_1000000002117",
+          "start_time": "13:04:00",
+          "end_time": "13:58:00"
+        },
+        {
+          "trip_id": "674_2888284",
+          "service_id": "674_1000000002120",
+          "start_time": "15:35:00",
+          "end_time": "16:28:00"
+        },
+        {
+          "trip_id": "674_2888243",
+          "service_id": "674_1000000002117",
+          "start_time": "16:35:00",
+          "end_time": "17:29:00"
+        },
+        {
+          "trip_id": "674_2888244",
+          "service_id": "674_1000000002117",
+          "start_time": "18:35:00",
+          "end_time": "19:29:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Biblioteca > Riolo Istituto Alberghiero",
+      "capolinea_partenza": {
+        "stop_id": "779010",
+        "stop_name": "Biblioteca"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "775000",
+        "stop_name": "Riolo Istituto Alberghiero"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "05:50:00",
+        "11:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796370",
+          "service_id": "674_1000000002117",
+          "start_time": "05:50:00",
+          "end_time": "06:08:00"
+        },
+        {
+          "trip_id": "674_2796463",
+          "service_id": "674_1000000002117",
+          "start_time": "11:55:00",
+          "end_time": "12:13:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Faenza Fs F > Biblioteca",
+      "capolinea_partenza": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "779010",
+        "stop_name": "Biblioteca"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "07:35:00",
+        "10:25:00",
+        "11:00:00",
+        "12:10:00",
+        "13:50:00",
+        "14:30:00",
+        "17:40:00",
+        "18:30:00",
+        "19:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888248",
+          "service_id": "674_1000000002117",
+          "start_time": "07:35:00",
+          "end_time": "08:25:00"
+        },
+        {
+          "trip_id": "674_2888249",
+          "service_id": "674_1000000002117",
+          "start_time": "10:25:00",
+          "end_time": "11:15:00"
+        },
+        {
+          "trip_id": "674_2888281",
+          "service_id": "674_1000000002120",
+          "start_time": "11:00:00",
+          "end_time": "11:50:00"
+        },
+        {
+          "trip_id": "674_2888250",
+          "service_id": "674_1000000002117",
+          "start_time": "12:10:00",
+          "end_time": "13:00:00"
+        },
+        {
+          "trip_id": "674_2888256",
+          "service_id": "674_1000000002117",
+          "start_time": "13:50:00",
+          "end_time": "14:40:00"
+        },
+        {
+          "trip_id": "674_2888251",
+          "service_id": "674_1000000002117",
+          "start_time": "14:30:00",
+          "end_time": "15:20:00"
+        },
+        {
+          "trip_id": "674_2888252",
+          "service_id": "674_1000000002117",
+          "start_time": "17:40:00",
+          "end_time": "18:30:00"
+        },
+        {
+          "trip_id": "674_2888282",
+          "service_id": "674_1000000002120",
+          "start_time": "18:30:00",
+          "end_time": "19:20:00"
+        },
+        {
+          "trip_id": "674_2888253",
+          "service_id": "674_1000000002117",
+          "start_time": "19:30:00",
+          "end_time": "20:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Faenza Fs F > Ravenna Fs-P.Bus",
+      "capolinea_partenza": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700030",
+        "stop_name": "Ravenna Fs-P.Bus"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "15:02:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888247",
+          "service_id": "674_1000000002113",
+          "start_time": "15:02:00",
+          "end_time": "15:44:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Faenza Fs F > Riolo Istituto Alberghiero",
+      "capolinea_partenza": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "775001",
+        "stop_name": "Riolo Istituto Alberghiero"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "15:02:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888255",
+          "service_id": "674_1000000002133",
+          "start_time": "15:02:00",
+          "end_time": "15:28:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Faenza Fs F > Stab. Terme",
+      "capolinea_partenza": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "775210",
+        "stop_name": "Stab. Terme"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:05:00",
+        "09:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889637",
+          "service_id": "674_1000000002131",
+          "start_time": "08:05:00",
+          "end_time": "08:36:00"
+        },
+        {
+          "trip_id": "674_2888254",
+          "service_id": "674_1000000002117",
+          "start_time": "09:00:00",
+          "end_time": "09:31:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Le Enichem > Riolo Istituto Alberghiero",
+      "capolinea_partenza": {
+        "stop_id": "707900",
+        "stop_name": "P.Le Enichem"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "775001",
+        "stop_name": "Riolo Istituto Alberghiero"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "06:10:00",
+        "14:10:00",
+        "17:10:00",
+        "22:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796670",
+          "service_id": "674_1000000002106",
+          "start_time": "06:10:00",
+          "end_time": "07:20:00"
+        },
+        {
+          "trip_id": "674_2888285",
+          "service_id": "674_1000000002106",
+          "start_time": "14:10:00",
+          "end_time": "15:22:00"
+        },
+        {
+          "trip_id": "674_2888235",
+          "service_id": "674_1000000002113",
+          "start_time": "17:10:00",
+          "end_time": "18:28:00"
+        },
+        {
+          "trip_id": "674_2796671",
+          "service_id": "674_1000000002106",
+          "start_time": "22:10:00",
+          "end_time": "23:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Ravenna Fs-P.Bus > P.Le Enichem",
+      "capolinea_partenza": {
+        "stop_id": "700030",
+        "stop_name": "Ravenna Fs-P.Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "707900",
+        "stop_name": "P.Le Enichem"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "16:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2798994",
+          "service_id": "674_1000000002113",
+          "start_time": "16:50:00",
+          "end_time": "16:56:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Riolo Istituto Alberghiero > Biblioteca",
+      "capolinea_partenza": {
+        "stop_id": "775001",
+        "stop_name": "Riolo Istituto Alberghiero"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "779010",
+        "stop_name": "Biblioteca"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:11:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796464",
+          "service_id": "674_1000000002117",
+          "start_time": "06:11:00",
+          "end_time": "06:32:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Riolo Istituto Alberghiero > Faenza Fs F",
+      "capolinea_partenza": {
+        "stop_id": "775000",
+        "stop_name": "Riolo Istituto Alberghiero"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:11:00",
+        "12:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888245",
+          "service_id": "674_1000000002117",
+          "start_time": "06:11:00",
+          "end_time": "06:42:00"
+        },
+        {
+          "trip_id": "674_2888246",
+          "service_id": "674_1000000002117",
+          "start_time": "12:35:00",
+          "end_time": "13:08:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Riolo Istituto Alberghiero > P.Le Enichem",
+      "capolinea_partenza": {
+        "stop_id": "775000",
+        "stop_name": "Riolo Istituto Alberghiero"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "707900",
+        "stop_name": "P.Le Enichem"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "04:30:00",
+        "12:16:00",
+        "20:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796667",
+          "service_id": "674_1000000002106",
+          "start_time": "04:30:00",
+          "end_time": "05:36:00"
+        },
+        {
+          "trip_id": "674_2796668",
+          "service_id": "674_1000000002106",
+          "start_time": "12:16:00",
+          "end_time": "13:27:00"
+        },
+        {
+          "trip_id": "674_2796669",
+          "service_id": "674_1000000002106",
+          "start_time": "20:30:00",
+          "end_time": "21:36:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Stab. Terme > Faenza Fs F",
+      "capolinea_partenza": {
+        "stop_id": "775210",
+        "stop_name": "Stab. Terme"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "08:20:00",
+        "09:10:00",
+        "11:25:00",
+        "11:45:00",
+        "14:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888236",
+          "service_id": "674_1000000002117",
+          "start_time": "08:20:00",
+          "end_time": "08:55:00"
+        },
+        {
+          "trip_id": "674_2888237",
+          "service_id": "674_1000000002117",
+          "start_time": "09:10:00",
+          "end_time": "09:47:00"
+        },
+        {
+          "trip_id": "674_2888238",
+          "service_id": "674_1000000002117",
+          "start_time": "11:25:00",
+          "end_time": "11:59:00"
+        },
+        {
+          "trip_id": "674_2889636",
+          "service_id": "674_1000000002131",
+          "start_time": "11:45:00",
+          "end_time": "12:14:00"
+        },
+        {
+          "trip_id": "674_2888239",
+          "service_id": "674_1000000002117",
+          "start_time": "14:20:00",
+          "end_time": "14:58:00"
+        }
+      ]
+    }
+  ]
+}

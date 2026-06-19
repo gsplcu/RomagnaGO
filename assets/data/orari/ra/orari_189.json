@@ -1,0 +1,240 @@
+{
+  "estrazione": "Orari da route_189.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_189.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "189",
+    "name": "Linea 189",
+    "direzioni_percorso": [
+      "Faenza Fs F > Forli Punto Bus",
+      "Faenza Fs F > Tredozio Pesa",
+      "Forli Punto Bus > Faenza Fs F",
+      "Forli Punto Bus > Tredozio Pesa",
+      "Tredozio Pesa > Faenza Fs F"
+    ],
+    "route_id": "189"
+  },
+  "totale_trips": 19,
+  "totale_direzioni_percorso": 5,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Faenza Fs F > Forli Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "894030",
+        "stop_name": "Forli Punto Bus"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:25:00",
+        "14:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889577",
+          "service_id": "674_1000000002117",
+          "start_time": "07:25:00",
+          "end_time": "07:50:00"
+        },
+        {
+          "trip_id": "674_2889581",
+          "service_id": "674_1000000002117",
+          "start_time": "14:00:00",
+          "end_time": "14:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Faenza Fs F > Tredozio Pesa",
+      "capolinea_partenza": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "893500",
+        "stop_name": "Tredozio Pesa"
+      },
+      "trip_count": 7,
+      "orari_partenza": [
+        "07:45:00",
+        "09:00:00",
+        "10:40:00",
+        "13:08:00",
+        "16:30:00",
+        "17:45:00",
+        "18:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889592",
+          "service_id": "674_1000000002117",
+          "start_time": "07:45:00",
+          "end_time": "08:35:00"
+        },
+        {
+          "trip_id": "674_2888297",
+          "service_id": "674_1000000002120",
+          "start_time": "09:00:00",
+          "end_time": "09:45:00"
+        },
+        {
+          "trip_id": "674_2889586",
+          "service_id": "674_1000000002117",
+          "start_time": "10:40:00",
+          "end_time": "11:25:00"
+        },
+        {
+          "trip_id": "674_2889587",
+          "service_id": "674_1000000002117",
+          "start_time": "13:08:00",
+          "end_time": "13:53:00"
+        },
+        {
+          "trip_id": "674_2888298",
+          "service_id": "674_1000000002120",
+          "start_time": "16:30:00",
+          "end_time": "17:15:00"
+        },
+        {
+          "trip_id": "674_2889589",
+          "service_id": "674_1000000002117",
+          "start_time": "17:45:00",
+          "end_time": "18:30:00"
+        },
+        {
+          "trip_id": "674_2889591",
+          "service_id": "674_1000000002117",
+          "start_time": "18:45:00",
+          "end_time": "19:30:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Forli Punto Bus > Faenza Fs F",
+      "capolinea_partenza": {
+        "stop_id": "894030",
+        "stop_name": "Forli Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889588",
+          "service_id": "674_1000000002117",
+          "start_time": "12:20:00",
+          "end_time": "12:42:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Forli Punto Bus > Tredozio Pesa",
+      "capolinea_partenza": {
+        "stop_id": "894030",
+        "stop_name": "Forli Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "893500",
+        "stop_name": "Tredozio Pesa"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "14:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889584",
+          "service_id": "674_1000000002117",
+          "start_time": "14:25:00",
+          "end_time": "15:35:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Tredozio Pesa > Faenza Fs F",
+      "capolinea_partenza": {
+        "stop_id": "893500",
+        "stop_name": "Tredozio Pesa"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "trip_count": 8,
+      "orari_partenza": [
+        "06:30:00",
+        "06:50:00",
+        "08:43:00",
+        "10:00:00",
+        "13:10:00",
+        "15:40:00",
+        "17:30:00",
+        "17:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889576",
+          "service_id": "674_1000000002117",
+          "start_time": "06:30:00",
+          "end_time": "07:25:00"
+        },
+        {
+          "trip_id": "674_2889578",
+          "service_id": "674_1000000002117",
+          "start_time": "06:50:00",
+          "end_time": "07:44:00"
+        },
+        {
+          "trip_id": "674_2889579",
+          "service_id": "674_1000000002117",
+          "start_time": "08:43:00",
+          "end_time": "09:34:00"
+        },
+        {
+          "trip_id": "674_2888295",
+          "service_id": "674_1000000002120",
+          "start_time": "10:00:00",
+          "end_time": "10:49:00"
+        },
+        {
+          "trip_id": "674_2889580",
+          "service_id": "674_1000000002117",
+          "start_time": "13:10:00",
+          "end_time": "13:59:00"
+        },
+        {
+          "trip_id": "674_2889583",
+          "service_id": "674_1000000002117",
+          "start_time": "15:40:00",
+          "end_time": "16:34:00"
+        },
+        {
+          "trip_id": "674_2888296",
+          "service_id": "674_1000000002120",
+          "start_time": "17:30:00",
+          "end_time": "18:19:00"
+        },
+        {
+          "trip_id": "674_2889582",
+          "service_id": "674_1000000002117",
+          "start_time": "17:45:00",
+          "end_time": "18:42:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Grafo GraphHopper per routing a piedi offline (Android).
+
+Genera romagna.ghz con:
+  .\tool\graphhopper\build_romagna_graph.ps1
+
+Poi aggiungi in pubspec.yaml:
+  - assets/graphhopper/romagna.ghz
+
+Senza quel file l'app funziona comunque (fallback distanza in linea d'aria).
+
+Guida completa: tool/graphhopper/GUIDA.md

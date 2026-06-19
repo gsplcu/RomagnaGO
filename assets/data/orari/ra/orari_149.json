@@ -1,0 +1,445 @@
+{
+  "estrazione": "Orari da route_149.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_149.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "149",
+    "name": "Linea 149",
+    "direzioni_percorso": [
+      "Bv. S.Stefano > Forlimpopoli",
+      "Casemurate > Forlimpopoli",
+      "Cesena Punto Bus C1 > Marcegaglia",
+      "Cesena Punto Bus C1 > Maroncelli Fs 1",
+      "Cesena Punto Bus C1 > P.Zza Aldo Moro",
+      "Cesena Punto Bus C1 > Ravenna Fs Box 1",
+      "Cesena Punto Bus C1 > Ravenna Fs Box 3",
+      "Forlimpopoli > Casemurate",
+      "Marcegaglia > Cesena Punto Bus C1",
+      "P.Zza Aldo Moro > Cesena Punto Bus C1",
+      "Ravenna Fs > Cesena Punto Bus C1",
+      "Ravenna Fs Box 1 > Cesena Punto Bus C1"
+    ],
+    "route_id": "149"
+  },
+  "totale_trips": 31,
+  "totale_direzioni_percorso": 12,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bv. S.Stefano > Forlimpopoli",
+      "capolinea_partenza": {
+        "stop_id": "728150",
+        "stop_name": "Bv. S.Stefano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "896000",
+        "stop_name": "Forlimpopoli"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "18:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2798991",
+          "service_id": "674_1000000002113",
+          "start_time": "18:50:00",
+          "end_time": "19:19:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Casemurate > Forlimpopoli",
+      "capolinea_partenza": {
+        "stop_id": "728770",
+        "stop_name": "Casemurate"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "896000",
+        "stop_name": "Forlimpopoli"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "17:57:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2798990",
+          "service_id": "674_1000000002113",
+          "start_time": "17:57:00",
+          "end_time": "18:17:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus C1 > Marcegaglia",
+      "capolinea_partenza": {
+        "stop_id": "897070",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "719110",
+        "stop_name": "Marcegaglia"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "04:40:00",
+        "12:40:00",
+        "20:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796647",
+          "service_id": "674_1000000002106",
+          "start_time": "04:40:00",
+          "end_time": "05:51:00"
+        },
+        {
+          "trip_id": "674_2795906",
+          "service_id": "674_1000000002120",
+          "start_time": "12:40:00",
+          "end_time": "13:50:00"
+        },
+        {
+          "trip_id": "674_2796346",
+          "service_id": "674_1000000002117",
+          "start_time": "12:40:00",
+          "end_time": "13:50:00"
+        },
+        {
+          "trip_id": "674_2796648",
+          "service_id": "674_1000000002106",
+          "start_time": "20:40:00",
+          "end_time": "21:50:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus C1 > Maroncelli Fs 1",
+      "capolinea_partenza": {
+        "stop_id": "897070",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700080",
+        "stop_name": "Maroncelli Fs 1"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2798993",
+          "service_id": "674_1000000002113",
+          "start_time": "06:30:00",
+          "end_time": "07:24:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus C1 > P.Zza Aldo Moro",
+      "capolinea_partenza": {
+        "stop_id": "897070",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "701000",
+        "stop_name": "P.Zza Aldo Moro"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "06:30:00",
+        "09:40:00",
+        "13:20:00",
+        "15:40:00",
+        "18:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2799075",
+          "service_id": "674_1000000002134",
+          "start_time": "06:30:00",
+          "end_time": "07:28:00"
+        },
+        {
+          "trip_id": "674_2795909",
+          "service_id": "674_1000000002120",
+          "start_time": "09:40:00",
+          "end_time": "10:35:00"
+        },
+        {
+          "trip_id": "674_2796348",
+          "service_id": "674_1000000002117",
+          "start_time": "09:40:00",
+          "end_time": "10:35:00"
+        },
+        {
+          "trip_id": "674_2796344",
+          "service_id": "674_1000000002117",
+          "start_time": "13:20:00",
+          "end_time": "14:21:00"
+        },
+        {
+          "trip_id": "674_2799000",
+          "service_id": "674_1000000002113",
+          "start_time": "15:40:00",
+          "end_time": "16:35:00"
+        },
+        {
+          "trip_id": "674_2796649",
+          "service_id": "674_1000000002106",
+          "start_time": "18:55:00",
+          "end_time": "19:56:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus C1 > Ravenna Fs Box 1",
+      "capolinea_partenza": {
+        "stop_id": "897070",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700060",
+        "stop_name": "Ravenna Fs Box 1"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:20:00",
+        "16:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796342",
+          "service_id": "674_1000000002117",
+          "start_time": "06:20:00",
+          "end_time": "07:21:00"
+        },
+        {
+          "trip_id": "674_2796367",
+          "service_id": "674_1000000002117",
+          "start_time": "16:30:00",
+          "end_time": "17:31:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus C1 > Ravenna Fs Box 3",
+      "capolinea_partenza": {
+        "stop_id": "897070",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700070",
+        "stop_name": "Ravenna Fs Box 3"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "16:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795907",
+          "service_id": "674_1000000002120",
+          "start_time": "16:40:00",
+          "end_time": "17:35:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Forlimpopoli > Casemurate",
+      "capolinea_partenza": {
+        "stop_id": "896010",
+        "stop_name": "Forlimpopoli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "728760",
+        "stop_name": "Casemurate"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:28:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2798992",
+          "service_id": "674_1000000002113",
+          "start_time": "06:28:00",
+          "end_time": "06:48:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Marcegaglia > Cesena Punto Bus C1",
+      "capolinea_partenza": {
+        "stop_id": "719280",
+        "stop_name": "Marcegaglia"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "897070",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "06:10:00",
+        "14:10:00",
+        "22:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889525",
+          "service_id": "674_1000000002106",
+          "start_time": "06:10:00",
+          "end_time": "07:22:00"
+        },
+        {
+          "trip_id": "674_2889518",
+          "service_id": "674_1000000002117",
+          "start_time": "14:10:00",
+          "end_time": "15:22:00"
+        },
+        {
+          "trip_id": "674_2889519",
+          "service_id": "674_1000000002120",
+          "start_time": "14:10:00",
+          "end_time": "15:22:00"
+        },
+        {
+          "trip_id": "674_2889526",
+          "service_id": "674_1000000002106",
+          "start_time": "22:10:00",
+          "end_time": "23:22:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Zza Aldo Moro > Cesena Punto Bus C1",
+      "capolinea_partenza": {
+        "stop_id": "701000",
+        "stop_name": "P.Zza Aldo Moro"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "897070",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "trip_count": 7,
+      "orari_partenza": [
+        "08:40:00",
+        "10:45:00",
+        "11:00:00",
+        "13:25:00",
+        "17:45:00",
+        "18:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889521",
+          "service_id": "674_1000000002117",
+          "start_time": "08:40:00",
+          "end_time": "09:37:00"
+        },
+        {
+          "trip_id": "674_2889527",
+          "service_id": "674_1000000002120",
+          "start_time": "10:45:00",
+          "end_time": "11:42:00"
+        },
+        {
+          "trip_id": "674_2889536",
+          "service_id": "674_1000000002124",
+          "start_time": "11:00:00",
+          "end_time": "12:04:00"
+        },
+        {
+          "trip_id": "674_2889537",
+          "service_id": "674_1000000002113",
+          "start_time": "11:00:00",
+          "end_time": "12:04:00"
+        },
+        {
+          "trip_id": "674_2889523",
+          "service_id": "674_1000000002117",
+          "start_time": "13:25:00",
+          "end_time": "14:29:00"
+        },
+        {
+          "trip_id": "674_2889522",
+          "service_id": "674_1000000002120",
+          "start_time": "17:45:00",
+          "end_time": "18:42:00"
+        },
+        {
+          "trip_id": "674_2889524",
+          "service_id": "674_1000000002117",
+          "start_time": "18:25:00",
+          "end_time": "19:29:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ravenna Fs > Cesena Punto Bus C1",
+      "capolinea_partenza": {
+        "stop_id": "700010",
+        "stop_name": "Ravenna Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "897070",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "17:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889520",
+          "service_id": "674_1000000002117",
+          "start_time": "17:25:00",
+          "end_time": "18:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ravenna Fs Box 1 > Cesena Punto Bus C1",
+      "capolinea_partenza": {
+        "stop_id": "700060",
+        "stop_name": "Ravenna Fs Box 1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "897070",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889516",
+          "service_id": "674_1000000002117",
+          "start_time": "07:30:00",
+          "end_time": "08:32:00"
+        },
+        {
+          "trip_id": "674_2889517",
+          "service_id": "674_1000000002120",
+          "start_time": "07:30:00",
+          "end_time": "08:32:00"
+        }
+      ]
+    }
+  ]
+}

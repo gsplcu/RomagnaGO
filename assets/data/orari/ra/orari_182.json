@@ -1,0 +1,230 @@
+{
+  "estrazione": "Orari da route_182.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_182.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "182",
+    "name": "Linea 182",
+    "direzioni_percorso": [
+      "Alfonsine Fs > Lugo Punto Bus",
+      "Fusignano > Lugo Punto Bus",
+      "Lugo Punto Bus > Alfonsine Fs",
+      "Lugo Punto Bus > Fusignano",
+      "Lugo Punto Bus > P.Zza Monti",
+      "P.Zza Monti > Lugo Punto Bus"
+    ],
+    "route_id": "182"
+  },
+  "totale_trips": 15,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Alfonsine Fs > Lugo Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "740010",
+        "stop_name": "Alfonsine Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "09:02:00",
+        "16:27:00",
+        "18:03:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796438",
+          "service_id": "674_1000000002117",
+          "start_time": "09:02:00",
+          "end_time": "09:43:00"
+        },
+        {
+          "trip_id": "674_2798998",
+          "service_id": "674_1000000002113",
+          "start_time": "16:27:00",
+          "end_time": "17:08:00"
+        },
+        {
+          "trip_id": "674_2796439",
+          "service_id": "674_1000000002117",
+          "start_time": "18:03:00",
+          "end_time": "18:37:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Fusignano > Lugo Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "750000",
+        "stop_name": "Fusignano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "07:55:00",
+        "14:08:00",
+        "19:24:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796437",
+          "service_id": "674_1000000002117",
+          "start_time": "07:55:00",
+          "end_time": "08:16:00"
+        },
+        {
+          "trip_id": "674_2798979",
+          "service_id": "674_1000000002113",
+          "start_time": "14:08:00",
+          "end_time": "14:29:00"
+        },
+        {
+          "trip_id": "674_2798980",
+          "service_id": "674_1000000002113",
+          "start_time": "19:24:00",
+          "end_time": "19:45:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Lugo Punto Bus > Alfonsine Fs",
+      "capolinea_partenza": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "740000",
+        "stop_name": "Alfonsine Fs"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "10:39:00",
+        "15:50:00",
+        "17:09:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796432",
+          "service_id": "674_1000000002117",
+          "start_time": "10:39:00",
+          "end_time": "11:20:00"
+        },
+        {
+          "trip_id": "674_2798999",
+          "service_id": "674_1000000002113",
+          "start_time": "15:50:00",
+          "end_time": "16:27:00"
+        },
+        {
+          "trip_id": "674_2796431",
+          "service_id": "674_1000000002117",
+          "start_time": "17:09:00",
+          "end_time": "17:45:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Lugo Punto Bus > Fusignano",
+      "capolinea_partenza": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "750000",
+        "stop_name": "Fusignano"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:36:00",
+        "13:47:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796435",
+          "service_id": "674_1000000002117",
+          "start_time": "07:36:00",
+          "end_time": "07:55:00"
+        },
+        {
+          "trip_id": "674_2798982",
+          "service_id": "674_1000000002113",
+          "start_time": "13:47:00",
+          "end_time": "14:08:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Lugo Punto Bus > P.Zza Monti",
+      "capolinea_partenza": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "740200",
+        "stop_name": "P.Zza Monti"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "12:15:00",
+        "13:15:00",
+        "19:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796433",
+          "service_id": "674_1000000002117",
+          "start_time": "12:15:00",
+          "end_time": "12:59:00"
+        },
+        {
+          "trip_id": "674_2796434",
+          "service_id": "674_1000000002117",
+          "start_time": "13:15:00",
+          "end_time": "13:59:00"
+        },
+        {
+          "trip_id": "674_2798981",
+          "service_id": "674_1000000002113",
+          "start_time": "19:45:00",
+          "end_time": "20:27:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "P.Zza Monti > Lugo Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "740210",
+        "stop_name": "P.Zza Monti"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:02:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796436",
+          "service_id": "674_1000000002117",
+          "start_time": "07:02:00",
+          "end_time": "07:41:00"
+        }
+      ]
+    }
+  ]
+}

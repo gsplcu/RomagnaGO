@@ -1,0 +1,588 @@
+{
+  "estrazione": "Orari da route_1.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_1.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "1",
+    "name": "Linea 1",
+    "direzioni_percorso": [
+      "Cinema City > P.Fuori Macrelli",
+      "Larderello > P.Fuori Macrelli",
+      "P.Fuori 3 Laghi > Cinema City",
+      "P.Fuori 3 Laghi > Larderello",
+      "P.Fuori Macrelli > Cinema City",
+      "P.Fuori Macrelli > Larderello",
+      "P.Fuori Macrelli > Q. N. Baldini",
+      "Q. N. Baldini > P.Fuori Macrelli"
+    ],
+    "route_id": "1"
+  },
+  "totale_trips": 61,
+  "totale_direzioni_percorso": 8,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cinema City > P.Fuori Macrelli",
+      "capolinea_partenza": {
+        "stop_id": "705800",
+        "stop_name": "Cinema City"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "702770",
+        "stop_name": "P.Fuori Macrelli"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "08:45:00",
+        "10:05:00",
+        "11:25:00",
+        "12:45:00",
+        "14:05:00",
+        "15:25:00",
+        "16:45:00",
+        "18:05:00",
+        "19:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889369",
+          "service_id": "674_1000000002118",
+          "start_time": "08:45:00",
+          "end_time": "09:28:00"
+        },
+        {
+          "trip_id": "674_2889370",
+          "service_id": "674_1000000002118",
+          "start_time": "10:05:00",
+          "end_time": "10:48:00"
+        },
+        {
+          "trip_id": "674_2889371",
+          "service_id": "674_1000000002118",
+          "start_time": "11:25:00",
+          "end_time": "12:08:00"
+        },
+        {
+          "trip_id": "674_2889372",
+          "service_id": "674_1000000002118",
+          "start_time": "12:45:00",
+          "end_time": "13:28:00"
+        },
+        {
+          "trip_id": "674_2889373",
+          "service_id": "674_1000000002118",
+          "start_time": "14:05:00",
+          "end_time": "14:48:00"
+        },
+        {
+          "trip_id": "674_2889374",
+          "service_id": "674_1000000002118",
+          "start_time": "15:25:00",
+          "end_time": "16:08:00"
+        },
+        {
+          "trip_id": "674_2889375",
+          "service_id": "674_1000000002118",
+          "start_time": "16:45:00",
+          "end_time": "17:28:00"
+        },
+        {
+          "trip_id": "674_2889376",
+          "service_id": "674_1000000002118",
+          "start_time": "18:05:00",
+          "end_time": "18:48:00"
+        },
+        {
+          "trip_id": "674_2889377",
+          "service_id": "674_1000000002118",
+          "start_time": "19:25:00",
+          "end_time": "20:08:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Larderello > P.Fuori Macrelli",
+      "capolinea_partenza": {
+        "stop_id": "705500",
+        "stop_name": "Larderello"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "702770",
+        "stop_name": "P.Fuori Macrelli"
+      },
+      "trip_count": 13,
+      "orari_partenza": [
+        "06:18:00",
+        "06:56:00",
+        "07:23:00",
+        "08:05:00",
+        "09:25:00",
+        "10:45:00",
+        "12:05:00",
+        "13:25:00",
+        "14:45:00",
+        "16:05:00",
+        "17:25:00",
+        "18:45:00",
+        "20:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889382",
+          "service_id": "674_1000000002118",
+          "start_time": "06:18:00",
+          "end_time": "07:02:00"
+        },
+        {
+          "trip_id": "674_2889384",
+          "service_id": "674_1000000002118",
+          "start_time": "06:56:00",
+          "end_time": "07:39:00"
+        },
+        {
+          "trip_id": "674_2889381",
+          "service_id": "674_1000000002118",
+          "start_time": "07:23:00",
+          "end_time": "08:09:00"
+        },
+        {
+          "trip_id": "674_2889356",
+          "service_id": "674_1000000002118",
+          "start_time": "08:05:00",
+          "end_time": "08:48:00"
+        },
+        {
+          "trip_id": "674_2889357",
+          "service_id": "674_1000000002118",
+          "start_time": "09:25:00",
+          "end_time": "10:08:00"
+        },
+        {
+          "trip_id": "674_2889358",
+          "service_id": "674_1000000002118",
+          "start_time": "10:45:00",
+          "end_time": "11:28:00"
+        },
+        {
+          "trip_id": "674_2889359",
+          "service_id": "674_1000000002118",
+          "start_time": "12:05:00",
+          "end_time": "12:48:00"
+        },
+        {
+          "trip_id": "674_2889360",
+          "service_id": "674_1000000002118",
+          "start_time": "13:25:00",
+          "end_time": "14:08:00"
+        },
+        {
+          "trip_id": "674_2889361",
+          "service_id": "674_1000000002118",
+          "start_time": "14:45:00",
+          "end_time": "15:28:00"
+        },
+        {
+          "trip_id": "674_2889362",
+          "service_id": "674_1000000002118",
+          "start_time": "16:05:00",
+          "end_time": "16:48:00"
+        },
+        {
+          "trip_id": "674_2889363",
+          "service_id": "674_1000000002118",
+          "start_time": "17:25:00",
+          "end_time": "18:08:00"
+        },
+        {
+          "trip_id": "674_2889364",
+          "service_id": "674_1000000002118",
+          "start_time": "18:45:00",
+          "end_time": "19:28:00"
+        },
+        {
+          "trip_id": "674_2889365",
+          "service_id": "674_1000000002118",
+          "start_time": "20:05:00",
+          "end_time": "20:48:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Fuori 3 Laghi > Cinema City",
+      "capolinea_partenza": {
+        "stop_id": "702730",
+        "stop_name": "P.Fuori 3 Laghi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "705800",
+        "stop_name": "Cinema City"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "13:08:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889407",
+          "service_id": "674_1000000002118",
+          "start_time": "13:08:00",
+          "end_time": "14:01:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Fuori 3 Laghi > Larderello",
+      "capolinea_partenza": {
+        "stop_id": "702730",
+        "stop_name": "P.Fuori 3 Laghi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "705500",
+        "stop_name": "Larderello"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "06:04:00",
+        "06:28:00",
+        "12:28:00",
+        "13:48:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889383",
+          "service_id": "674_1000000002118",
+          "start_time": "06:04:00",
+          "end_time": "06:55:00"
+        },
+        {
+          "trip_id": "674_2889385",
+          "service_id": "674_1000000002118",
+          "start_time": "06:28:00",
+          "end_time": "07:20:00"
+        },
+        {
+          "trip_id": "674_2889496",
+          "service_id": "674_1000000002118",
+          "start_time": "12:28:00",
+          "end_time": "13:21:00"
+        },
+        {
+          "trip_id": "674_2889406",
+          "service_id": "674_1000000002118",
+          "start_time": "13:48:00",
+          "end_time": "14:41:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Fuori Macrelli > Cinema City",
+      "capolinea_partenza": {
+        "stop_id": "702770",
+        "stop_name": "P.Fuori Macrelli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "705800",
+        "stop_name": "Cinema City"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "07:49:00",
+        "09:09:00",
+        "10:29:00",
+        "11:49:00",
+        "14:29:00",
+        "15:49:00",
+        "17:09:00",
+        "18:29:00",
+        "19:39:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889396",
+          "service_id": "674_1000000002118",
+          "start_time": "07:49:00",
+          "end_time": "08:41:00"
+        },
+        {
+          "trip_id": "674_2889397",
+          "service_id": "674_1000000002118",
+          "start_time": "09:09:00",
+          "end_time": "10:01:00"
+        },
+        {
+          "trip_id": "674_2889398",
+          "service_id": "674_1000000002118",
+          "start_time": "10:29:00",
+          "end_time": "11:21:00"
+        },
+        {
+          "trip_id": "674_2889399",
+          "service_id": "674_1000000002118",
+          "start_time": "11:49:00",
+          "end_time": "12:41:00"
+        },
+        {
+          "trip_id": "674_2889401",
+          "service_id": "674_1000000002118",
+          "start_time": "14:29:00",
+          "end_time": "15:21:00"
+        },
+        {
+          "trip_id": "674_2889402",
+          "service_id": "674_1000000002118",
+          "start_time": "15:49:00",
+          "end_time": "16:41:00"
+        },
+        {
+          "trip_id": "674_2889403",
+          "service_id": "674_1000000002118",
+          "start_time": "17:09:00",
+          "end_time": "18:01:00"
+        },
+        {
+          "trip_id": "674_2889404",
+          "service_id": "674_1000000002118",
+          "start_time": "18:29:00",
+          "end_time": "19:21:00"
+        },
+        {
+          "trip_id": "674_2889405",
+          "service_id": "674_1000000002118",
+          "start_time": "19:39:00",
+          "end_time": "20:31:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Fuori Macrelli > Larderello",
+      "capolinea_partenza": {
+        "stop_id": "702770",
+        "stop_name": "P.Fuori Macrelli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "705500",
+        "stop_name": "Larderello"
+      },
+      "trip_count": 8,
+      "orari_partenza": [
+        "07:09:00",
+        "08:29:00",
+        "09:49:00",
+        "11:09:00",
+        "15:09:00",
+        "16:29:00",
+        "17:49:00",
+        "19:09:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889386",
+          "service_id": "674_1000000002118",
+          "start_time": "07:09:00",
+          "end_time": "08:01:00"
+        },
+        {
+          "trip_id": "674_2889387",
+          "service_id": "674_1000000002118",
+          "start_time": "08:29:00",
+          "end_time": "09:21:00"
+        },
+        {
+          "trip_id": "674_2889388",
+          "service_id": "674_1000000002118",
+          "start_time": "09:49:00",
+          "end_time": "10:41:00"
+        },
+        {
+          "trip_id": "674_2889389",
+          "service_id": "674_1000000002118",
+          "start_time": "11:09:00",
+          "end_time": "12:01:00"
+        },
+        {
+          "trip_id": "674_2889392",
+          "service_id": "674_1000000002118",
+          "start_time": "15:09:00",
+          "end_time": "16:01:00"
+        },
+        {
+          "trip_id": "674_2889393",
+          "service_id": "674_1000000002118",
+          "start_time": "16:29:00",
+          "end_time": "17:21:00"
+        },
+        {
+          "trip_id": "674_2889394",
+          "service_id": "674_1000000002118",
+          "start_time": "17:49:00",
+          "end_time": "18:41:00"
+        },
+        {
+          "trip_id": "674_2889395",
+          "service_id": "674_1000000002118",
+          "start_time": "19:09:00",
+          "end_time": "20:01:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Fuori Macrelli > Q. N. Baldini",
+      "capolinea_partenza": {
+        "stop_id": "702770",
+        "stop_name": "P.Fuori Macrelli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "705130",
+        "stop_name": "Q. N. Baldini"
+      },
+      "trip_count": 8,
+      "orari_partenza": [
+        "07:55:00",
+        "09:25:00",
+        "10:55:00",
+        "12:25:00",
+        "13:55:00",
+        "15:25:00",
+        "16:55:00",
+        "18:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889036",
+          "service_id": "674_1000000002119",
+          "start_time": "07:55:00",
+          "end_time": "08:37:00"
+        },
+        {
+          "trip_id": "674_2889037",
+          "service_id": "674_1000000002119",
+          "start_time": "09:25:00",
+          "end_time": "10:07:00"
+        },
+        {
+          "trip_id": "674_2889038",
+          "service_id": "674_1000000002119",
+          "start_time": "10:55:00",
+          "end_time": "11:37:00"
+        },
+        {
+          "trip_id": "674_2889039",
+          "service_id": "674_1000000002119",
+          "start_time": "12:25:00",
+          "end_time": "13:07:00"
+        },
+        {
+          "trip_id": "674_2889040",
+          "service_id": "674_1000000002119",
+          "start_time": "13:55:00",
+          "end_time": "14:37:00"
+        },
+        {
+          "trip_id": "674_2889046",
+          "service_id": "674_1000000002119",
+          "start_time": "15:25:00",
+          "end_time": "16:07:00"
+        },
+        {
+          "trip_id": "674_2889042",
+          "service_id": "674_1000000002119",
+          "start_time": "16:55:00",
+          "end_time": "17:37:00"
+        },
+        {
+          "trip_id": "674_2889043",
+          "service_id": "674_1000000002119",
+          "start_time": "18:25:00",
+          "end_time": "19:07:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Q. N. Baldini > P.Fuori Macrelli",
+      "capolinea_partenza": {
+        "stop_id": "705130",
+        "stop_name": "Q. N. Baldini"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "702770",
+        "stop_name": "P.Fuori Macrelli"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "07:13:00",
+        "08:44:00",
+        "10:14:00",
+        "11:44:00",
+        "13:14:00",
+        "14:44:00",
+        "16:14:00",
+        "17:44:00",
+        "19:14:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796057",
+          "service_id": "674_1000000002119",
+          "start_time": "07:13:00",
+          "end_time": "07:46:00"
+        },
+        {
+          "trip_id": "674_2796058",
+          "service_id": "674_1000000002119",
+          "start_time": "08:44:00",
+          "end_time": "09:17:00"
+        },
+        {
+          "trip_id": "674_2796060",
+          "service_id": "674_1000000002119",
+          "start_time": "10:14:00",
+          "end_time": "10:47:00"
+        },
+        {
+          "trip_id": "674_2796062",
+          "service_id": "674_1000000002119",
+          "start_time": "11:44:00",
+          "end_time": "12:17:00"
+        },
+        {
+          "trip_id": "674_2796064",
+          "service_id": "674_1000000002119",
+          "start_time": "13:14:00",
+          "end_time": "13:47:00"
+        },
+        {
+          "trip_id": "674_2796283",
+          "service_id": "674_1000000002119",
+          "start_time": "14:44:00",
+          "end_time": "15:17:00"
+        },
+        {
+          "trip_id": "674_2796067",
+          "service_id": "674_1000000002119",
+          "start_time": "16:14:00",
+          "end_time": "16:47:00"
+        },
+        {
+          "trip_id": "674_2889045",
+          "service_id": "674_1000000002119",
+          "start_time": "17:44:00",
+          "end_time": "18:17:00"
+        },
+        {
+          "trip_id": "674_2796071",
+          "service_id": "674_1000000002119",
+          "start_time": "19:14:00",
+          "end_time": "19:47:00"
+        }
+      ]
+    }
+  ]
+}

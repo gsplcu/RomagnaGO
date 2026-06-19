@@ -1,0 +1,786 @@
+{
+  "estrazione": "Orari da route_3.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_3.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "3",
+    "name": "Linea 3",
+    "direzioni_percorso": [
+      "Brunelli > Cavina-Dradi",
+      "Brunelli > Mad. Albero Cap.",
+      "Cavina-Dradi > Elementare Ricci",
+      "Cavina-Dradi > Mad. Albero Cap.",
+      "Cavina-Dradi > Ravenna Fs-P.Bus",
+      "Cavina-Dradi > S.Bartolo",
+      "Mad. Albero Cap. > Cavina-Dradi",
+      "Mad. Albero Cap. > Elementare Ricci",
+      "Ravenna Fs-P.Bus > Cavina-Dradi",
+      "S.Alberto Ina > S.Bartolo",
+      "S.Bartolo > Cavina-Dradi",
+      "S.Bartolo > Elementare Ricci"
+    ],
+    "route_id": "3"
+  },
+  "totale_trips": 79,
+  "totale_direzioni_percorso": 12,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Brunelli > Cavina-Dradi",
+      "capolinea_partenza": {
+        "stop_id": "706390",
+        "stop_name": "Brunelli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "706470",
+        "stop_name": "Cavina-Dradi"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:03:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795341",
+          "service_id": "674_1000000002118",
+          "start_time": "06:03:00",
+          "end_time": "06:05:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Brunelli > Mad. Albero Cap.",
+      "capolinea_partenza": {
+        "stop_id": "706390",
+        "stop_name": "Brunelli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "708770",
+        "stop_name": "Mad. Albero Cap."
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "12:40:00",
+        "13:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889420",
+          "service_id": "674_1000000002118",
+          "start_time": "12:40:00",
+          "end_time": "13:12:00"
+        },
+        {
+          "trip_id": "674_2889421",
+          "service_id": "674_1000000002118",
+          "start_time": "13:10:00",
+          "end_time": "13:42:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cavina-Dradi > Elementare Ricci",
+      "capolinea_partenza": {
+        "stop_id": "706470",
+        "stop_name": "Cavina-Dradi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "706720",
+        "stop_name": "Elementare Ricci"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "20:00:00",
+        "20:13:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796301",
+          "service_id": "674_1000000002119",
+          "start_time": "20:00:00",
+          "end_time": "20:04:00"
+        },
+        {
+          "trip_id": "674_2795398",
+          "service_id": "674_1000000002118",
+          "start_time": "20:13:00",
+          "end_time": "20:17:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cavina-Dradi > Mad. Albero Cap.",
+      "capolinea_partenza": {
+        "stop_id": "706470",
+        "stop_name": "Cavina-Dradi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "708770",
+        "stop_name": "Mad. Albero Cap."
+      },
+      "trip_count": 26,
+      "orari_partenza": [
+        "06:05:00",
+        "06:40:00",
+        "07:08:00",
+        "07:44:00",
+        "08:13:00",
+        "08:43:00",
+        "09:13:00",
+        "09:43:00",
+        "10:13:00",
+        "10:43:00",
+        "11:13:00",
+        "11:43:00",
+        "12:13:00",
+        "13:43:00",
+        "14:13:00",
+        "14:43:00",
+        "15:13:00",
+        "15:43:00",
+        "16:13:00",
+        "16:43:00",
+        "17:13:00",
+        "17:43:00",
+        "18:13:00",
+        "18:43:00",
+        "19:13:00",
+        "19:43:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889107",
+          "service_id": "674_1000000002118",
+          "start_time": "06:05:00",
+          "end_time": "06:32:00"
+        },
+        {
+          "trip_id": "674_2889112",
+          "service_id": "674_1000000002118",
+          "start_time": "06:40:00",
+          "end_time": "07:07:00"
+        },
+        {
+          "trip_id": "674_2889113",
+          "service_id": "674_1000000002118",
+          "start_time": "07:08:00",
+          "end_time": "07:37:00"
+        },
+        {
+          "trip_id": "674_2889122",
+          "service_id": "674_1000000002118",
+          "start_time": "07:44:00",
+          "end_time": "08:13:00"
+        },
+        {
+          "trip_id": "674_2889116",
+          "service_id": "674_1000000002118",
+          "start_time": "08:13:00",
+          "end_time": "08:42:00"
+        },
+        {
+          "trip_id": "674_2889114",
+          "service_id": "674_1000000002118",
+          "start_time": "08:43:00",
+          "end_time": "09:12:00"
+        },
+        {
+          "trip_id": "674_2889111",
+          "service_id": "674_1000000002118",
+          "start_time": "09:13:00",
+          "end_time": "09:42:00"
+        },
+        {
+          "trip_id": "674_2889105",
+          "service_id": "674_1000000002118",
+          "start_time": "09:43:00",
+          "end_time": "10:12:00"
+        },
+        {
+          "trip_id": "674_2889098",
+          "service_id": "674_1000000002118",
+          "start_time": "10:13:00",
+          "end_time": "10:42:00"
+        },
+        {
+          "trip_id": "674_2889120",
+          "service_id": "674_1000000002118",
+          "start_time": "10:43:00",
+          "end_time": "11:12:00"
+        },
+        {
+          "trip_id": "674_2889101",
+          "service_id": "674_1000000002118",
+          "start_time": "11:13:00",
+          "end_time": "11:42:00"
+        },
+        {
+          "trip_id": "674_2889100",
+          "service_id": "674_1000000002118",
+          "start_time": "11:43:00",
+          "end_time": "12:12:00"
+        },
+        {
+          "trip_id": "674_2889096",
+          "service_id": "674_1000000002118",
+          "start_time": "12:13:00",
+          "end_time": "12:42:00"
+        },
+        {
+          "trip_id": "674_2889106",
+          "service_id": "674_1000000002118",
+          "start_time": "13:43:00",
+          "end_time": "14:12:00"
+        },
+        {
+          "trip_id": "674_2889097",
+          "service_id": "674_1000000002118",
+          "start_time": "14:13:00",
+          "end_time": "14:42:00"
+        },
+        {
+          "trip_id": "674_2889108",
+          "service_id": "674_1000000002118",
+          "start_time": "14:43:00",
+          "end_time": "15:12:00"
+        },
+        {
+          "trip_id": "674_2889118",
+          "service_id": "674_1000000002118",
+          "start_time": "15:13:00",
+          "end_time": "15:42:00"
+        },
+        {
+          "trip_id": "674_2889099",
+          "service_id": "674_1000000002118",
+          "start_time": "15:43:00",
+          "end_time": "16:12:00"
+        },
+        {
+          "trip_id": "674_2889104",
+          "service_id": "674_1000000002118",
+          "start_time": "16:13:00",
+          "end_time": "16:42:00"
+        },
+        {
+          "trip_id": "674_2889121",
+          "service_id": "674_1000000002118",
+          "start_time": "16:43:00",
+          "end_time": "17:12:00"
+        },
+        {
+          "trip_id": "674_2889117",
+          "service_id": "674_1000000002118",
+          "start_time": "17:13:00",
+          "end_time": "17:42:00"
+        },
+        {
+          "trip_id": "674_2889103",
+          "service_id": "674_1000000002118",
+          "start_time": "17:43:00",
+          "end_time": "18:12:00"
+        },
+        {
+          "trip_id": "674_2889119",
+          "service_id": "674_1000000002118",
+          "start_time": "18:13:00",
+          "end_time": "18:42:00"
+        },
+        {
+          "trip_id": "674_2889109",
+          "service_id": "674_1000000002118",
+          "start_time": "18:43:00",
+          "end_time": "19:12:00"
+        },
+        {
+          "trip_id": "674_2889102",
+          "service_id": "674_1000000002118",
+          "start_time": "19:13:00",
+          "end_time": "19:42:00"
+        },
+        {
+          "trip_id": "674_2889115",
+          "service_id": "674_1000000002118",
+          "start_time": "19:43:00",
+          "end_time": "20:12:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cavina-Dradi > Ravenna Fs-P.Bus",
+      "capolinea_partenza": {
+        "stop_id": "706470",
+        "stop_name": "Cavina-Dradi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700030",
+        "stop_name": "Ravenna Fs-P.Bus"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:28:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795340",
+          "service_id": "674_1000000002118",
+          "start_time": "07:28:00",
+          "end_time": "07:38:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cavina-Dradi > S.Bartolo",
+      "capolinea_partenza": {
+        "stop_id": "706470",
+        "stop_name": "Cavina-Dradi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "727060",
+        "stop_name": "S.Bartolo"
+      },
+      "trip_count": 7,
+      "orari_partenza": [
+        "09:20:00",
+        "10:40:00",
+        "12:00:00",
+        "14:40:00",
+        "16:00:00",
+        "17:20:00",
+        "18:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888928",
+          "service_id": "674_1000000002119",
+          "start_time": "09:20:00",
+          "end_time": "09:53:00"
+        },
+        {
+          "trip_id": "674_2888929",
+          "service_id": "674_1000000002119",
+          "start_time": "10:40:00",
+          "end_time": "11:13:00"
+        },
+        {
+          "trip_id": "674_2888930",
+          "service_id": "674_1000000002119",
+          "start_time": "12:00:00",
+          "end_time": "12:33:00"
+        },
+        {
+          "trip_id": "674_2888932",
+          "service_id": "674_1000000002119",
+          "start_time": "14:40:00",
+          "end_time": "15:13:00"
+        },
+        {
+          "trip_id": "674_2888933",
+          "service_id": "674_1000000002119",
+          "start_time": "16:00:00",
+          "end_time": "16:33:00"
+        },
+        {
+          "trip_id": "674_2888934",
+          "service_id": "674_1000000002119",
+          "start_time": "17:20:00",
+          "end_time": "17:53:00"
+        },
+        {
+          "trip_id": "674_2888935",
+          "service_id": "674_1000000002119",
+          "start_time": "18:40:00",
+          "end_time": "19:13:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Mad. Albero Cap. > Cavina-Dradi",
+      "capolinea_partenza": {
+        "stop_id": "708770",
+        "stop_name": "Mad. Albero Cap."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "706470",
+        "stop_name": "Cavina-Dradi"
+      },
+      "trip_count": 26,
+      "orari_partenza": [
+        "06:40:00",
+        "06:57:00",
+        "07:15:00",
+        "07:48:00",
+        "08:18:00",
+        "08:48:00",
+        "09:18:00",
+        "09:48:00",
+        "10:18:00",
+        "10:48:00",
+        "11:18:00",
+        "11:48:00",
+        "13:18:00",
+        "13:48:00",
+        "14:18:00",
+        "14:48:00",
+        "15:18:00",
+        "15:48:00",
+        "16:18:00",
+        "16:48:00",
+        "17:18:00",
+        "17:48:00",
+        "18:18:00",
+        "18:48:00",
+        "19:18:00",
+        "19:48:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795393",
+          "service_id": "674_1000000002118",
+          "start_time": "06:40:00",
+          "end_time": "07:08:00"
+        },
+        {
+          "trip_id": "674_2795339",
+          "service_id": "674_1000000002118",
+          "start_time": "06:57:00",
+          "end_time": "07:28:00"
+        },
+        {
+          "trip_id": "674_2795343",
+          "service_id": "674_1000000002118",
+          "start_time": "07:15:00",
+          "end_time": "07:44:00"
+        },
+        {
+          "trip_id": "674_2795345",
+          "service_id": "674_1000000002118",
+          "start_time": "07:48:00",
+          "end_time": "08:13:00"
+        },
+        {
+          "trip_id": "674_2795347",
+          "service_id": "674_1000000002118",
+          "start_time": "08:18:00",
+          "end_time": "08:43:00"
+        },
+        {
+          "trip_id": "674_2795349",
+          "service_id": "674_1000000002118",
+          "start_time": "08:48:00",
+          "end_time": "09:13:00"
+        },
+        {
+          "trip_id": "674_2795351",
+          "service_id": "674_1000000002118",
+          "start_time": "09:18:00",
+          "end_time": "09:43:00"
+        },
+        {
+          "trip_id": "674_2795353",
+          "service_id": "674_1000000002118",
+          "start_time": "09:48:00",
+          "end_time": "10:13:00"
+        },
+        {
+          "trip_id": "674_2795355",
+          "service_id": "674_1000000002118",
+          "start_time": "10:18:00",
+          "end_time": "10:43:00"
+        },
+        {
+          "trip_id": "674_2795357",
+          "service_id": "674_1000000002118",
+          "start_time": "10:48:00",
+          "end_time": "11:13:00"
+        },
+        {
+          "trip_id": "674_2795359",
+          "service_id": "674_1000000002118",
+          "start_time": "11:18:00",
+          "end_time": "11:43:00"
+        },
+        {
+          "trip_id": "674_2795361",
+          "service_id": "674_1000000002118",
+          "start_time": "11:48:00",
+          "end_time": "12:13:00"
+        },
+        {
+          "trip_id": "674_2795367",
+          "service_id": "674_1000000002118",
+          "start_time": "13:18:00",
+          "end_time": "13:43:00"
+        },
+        {
+          "trip_id": "674_2795369",
+          "service_id": "674_1000000002118",
+          "start_time": "13:48:00",
+          "end_time": "14:13:00"
+        },
+        {
+          "trip_id": "674_2795371",
+          "service_id": "674_1000000002118",
+          "start_time": "14:18:00",
+          "end_time": "14:43:00"
+        },
+        {
+          "trip_id": "674_2795373",
+          "service_id": "674_1000000002118",
+          "start_time": "14:48:00",
+          "end_time": "15:13:00"
+        },
+        {
+          "trip_id": "674_2795375",
+          "service_id": "674_1000000002118",
+          "start_time": "15:18:00",
+          "end_time": "15:43:00"
+        },
+        {
+          "trip_id": "674_2795377",
+          "service_id": "674_1000000002118",
+          "start_time": "15:48:00",
+          "end_time": "16:13:00"
+        },
+        {
+          "trip_id": "674_2795379",
+          "service_id": "674_1000000002118",
+          "start_time": "16:18:00",
+          "end_time": "16:43:00"
+        },
+        {
+          "trip_id": "674_2795381",
+          "service_id": "674_1000000002118",
+          "start_time": "16:48:00",
+          "end_time": "17:13:00"
+        },
+        {
+          "trip_id": "674_2795383",
+          "service_id": "674_1000000002118",
+          "start_time": "17:18:00",
+          "end_time": "17:43:00"
+        },
+        {
+          "trip_id": "674_2795385",
+          "service_id": "674_1000000002118",
+          "start_time": "17:48:00",
+          "end_time": "18:13:00"
+        },
+        {
+          "trip_id": "674_2795387",
+          "service_id": "674_1000000002118",
+          "start_time": "18:18:00",
+          "end_time": "18:43:00"
+        },
+        {
+          "trip_id": "674_2795389",
+          "service_id": "674_1000000002118",
+          "start_time": "18:48:00",
+          "end_time": "19:13:00"
+        },
+        {
+          "trip_id": "674_2795391",
+          "service_id": "674_1000000002118",
+          "start_time": "19:18:00",
+          "end_time": "19:43:00"
+        },
+        {
+          "trip_id": "674_2795397",
+          "service_id": "674_1000000002118",
+          "start_time": "19:48:00",
+          "end_time": "20:13:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Mad. Albero Cap. > Elementare Ricci",
+      "capolinea_partenza": {
+        "stop_id": "708770",
+        "stop_name": "Mad. Albero Cap."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "706720",
+        "stop_name": "Elementare Ricci"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "12:18:00",
+        "12:48:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889422",
+          "service_id": "674_1000000002118",
+          "start_time": "12:18:00",
+          "end_time": "12:47:00"
+        },
+        {
+          "trip_id": "674_2889423",
+          "service_id": "674_1000000002118",
+          "start_time": "12:48:00",
+          "end_time": "13:17:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Ravenna Fs-P.Bus > Cavina-Dradi",
+      "capolinea_partenza": {
+        "stop_id": "700030",
+        "stop_name": "Ravenna Fs-P.Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "706470",
+        "stop_name": "Cavina-Dradi"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:33:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795395",
+          "service_id": "674_1000000002118",
+          "start_time": "06:33:00",
+          "end_time": "06:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.Alberto Ina > S.Bartolo",
+      "capolinea_partenza": {
+        "stop_id": "708430",
+        "stop_name": "S.Alberto Ina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "727060",
+        "stop_name": "S.Bartolo"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:56:00",
+        "13:11:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888936",
+          "service_id": "674_1000000002119",
+          "start_time": "07:56:00",
+          "end_time": "08:36:00"
+        },
+        {
+          "trip_id": "674_2889328",
+          "service_id": "674_1000000002119",
+          "start_time": "13:11:00",
+          "end_time": "13:53:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.Bartolo > Cavina-Dradi",
+      "capolinea_partenza": {
+        "stop_id": "727060",
+        "stop_name": "S.Bartolo"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "706470",
+        "stop_name": "Cavina-Dradi"
+      },
+      "trip_count": 8,
+      "orari_partenza": [
+        "08:41:00",
+        "10:01:00",
+        "11:21:00",
+        "14:01:00",
+        "15:21:00",
+        "16:41:00",
+        "18:01:00",
+        "19:21:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888937",
+          "service_id": "674_1000000002119",
+          "start_time": "08:41:00",
+          "end_time": "09:20:00"
+        },
+        {
+          "trip_id": "674_2888938",
+          "service_id": "674_1000000002119",
+          "start_time": "10:01:00",
+          "end_time": "10:40:00"
+        },
+        {
+          "trip_id": "674_2888939",
+          "service_id": "674_1000000002119",
+          "start_time": "11:21:00",
+          "end_time": "12:00:00"
+        },
+        {
+          "trip_id": "674_2888941",
+          "service_id": "674_1000000002119",
+          "start_time": "14:01:00",
+          "end_time": "14:40:00"
+        },
+        {
+          "trip_id": "674_2888942",
+          "service_id": "674_1000000002119",
+          "start_time": "15:21:00",
+          "end_time": "16:00:00"
+        },
+        {
+          "trip_id": "674_2888943",
+          "service_id": "674_1000000002119",
+          "start_time": "16:41:00",
+          "end_time": "17:20:00"
+        },
+        {
+          "trip_id": "674_2888944",
+          "service_id": "674_1000000002119",
+          "start_time": "18:01:00",
+          "end_time": "18:40:00"
+        },
+        {
+          "trip_id": "674_2888945",
+          "service_id": "674_1000000002119",
+          "start_time": "19:21:00",
+          "end_time": "20:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.Bartolo > Elementare Ricci",
+      "capolinea_partenza": {
+        "stop_id": "727060",
+        "stop_name": "S.Bartolo"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "706720",
+        "stop_name": "Elementare Ricci"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:41:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889327",
+          "service_id": "674_1000000002119",
+          "start_time": "12:41:00",
+          "end_time": "13:24:00"
+        }
+      ]
+    }
+  ]
+}

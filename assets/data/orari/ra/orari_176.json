@@ -1,0 +1,308 @@
+{
+  "estrazione": "Orari da route_176.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_176.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "176",
+    "name": "Linea 176",
+    "direzioni_percorso": [
+      "Cervia - Resistenza > Ravenna Fs",
+      "Ravennafs-R.Taxi > Cervia - Resistenza"
+    ],
+    "route_id": "176"
+  },
+  "totale_trips": 38,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cervia - Resistenza > Ravenna Fs",
+      "capolinea_partenza": {
+        "stop_id": "730010",
+        "stop_name": "Cervia - Resistenza"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700010",
+        "stop_name": "Ravenna Fs"
+      },
+      "trip_count": 20,
+      "orari_partenza": [
+        "06:50:00",
+        "07:50:00",
+        "08:50:00",
+        "09:50:00",
+        "10:50:00",
+        "11:50:00",
+        "13:50:00",
+        "15:50:00",
+        "17:50:00",
+        "18:50:00",
+        "19:50:00",
+        "20:50:00",
+        "21:50:00",
+        "22:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795619",
+          "service_id": "674_1000000002118",
+          "start_time": "06:50:00",
+          "end_time": "07:46:00"
+        },
+        {
+          "trip_id": "674_2795618",
+          "service_id": "674_1000000002118",
+          "start_time": "07:50:00",
+          "end_time": "09:04:00"
+        },
+        {
+          "trip_id": "674_2796075",
+          "service_id": "674_1000000002119",
+          "start_time": "07:50:00",
+          "end_time": "08:44:00"
+        },
+        {
+          "trip_id": "674_2796652",
+          "service_id": "674_1000000002106",
+          "start_time": "08:50:00",
+          "end_time": "09:50:00"
+        },
+        {
+          "trip_id": "674_2796659",
+          "service_id": "674_1000000002106",
+          "start_time": "09:50:00",
+          "end_time": "10:50:00"
+        },
+        {
+          "trip_id": "674_2796653",
+          "service_id": "674_1000000002106",
+          "start_time": "10:50:00",
+          "end_time": "11:50:00"
+        },
+        {
+          "trip_id": "674_2795745",
+          "service_id": "674_1000000002118",
+          "start_time": "11:50:00",
+          "end_time": "12:50:00"
+        },
+        {
+          "trip_id": "674_2796220",
+          "service_id": "674_1000000002120",
+          "start_time": "11:50:00",
+          "end_time": "12:50:00"
+        },
+        {
+          "trip_id": "674_2889441",
+          "service_id": "674_1000000002196",
+          "start_time": "11:50:00",
+          "end_time": "12:50:00"
+        },
+        {
+          "trip_id": "674_2796654",
+          "service_id": "674_1000000002106",
+          "start_time": "13:50:00",
+          "end_time": "14:50:00"
+        },
+        {
+          "trip_id": "674_2796655",
+          "service_id": "674_1000000002106",
+          "start_time": "15:50:00",
+          "end_time": "16:50:00"
+        },
+        {
+          "trip_id": "674_2796656",
+          "service_id": "674_1000000002106",
+          "start_time": "17:50:00",
+          "end_time": "18:49:00"
+        },
+        {
+          "trip_id": "674_2795747",
+          "service_id": "674_1000000002118",
+          "start_time": "18:50:00",
+          "end_time": "19:50:00"
+        },
+        {
+          "trip_id": "674_2796221",
+          "service_id": "674_1000000002119",
+          "start_time": "18:50:00",
+          "end_time": "19:50:00"
+        },
+        {
+          "trip_id": "674_2796657",
+          "service_id": "674_1000000002106",
+          "start_time": "19:50:00",
+          "end_time": "20:50:00"
+        },
+        {
+          "trip_id": "674_2796658",
+          "service_id": "674_1000000002120",
+          "start_time": "20:50:00",
+          "end_time": "21:50:00"
+        },
+        {
+          "trip_id": "674_2889417",
+          "service_id": "674_1000000002118",
+          "start_time": "20:50:00",
+          "end_time": "21:50:00"
+        },
+        {
+          "trip_id": "674_2889443",
+          "service_id": "674_1000000002196",
+          "start_time": "20:50:00",
+          "end_time": "21:50:00"
+        },
+        {
+          "trip_id": "674_2800661",
+          "service_id": "674_1000000002198",
+          "start_time": "21:50:00",
+          "end_time": "22:50:00"
+        },
+        {
+          "trip_id": "674_2885480",
+          "service_id": "674_1000000002138",
+          "start_time": "22:50:00",
+          "end_time": "23:50:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Ravennafs-R.Taxi > Cervia - Resistenza",
+      "capolinea_partenza": {
+        "stop_id": "700050",
+        "stop_name": "Ravennafs-R.Taxi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "730010",
+        "stop_name": "Cervia - Resistenza"
+      },
+      "trip_count": 18,
+      "orari_partenza": [
+        "06:50:00",
+        "07:50:00",
+        "08:50:00",
+        "09:50:00",
+        "10:50:00",
+        "12:50:00",
+        "14:50:00",
+        "16:50:00",
+        "17:45:00",
+        "18:50:00",
+        "19:50:00",
+        "20:50:00",
+        "21:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889665",
+          "service_id": "674_1000000002106",
+          "start_time": "06:50:00",
+          "end_time": "07:44:00"
+        },
+        {
+          "trip_id": "674_2889663",
+          "service_id": "674_1000000002106",
+          "start_time": "07:50:00",
+          "end_time": "08:45:00"
+        },
+        {
+          "trip_id": "674_2889664",
+          "service_id": "674_1000000002106",
+          "start_time": "08:50:00",
+          "end_time": "09:43:00"
+        },
+        {
+          "trip_id": "674_2889656",
+          "service_id": "674_1000000002106",
+          "start_time": "09:50:00",
+          "end_time": "10:45:00"
+        },
+        {
+          "trip_id": "674_2889666",
+          "service_id": "674_1000000002118",
+          "start_time": "10:50:00",
+          "end_time": "11:45:00"
+        },
+        {
+          "trip_id": "674_2889667",
+          "service_id": "674_1000000002120",
+          "start_time": "10:50:00",
+          "end_time": "11:45:00"
+        },
+        {
+          "trip_id": "674_2889668",
+          "service_id": "674_1000000002196",
+          "start_time": "10:50:00",
+          "end_time": "11:45:00"
+        },
+        {
+          "trip_id": "674_2889657",
+          "service_id": "674_1000000002106",
+          "start_time": "12:50:00",
+          "end_time": "13:45:00"
+        },
+        {
+          "trip_id": "674_2889658",
+          "service_id": "674_1000000002106",
+          "start_time": "14:50:00",
+          "end_time": "15:45:00"
+        },
+        {
+          "trip_id": "674_2889659",
+          "service_id": "674_1000000002106",
+          "start_time": "16:50:00",
+          "end_time": "17:45:00"
+        },
+        {
+          "trip_id": "674_2889669",
+          "service_id": "674_1000000002118",
+          "start_time": "17:45:00",
+          "end_time": "18:40:00"
+        },
+        {
+          "trip_id": "674_2889670",
+          "service_id": "674_1000000002119",
+          "start_time": "17:45:00",
+          "end_time": "18:40:00"
+        },
+        {
+          "trip_id": "674_2889660",
+          "service_id": "674_1000000002106",
+          "start_time": "18:50:00",
+          "end_time": "19:47:00"
+        },
+        {
+          "trip_id": "674_2889661",
+          "service_id": "674_1000000002196",
+          "start_time": "19:50:00",
+          "end_time": "20:47:00"
+        },
+        {
+          "trip_id": "674_2889662",
+          "service_id": "674_1000000002120",
+          "start_time": "19:50:00",
+          "end_time": "20:47:00"
+        },
+        {
+          "trip_id": "674_2889671",
+          "service_id": "674_1000000002118",
+          "start_time": "19:50:00",
+          "end_time": "20:47:00"
+        },
+        {
+          "trip_id": "674_2889694",
+          "service_id": "674_1000000002198",
+          "start_time": "20:50:00",
+          "end_time": "21:47:00"
+        },
+        {
+          "trip_id": "674_2889673",
+          "service_id": "674_1000000002138",
+          "start_time": "21:50:00",
+          "end_time": "22:47:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "estrazione": "Orari da route_251.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_251.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "251",
+    "name": "Linea 251",
+    "direzioni_percorso": [
+      "Cervia - Resistenza > Pisignano Scuola",
+      "Deledda-Mameli > Pisignano Scuola",
+      "Pisignano Scuola > Cervia Fs",
+      "Pisignano Scuola > Deledda-Mameli"
+    ],
+    "route_id": "251"
+  },
+  "totale_trips": 10,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cervia - Resistenza > Pisignano Scuola",
+      "capolinea_partenza": {
+        "stop_id": "730011",
+        "stop_name": "Cervia - Resistenza"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "739000",
+        "stop_name": "Pisignano Scuola"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "07:20:00",
+        "08:15:00",
+        "14:00:00",
+        "18:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796338",
+          "service_id": "674_1000000002117",
+          "start_time": "07:20:00",
+          "end_time": "07:40:00"
+        },
+        {
+          "trip_id": "674_2796336",
+          "service_id": "674_1000000002117",
+          "start_time": "08:15:00",
+          "end_time": "08:35:00"
+        },
+        {
+          "trip_id": "674_2796332",
+          "service_id": "674_1000000002117",
+          "start_time": "14:00:00",
+          "end_time": "14:25:00"
+        },
+        {
+          "trip_id": "674_2796334",
+          "service_id": "674_1000000002117",
+          "start_time": "18:00:00",
+          "end_time": "18:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Deledda-Mameli > Pisignano Scuola",
+      "capolinea_partenza": {
+        "stop_id": "730320",
+        "stop_name": "Deledda-Mameli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "739000",
+        "stop_name": "Pisignano Scuola"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "11:21:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796330",
+          "service_id": "674_1000000002117",
+          "start_time": "11:21:00",
+          "end_time": "11:55:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Pisignano Scuola > Cervia Fs",
+      "capolinea_partenza": {
+        "stop_id": "739000",
+        "stop_name": "Pisignano Scuola"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "730051",
+        "stop_name": "Cervia Fs"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "11:55:00",
+        "14:25:00",
+        "18:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796331",
+          "service_id": "674_1000000002117",
+          "start_time": "11:55:00",
+          "end_time": "12:15:00"
+        },
+        {
+          "trip_id": "674_2796333",
+          "service_id": "674_1000000002117",
+          "start_time": "14:25:00",
+          "end_time": "14:45:00"
+        },
+        {
+          "trip_id": "674_2796335",
+          "service_id": "674_1000000002117",
+          "start_time": "18:25:00",
+          "end_time": "18:45:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Pisignano Scuola > Deledda-Mameli",
+      "capolinea_partenza": {
+        "stop_id": "739010",
+        "stop_name": "Pisignano Scuola"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "730320",
+        "stop_name": "Deledda-Mameli"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:40:00",
+        "08:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796339",
+          "service_id": "674_1000000002117",
+          "start_time": "07:40:00",
+          "end_time": "08:07:00"
+        },
+        {
+          "trip_id": "674_2796337",
+          "service_id": "674_1000000002117",
+          "start_time": "08:35:00",
+          "end_time": "09:02:00"
+        }
+      ]
+    }
+  ]
+}

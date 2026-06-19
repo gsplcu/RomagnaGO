@@ -1,0 +1,674 @@
+{
+  "estrazione": "Orari da route_CE03.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_CE03.json",
+  "route": {
+    "basin": "FC",
+    "area": "Cesena",
+    "line": "CE03",
+    "name": "Linea CE03",
+    "direzioni_percorso": [
+      "Arcangeli > Cimitero Nuovo",
+      "Arcangeli > Viareggio",
+      "Cimitero Nuovo > Arcangeli",
+      "Viareggio > Arcangeli"
+    ],
+    "route_id": "CE03"
+  },
+  "totale_trips": 85,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Arcangeli > Cimitero Nuovo",
+      "capolinea_partenza": {
+        "stop_id": "5920",
+        "stop_name": "Arcangeli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "6871",
+        "stop_name": "Cimitero Nuovo"
+      },
+      "trip_count": 18,
+      "orari_partenza": [
+        "06:30:00",
+        "07:20:00",
+        "07:30:00",
+        "08:20:00",
+        "08:30:00",
+        "09:30:00",
+        "10:30:00",
+        "11:30:00",
+        "12:20:00",
+        "12:30:00",
+        "13:20:00",
+        "13:30:00",
+        "14:30:00",
+        "15:30:00",
+        "16:30:00",
+        "17:30:00",
+        "18:30:00",
+        "19:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035108",
+          "service_id": "833_1000000006940",
+          "start_time": "06:30:00",
+          "end_time": "06:59:00"
+        },
+        {
+          "trip_id": "833_1035095",
+          "service_id": "833_1000000006936",
+          "start_time": "07:20:00",
+          "end_time": "07:49:00"
+        },
+        {
+          "trip_id": "833_1035109",
+          "service_id": "833_1000000006940",
+          "start_time": "07:30:00",
+          "end_time": "07:59:00"
+        },
+        {
+          "trip_id": "833_1035096",
+          "service_id": "833_1000000006936",
+          "start_time": "08:20:00",
+          "end_time": "08:49:00"
+        },
+        {
+          "trip_id": "833_1035110",
+          "service_id": "833_1000000006940",
+          "start_time": "08:30:00",
+          "end_time": "08:59:00"
+        },
+        {
+          "trip_id": "833_1035097",
+          "service_id": "833_1000000006950",
+          "start_time": "09:30:00",
+          "end_time": "09:59:00"
+        },
+        {
+          "trip_id": "833_1035098",
+          "service_id": "833_1000000006950",
+          "start_time": "10:30:00",
+          "end_time": "10:59:00"
+        },
+        {
+          "trip_id": "833_1035099",
+          "service_id": "833_1000000006950",
+          "start_time": "11:30:00",
+          "end_time": "11:59:00"
+        },
+        {
+          "trip_id": "833_1035100",
+          "service_id": "833_1000000006936",
+          "start_time": "12:20:00",
+          "end_time": "12:49:00"
+        },
+        {
+          "trip_id": "833_1035111",
+          "service_id": "833_1000000006940",
+          "start_time": "12:30:00",
+          "end_time": "12:59:00"
+        },
+        {
+          "trip_id": "833_1035101",
+          "service_id": "833_1000000006936",
+          "start_time": "13:20:00",
+          "end_time": "13:49:00"
+        },
+        {
+          "trip_id": "833_1035112",
+          "service_id": "833_1000000006940",
+          "start_time": "13:30:00",
+          "end_time": "13:59:00"
+        },
+        {
+          "trip_id": "833_1035102",
+          "service_id": "833_1000000006950",
+          "start_time": "14:30:00",
+          "end_time": "14:59:00"
+        },
+        {
+          "trip_id": "833_1035103",
+          "service_id": "833_1000000006950",
+          "start_time": "15:30:00",
+          "end_time": "15:59:00"
+        },
+        {
+          "trip_id": "833_1035104",
+          "service_id": "833_1000000006950",
+          "start_time": "16:30:00",
+          "end_time": "16:59:00"
+        },
+        {
+          "trip_id": "833_1035105",
+          "service_id": "833_1000000006950",
+          "start_time": "17:30:00",
+          "end_time": "17:59:00"
+        },
+        {
+          "trip_id": "833_1035106",
+          "service_id": "833_1000000006950",
+          "start_time": "18:30:00",
+          "end_time": "18:59:00"
+        },
+        {
+          "trip_id": "833_1035107",
+          "service_id": "833_1000000006950",
+          "start_time": "19:30:00",
+          "end_time": "19:59:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Arcangeli > Viareggio",
+      "capolinea_partenza": {
+        "stop_id": "5920",
+        "stop_name": "Arcangeli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "5970",
+        "stop_name": "Viareggio"
+      },
+      "trip_count": 20,
+      "orari_partenza": [
+        "06:00:00",
+        "06:25:00",
+        "07:00:00",
+        "07:40:00",
+        "08:00:00",
+        "08:40:00",
+        "09:00:00",
+        "10:00:00",
+        "11:00:00",
+        "12:00:00",
+        "12:40:00",
+        "13:00:00",
+        "13:40:00",
+        "14:00:00",
+        "15:00:00",
+        "16:00:00",
+        "17:00:00",
+        "18:00:00",
+        "19:00:00",
+        "20:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035026",
+          "service_id": "833_1000000006950",
+          "start_time": "06:00:00",
+          "end_time": "06:27:00"
+        },
+        {
+          "trip_id": "833_1035041",
+          "service_id": "833_1000000006936",
+          "start_time": "06:25:00",
+          "end_time": "06:52:00"
+        },
+        {
+          "trip_id": "833_1035027",
+          "service_id": "833_1000000006950",
+          "start_time": "07:00:00",
+          "end_time": "07:27:00"
+        },
+        {
+          "trip_id": "833_1035042",
+          "service_id": "833_1000000006936",
+          "start_time": "07:40:00",
+          "end_time": "08:07:00"
+        },
+        {
+          "trip_id": "833_1035028",
+          "service_id": "833_1000000006950",
+          "start_time": "08:00:00",
+          "end_time": "08:27:00"
+        },
+        {
+          "trip_id": "833_1035043",
+          "service_id": "833_1000000006936",
+          "start_time": "08:40:00",
+          "end_time": "09:07:00"
+        },
+        {
+          "trip_id": "833_1035029",
+          "service_id": "833_1000000006950",
+          "start_time": "09:00:00",
+          "end_time": "09:27:00"
+        },
+        {
+          "trip_id": "833_1035030",
+          "service_id": "833_1000000006950",
+          "start_time": "10:00:00",
+          "end_time": "10:27:00"
+        },
+        {
+          "trip_id": "833_1035031",
+          "service_id": "833_1000000006950",
+          "start_time": "11:00:00",
+          "end_time": "11:27:00"
+        },
+        {
+          "trip_id": "833_1035032",
+          "service_id": "833_1000000006950",
+          "start_time": "12:00:00",
+          "end_time": "12:27:00"
+        },
+        {
+          "trip_id": "833_1035044",
+          "service_id": "833_1000000006936",
+          "start_time": "12:40:00",
+          "end_time": "13:07:00"
+        },
+        {
+          "trip_id": "833_1035033",
+          "service_id": "833_1000000006950",
+          "start_time": "13:00:00",
+          "end_time": "13:27:00"
+        },
+        {
+          "trip_id": "833_1035045",
+          "service_id": "833_1000000006936",
+          "start_time": "13:40:00",
+          "end_time": "14:07:00"
+        },
+        {
+          "trip_id": "833_1035034",
+          "service_id": "833_1000000006950",
+          "start_time": "14:00:00",
+          "end_time": "14:27:00"
+        },
+        {
+          "trip_id": "833_1035035",
+          "service_id": "833_1000000006950",
+          "start_time": "15:00:00",
+          "end_time": "15:27:00"
+        },
+        {
+          "trip_id": "833_1035036",
+          "service_id": "833_1000000006950",
+          "start_time": "16:00:00",
+          "end_time": "16:27:00"
+        },
+        {
+          "trip_id": "833_1035037",
+          "service_id": "833_1000000006950",
+          "start_time": "17:00:00",
+          "end_time": "17:27:00"
+        },
+        {
+          "trip_id": "833_1035038",
+          "service_id": "833_1000000006950",
+          "start_time": "18:00:00",
+          "end_time": "18:27:00"
+        },
+        {
+          "trip_id": "833_1035039",
+          "service_id": "833_1000000006950",
+          "start_time": "19:00:00",
+          "end_time": "19:27:00"
+        },
+        {
+          "trip_id": "833_1035040",
+          "service_id": "833_1000000006950",
+          "start_time": "20:05:00",
+          "end_time": "20:32:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cimitero Nuovo > Arcangeli",
+      "capolinea_partenza": {
+        "stop_id": "6871",
+        "stop_name": "Cimitero Nuovo"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "5920",
+        "stop_name": "Arcangeli"
+      },
+      "trip_count": 18,
+      "orari_partenza": [
+        "06:59:00",
+        "07:09:00",
+        "07:49:00",
+        "07:59:00",
+        "08:59:00",
+        "09:59:00",
+        "10:59:00",
+        "11:49:00",
+        "11:59:00",
+        "12:49:00",
+        "12:59:00",
+        "13:59:00",
+        "14:59:00",
+        "15:59:00",
+        "16:59:00",
+        "17:59:00",
+        "18:59:00",
+        "19:59:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033065",
+          "service_id": "833_1000000006940",
+          "start_time": "06:59:00",
+          "end_time": "07:25:00"
+        },
+        {
+          "trip_id": "833_1033052",
+          "service_id": "833_1000000006936",
+          "start_time": "07:09:00",
+          "end_time": "07:35:00"
+        },
+        {
+          "trip_id": "833_1033053",
+          "service_id": "833_1000000006936",
+          "start_time": "07:49:00",
+          "end_time": "08:15:00"
+        },
+        {
+          "trip_id": "833_1033066",
+          "service_id": "833_1000000006940",
+          "start_time": "07:59:00",
+          "end_time": "08:25:00"
+        },
+        {
+          "trip_id": "833_1033054",
+          "service_id": "833_1000000006950",
+          "start_time": "08:59:00",
+          "end_time": "09:25:00"
+        },
+        {
+          "trip_id": "833_1033055",
+          "service_id": "833_1000000006950",
+          "start_time": "09:59:00",
+          "end_time": "10:25:00"
+        },
+        {
+          "trip_id": "833_1033051",
+          "service_id": "833_1000000006950",
+          "start_time": "10:59:00",
+          "end_time": "11:25:00"
+        },
+        {
+          "trip_id": "833_1033056",
+          "service_id": "833_1000000006936",
+          "start_time": "11:49:00",
+          "end_time": "12:15:00"
+        },
+        {
+          "trip_id": "833_1033067",
+          "service_id": "833_1000000006940",
+          "start_time": "11:59:00",
+          "end_time": "12:25:00"
+        },
+        {
+          "trip_id": "833_1033057",
+          "service_id": "833_1000000006936",
+          "start_time": "12:49:00",
+          "end_time": "13:15:00"
+        },
+        {
+          "trip_id": "833_1033068",
+          "service_id": "833_1000000006940",
+          "start_time": "12:59:00",
+          "end_time": "13:25:00"
+        },
+        {
+          "trip_id": "833_1033058",
+          "service_id": "833_1000000006950",
+          "start_time": "13:59:00",
+          "end_time": "14:25:00"
+        },
+        {
+          "trip_id": "833_1033059",
+          "service_id": "833_1000000006950",
+          "start_time": "14:59:00",
+          "end_time": "15:25:00"
+        },
+        {
+          "trip_id": "833_1033060",
+          "service_id": "833_1000000006950",
+          "start_time": "15:59:00",
+          "end_time": "16:25:00"
+        },
+        {
+          "trip_id": "833_1033061",
+          "service_id": "833_1000000006950",
+          "start_time": "16:59:00",
+          "end_time": "17:25:00"
+        },
+        {
+          "trip_id": "833_1033062",
+          "service_id": "833_1000000006950",
+          "start_time": "17:59:00",
+          "end_time": "18:25:00"
+        },
+        {
+          "trip_id": "833_1033063",
+          "service_id": "833_1000000006950",
+          "start_time": "18:59:00",
+          "end_time": "19:25:00"
+        },
+        {
+          "trip_id": "833_1033064",
+          "service_id": "833_1000000006950",
+          "start_time": "19:59:00",
+          "end_time": "20:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Viareggio > Arcangeli",
+      "capolinea_partenza": {
+        "stop_id": "5970",
+        "stop_name": "Viareggio"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "5920",
+        "stop_name": "Arcangeli"
+      },
+      "trip_count": 29,
+      "orari_partenza": [
+        "06:00:00",
+        "06:32:00",
+        "06:52:00",
+        "07:32:00",
+        "08:12:00",
+        "08:32:00",
+        "09:32:00",
+        "10:32:00",
+        "11:32:00",
+        "12:12:00",
+        "12:32:00",
+        "13:12:00",
+        "13:32:00",
+        "14:32:00",
+        "15:32:00",
+        "16:32:00",
+        "17:32:00",
+        "18:32:00",
+        "19:32:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033011",
+          "service_id": "833_1000000006950",
+          "start_time": "06:00:00",
+          "end_time": "06:23:00"
+        },
+        {
+          "trip_id": "833_1033020",
+          "service_id": "833_1000000006940",
+          "start_time": "06:32:00",
+          "end_time": "06:55:00"
+        },
+        {
+          "trip_id": "833_1033095",
+          "service_id": "833_1000000006936",
+          "start_time": "06:32:00",
+          "end_time": "07:00:00"
+        },
+        {
+          "trip_id": "833_1033012",
+          "service_id": "833_1000000006936",
+          "start_time": "06:52:00",
+          "end_time": "07:15:00"
+        },
+        {
+          "trip_id": "833_1033021",
+          "service_id": "833_1000000006940",
+          "start_time": "07:32:00",
+          "end_time": "07:55:00"
+        },
+        {
+          "trip_id": "833_1033096",
+          "service_id": "833_1000000006936",
+          "start_time": "07:32:00",
+          "end_time": "08:00:00"
+        },
+        {
+          "trip_id": "833_1033013",
+          "service_id": "833_1000000006936",
+          "start_time": "08:12:00",
+          "end_time": "08:35:00"
+        },
+        {
+          "trip_id": "833_1033022",
+          "service_id": "833_1000000006940",
+          "start_time": "08:32:00",
+          "end_time": "08:55:00"
+        },
+        {
+          "trip_id": "833_1033097",
+          "service_id": "833_1000000006936",
+          "start_time": "08:32:00",
+          "end_time": "09:00:00"
+        },
+        {
+          "trip_id": "833_1033014",
+          "service_id": "833_1000000006950",
+          "start_time": "09:32:00",
+          "end_time": "09:55:00"
+        },
+        {
+          "trip_id": "833_1033023",
+          "service_id": "833_1000000006940",
+          "start_time": "10:32:00",
+          "end_time": "10:55:00"
+        },
+        {
+          "trip_id": "833_1033098",
+          "service_id": "833_1000000006936",
+          "start_time": "10:32:00",
+          "end_time": "11:00:00"
+        },
+        {
+          "trip_id": "833_1033024",
+          "service_id": "833_1000000006940",
+          "start_time": "11:32:00",
+          "end_time": "11:55:00"
+        },
+        {
+          "trip_id": "833_1033099",
+          "service_id": "833_1000000006936",
+          "start_time": "11:32:00",
+          "end_time": "12:00:00"
+        },
+        {
+          "trip_id": "833_1033015",
+          "service_id": "833_1000000006936",
+          "start_time": "12:12:00",
+          "end_time": "12:35:00"
+        },
+        {
+          "trip_id": "833_1033025",
+          "service_id": "833_1000000006940",
+          "start_time": "12:32:00",
+          "end_time": "12:55:00"
+        },
+        {
+          "trip_id": "833_1033100",
+          "service_id": "833_1000000006936",
+          "start_time": "12:32:00",
+          "end_time": "13:00:00"
+        },
+        {
+          "trip_id": "833_1033016",
+          "service_id": "833_1000000006936",
+          "start_time": "13:12:00",
+          "end_time": "13:35:00"
+        },
+        {
+          "trip_id": "833_1033026",
+          "service_id": "833_1000000006940",
+          "start_time": "13:32:00",
+          "end_time": "13:55:00"
+        },
+        {
+          "trip_id": "833_1033101",
+          "service_id": "833_1000000006936",
+          "start_time": "13:32:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "trip_id": "833_1033017",
+          "service_id": "833_1000000006950",
+          "start_time": "14:32:00",
+          "end_time": "14:55:00"
+        },
+        {
+          "trip_id": "833_1033027",
+          "service_id": "833_1000000006940",
+          "start_time": "15:32:00",
+          "end_time": "15:55:00"
+        },
+        {
+          "trip_id": "833_1033102",
+          "service_id": "833_1000000006936",
+          "start_time": "15:32:00",
+          "end_time": "16:00:00"
+        },
+        {
+          "trip_id": "833_1033018",
+          "service_id": "833_1000000006950",
+          "start_time": "16:32:00",
+          "end_time": "16:55:00"
+        },
+        {
+          "trip_id": "833_1033028",
+          "service_id": "833_1000000006940",
+          "start_time": "17:32:00",
+          "end_time": "17:55:00"
+        },
+        {
+          "trip_id": "833_1033103",
+          "service_id": "833_1000000006936",
+          "start_time": "17:32:00",
+          "end_time": "18:00:00"
+        },
+        {
+          "trip_id": "833_1033019",
+          "service_id": "833_1000000006950",
+          "start_time": "18:32:00",
+          "end_time": "18:55:00"
+        },
+        {
+          "trip_id": "833_1033029",
+          "service_id": "833_1000000006940",
+          "start_time": "19:32:00",
+          "end_time": "19:55:00"
+        },
+        {
+          "trip_id": "833_1033104",
+          "service_id": "833_1000000006936",
+          "start_time": "19:32:00",
+          "end_time": "20:00:00"
+        }
+      ]
+    }
+  ]
+}

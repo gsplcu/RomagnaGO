@@ -1,0 +1,81 @@
+{
+  "estrazione": "Orari da route_F131.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F131.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F131",
+    "name": "Linea F131",
+    "direzioni_percorso": [
+      "Bagno Di Romagna > S. Sofia Capolinea",
+      "S. Sofia Capolinea > Bagno Di R. (Terme)"
+    ],
+    "route_id": "F131"
+  },
+  "totale_trips": 4,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bagno Di Romagna > S. Sofia Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "15220",
+        "stop_name": "S. Sofia Capolinea"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "05:35:00",
+        "10:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1037265",
+          "service_id": "833_1000000006947",
+          "start_time": "05:35:00",
+          "end_time": "06:10:00"
+        },
+        {
+          "trip_id": "833_1037266",
+          "service_id": "833_1000000006947",
+          "start_time": "10:25:00",
+          "end_time": "11:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S. Sofia Capolinea > Bagno Di R. (Terme)",
+      "capolinea_partenza": {
+        "stop_id": "15220",
+        "stop_name": "S. Sofia Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13500",
+        "stop_name": "Bagno Di R. (Terme)"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:55:00",
+        "15:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1037438",
+          "service_id": "833_1000000006947",
+          "start_time": "07:55:00",
+          "end_time": "08:30:00"
+        },
+        {
+          "trip_id": "833_1037439",
+          "service_id": "833_1000000006947",
+          "start_time": "15:20:00",
+          "end_time": "15:55:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "estrazione": "Orari da route_169.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_169.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "169",
+    "name": "Linea 169",
+    "direzioni_percorso": [
+      "Celletta-Cupa > P.Zza Dei Fiori",
+      "P.Zza Dei Fiori > Celletta-Cupa",
+      "P.Zza Dei Fiori > Santarcangelo Fs",
+      "Santarcangelo Fs > P.Zza Dei Fiori"
+    ],
+    "route_id": "169"
+  },
+  "totale_trips": 6,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Celletta-Cupa > P.Zza Dei Fiori",
+      "capolinea_partenza": {
+        "stop_id": "D00089",
+        "stop_name": "Celletta-Cupa"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "F00001",
+        "stop_name": "P.Zza Dei Fiori"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "13:30:00",
+        "19:17:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4030785",
+          "service_id": "404_1000000001810",
+          "start_time": "13:30:00",
+          "end_time": "13:46:00"
+        },
+        {
+          "trip_id": "404_4049672",
+          "service_id": "404_1000000001810",
+          "start_time": "19:17:00",
+          "end_time": "19:38:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "P.Zza Dei Fiori > Celletta-Cupa",
+      "capolinea_partenza": {
+        "stop_id": "F00016",
+        "stop_name": "P.Zza Dei Fiori"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00089",
+        "stop_name": "Celletta-Cupa"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4051742",
+          "service_id": "404_1000000001810",
+          "start_time": "07:10:00",
+          "end_time": "07:32:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "P.Zza Dei Fiori > Santarcangelo Fs",
+      "capolinea_partenza": {
+        "stop_id": "F00016",
+        "stop_name": "P.Zza Dei Fiori"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00013",
+        "stop_name": "Santarcangelo Fs"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "13:47:00",
+        "19:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4049977",
+          "service_id": "404_1000000001810",
+          "start_time": "13:47:00",
+          "end_time": "13:59:00"
+        },
+        {
+          "trip_id": "404_4049976",
+          "service_id": "404_1000000001810",
+          "start_time": "19:40:00",
+          "end_time": "19:52:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Santarcangelo Fs > P.Zza Dei Fiori",
+      "capolinea_partenza": {
+        "stop_id": "D00014",
+        "stop_name": "Santarcangelo Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "F00001",
+        "stop_name": "P.Zza Dei Fiori"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:58:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4034960",
+          "service_id": "404_1000000001810",
+          "start_time": "06:58:00",
+          "end_time": "07:10:00"
+        }
+      ]
+    }
+  ]
+}

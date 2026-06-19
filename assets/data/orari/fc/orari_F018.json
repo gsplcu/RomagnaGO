@@ -1,0 +1,450 @@
+{
+  "estrazione": "Orari da route_F018.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F018.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F018",
+    "name": "Linea F018",
+    "direzioni_percorso": [
+      "Acquapartita Lago > Cimitero S.Piero In B.",
+      "Alfero > Bagno Di Romagna",
+      "Alfero > Cimitero S.Piero In B.",
+      "Bagno Di R. (Terme) > Cimitero S.Piero In B.",
+      "Bagno Di Romagna > Alfero",
+      "Castello Di Selvapiana > Cimitero S.Piero In B.",
+      "Cimitero S.Piero In B. > Acquapartita Lago",
+      "Cimitero S.Piero In B. > Alfero",
+      "Cimitero S.Piero In B. > Bagno Di R. (Terme)",
+      "Cimitero S.Piero In B. > Riofreddo",
+      "Riofreddo > Cimitero S.Piero In B.",
+      "Riofreddo > S.Piero In B. Centro",
+      "S.Piero In B. Centro > Castello Di Selvapiana"
+    ],
+    "route_id": "F018"
+  },
+  "totale_trips": 29,
+  "totale_direzioni_percorso": 13,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Acquapartita Lago > Cimitero S.Piero In B.",
+      "capolinea_partenza": {
+        "stop_id": "46101",
+        "stop_name": "Acquapartita Lago"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13433",
+        "stop_name": "Cimitero S.Piero In B."
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "09:32:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035696",
+          "service_id": "833_1000000006947",
+          "start_time": "09:32:00",
+          "end_time": "09:43:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Alfero > Bagno Di Romagna",
+      "capolinea_partenza": {
+        "stop_id": "46081",
+        "stop_name": "Alfero"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033638",
+          "service_id": "833_1000000006959",
+          "start_time": "07:00:00",
+          "end_time": "07:25:00"
+        },
+        {
+          "trip_id": "833_1033639",
+          "service_id": "833_1000000006920",
+          "start_time": "07:00:00",
+          "end_time": "07:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Alfero > Cimitero S.Piero In B.",
+      "capolinea_partenza": {
+        "stop_id": "46081",
+        "stop_name": "Alfero"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13433",
+        "stop_name": "Cimitero S.Piero In B."
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "07:00:00",
+        "11:20:00",
+        "14:15:00",
+        "17:30:00",
+        "20:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035697",
+          "service_id": "833_1000000006918",
+          "start_time": "07:00:00",
+          "end_time": "07:32:00"
+        },
+        {
+          "trip_id": "833_1035688",
+          "service_id": "833_1000000006947",
+          "start_time": "11:20:00",
+          "end_time": "11:40:00"
+        },
+        {
+          "trip_id": "833_1035689",
+          "service_id": "833_1000000006947",
+          "start_time": "14:15:00",
+          "end_time": "14:35:00"
+        },
+        {
+          "trip_id": "833_1035690",
+          "service_id": "833_1000000006947",
+          "start_time": "17:30:00",
+          "end_time": "17:50:00"
+        },
+        {
+          "trip_id": "833_1035687",
+          "service_id": "833_1000000006959",
+          "start_time": "20:00:00",
+          "end_time": "20:20:00"
+        },
+        {
+          "trip_id": "833_1035693",
+          "service_id": "833_1000000006920",
+          "start_time": "20:00:00",
+          "end_time": "20:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bagno Di R. (Terme) > Cimitero S.Piero In B.",
+      "capolinea_partenza": {
+        "stop_id": "13500",
+        "stop_name": "Bagno Di R. (Terme)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13433",
+        "stop_name": "Cimitero S.Piero In B."
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "08:10:00",
+        "10:20:00",
+        "18:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031161",
+          "service_id": "833_1000000006947",
+          "start_time": "08:10:00",
+          "end_time": "08:20:00"
+        },
+        {
+          "trip_id": "833_1031162",
+          "service_id": "833_1000000006947",
+          "start_time": "10:20:00",
+          "end_time": "10:30:00"
+        },
+        {
+          "trip_id": "833_1031163",
+          "service_id": "833_1000000006947",
+          "start_time": "18:00:00",
+          "end_time": "18:10:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bagno Di Romagna > Alfero",
+      "capolinea_partenza": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "46081",
+        "stop_name": "Alfero"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "19:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031169",
+          "service_id": "833_1000000006959",
+          "start_time": "19:35:00",
+          "end_time": "20:00:00"
+        },
+        {
+          "trip_id": "833_1031170",
+          "service_id": "833_1000000006920",
+          "start_time": "19:35:00",
+          "end_time": "20:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Castello Di Selvapiana > Cimitero S.Piero In B.",
+      "capolinea_partenza": {
+        "stop_id": "46112",
+        "stop_name": "Castello Di Selvapiana"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13433",
+        "stop_name": "Cimitero S.Piero In B."
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:48:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035698",
+          "service_id": "833_1000000006933",
+          "start_time": "12:48:00",
+          "end_time": "13:03:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cimitero S.Piero In B. > Acquapartita Lago",
+      "capolinea_partenza": {
+        "stop_id": "13433",
+        "stop_name": "Cimitero S.Piero In B."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "46102",
+        "stop_name": "Acquapartita Lago"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "09:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031156",
+          "service_id": "833_1000000006947",
+          "start_time": "09:20:00",
+          "end_time": "09:31:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cimitero S.Piero In B. > Alfero",
+      "capolinea_partenza": {
+        "stop_id": "13433",
+        "stop_name": "Cimitero S.Piero In B."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "46081",
+        "stop_name": "Alfero"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "06:35:00",
+        "10:40:00",
+        "13:55:00",
+        "17:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031144",
+          "service_id": "833_1000000006959",
+          "start_time": "06:35:00",
+          "end_time": "06:55:00"
+        },
+        {
+          "trip_id": "833_1031145",
+          "service_id": "833_1000000006947",
+          "start_time": "06:35:00",
+          "end_time": "06:55:00"
+        },
+        {
+          "trip_id": "833_1031149",
+          "service_id": "833_1000000006947",
+          "start_time": "10:40:00",
+          "end_time": "11:12:00"
+        },
+        {
+          "trip_id": "833_1031146",
+          "service_id": "833_1000000006947",
+          "start_time": "13:55:00",
+          "end_time": "14:15:00"
+        },
+        {
+          "trip_id": "833_1031147",
+          "service_id": "833_1000000006947",
+          "start_time": "17:00:00",
+          "end_time": "17:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cimitero S.Piero In B. > Bagno Di R. (Terme)",
+      "capolinea_partenza": {
+        "stop_id": "13433",
+        "stop_name": "Cimitero S.Piero In B."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13500",
+        "stop_name": "Bagno Di R. (Terme)"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "08:00:00",
+        "10:10:00",
+        "17:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035702",
+          "service_id": "833_1000000006947",
+          "start_time": "08:00:00",
+          "end_time": "08:10:00"
+        },
+        {
+          "trip_id": "833_1035703",
+          "service_id": "833_1000000006947",
+          "start_time": "10:10:00",
+          "end_time": "10:20:00"
+        },
+        {
+          "trip_id": "833_1035704",
+          "service_id": "833_1000000006947",
+          "start_time": "17:50:00",
+          "end_time": "18:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cimitero S.Piero In B. > Riofreddo",
+      "capolinea_partenza": {
+        "stop_id": "13433",
+        "stop_name": "Cimitero S.Piero In B."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "46070",
+        "stop_name": "Riofreddo"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:20:00",
+        "11:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031154",
+          "service_id": "833_1000000006933",
+          "start_time": "08:20:00",
+          "end_time": "08:45:00"
+        },
+        {
+          "trip_id": "833_1031155",
+          "service_id": "833_1000000006933",
+          "start_time": "11:30:00",
+          "end_time": "11:55:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Riofreddo > Cimitero S.Piero In B.",
+      "capolinea_partenza": {
+        "stop_id": "46070",
+        "stop_name": "Riofreddo"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13433",
+        "stop_name": "Cimitero S.Piero In B."
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "08:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035684",
+          "service_id": "833_1000000006933",
+          "start_time": "08:45:00",
+          "end_time": "09:10:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Riofreddo > S.Piero In B. Centro",
+      "capolinea_partenza": {
+        "stop_id": "46070",
+        "stop_name": "Riofreddo"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13451",
+        "stop_name": "S.Piero In B. Centro"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035707",
+          "service_id": "833_1000000006933",
+          "start_time": "12:00:00",
+          "end_time": "12:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.Piero In B. Centro > Castello Di Selvapiana",
+      "capolinea_partenza": {
+        "stop_id": "13451",
+        "stop_name": "S.Piero In B. Centro"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "46112",
+        "stop_name": "Castello Di Selvapiana"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031167",
+          "service_id": "833_1000000006933",
+          "start_time": "12:30:00",
+          "end_time": "12:48:00"
+        }
+      ]
+    }
+  ]
+}

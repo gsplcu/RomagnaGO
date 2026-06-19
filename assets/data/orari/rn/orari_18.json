@@ -1,0 +1,274 @@
+{
+  "estrazione": "Orari da route_18.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_18.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "18",
+    "name": "Linea 18",
+    "direzioni_percorso": [
+      "4 Rimini Fs > Ospedale",
+      "Ospedale > 4 Rimini Fs",
+      "Ospedale > Valturio Rotonda"
+    ],
+    "route_id": "18"
+  },
+  "totale_trips": 29,
+  "totale_direzioni_percorso": 3,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "4 Rimini Fs > Ospedale",
+      "capolinea_partenza": {
+        "stop_id": "A01037",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01201",
+        "stop_name": "Ospedale"
+      },
+      "trip_count": 14,
+      "orari_partenza": [
+        "07:02:00",
+        "08:02:00",
+        "09:02:00",
+        "10:02:00",
+        "11:02:00",
+        "12:02:00",
+        "13:02:00",
+        "14:02:00",
+        "15:02:00",
+        "16:02:00",
+        "17:02:00",
+        "18:02:00",
+        "19:02:00",
+        "20:02:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4096485",
+          "service_id": "404_1000000001814",
+          "start_time": "07:02:00",
+          "end_time": "07:15:00"
+        },
+        {
+          "trip_id": "404_4096486",
+          "service_id": "404_1000000001814",
+          "start_time": "08:02:00",
+          "end_time": "08:15:00"
+        },
+        {
+          "trip_id": "404_4096487",
+          "service_id": "404_1000000001814",
+          "start_time": "09:02:00",
+          "end_time": "09:15:00"
+        },
+        {
+          "trip_id": "404_4096488",
+          "service_id": "404_1000000001814",
+          "start_time": "10:02:00",
+          "end_time": "10:15:00"
+        },
+        {
+          "trip_id": "404_4096489",
+          "service_id": "404_1000000001814",
+          "start_time": "11:02:00",
+          "end_time": "11:15:00"
+        },
+        {
+          "trip_id": "404_4096490",
+          "service_id": "404_1000000001814",
+          "start_time": "12:02:00",
+          "end_time": "12:15:00"
+        },
+        {
+          "trip_id": "404_4096491",
+          "service_id": "404_1000000001814",
+          "start_time": "13:02:00",
+          "end_time": "13:15:00"
+        },
+        {
+          "trip_id": "404_4096492",
+          "service_id": "404_1000000001814",
+          "start_time": "14:02:00",
+          "end_time": "14:15:00"
+        },
+        {
+          "trip_id": "404_4096493",
+          "service_id": "404_1000000001814",
+          "start_time": "15:02:00",
+          "end_time": "15:15:00"
+        },
+        {
+          "trip_id": "404_4096494",
+          "service_id": "404_1000000001814",
+          "start_time": "16:02:00",
+          "end_time": "16:15:00"
+        },
+        {
+          "trip_id": "404_4096495",
+          "service_id": "404_1000000001814",
+          "start_time": "17:02:00",
+          "end_time": "17:15:00"
+        },
+        {
+          "trip_id": "404_4096496",
+          "service_id": "404_1000000001814",
+          "start_time": "18:02:00",
+          "end_time": "18:15:00"
+        },
+        {
+          "trip_id": "404_4096497",
+          "service_id": "404_1000000001814",
+          "start_time": "19:02:00",
+          "end_time": "19:15:00"
+        },
+        {
+          "trip_id": "404_4096498",
+          "service_id": "404_1000000001814",
+          "start_time": "20:02:00",
+          "end_time": "20:15:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ospedale > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "A01201",
+        "stop_name": "Ospedale"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01037",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 14,
+      "orari_partenza": [
+        "06:25:00",
+        "07:25:00",
+        "08:25:00",
+        "09:25:00",
+        "10:25:00",
+        "11:25:00",
+        "12:25:00",
+        "13:25:00",
+        "14:25:00",
+        "15:25:00",
+        "16:25:00",
+        "17:25:00",
+        "18:25:00",
+        "19:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4016882",
+          "service_id": "404_1000000001814",
+          "start_time": "06:25:00",
+          "end_time": "06:48:00"
+        },
+        {
+          "trip_id": "404_4016883",
+          "service_id": "404_1000000001814",
+          "start_time": "07:25:00",
+          "end_time": "07:50:00"
+        },
+        {
+          "trip_id": "404_4016884",
+          "service_id": "404_1000000001814",
+          "start_time": "08:25:00",
+          "end_time": "08:51:00"
+        },
+        {
+          "trip_id": "404_4016885",
+          "service_id": "404_1000000001814",
+          "start_time": "09:25:00",
+          "end_time": "09:51:00"
+        },
+        {
+          "trip_id": "404_4016886",
+          "service_id": "404_1000000001814",
+          "start_time": "10:25:00",
+          "end_time": "10:51:00"
+        },
+        {
+          "trip_id": "404_4016887",
+          "service_id": "404_1000000001814",
+          "start_time": "11:25:00",
+          "end_time": "11:51:00"
+        },
+        {
+          "trip_id": "404_4016888",
+          "service_id": "404_1000000001814",
+          "start_time": "12:25:00",
+          "end_time": "12:51:00"
+        },
+        {
+          "trip_id": "404_4016889",
+          "service_id": "404_1000000001814",
+          "start_time": "13:25:00",
+          "end_time": "13:51:00"
+        },
+        {
+          "trip_id": "404_4016890",
+          "service_id": "404_1000000001814",
+          "start_time": "14:25:00",
+          "end_time": "14:51:00"
+        },
+        {
+          "trip_id": "404_4016891",
+          "service_id": "404_1000000001814",
+          "start_time": "15:25:00",
+          "end_time": "15:51:00"
+        },
+        {
+          "trip_id": "404_4016892",
+          "service_id": "404_1000000001814",
+          "start_time": "16:25:00",
+          "end_time": "16:51:00"
+        },
+        {
+          "trip_id": "404_4016893",
+          "service_id": "404_1000000001814",
+          "start_time": "17:25:00",
+          "end_time": "17:51:00"
+        },
+        {
+          "trip_id": "404_4016894",
+          "service_id": "404_1000000001814",
+          "start_time": "18:25:00",
+          "end_time": "18:51:00"
+        },
+        {
+          "trip_id": "404_4016895",
+          "service_id": "404_1000000001814",
+          "start_time": "19:25:00",
+          "end_time": "19:51:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ospedale > Valturio Rotonda",
+      "capolinea_partenza": {
+        "stop_id": "A01201",
+        "stop_name": "Ospedale"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00936",
+        "stop_name": "Valturio Rotonda"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "20:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4030150",
+          "service_id": "404_1000000001814",
+          "start_time": "20:15:00",
+          "end_time": "20:31:00"
+        }
+      ]
+    }
+  ]
+}

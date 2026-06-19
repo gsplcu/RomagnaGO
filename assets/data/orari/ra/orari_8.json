@@ -1,0 +1,239 @@
+{
+  "estrazione": "Orari da route_8.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_8.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "8",
+    "name": "Linea 8",
+    "direzioni_percorso": [
+      "Cimitero Rotonda > Esp",
+      "Deposito Start > Esp",
+      "Enichem Bar > Esp"
+    ],
+    "route_id": "8"
+  },
+  "totale_trips": 24,
+  "totale_direzioni_percorso": 3,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cimitero Rotonda > Esp",
+      "capolinea_partenza": {
+        "stop_id": "707250",
+        "stop_name": "Cimitero Rotonda"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "708390",
+        "stop_name": "Esp"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "13:26:00",
+        "13:56:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889329",
+          "service_id": "674_1000000002118",
+          "start_time": "13:26:00",
+          "end_time": "13:59:00"
+        },
+        {
+          "trip_id": "674_2889330",
+          "service_id": "674_1000000002118",
+          "start_time": "13:56:00",
+          "end_time": "14:29:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Deposito Start > Esp",
+      "capolinea_partenza": {
+        "stop_id": "707870",
+        "stop_name": "Deposito Start"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "708390",
+        "stop_name": "Esp"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "08:01:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889128",
+          "service_id": "674_1000000002118",
+          "start_time": "08:01:00",
+          "end_time": "08:29:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Enichem Bar > Esp",
+      "capolinea_partenza": {
+        "stop_id": "707310",
+        "stop_name": "Enichem Bar"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "708390",
+        "stop_name": "Esp"
+      },
+      "trip_count": 21,
+      "orari_partenza": [
+        "08:28:00",
+        "08:58:00",
+        "09:28:00",
+        "09:58:00",
+        "10:28:00",
+        "10:58:00",
+        "11:28:00",
+        "11:58:00",
+        "12:28:00",
+        "12:58:00",
+        "14:28:00",
+        "14:58:00",
+        "15:28:00",
+        "15:58:00",
+        "16:28:00",
+        "16:58:00",
+        "17:28:00",
+        "17:58:00",
+        "18:28:00",
+        "18:58:00",
+        "19:28:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889130",
+          "service_id": "674_1000000002118",
+          "start_time": "08:28:00",
+          "end_time": "08:59:00"
+        },
+        {
+          "trip_id": "674_2889169",
+          "service_id": "674_1000000002118",
+          "start_time": "08:58:00",
+          "end_time": "09:29:00"
+        },
+        {
+          "trip_id": "674_2889132",
+          "service_id": "674_1000000002118",
+          "start_time": "09:28:00",
+          "end_time": "09:59:00"
+        },
+        {
+          "trip_id": "674_2889134",
+          "service_id": "674_1000000002118",
+          "start_time": "09:58:00",
+          "end_time": "10:29:00"
+        },
+        {
+          "trip_id": "674_2889136",
+          "service_id": "674_1000000002118",
+          "start_time": "10:28:00",
+          "end_time": "10:59:00"
+        },
+        {
+          "trip_id": "674_2889138",
+          "service_id": "674_1000000002118",
+          "start_time": "10:58:00",
+          "end_time": "11:29:00"
+        },
+        {
+          "trip_id": "674_2889140",
+          "service_id": "674_1000000002118",
+          "start_time": "11:28:00",
+          "end_time": "11:59:00"
+        },
+        {
+          "trip_id": "674_2889142",
+          "service_id": "674_1000000002118",
+          "start_time": "11:58:00",
+          "end_time": "12:29:00"
+        },
+        {
+          "trip_id": "674_2889144",
+          "service_id": "674_1000000002118",
+          "start_time": "12:28:00",
+          "end_time": "12:59:00"
+        },
+        {
+          "trip_id": "674_2889146",
+          "service_id": "674_1000000002118",
+          "start_time": "12:58:00",
+          "end_time": "13:29:00"
+        },
+        {
+          "trip_id": "674_2889148",
+          "service_id": "674_1000000002118",
+          "start_time": "14:28:00",
+          "end_time": "14:59:00"
+        },
+        {
+          "trip_id": "674_2889150",
+          "service_id": "674_1000000002118",
+          "start_time": "14:58:00",
+          "end_time": "15:29:00"
+        },
+        {
+          "trip_id": "674_2889152",
+          "service_id": "674_1000000002118",
+          "start_time": "15:28:00",
+          "end_time": "15:59:00"
+        },
+        {
+          "trip_id": "674_2889154",
+          "service_id": "674_1000000002118",
+          "start_time": "15:58:00",
+          "end_time": "16:29:00"
+        },
+        {
+          "trip_id": "674_2889156",
+          "service_id": "674_1000000002118",
+          "start_time": "16:28:00",
+          "end_time": "16:59:00"
+        },
+        {
+          "trip_id": "674_2889158",
+          "service_id": "674_1000000002118",
+          "start_time": "16:58:00",
+          "end_time": "17:29:00"
+        },
+        {
+          "trip_id": "674_2889160",
+          "service_id": "674_1000000002118",
+          "start_time": "17:28:00",
+          "end_time": "17:59:00"
+        },
+        {
+          "trip_id": "674_2889162",
+          "service_id": "674_1000000002118",
+          "start_time": "17:58:00",
+          "end_time": "18:29:00"
+        },
+        {
+          "trip_id": "674_2889164",
+          "service_id": "674_1000000002118",
+          "start_time": "18:28:00",
+          "end_time": "18:59:00"
+        },
+        {
+          "trip_id": "674_2889166",
+          "service_id": "674_1000000002118",
+          "start_time": "18:58:00",
+          "end_time": "19:29:00"
+        },
+        {
+          "trip_id": "674_2889168",
+          "service_id": "674_1000000002118",
+          "start_time": "19:28:00",
+          "end_time": "19:59:00"
+        }
+      ]
+    }
+  ]
+}

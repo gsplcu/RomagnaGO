@@ -1,0 +1,427 @@
+{
+  "estrazione": "Orari da route_2.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_2.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "2",
+    "name": "Linea 2",
+    "direzioni_percorso": [
+      "4 Rimini Fs > Anagrafe",
+      "4 Rimini Fs > Zavagli-Balena",
+      "Anagrafe > 4 Rimini Fs",
+      "Anagrafe > Zavagli-Balena",
+      "Arco D'Augusto > Zavagli-Balena",
+      "Zavagli-Balena > 4 Rimini Fs",
+      "Zavagli-Balena > Anagrafe",
+      "Zavagli-Balena > Arco D'Augusto"
+    ],
+    "route_id": "2"
+  },
+  "totale_trips": 38,
+  "totale_direzioni_percorso": 8,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "4 Rimini Fs > Anagrafe",
+      "capolinea_partenza": {
+        "stop_id": "A00012",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00191",
+        "stop_name": "Anagrafe"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "13:48:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4045117",
+          "service_id": "404_1000000001813",
+          "start_time": "13:48:00",
+          "end_time": "14:04:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "4 Rimini Fs > Zavagli-Balena",
+      "capolinea_partenza": {
+        "stop_id": "A01037",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00236",
+        "stop_name": "Zavagli-Balena"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:30:00",
+        "09:48:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4038387",
+          "service_id": "404_1000000001813",
+          "start_time": "06:30:00",
+          "end_time": "06:37:00"
+        },
+        {
+          "trip_id": "404_4038390",
+          "service_id": "404_1000000001823",
+          "start_time": "09:48:00",
+          "end_time": "09:55:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Anagrafe > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "A00191",
+        "stop_name": "Anagrafe"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01059",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "20:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4036403",
+          "service_id": "404_1000000001813",
+          "start_time": "20:05:00",
+          "end_time": "20:22:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Anagrafe > Zavagli-Balena",
+      "capolinea_partenza": {
+        "stop_id": "A00191",
+        "stop_name": "Anagrafe"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00236",
+        "stop_name": "Zavagli-Balena"
+      },
+      "trip_count": 13,
+      "orari_partenza": [
+        "07:05:00",
+        "08:05:00",
+        "09:05:00",
+        "10:05:00",
+        "11:05:00",
+        "12:05:00",
+        "13:05:00",
+        "14:05:00",
+        "15:05:00",
+        "16:05:00",
+        "17:05:00",
+        "18:05:00",
+        "19:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4059923",
+          "service_id": "404_1000000001813",
+          "start_time": "07:05:00",
+          "end_time": "07:37:00"
+        },
+        {
+          "trip_id": "404_4059917",
+          "service_id": "404_1000000001813",
+          "start_time": "08:05:00",
+          "end_time": "08:37:00"
+        },
+        {
+          "trip_id": "404_4059918",
+          "service_id": "404_1000000001813",
+          "start_time": "09:05:00",
+          "end_time": "09:37:00"
+        },
+        {
+          "trip_id": "404_4059919",
+          "service_id": "404_1000000001813",
+          "start_time": "10:05:00",
+          "end_time": "10:37:00"
+        },
+        {
+          "trip_id": "404_4059920",
+          "service_id": "404_1000000001813",
+          "start_time": "11:05:00",
+          "end_time": "11:37:00"
+        },
+        {
+          "trip_id": "404_4059921",
+          "service_id": "404_1000000001813",
+          "start_time": "12:05:00",
+          "end_time": "12:37:00"
+        },
+        {
+          "trip_id": "404_4059922",
+          "service_id": "404_1000000001813",
+          "start_time": "13:05:00",
+          "end_time": "13:37:00"
+        },
+        {
+          "trip_id": "404_4059924",
+          "service_id": "404_1000000001813",
+          "start_time": "14:05:00",
+          "end_time": "14:37:00"
+        },
+        {
+          "trip_id": "404_4059925",
+          "service_id": "404_1000000001813",
+          "start_time": "15:05:00",
+          "end_time": "15:37:00"
+        },
+        {
+          "trip_id": "404_4059926",
+          "service_id": "404_1000000001813",
+          "start_time": "16:05:00",
+          "end_time": "16:37:00"
+        },
+        {
+          "trip_id": "404_4059927",
+          "service_id": "404_1000000001813",
+          "start_time": "17:05:00",
+          "end_time": "17:37:00"
+        },
+        {
+          "trip_id": "404_4059928",
+          "service_id": "404_1000000001813",
+          "start_time": "18:05:00",
+          "end_time": "18:37:00"
+        },
+        {
+          "trip_id": "404_4059929",
+          "service_id": "404_1000000001813",
+          "start_time": "19:05:00",
+          "end_time": "19:37:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Arco D'Augusto > Zavagli-Balena",
+      "capolinea_partenza": {
+        "stop_id": "A01252",
+        "stop_name": "Arco D'Augusto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00236",
+        "stop_name": "Zavagli-Balena"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "10:09:00",
+        "10:44:00",
+        "11:09:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4036422",
+          "service_id": "404_1000000001823",
+          "start_time": "10:09:00",
+          "end_time": "10:20:00"
+        },
+        {
+          "trip_id": "404_4036423",
+          "service_id": "404_1000000001823",
+          "start_time": "10:44:00",
+          "end_time": "10:55:00"
+        },
+        {
+          "trip_id": "404_4036424",
+          "service_id": "404_1000000001823",
+          "start_time": "11:09:00",
+          "end_time": "11:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Zavagli-Balena > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "A00236",
+        "stop_name": "Zavagli-Balena"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00012",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "13:37:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4034304",
+          "service_id": "404_1000000001813",
+          "start_time": "13:37:00",
+          "end_time": "13:44:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Zavagli-Balena > Anagrafe",
+      "capolinea_partenza": {
+        "stop_id": "A00236",
+        "stop_name": "Zavagli-Balena"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00191",
+        "stop_name": "Anagrafe"
+      },
+      "trip_count": 13,
+      "orari_partenza": [
+        "06:37:00",
+        "07:37:00",
+        "08:37:00",
+        "09:37:00",
+        "10:37:00",
+        "11:37:00",
+        "12:37:00",
+        "14:37:00",
+        "15:37:00",
+        "16:37:00",
+        "17:37:00",
+        "18:37:00",
+        "19:37:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4054466",
+          "service_id": "404_1000000001813",
+          "start_time": "06:37:00",
+          "end_time": "07:02:00"
+        },
+        {
+          "trip_id": "404_4054460",
+          "service_id": "404_1000000001813",
+          "start_time": "07:37:00",
+          "end_time": "08:04:00"
+        },
+        {
+          "trip_id": "404_4054461",
+          "service_id": "404_1000000001813",
+          "start_time": "08:37:00",
+          "end_time": "09:04:00"
+        },
+        {
+          "trip_id": "404_4054462",
+          "service_id": "404_1000000001813",
+          "start_time": "09:37:00",
+          "end_time": "10:04:00"
+        },
+        {
+          "trip_id": "404_4054463",
+          "service_id": "404_1000000001813",
+          "start_time": "10:37:00",
+          "end_time": "11:04:00"
+        },
+        {
+          "trip_id": "404_4054464",
+          "service_id": "404_1000000001813",
+          "start_time": "11:37:00",
+          "end_time": "12:04:00"
+        },
+        {
+          "trip_id": "404_4054465",
+          "service_id": "404_1000000001813",
+          "start_time": "12:37:00",
+          "end_time": "13:04:00"
+        },
+        {
+          "trip_id": "404_4054469",
+          "service_id": "404_1000000001813",
+          "start_time": "14:37:00",
+          "end_time": "15:04:00"
+        },
+        {
+          "trip_id": "404_4054470",
+          "service_id": "404_1000000001813",
+          "start_time": "15:37:00",
+          "end_time": "16:04:00"
+        },
+        {
+          "trip_id": "404_4054471",
+          "service_id": "404_1000000001813",
+          "start_time": "16:37:00",
+          "end_time": "17:04:00"
+        },
+        {
+          "trip_id": "404_4054472",
+          "service_id": "404_1000000001813",
+          "start_time": "17:37:00",
+          "end_time": "18:04:00"
+        },
+        {
+          "trip_id": "404_4054467",
+          "service_id": "404_1000000001813",
+          "start_time": "18:37:00",
+          "end_time": "19:04:00"
+        },
+        {
+          "trip_id": "404_4054468",
+          "service_id": "404_1000000001813",
+          "start_time": "19:37:00",
+          "end_time": "20:04:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Zavagli-Balena > Arco D'Augusto",
+      "capolinea_partenza": {
+        "stop_id": "A00236",
+        "stop_name": "Zavagli-Balena"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00002",
+        "stop_name": "Arco D'Augusto"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "09:55:00",
+        "10:20:00",
+        "10:55:00",
+        "11:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4045131",
+          "service_id": "404_1000000001823",
+          "start_time": "09:55:00",
+          "end_time": "10:07:00"
+        },
+        {
+          "trip_id": "404_4045132",
+          "service_id": "404_1000000001823",
+          "start_time": "10:20:00",
+          "end_time": "10:32:00"
+        },
+        {
+          "trip_id": "404_4045133",
+          "service_id": "404_1000000001823",
+          "start_time": "10:55:00",
+          "end_time": "11:07:00"
+        },
+        {
+          "trip_id": "404_4045134",
+          "service_id": "404_1000000001823",
+          "start_time": "11:20:00",
+          "end_time": "11:32:00"
+        }
+      ]
+    }
+  ]
+}

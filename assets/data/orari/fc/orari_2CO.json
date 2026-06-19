@@ -1,0 +1,843 @@
+{
+  "estrazione": "Orari da route_2CO.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_2CO.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "2CO",
+    "name": "Linea 2CO",
+    "direzioni_percorso": [
+      "Cesenatico (Ospedale) > Zadina",
+      "Diaz > Parcheggio Cimitero",
+      "Parcheggio Cimitero > Diaz",
+      "Stazione Cesenatico > Zadina",
+      "Zadina > Ariete",
+      "Zadina > Cesenatico (Ospedale)",
+      "Zadina > Stazione Cesenatico"
+    ],
+    "route_id": "2CO"
+  },
+  "totale_trips": 100,
+  "totale_direzioni_percorso": 7,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cesenatico (Ospedale) > Zadina",
+      "capolinea_partenza": {
+        "stop_id": "30001",
+        "stop_name": "Cesenatico (Ospedale)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30090",
+        "stop_name": "Zadina"
+      },
+      "trip_count": 12,
+      "orari_partenza": [
+        "08:05:00",
+        "09:05:00",
+        "10:05:00",
+        "11:05:00",
+        "12:05:00",
+        "13:05:00",
+        "14:05:00",
+        "15:05:00",
+        "16:05:00",
+        "17:05:00",
+        "17:55:00",
+        "19:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086544",
+          "service_id": "833_1000000006965",
+          "start_time": "08:05:00",
+          "end_time": "08:34:00"
+        },
+        {
+          "trip_id": "833_1086543",
+          "service_id": "833_1000000006965",
+          "start_time": "09:05:00",
+          "end_time": "09:34:00"
+        },
+        {
+          "trip_id": "833_1086545",
+          "service_id": "833_1000000006965",
+          "start_time": "10:05:00",
+          "end_time": "10:34:00"
+        },
+        {
+          "trip_id": "833_1086546",
+          "service_id": "833_1000000006965",
+          "start_time": "11:05:00",
+          "end_time": "11:34:00"
+        },
+        {
+          "trip_id": "833_1086547",
+          "service_id": "833_1000000006965",
+          "start_time": "12:05:00",
+          "end_time": "12:34:00"
+        },
+        {
+          "trip_id": "833_1086548",
+          "service_id": "833_1000000006965",
+          "start_time": "13:05:00",
+          "end_time": "13:34:00"
+        },
+        {
+          "trip_id": "833_1086549",
+          "service_id": "833_1000000006965",
+          "start_time": "14:05:00",
+          "end_time": "14:34:00"
+        },
+        {
+          "trip_id": "833_1086550",
+          "service_id": "833_1000000006965",
+          "start_time": "15:05:00",
+          "end_time": "15:34:00"
+        },
+        {
+          "trip_id": "833_1086551",
+          "service_id": "833_1000000006965",
+          "start_time": "16:05:00",
+          "end_time": "16:34:00"
+        },
+        {
+          "trip_id": "833_1086552",
+          "service_id": "833_1000000006965",
+          "start_time": "17:05:00",
+          "end_time": "17:34:00"
+        },
+        {
+          "trip_id": "833_1086553",
+          "service_id": "833_1000000006965",
+          "start_time": "17:55:00",
+          "end_time": "18:24:00"
+        },
+        {
+          "trip_id": "833_1086554",
+          "service_id": "833_1000000006965",
+          "start_time": "19:10:00",
+          "end_time": "19:39:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Diaz > Parcheggio Cimitero",
+      "capolinea_partenza": {
+        "stop_id": "30381",
+        "stop_name": "Diaz"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30170",
+        "stop_name": "Parcheggio Cimitero"
+      },
+      "trip_count": 26,
+      "orari_partenza": [
+        "08:36:00",
+        "08:56:00",
+        "09:16:00",
+        "09:36:00",
+        "09:56:00",
+        "10:16:00",
+        "10:36:00",
+        "10:56:00",
+        "11:16:00",
+        "11:36:00",
+        "11:56:00",
+        "14:06:00",
+        "14:26:00",
+        "14:46:00",
+        "15:06:00",
+        "15:26:00",
+        "15:46:00",
+        "16:06:00",
+        "16:26:00",
+        "16:46:00",
+        "17:06:00",
+        "17:26:00",
+        "17:46:00",
+        "18:06:00",
+        "18:26:00",
+        "18:46:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1087283",
+          "service_id": "833_1000000006989",
+          "start_time": "08:36:00",
+          "end_time": "08:43:00"
+        },
+        {
+          "trip_id": "833_1087284",
+          "service_id": "833_1000000006989",
+          "start_time": "08:56:00",
+          "end_time": "09:03:00"
+        },
+        {
+          "trip_id": "833_1087285",
+          "service_id": "833_1000000006989",
+          "start_time": "09:16:00",
+          "end_time": "09:23:00"
+        },
+        {
+          "trip_id": "833_1087286",
+          "service_id": "833_1000000006989",
+          "start_time": "09:36:00",
+          "end_time": "09:43:00"
+        },
+        {
+          "trip_id": "833_1087287",
+          "service_id": "833_1000000006989",
+          "start_time": "09:56:00",
+          "end_time": "10:03:00"
+        },
+        {
+          "trip_id": "833_1087288",
+          "service_id": "833_1000000006989",
+          "start_time": "10:16:00",
+          "end_time": "10:23:00"
+        },
+        {
+          "trip_id": "833_1087289",
+          "service_id": "833_1000000006989",
+          "start_time": "10:36:00",
+          "end_time": "10:43:00"
+        },
+        {
+          "trip_id": "833_1087290",
+          "service_id": "833_1000000006989",
+          "start_time": "10:56:00",
+          "end_time": "11:03:00"
+        },
+        {
+          "trip_id": "833_1087291",
+          "service_id": "833_1000000006989",
+          "start_time": "11:16:00",
+          "end_time": "11:23:00"
+        },
+        {
+          "trip_id": "833_1087292",
+          "service_id": "833_1000000006989",
+          "start_time": "11:36:00",
+          "end_time": "11:43:00"
+        },
+        {
+          "trip_id": "833_1087293",
+          "service_id": "833_1000000006989",
+          "start_time": "11:56:00",
+          "end_time": "12:03:00"
+        },
+        {
+          "trip_id": "833_1087294",
+          "service_id": "833_1000000006989",
+          "start_time": "14:06:00",
+          "end_time": "14:13:00"
+        },
+        {
+          "trip_id": "833_1087295",
+          "service_id": "833_1000000006989",
+          "start_time": "14:26:00",
+          "end_time": "14:33:00"
+        },
+        {
+          "trip_id": "833_1087296",
+          "service_id": "833_1000000006989",
+          "start_time": "14:46:00",
+          "end_time": "14:53:00"
+        },
+        {
+          "trip_id": "833_1087297",
+          "service_id": "833_1000000006989",
+          "start_time": "15:06:00",
+          "end_time": "15:13:00"
+        },
+        {
+          "trip_id": "833_1087298",
+          "service_id": "833_1000000006989",
+          "start_time": "15:26:00",
+          "end_time": "15:33:00"
+        },
+        {
+          "trip_id": "833_1087299",
+          "service_id": "833_1000000006989",
+          "start_time": "15:46:00",
+          "end_time": "15:53:00"
+        },
+        {
+          "trip_id": "833_1087300",
+          "service_id": "833_1000000006989",
+          "start_time": "16:06:00",
+          "end_time": "16:13:00"
+        },
+        {
+          "trip_id": "833_1087301",
+          "service_id": "833_1000000006989",
+          "start_time": "16:26:00",
+          "end_time": "16:33:00"
+        },
+        {
+          "trip_id": "833_1087302",
+          "service_id": "833_1000000006989",
+          "start_time": "16:46:00",
+          "end_time": "16:53:00"
+        },
+        {
+          "trip_id": "833_1087303",
+          "service_id": "833_1000000006989",
+          "start_time": "17:06:00",
+          "end_time": "17:13:00"
+        },
+        {
+          "trip_id": "833_1087304",
+          "service_id": "833_1000000006989",
+          "start_time": "17:26:00",
+          "end_time": "17:33:00"
+        },
+        {
+          "trip_id": "833_1087305",
+          "service_id": "833_1000000006989",
+          "start_time": "17:46:00",
+          "end_time": "17:53:00"
+        },
+        {
+          "trip_id": "833_1087306",
+          "service_id": "833_1000000006989",
+          "start_time": "18:06:00",
+          "end_time": "18:13:00"
+        },
+        {
+          "trip_id": "833_1087307",
+          "service_id": "833_1000000006989",
+          "start_time": "18:26:00",
+          "end_time": "18:33:00"
+        },
+        {
+          "trip_id": "833_1087308",
+          "service_id": "833_1000000006989",
+          "start_time": "18:46:00",
+          "end_time": "18:53:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Parcheggio Cimitero > Diaz",
+      "capolinea_partenza": {
+        "stop_id": "30170",
+        "stop_name": "Parcheggio Cimitero"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30381",
+        "stop_name": "Diaz"
+      },
+      "trip_count": 26,
+      "orari_partenza": [
+        "08:30:00",
+        "08:50:00",
+        "09:10:00",
+        "09:30:00",
+        "09:50:00",
+        "10:10:00",
+        "10:30:00",
+        "10:50:00",
+        "11:10:00",
+        "11:30:00",
+        "11:50:00",
+        "14:00:00",
+        "14:20:00",
+        "14:40:00",
+        "15:00:00",
+        "15:20:00",
+        "15:40:00",
+        "16:00:00",
+        "16:20:00",
+        "16:40:00",
+        "17:00:00",
+        "17:20:00",
+        "17:40:00",
+        "18:00:00",
+        "18:20:00",
+        "18:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1087252",
+          "service_id": "833_1000000006989",
+          "start_time": "08:30:00",
+          "end_time": "08:36:00"
+        },
+        {
+          "trip_id": "833_1087253",
+          "service_id": "833_1000000006989",
+          "start_time": "08:50:00",
+          "end_time": "08:56:00"
+        },
+        {
+          "trip_id": "833_1087254",
+          "service_id": "833_1000000006989",
+          "start_time": "09:10:00",
+          "end_time": "09:16:00"
+        },
+        {
+          "trip_id": "833_1087255",
+          "service_id": "833_1000000006989",
+          "start_time": "09:30:00",
+          "end_time": "09:36:00"
+        },
+        {
+          "trip_id": "833_1087256",
+          "service_id": "833_1000000006989",
+          "start_time": "09:50:00",
+          "end_time": "09:56:00"
+        },
+        {
+          "trip_id": "833_1087257",
+          "service_id": "833_1000000006989",
+          "start_time": "10:10:00",
+          "end_time": "10:16:00"
+        },
+        {
+          "trip_id": "833_1087258",
+          "service_id": "833_1000000006989",
+          "start_time": "10:30:00",
+          "end_time": "10:36:00"
+        },
+        {
+          "trip_id": "833_1087259",
+          "service_id": "833_1000000006989",
+          "start_time": "10:50:00",
+          "end_time": "10:56:00"
+        },
+        {
+          "trip_id": "833_1087260",
+          "service_id": "833_1000000006989",
+          "start_time": "11:10:00",
+          "end_time": "11:16:00"
+        },
+        {
+          "trip_id": "833_1087261",
+          "service_id": "833_1000000006989",
+          "start_time": "11:30:00",
+          "end_time": "11:36:00"
+        },
+        {
+          "trip_id": "833_1087262",
+          "service_id": "833_1000000006989",
+          "start_time": "11:50:00",
+          "end_time": "11:56:00"
+        },
+        {
+          "trip_id": "833_1087263",
+          "service_id": "833_1000000006989",
+          "start_time": "14:00:00",
+          "end_time": "14:06:00"
+        },
+        {
+          "trip_id": "833_1087269",
+          "service_id": "833_1000000006989",
+          "start_time": "14:20:00",
+          "end_time": "14:26:00"
+        },
+        {
+          "trip_id": "833_1087270",
+          "service_id": "833_1000000006989",
+          "start_time": "14:40:00",
+          "end_time": "14:46:00"
+        },
+        {
+          "trip_id": "833_1087271",
+          "service_id": "833_1000000006989",
+          "start_time": "15:00:00",
+          "end_time": "15:06:00"
+        },
+        {
+          "trip_id": "833_1087272",
+          "service_id": "833_1000000006989",
+          "start_time": "15:20:00",
+          "end_time": "15:26:00"
+        },
+        {
+          "trip_id": "833_1087273",
+          "service_id": "833_1000000006989",
+          "start_time": "15:40:00",
+          "end_time": "15:46:00"
+        },
+        {
+          "trip_id": "833_1087274",
+          "service_id": "833_1000000006989",
+          "start_time": "16:00:00",
+          "end_time": "16:06:00"
+        },
+        {
+          "trip_id": "833_1087275",
+          "service_id": "833_1000000006989",
+          "start_time": "16:20:00",
+          "end_time": "16:26:00"
+        },
+        {
+          "trip_id": "833_1087276",
+          "service_id": "833_1000000006989",
+          "start_time": "16:40:00",
+          "end_time": "16:46:00"
+        },
+        {
+          "trip_id": "833_1087277",
+          "service_id": "833_1000000006989",
+          "start_time": "17:00:00",
+          "end_time": "17:06:00"
+        },
+        {
+          "trip_id": "833_1087278",
+          "service_id": "833_1000000006989",
+          "start_time": "17:20:00",
+          "end_time": "17:26:00"
+        },
+        {
+          "trip_id": "833_1087279",
+          "service_id": "833_1000000006989",
+          "start_time": "17:40:00",
+          "end_time": "17:46:00"
+        },
+        {
+          "trip_id": "833_1087280",
+          "service_id": "833_1000000006989",
+          "start_time": "18:00:00",
+          "end_time": "18:06:00"
+        },
+        {
+          "trip_id": "833_1087281",
+          "service_id": "833_1000000006989",
+          "start_time": "18:20:00",
+          "end_time": "18:26:00"
+        },
+        {
+          "trip_id": "833_1087282",
+          "service_id": "833_1000000006989",
+          "start_time": "18:40:00",
+          "end_time": "18:46:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Stazione Cesenatico > Zadina",
+      "capolinea_partenza": {
+        "stop_id": "10712",
+        "stop_name": "Stazione Cesenatico"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30090",
+        "stop_name": "Zadina"
+      },
+      "trip_count": 12,
+      "orari_partenza": [
+        "19:53:00",
+        "20:23:00",
+        "20:53:00",
+        "21:23:00",
+        "21:53:00",
+        "22:23:00",
+        "22:53:00",
+        "23:23:00",
+        "23:53:00",
+        "24:23:00",
+        "24:53:00",
+        "25:23:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1037175",
+          "service_id": "833_1000000006965",
+          "start_time": "19:53:00",
+          "end_time": "20:04:00"
+        },
+        {
+          "trip_id": "833_1037176",
+          "service_id": "833_1000000006965",
+          "start_time": "20:23:00",
+          "end_time": "20:34:00"
+        },
+        {
+          "trip_id": "833_1037177",
+          "service_id": "833_1000000006965",
+          "start_time": "20:53:00",
+          "end_time": "21:04:00"
+        },
+        {
+          "trip_id": "833_1037178",
+          "service_id": "833_1000000006965",
+          "start_time": "21:23:00",
+          "end_time": "21:34:00"
+        },
+        {
+          "trip_id": "833_1037179",
+          "service_id": "833_1000000006965",
+          "start_time": "21:53:00",
+          "end_time": "22:04:00"
+        },
+        {
+          "trip_id": "833_1037180",
+          "service_id": "833_1000000006965",
+          "start_time": "22:23:00",
+          "end_time": "22:34:00"
+        },
+        {
+          "trip_id": "833_1037181",
+          "service_id": "833_1000000006965",
+          "start_time": "22:53:00",
+          "end_time": "23:04:00"
+        },
+        {
+          "trip_id": "833_1037182",
+          "service_id": "833_1000000006965",
+          "start_time": "23:23:00",
+          "end_time": "23:34:00"
+        },
+        {
+          "trip_id": "833_1037183",
+          "service_id": "833_1000000006965",
+          "start_time": "23:53:00",
+          "end_time": "24:04:00"
+        },
+        {
+          "trip_id": "833_1037184",
+          "service_id": "833_1000000006965",
+          "start_time": "24:23:00",
+          "end_time": "24:34:00"
+        },
+        {
+          "trip_id": "833_1037185",
+          "service_id": "833_1000000006981",
+          "start_time": "24:53:00",
+          "end_time": "25:04:00"
+        },
+        {
+          "trip_id": "833_1037186",
+          "service_id": "833_1000000006981",
+          "start_time": "25:23:00",
+          "end_time": "25:34:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Zadina > Ariete",
+      "capolinea_partenza": {
+        "stop_id": "30090",
+        "stop_name": "Zadina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13731",
+        "stop_name": "Ariete"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "18:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086297",
+          "service_id": "833_1000000006965",
+          "start_time": "18:25:00",
+          "end_time": "19:02:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Zadina > Cesenatico (Ospedale)",
+      "capolinea_partenza": {
+        "stop_id": "30090",
+        "stop_name": "Zadina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30000",
+        "stop_name": "Cesenatico (Ospedale)"
+      },
+      "trip_count": 11,
+      "orari_partenza": [
+        "07:35:00",
+        "08:35:00",
+        "09:35:00",
+        "10:35:00",
+        "11:35:00",
+        "12:35:00",
+        "13:35:00",
+        "14:35:00",
+        "15:35:00",
+        "16:35:00",
+        "17:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1030394",
+          "service_id": "833_1000000006965",
+          "start_time": "07:35:00",
+          "end_time": "08:01:00"
+        },
+        {
+          "trip_id": "833_1030405",
+          "service_id": "833_1000000006965",
+          "start_time": "08:35:00",
+          "end_time": "09:01:00"
+        },
+        {
+          "trip_id": "833_1030395",
+          "service_id": "833_1000000006965",
+          "start_time": "09:35:00",
+          "end_time": "10:01:00"
+        },
+        {
+          "trip_id": "833_1030396",
+          "service_id": "833_1000000006965",
+          "start_time": "10:35:00",
+          "end_time": "11:01:00"
+        },
+        {
+          "trip_id": "833_1030397",
+          "service_id": "833_1000000006965",
+          "start_time": "11:35:00",
+          "end_time": "12:01:00"
+        },
+        {
+          "trip_id": "833_1030398",
+          "service_id": "833_1000000006965",
+          "start_time": "12:35:00",
+          "end_time": "13:01:00"
+        },
+        {
+          "trip_id": "833_1030399",
+          "service_id": "833_1000000006965",
+          "start_time": "13:35:00",
+          "end_time": "14:01:00"
+        },
+        {
+          "trip_id": "833_1030400",
+          "service_id": "833_1000000006965",
+          "start_time": "14:35:00",
+          "end_time": "15:01:00"
+        },
+        {
+          "trip_id": "833_1030401",
+          "service_id": "833_1000000006965",
+          "start_time": "15:35:00",
+          "end_time": "16:01:00"
+        },
+        {
+          "trip_id": "833_1030402",
+          "service_id": "833_1000000006965",
+          "start_time": "16:35:00",
+          "end_time": "17:01:00"
+        },
+        {
+          "trip_id": "833_1030403",
+          "service_id": "833_1000000006965",
+          "start_time": "17:35:00",
+          "end_time": "18:01:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Zadina > Stazione Cesenatico",
+      "capolinea_partenza": {
+        "stop_id": "30090",
+        "stop_name": "Zadina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10712",
+        "stop_name": "Stazione Cesenatico"
+      },
+      "trip_count": 12,
+      "orari_partenza": [
+        "19:40:00",
+        "20:10:00",
+        "20:40:00",
+        "21:10:00",
+        "21:40:00",
+        "22:10:00",
+        "22:40:00",
+        "23:10:00",
+        "23:40:00",
+        "24:10:00",
+        "24:40:00",
+        "25:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1030413",
+          "service_id": "833_1000000006965",
+          "start_time": "19:40:00",
+          "end_time": "19:52:00"
+        },
+        {
+          "trip_id": "833_1030414",
+          "service_id": "833_1000000006965",
+          "start_time": "20:10:00",
+          "end_time": "20:22:00"
+        },
+        {
+          "trip_id": "833_1030415",
+          "service_id": "833_1000000006965",
+          "start_time": "20:40:00",
+          "end_time": "20:52:00"
+        },
+        {
+          "trip_id": "833_1030416",
+          "service_id": "833_1000000006965",
+          "start_time": "21:10:00",
+          "end_time": "21:22:00"
+        },
+        {
+          "trip_id": "833_1030417",
+          "service_id": "833_1000000006965",
+          "start_time": "21:40:00",
+          "end_time": "21:52:00"
+        },
+        {
+          "trip_id": "833_1030418",
+          "service_id": "833_1000000006965",
+          "start_time": "22:10:00",
+          "end_time": "22:22:00"
+        },
+        {
+          "trip_id": "833_1030419",
+          "service_id": "833_1000000006965",
+          "start_time": "22:40:00",
+          "end_time": "22:52:00"
+        },
+        {
+          "trip_id": "833_1030420",
+          "service_id": "833_1000000006965",
+          "start_time": "23:10:00",
+          "end_time": "23:22:00"
+        },
+        {
+          "trip_id": "833_1030421",
+          "service_id": "833_1000000006965",
+          "start_time": "23:40:00",
+          "end_time": "23:52:00"
+        },
+        {
+          "trip_id": "833_1030422",
+          "service_id": "833_1000000006965",
+          "start_time": "24:10:00",
+          "end_time": "24:22:00"
+        },
+        {
+          "trip_id": "833_1030423",
+          "service_id": "833_1000000006981",
+          "start_time": "24:40:00",
+          "end_time": "24:52:00"
+        },
+        {
+          "trip_id": "833_1030424",
+          "service_id": "833_1000000006981",
+          "start_time": "25:10:00",
+          "end_time": "25:22:00"
+        }
+      ]
+    }
+  ]
+}

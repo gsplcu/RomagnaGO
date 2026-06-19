@@ -1,0 +1,363 @@
+{
+  "estrazione": "Orari da route_F132.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F132.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F132",
+    "name": "Linea F132",
+    "direzioni_percorso": [
+      "Forli Punto Bus > Meldola Capolinea 2",
+      "Forli Punto Bus > S. Sofia Capolinea",
+      "Meldola Capolinea > Forli Punto Bus",
+      "Passo Calla > S. Sofia Centro",
+      "S. Sofia Capolinea > Forli Punto Bus",
+      "S. Sofia Centro > Passo Calla"
+    ],
+    "route_id": "F132"
+  },
+  "totale_trips": 34,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Forli Punto Bus > Meldola Capolinea 2",
+      "capolinea_partenza": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "14852",
+        "stop_name": "Meldola Capolinea 2"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "10:10:00",
+        "13:50:00",
+        "14:35:00",
+        "15:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031309",
+          "service_id": "833_1000000006959",
+          "start_time": "10:10:00",
+          "end_time": "10:38:00"
+        },
+        {
+          "trip_id": "833_1031310",
+          "service_id": "833_1000000006947",
+          "start_time": "13:50:00",
+          "end_time": "14:18:00"
+        },
+        {
+          "trip_id": "833_1031308",
+          "service_id": "833_1000000006959",
+          "start_time": "14:35:00",
+          "end_time": "15:03:00"
+        },
+        {
+          "trip_id": "833_1031311",
+          "service_id": "833_1000000006947",
+          "start_time": "15:50:00",
+          "end_time": "16:18:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Forli Punto Bus > S. Sofia Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "15220",
+        "stop_name": "S. Sofia Capolinea"
+      },
+      "trip_count": 10,
+      "orari_partenza": [
+        "06:30:00",
+        "08:15:00",
+        "11:10:00",
+        "11:40:00",
+        "12:45:00",
+        "13:10:00",
+        "14:10:00",
+        "17:00:00",
+        "18:30:00",
+        "19:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1034253",
+          "service_id": "833_1000000006965",
+          "start_time": "06:30:00",
+          "end_time": "07:40:00"
+        },
+        {
+          "trip_id": "833_1034255",
+          "service_id": "833_1000000006947",
+          "start_time": "08:15:00",
+          "end_time": "09:25:00"
+        },
+        {
+          "trip_id": "833_1034256",
+          "service_id": "833_1000000006947",
+          "start_time": "11:10:00",
+          "end_time": "12:20:00"
+        },
+        {
+          "trip_id": "833_1034245",
+          "service_id": "833_1000000006959",
+          "start_time": "11:40:00",
+          "end_time": "12:50:00"
+        },
+        {
+          "trip_id": "833_1034257",
+          "service_id": "833_1000000006947",
+          "start_time": "12:45:00",
+          "end_time": "13:55:00"
+        },
+        {
+          "trip_id": "833_1034246",
+          "service_id": "833_1000000006959",
+          "start_time": "13:10:00",
+          "end_time": "14:20:00"
+        },
+        {
+          "trip_id": "833_1034258",
+          "service_id": "833_1000000006947",
+          "start_time": "14:10:00",
+          "end_time": "15:20:00"
+        },
+        {
+          "trip_id": "833_1034259",
+          "service_id": "833_1000000006947",
+          "start_time": "17:00:00",
+          "end_time": "18:10:00"
+        },
+        {
+          "trip_id": "833_1034260",
+          "service_id": "833_1000000006947",
+          "start_time": "18:30:00",
+          "end_time": "19:40:00"
+        },
+        {
+          "trip_id": "833_1034254",
+          "service_id": "833_1000000006965",
+          "start_time": "19:40:00",
+          "end_time": "20:50:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Meldola Capolinea > Forli Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "14850",
+        "stop_name": "Meldola Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "06:32:00",
+        "10:42:00",
+        "15:08:00",
+        "16:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033835",
+          "service_id": "833_1000000006947",
+          "start_time": "06:32:00",
+          "end_time": "07:00:00"
+        },
+        {
+          "trip_id": "833_1033833",
+          "service_id": "833_1000000006959",
+          "start_time": "10:42:00",
+          "end_time": "11:10:00"
+        },
+        {
+          "trip_id": "833_1033832",
+          "service_id": "833_1000000006959",
+          "start_time": "15:08:00",
+          "end_time": "15:36:00"
+        },
+        {
+          "trip_id": "833_1033836",
+          "service_id": "833_1000000006947",
+          "start_time": "16:20:00",
+          "end_time": "16:48:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Passo Calla > S. Sofia Centro",
+      "capolinea_partenza": {
+        "stop_id": "15470",
+        "stop_name": "Passo Calla"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "15641",
+        "stop_name": "S. Sofia Centro"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "09:00:00",
+        "12:00:00",
+        "17:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036240",
+          "service_id": "833_1000000006965",
+          "start_time": "09:00:00",
+          "end_time": "09:52:00"
+        },
+        {
+          "trip_id": "833_1036241",
+          "service_id": "833_1000000006965",
+          "start_time": "12:00:00",
+          "end_time": "12:52:00"
+        },
+        {
+          "trip_id": "833_1036242",
+          "service_id": "833_1000000006965",
+          "start_time": "17:00:00",
+          "end_time": "17:52:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S. Sofia Capolinea > Forli Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "15220",
+        "stop_name": "S. Sofia Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "05:25:00",
+        "06:15:00",
+        "07:00:00",
+        "07:45:00",
+        "11:00:00",
+        "12:00:00",
+        "13:00:00",
+        "14:00:00",
+        "18:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036215",
+          "service_id": "833_1000000006947",
+          "start_time": "05:25:00",
+          "end_time": "06:35:00"
+        },
+        {
+          "trip_id": "833_1036216",
+          "service_id": "833_1000000006947",
+          "start_time": "06:15:00",
+          "end_time": "07:25:00"
+        },
+        {
+          "trip_id": "833_1036217",
+          "service_id": "833_1000000006947",
+          "start_time": "07:00:00",
+          "end_time": "08:10:00"
+        },
+        {
+          "trip_id": "833_1036212",
+          "service_id": "833_1000000006965",
+          "start_time": "07:45:00",
+          "end_time": "08:55:00"
+        },
+        {
+          "trip_id": "833_1036218",
+          "service_id": "833_1000000006947",
+          "start_time": "11:00:00",
+          "end_time": "12:10:00"
+        },
+        {
+          "trip_id": "833_1036206",
+          "service_id": "833_1000000006959",
+          "start_time": "12:00:00",
+          "end_time": "13:10:00"
+        },
+        {
+          "trip_id": "833_1036213",
+          "service_id": "833_1000000006965",
+          "start_time": "13:00:00",
+          "end_time": "14:10:00"
+        },
+        {
+          "trip_id": "833_1036219",
+          "service_id": "833_1000000006947",
+          "start_time": "14:00:00",
+          "end_time": "15:10:00"
+        },
+        {
+          "trip_id": "833_1036214",
+          "service_id": "833_1000000006965",
+          "start_time": "18:10:00",
+          "end_time": "19:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S. Sofia Centro > Passo Calla",
+      "capolinea_partenza": {
+        "stop_id": "15642",
+        "stop_name": "S. Sofia Centro"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "15470",
+        "stop_name": "Passo Calla"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "08:00:00",
+        "11:00:00",
+        "14:00:00",
+        "14:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1034288",
+          "service_id": "833_1000000006965",
+          "start_time": "08:00:00",
+          "end_time": "08:52:00"
+        },
+        {
+          "trip_id": "833_1034289",
+          "service_id": "833_1000000006965",
+          "start_time": "11:00:00",
+          "end_time": "11:52:00"
+        },
+        {
+          "trip_id": "833_1034290",
+          "service_id": "833_1000000006947",
+          "start_time": "14:00:00",
+          "end_time": "14:52:00"
+        },
+        {
+          "trip_id": "833_1034287",
+          "service_id": "833_1000000006959",
+          "start_time": "14:20:00",
+          "end_time": "15:12:00"
+        }
+      ]
+    }
+  ]
+}

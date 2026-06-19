@@ -1,0 +1,81 @@
+{
+  "estrazione": "Orari da route_NAVM.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_NAVM.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "NAVM",
+    "name": "Linea NAVM",
+    "direzioni_percorso": [
+      "Montenovo Piazza > Suzzi",
+      "Suzzi > Montenovo Piazza"
+    ],
+    "route_id": "NAVM"
+  },
+  "totale_trips": 4,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Montenovo Piazza > Suzzi",
+      "capolinea_partenza": {
+        "stop_id": "11550",
+        "stop_name": "Montenovo Piazza"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "47012",
+        "stop_name": "Suzzi"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "12:15:00",
+        "15:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1034641",
+          "service_id": "833_1000000006945",
+          "start_time": "12:15:00",
+          "end_time": "12:29:00"
+        },
+        {
+          "trip_id": "833_1034642",
+          "service_id": "833_1000000006945",
+          "start_time": "15:15:00",
+          "end_time": "15:29:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Suzzi > Montenovo Piazza",
+      "capolinea_partenza": {
+        "stop_id": "47011",
+        "stop_name": "Suzzi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11550",
+        "stop_name": "Montenovo Piazza"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "12:00:00",
+        "15:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036351",
+          "service_id": "833_1000000006945",
+          "start_time": "12:00:00",
+          "end_time": "12:14:00"
+        },
+        {
+          "trip_id": "833_1036350",
+          "service_id": "833_1000000006945",
+          "start_time": "15:00:00",
+          "end_time": "15:14:00"
+        }
+      ]
+    }
+  ]
+}

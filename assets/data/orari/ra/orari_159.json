@@ -1,0 +1,155 @@
+{
+  "estrazione": "Orari da route_159.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_159.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "159",
+    "name": "Linea 159",
+    "direzioni_percorso": [
+      "Circ.Ne Al Molino > Gambellara P.Zza",
+      "Circ.Ne Al Molino > S.P. In Vincoli",
+      "S.P. In Vincoli > Circ.Ne Al Molino"
+    ],
+    "route_id": "159"
+  },
+  "totale_trips": 12,
+  "totale_direzioni_percorso": 3,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Circ.Ne Al Molino > Gambellara P.Zza",
+      "capolinea_partenza": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "726260",
+        "stop_name": "Gambellara P.Zza"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "19:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888230",
+          "service_id": "674_1000000002118",
+          "start_time": "19:15:00",
+          "end_time": "19:53:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Circ.Ne Al Molino > S.P. In Vincoli",
+      "capolinea_partenza": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "726000",
+        "stop_name": "S.P. In Vincoli"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "07:30:00",
+        "11:50:00",
+        "12:50:00",
+        "14:30:00",
+        "17:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795484",
+          "service_id": "674_1000000002118",
+          "start_time": "07:30:00",
+          "end_time": "07:52:00"
+        },
+        {
+          "trip_id": "674_2888226",
+          "service_id": "674_1000000002118",
+          "start_time": "11:50:00",
+          "end_time": "12:24:00"
+        },
+        {
+          "trip_id": "674_2888228",
+          "service_id": "674_1000000002118",
+          "start_time": "12:50:00",
+          "end_time": "13:24:00"
+        },
+        {
+          "trip_id": "674_2888229",
+          "service_id": "674_1000000002118",
+          "start_time": "14:30:00",
+          "end_time": "15:04:00"
+        },
+        {
+          "trip_id": "674_2888227",
+          "service_id": "674_1000000002118",
+          "start_time": "17:35:00",
+          "end_time": "18:09:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.P. In Vincoli > Circ.Ne Al Molino",
+      "capolinea_partenza": {
+        "stop_id": "726010",
+        "stop_name": "S.P. In Vincoli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "06:45:00",
+        "08:10:00",
+        "12:25:00",
+        "13:53:00",
+        "15:10:00",
+        "18:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888231",
+          "service_id": "674_1000000002118",
+          "start_time": "06:45:00",
+          "end_time": "07:20:00"
+        },
+        {
+          "trip_id": "674_2888232",
+          "service_id": "674_1000000002118",
+          "start_time": "08:10:00",
+          "end_time": "08:45:00"
+        },
+        {
+          "trip_id": "674_2795485",
+          "service_id": "674_1000000002118",
+          "start_time": "12:25:00",
+          "end_time": "12:50:00"
+        },
+        {
+          "trip_id": "674_2888233",
+          "service_id": "674_1000000002118",
+          "start_time": "13:53:00",
+          "end_time": "14:28:00"
+        },
+        {
+          "trip_id": "674_2888234",
+          "service_id": "674_1000000002118",
+          "start_time": "15:10:00",
+          "end_time": "15:45:00"
+        },
+        {
+          "trip_id": "674_2795486",
+          "service_id": "674_1000000002118",
+          "start_time": "18:10:00",
+          "end_time": "18:35:00"
+        }
+      ]
+    }
+  ]
+}

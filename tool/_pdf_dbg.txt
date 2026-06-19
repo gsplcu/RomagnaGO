@@ -1,0 +1,222 @@
+Litorale Marina ├á Porto Canale
+Linea 1
+Ôùå SI EFFETTUA DAL 24/4/26 Ôùå
+ÔÇó FERIALE
+Zona Localit├á ┬º 1 1 ┬º 1 1 1 1 1 1 1
+890 Sagittario (Lit. Marina) 06:50 07:42 08:40 10:45 12:55 13:55 14:15 15:25 16:45 19:19
+890 Gatteo Mare 06:54 07:46 08:44 10:49 12:59 13:59 14:19 15:29 16:49 19:23
+890 Gatteo Mare (Euclide) | | | | | | | | | 18:00 19:15 | 20:30 21:45
+890 Villamarina 06:55 07:47 08:45 10:50 13:00 14:00 14:20 15:30 16:50 18:01 19:16 19:24 20:31 21:46
+890 Valverde 06:57 07:49 08:47 10:52 13:02 14:02 14:22 15:32 16:52 18:03 19:18 19:26 20:33 21:48
+890 Cesenatico (scuole) 06:58 07:50 08:48 10:53 13:03 14:03 14:23 15:33 16:53 18:04 19:19 19:27 20:34 21:49
+890 Cesenatico (p.le Marconi) 07:00 07:52 08:50 10:55 13:05 14:05 14:25 15:35 16:55 18:06 19:21 19:29 20:36 21:51
+890 Ospedale 07:02 07:54 08:52 10:57 13:07 14:07 14:27 15:37 16:57 18:08 19:23 19:31 20:38 21:53
+890 Trento 07:05 07:57 08:55 11:00 13:10 14:10 14:30 15:40 17:00 18:11 19:26 19:34 20:41 21:56
+890 Grattacielo 07:07 07:59 08:57 11:02 13:12 14:12 14:32 15:42 17:02 18:13 19:28 19:36 20:43 21:58
+890 Porto Canale 07:09 08:01 08:59 11:04 13:14 14:14 14:34 15:44 17:04 18:15 19:30 19:38 20:45 22:00
+890 Zadina 09:20 11:25 14:55 16:05 17:25 18:36 19:51 21:06 22:21
+┬º = solo nei gg. di Scuola 1 = prosegue per Zadina come Linea 2
+SAGITTAR Ar IO iete Adriatica Leone Litorale M G a a r t i t n e a o M F a e re rmi Villamarin R a eni Michelang V e a l l o verde Ial Ungaretti Colonia A M gi a p rconi Ospedale Abba Campi Te T n r n e i n s to Bologna Grattaciel C o avallotti PORTO CANALE
+EUCLIDE
+START Romagna - bacino FC - inv. 25/26 175
+Porto Canale ├á Litorale Marina
+Linea 1
+Ôùå SI EFFETTUA DAL 24/4/26 Ôùå
+ÔÇó FERIALE
+Zona Localit├á ┬º
+890 Porto Canale 07:44 10:00 12:00 13:05 13:55 15:11 16:25 18:56 19:00 20:11 21:26 22:41
+890 Grattacielo 07:46 10:02 12:02 13:07 13:57 15:13 16:27 18:58 19:02 20:13 21:28 22:43
+890 Trento 07:48 10:04 12:04 13:09 13:59 15:15 16:29 19:00 19:04 20:15 21:30 22:45
+890 Ospedale 07:51 10:07 12:07 13:12 14:02 15:18 16:32 19:03 19:07 20:18 21:33 22:48
+890 Cesenatico (p.le Marconi) 07:53 10:09 12:09 13:14 14:04 15:20 16:34 19:05 19:09 20:20 21:35 22:50
+890 Cesenatico (scuole) 07:55 10:11 12:11 13:16 14:06 15:22 16:36 19:07 19:11 20:22 21:37 22:52
+890 Valverde 07:56 10:12 12:12 13:17 14:07 15:23 16:37 19:08 19:12 20:23 21:38 22:53
+890 Villamarina 07:58 10:14 12:14 13:19 14:09 15:25 16:39 19:10 19:14 20:25 21:40 22:55
+890 Gatteo Mare 07:59 10:15 12:15 13:20 14:10 15:26 16:40 19:11 19:15 20:26 21:41 22:56
+890 Gatteo Mare (Euclide) | | | | | | | 19:12 | 20:27 21:42 22:57
+890 Sagittario (Lit. Marina) 08:03 10:19 12:19 13:24 14:14 15:30 16:44 19:19
+┬º = solo nei gg. di Scuola
+PORTO C C A a N r A du L c E ci Grattaciel B o ologna Trento Campi Te A n b n b is a Ospedale Marconi Colonia A U g n ip garetti Ial Valverde Michelang R e e l n o i Villamarin F a ermi Gatteo M L ar it e orale M L a e r o in n a e Adriatica Ariete SAGITTARIO
+EUCLIDE
+176 START Romagna - bacino FC - inv. 25/26
+Porto Canale ├á Cesenatico Ponente ├á Zadina
+Linea 2
+Ôùå SI EFFETTUA DAL 24/4/26 Ôùå
+ÔÇó FERIALE
+Zona Localit├á ┬º ┬º
+890 Porto Canale 07:09 08:01 08:59 11:04 13:14 14:14 14:34 15:44 17:04 18:15 19:30 20:45 22:00
+890 p.le Comandini 07:10 08:02 09:00 11:05 13:15 14:15 14:35 15:45 17:05 18:16 19:31 20:46 22:01
+890 Stazione Cesenatico 07:18 08:10 09:08 11:13 13:23 14:23 14:43 15:53 17:13 18:24 19:39 20:54 22:09
+890 Darsena 07:19 08:11 09:09 11:14 13:24 14:24 14:44 15:54 17:14 18:25 19:40 20:55 22:10
+890 Cavour 07:22 08:14 09:12 11:17 13:27 14:27 14:47 15:57 17:17 18:28 19:43 20:58 22:13
+890 Cesenatico Cimitero 07:23 08:15 09:13 11:18 13:28 14:28 14:48 15:58 17:18 18:29 19:44 20:59 22:14
+890 Atlantica 07:24 08:16 09:14 11:19 13:29 14:29 14:49 15:59 17:19 18:30 19:45 21:00 22:15
+890 Zadina campeggi 09:17 11:22 14:52 16:02 17:22 18:33 19:48 21:03 22:18
+890 Zadina 09:20 11:25 14:55 16:05 17:25 18:36 19:51 21:06 22:21
+┬º = solo nei gg. di Scuola
+PORTO CANALE L. Da Vinci CESENATICO (P.
+COMAN
+S
+D
+ta
+IN
+zi
+I
+o
+)
+ne Cesenatico Darsena Caboto Cavour Cimitero Magellano Parco Ponente Zadina Campeggi Zadina Via Mosca Zadina
+182 START Romagna - bacino FC - inv. 25/26
+Zadina ├á Cesenatico Ponente ├á Porto Canale
+Linea 2
+Ôùå SI EFFETTUA DAL 24/4/26 Ôùå
+ÔÇó FERIALE
+Zona Localit├á ┬º ┬º
+890 Zadina 09:44 11:44 14:55 16:09 18:40 19:55 21:10 22:25
+890 Zadina campeggi 09:46 11:46 14:57 16:11 18:42 19:57 21:12 22:27
+890 Atlantica 07:34 08:20 09:49 11:49 12:55 13:45 15:00 16:14 18:45 18:50 20:00 21:15 22:30
+890 Cesenatico Cimitero 07:35 08:21 09:51 11:51 12:56 13:46 15:02 16:16 18:47 18:51 20:02 21:17 22:32
+890 Cavour 07:36 08:22 09:52 11:52 12:57 13:47 15:03 16:17 18:48 18:52 20:03 21:18 22:33
+890 Darsena 07:39 08:25 09:55 11:55 13:00 13:50 15:06 16:20 18:51 18:55 20:06 21:21 22:36
+890 Stazione Cesenatico 07:40 08:26 09:56 11:56 13:01 13:51 15:07 16:21 18:52 18:56 20:07 21:22 22:37
+890 p.le Comandini 07:43 08:29 09:59 11:59 13:04 13:54 15:10 16:24 18:55 18:59 20:10 21:25 22:40
+890 Porto Canale 07:44 08:30 10:00 12:00 13:05 13:55 15:11 16:25 18:56 19:00 20:11 21:26 22:41
+┬º = solo nei gg. di Scuola
+Zadina Zadina Via Mosca Zadina Campeggi Parco Ponente Magellano Cimitero Cesenatico Ponente Cavour Caboto Darsena Stazione Cesenatico Saffi CESENATICO (P. COM L. A D N a D I V N i I n ) ci PORTO CANALE
+START Romagna - bacino FC - inv. 25/26 183
+Celle ├á Piazzale Comandini
+Linea 3
+ÔÇó FERIALE
+Zona Localit├á ┬º,1 Ô£▒ P P @ P,S P P P,S @ P
+890 Celle 07:10 07:40 08:40 10:35 11:50 12:10 14:35 16:35 17:35 17:47 18:30
+890 Sala 07:11 07:42 08:42 10:37 11:51 12:13 14:38 16:38 17:38 17:48 18:33
+890 Villalta 07:17 07:47 08:47 10:42 11:57 12:17 14:42 16:42 17:42 17:54 18:37
+890 Brusadiccia 07:18 07:48 08:48 10:43 11:59 12:18 14:43 16:43 17:43 17:56 18:38
+890 Fine Cannucceto 07:20 07:50 08:50 10:45 12:02 12:20 14:45 16:45 17:45 17:59 18:40
+890 Cannucceto 07:22 07:52 08:52 10:47 | 12:22 14:47 16:47 17:47 | 18:42
+890 Saltarelli | | | | 12:04 | | | | 18:02 |
+890 Stazione Cesenatico 07:38 07:57 08:57 10:52 12:10 12:27 14:52 16:52 17:52 18:07 18:47
+890 p.le Comandini 07:40 08:00 09:00 10:55 12:13 12:30 14:55 16:55 17:55 18:10 18:50
+890 Cesenatico (v.le Roma) 07:41
+890 Cesenatico (IAL) 07:45
+┬º = solo nei gg. di Scuola Ô£▒ = solo nei gg. non scolastici @ = non si effettua il Sabato
+S = si effettua il Sabato 1 = parte da Bagnarola (6:55)
+P = Corsa su prenotazione: prenotare entro il giorno feriale precedente sul sito www.startromagna.it/servizi/corse-su-prenotazione,
+fino alle ore 17:00, o chiamando lÔÇÖ800 21 34 80, entro le ore 17:00 dal luned├¼ al venerd├¼, entro le ore 14:00 il sabato.
+CELLE C. Bonificazio C n h e iesa Sala Sala Campone Sala Sala-Borgo Borgo Nuovo Villalta Palazzone I Brusadiccia S. Pellegrino Fine Cannucce C t a o rleni *Palazzone *Cannucceto Cannucceto Pe M ep onte Albano Arno Stazione Cesen S a a ti f c fi o CESENATICO (P.
+COMANDINI)
+Cannucceto
+S
+I
+altarelli
+*Fermate non effettuate dalle corse con transito da via Saltarelli (Cannucceto).
+186 START Romagna - bacino FC - inv. 25/26
+Piazzale Comandini ├á Celle
+Linea 3
+ÔÇó FERIALE
+Zona Localit├á ┬º,1 @ P,S P ┬º Ô£▒ ┬º Ô£▒ ┬º,@ ┬º,S @ P,S P P P
+890 Cesenatico (IAL) 12:05 13:05 14:05
+890 Cesenatico (v.le Roma) 12:09 13:09 14:09
+890 p.le Comandini 08:15 08:15 09:10 12:10 12:50 13:10 13:40 14:10 14:10 14:55 15:20 17:10 18:10 18:50
+890 Stazione Cesenatico 08:18 08:18 09:13 12:23 | 13:23 | 14:23 14:23 14:58 15:23 17:13 18:13 18:53
+890 Cannucceto | 08:23 09:18 12:28 12:57 13:28 13:47 14:28 14:28 | 15:28 17:18 18:18 18:58
+890 Saltarelli 08:23 | | | | | | | | 15:03 | | | |
+890 Fine Cannucceto 08:25 08:24 09:19 12:29 12:59 13:29 13:49 14:29 14:29 15:05 15:29 17:19 18:19 18:59
+890 Brusadiccia 08:28 08:26 09:21 12:31 13:01 13:31 13:51 14:31 14:31 15:08 15:31 17:21 18:21 19:01
+890 Villalta 06:52 08:31 08:28 09:23 12:33 13:03 13:33 13:53 14:33 14:33 15:11 15:33 17:23 18:23 19:03
+890 Sala 06:58 08:37 08:34 09:29 12:39 13:09 13:39 13:59 14:39 14:39 15:17 15:39 17:29 18:29 19:09
+890 Celle 06:59 08:38 08:35 09:30 12:40 13:10 13:40 14:00 14:40 14:40 15:18 15:40 17:30 18:30 19:10
+┬º = solo nei gg. di Scuola Ô£▒ = solo nei gg. non scolastici @ = non si effettua il Sabato
+S = si effettua il Sabato 1 = parte da Bagnarola (6:50)
+P = Corsa su prenotazione: prenotare entro il giorno feriale precedente sul sito www.startromagna.it/servizi/corse-su-prenotazione,
+fino alle ore 17:00, o chiamando lÔÇÖ800 21 34 80, entro le ore 17:00 dal luned├¼ al venerd├¼, entro le ore 14:00 il sabato.
+CESENATICO (P. CO S M ta A z N io D n IN e I ) Cesenati A co rno Monte Albano Cannucceto Pe * e C p annucceto *Palazzone Carleni Fine Cannucce S to . Pellegrino Brusadiccia Palazzone I Villalta Borgo Nuovo Sala-Borgo Campone Sala Sala Chiesa Sala C. Bonificazion C e ELLE
+Saltarelli
+Cannucceto I
+*Fermate non effettuate dalle corse con transito da via Saltarelli (Cannucceto).
+START Romagna - bacino FC - inv. 25/26 187
+Celle ├ƒ├á Piazzale Comandini
+Linea 3
+ÔÇó FESTIVO
+Zona Localit├á P P &,P &,P #,P Zona Localit├á P P &,P #,P P
+890 Celle 07:35 11:15 14:20 16:40 17:10 890 Cimitero (v.le Mazzini) 16:15 16:45
+890 Sala 07:38 11:18 14:21 16:43 17:13 890 p.le Comandini 09:40 12:40 | | 18:40
+890 Villalta 07:42 11:22 14:27 16:47 17:17 890 Stazione Cesenatico 09:43 12:43 16:18 16:48 18:43
+890 Bagnarola | | 14:29 | | 890 Cannucceto 09:48 12:48 16:25 16:55 18:48
+708 Montaletto Chiesa | | 14:33 | | 890 Fine Cannucceto 09:49 12:49 16:26 16:56 18:49
+890 Brusadiccia 07:43 11:23 | 16:48 17:18 708 Montaletto | | 16:27 16:57 |
+890 Fine Cannucceto 07:45 11:25 14:34 16:50 17:20 880 Bagnarola | | 16:31 17:01 |
+890 Cannucceto 07:47 11:27 14:35 16:52 17:22 890 Villalta | | 16:33 17:03 |
+890 Stazione Cesenatico 07:52 11:32 14:42 16:57 17:27 890 Brusadiccia 09:51 12:51 | | 18:51
+890 p.le Comandini 07:55 11:35 | 17:00 17:30 890 Villalta 09:53 12:53 16:33 17:03 18:53
+890 Cimitero (v.le Mazzini) 14:45 890 Sala 09:59 12:59 16:39 17:09 18:59
+890 Celle 10:00 13:00 16:40 17:10 19:00
+& = si effettua fino al 31/3/26 # = si effettua dallÔÇÖ1/4/26
+P = Corsa su prenotazione: prenotare entro il giorno feriale precedente sul sito www.startromagna.it/servizi/corse-su-prenotazione,
+fino alle ore 17:00, o chiamando lÔÇÖ800 21 34 80, entro le ore 17:00 dal luned├¼ al venerd├¼, entro le ore 14:00 il sabato.
+CELLE C. Bonificazio C n h e iesa Sala Sala Campone Sala Sala-Borgo Borgo Nuovo Villalta Ba P g a n la a z r z o o la ne C I apa B n r n u a s g ad u M i z c z c o o i n a tal S e . t t P o ellegrino Fine Cannucceto Carleni Palazzone Cannucceto Cannucceto Pee M p onte Albano Arno Stazione Cese S n a a f t f i i co C C E E S S E E N N A A T T I I C C O O ( ( P C . I M CO IT M ER A O N )
+DINI)
+CESENATICO
+(CIMITERO) CESENATICO (P. COMA S N t D a I z N io I) ne Ces A en rn a o tico Monte Albano Cannucceto P C e a e n p nucceto Palazzone Carleni Fine Cannu
+M
+cc
+o
+S e
+n
+. t
+t
+o P
+al
+e
+e
+l
+t
+le
+t C o
+g
+a
+r
+p
+in
+a
+o
+n
+B
+n
+r
+a
+u
+g
+s
+B u
+a
+a z
+d
+g z
+i
+o
+c
+n
+c
+a
+i
+r
+a
+ol
+P
+a
+alazzone I Villalta Borgo Nuovo Sala-Borgo Campone Sal S a ala Chiesa Sala C. Bonificazio C n E e LLE
+188 START Romagna - bacino FC - inv. 25/26
+=== page 2 ===
+
+=== page 3 ===
+
+=== page 6 ===
+
+=== page 7 ===
+
+=== page 10 ===
+
+=== page 11 ===
+
+=== page 12 ===
+

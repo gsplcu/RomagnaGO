@@ -1,0 +1,532 @@
+{
+  "estrazione": "Orari da route_90.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_90.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "90",
+    "name": "Linea 90",
+    "direzioni_percorso": [
+      "Bar S.Marino > Ravenna Fs",
+      "Bunge > Ravenna Fs",
+      "Hotel Meridiana > Ravenna Fs",
+      "Maroncelli Fs 1 > Bar S.Marino",
+      "Maroncelli Fs 1 > Hotel Meridiana"
+    ],
+    "route_id": "90"
+  },
+  "totale_trips": 65,
+  "totale_direzioni_percorso": 5,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bar S.Marino > Ravenna Fs",
+      "capolinea_partenza": {
+        "stop_id": "716171",
+        "stop_name": "Bar S.Marino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700010",
+        "stop_name": "Ravenna Fs"
+      },
+      "trip_count": 31,
+      "orari_partenza": [
+        "06:43:00",
+        "07:28:00",
+        "08:22:00",
+        "09:22:00",
+        "10:22:00",
+        "11:22:00",
+        "12:22:00",
+        "13:22:00",
+        "14:22:00",
+        "15:22:00",
+        "16:36:00",
+        "16:38:00",
+        "16:44:00",
+        "18:22:00",
+        "19:02:00",
+        "20:02:00",
+        "20:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795466",
+          "service_id": "674_1000000002118",
+          "start_time": "06:43:00",
+          "end_time": "07:20:00"
+        },
+        {
+          "trip_id": "674_2796679",
+          "service_id": "674_1000000002106",
+          "start_time": "07:28:00",
+          "end_time": "08:06:00"
+        },
+        {
+          "trip_id": "674_2795465",
+          "service_id": "674_1000000002118",
+          "start_time": "08:22:00",
+          "end_time": "09:03:00"
+        },
+        {
+          "trip_id": "674_2796203",
+          "service_id": "674_1000000002119",
+          "start_time": "08:22:00",
+          "end_time": "08:58:00"
+        },
+        {
+          "trip_id": "674_2795464",
+          "service_id": "674_1000000002118",
+          "start_time": "09:22:00",
+          "end_time": "10:03:00"
+        },
+        {
+          "trip_id": "674_2796204",
+          "service_id": "674_1000000002119",
+          "start_time": "09:22:00",
+          "end_time": "09:58:00"
+        },
+        {
+          "trip_id": "674_2795457",
+          "service_id": "674_1000000002118",
+          "start_time": "10:22:00",
+          "end_time": "11:02:00"
+        },
+        {
+          "trip_id": "674_2796210",
+          "service_id": "674_1000000002119",
+          "start_time": "10:22:00",
+          "end_time": "11:02:00"
+        },
+        {
+          "trip_id": "674_2795463",
+          "service_id": "674_1000000002118",
+          "start_time": "11:22:00",
+          "end_time": "12:03:00"
+        },
+        {
+          "trip_id": "674_2796205",
+          "service_id": "674_1000000002119",
+          "start_time": "11:22:00",
+          "end_time": "11:58:00"
+        },
+        {
+          "trip_id": "674_2795456",
+          "service_id": "674_1000000002118",
+          "start_time": "12:22:00",
+          "end_time": "13:02:00"
+        },
+        {
+          "trip_id": "674_2795863",
+          "service_id": "674_1000000002120",
+          "start_time": "12:22:00",
+          "end_time": "13:02:00"
+        },
+        {
+          "trip_id": "674_2796329",
+          "service_id": "674_1000000002197",
+          "start_time": "12:22:00",
+          "end_time": "13:02:00"
+        },
+        {
+          "trip_id": "674_2795462",
+          "service_id": "674_1000000002118",
+          "start_time": "13:22:00",
+          "end_time": "14:03:00"
+        },
+        {
+          "trip_id": "674_2796206",
+          "service_id": "674_1000000002119",
+          "start_time": "13:22:00",
+          "end_time": "13:58:00"
+        },
+        {
+          "trip_id": "674_2795461",
+          "service_id": "674_1000000002118",
+          "start_time": "14:22:00",
+          "end_time": "15:03:00"
+        },
+        {
+          "trip_id": "674_2795914",
+          "service_id": "674_1000000002120",
+          "start_time": "14:22:00",
+          "end_time": "14:58:00"
+        },
+        {
+          "trip_id": "674_2796326",
+          "service_id": "674_1000000002197",
+          "start_time": "14:22:00",
+          "end_time": "14:58:00"
+        },
+        {
+          "trip_id": "674_2795460",
+          "service_id": "674_1000000002118",
+          "start_time": "15:22:00",
+          "end_time": "16:03:00"
+        },
+        {
+          "trip_id": "674_2796207",
+          "service_id": "674_1000000002119",
+          "start_time": "15:22:00",
+          "end_time": "15:58:00"
+        },
+        {
+          "trip_id": "674_2795855",
+          "service_id": "674_1000000002115",
+          "start_time": "16:36:00",
+          "end_time": "17:19:00"
+        },
+        {
+          "trip_id": "674_2796211",
+          "service_id": "674_1000000002120",
+          "start_time": "16:38:00",
+          "end_time": "17:18:00"
+        },
+        {
+          "trip_id": "674_2889438",
+          "service_id": "674_1000000002197",
+          "start_time": "16:38:00",
+          "end_time": "17:18:00"
+        },
+        {
+          "trip_id": "674_2799073",
+          "service_id": "674_1000000002135",
+          "start_time": "16:44:00",
+          "end_time": "17:19:00"
+        },
+        {
+          "trip_id": "674_2795459",
+          "service_id": "674_1000000002118",
+          "start_time": "18:22:00",
+          "end_time": "19:03:00"
+        },
+        {
+          "trip_id": "674_2796208",
+          "service_id": "674_1000000002119",
+          "start_time": "18:22:00",
+          "end_time": "18:58:00"
+        },
+        {
+          "trip_id": "674_2795458",
+          "service_id": "674_1000000002118",
+          "start_time": "19:02:00",
+          "end_time": "19:43:00"
+        },
+        {
+          "trip_id": "674_2796209",
+          "service_id": "674_1000000002120",
+          "start_time": "19:02:00",
+          "end_time": "19:38:00"
+        },
+        {
+          "trip_id": "674_2889439",
+          "service_id": "674_1000000002197",
+          "start_time": "19:02:00",
+          "end_time": "19:38:00"
+        },
+        {
+          "trip_id": "674_2796680",
+          "service_id": "674_1000000002106",
+          "start_time": "20:02:00",
+          "end_time": "20:39:00"
+        },
+        {
+          "trip_id": "674_2796681",
+          "service_id": "674_1000000002106",
+          "start_time": "20:40:00",
+          "end_time": "21:17:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bunge > Ravenna Fs",
+      "capolinea_partenza": {
+        "stop_id": "719500",
+        "stop_name": "Bunge"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700010",
+        "stop_name": "Ravenna Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "16:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795849",
+          "service_id": "674_1000000002115",
+          "start_time": "16:25:00",
+          "end_time": "16:42:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Hotel Meridiana > Ravenna Fs",
+      "capolinea_partenza": {
+        "stop_id": "715210",
+        "stop_name": "Hotel Meridiana"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700010",
+        "stop_name": "Ravenna Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:57:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795846",
+          "service_id": "674_1000000002115",
+          "start_time": "07:57:00",
+          "end_time": "08:29:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Maroncelli Fs 1 > Bar S.Marino",
+      "capolinea_partenza": {
+        "stop_id": "700080",
+        "stop_name": "Maroncelli Fs 1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "716171",
+        "stop_name": "Bar S.Marino"
+      },
+      "trip_count": 31,
+      "orari_partenza": [
+        "06:50:00",
+        "07:35:00",
+        "08:35:00",
+        "09:35:00",
+        "10:35:00",
+        "11:35:00",
+        "12:35:00",
+        "13:35:00",
+        "14:35:00",
+        "15:45:00",
+        "15:50:00",
+        "17:35:00",
+        "18:15:00",
+        "19:15:00",
+        "20:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796683",
+          "service_id": "674_1000000002106",
+          "start_time": "06:50:00",
+          "end_time": "07:23:00"
+        },
+        {
+          "trip_id": "674_2795848",
+          "service_id": "674_1000000002115",
+          "start_time": "07:35:00",
+          "end_time": "08:12:00"
+        },
+        {
+          "trip_id": "674_2796049",
+          "service_id": "674_1000000002119",
+          "start_time": "07:35:00",
+          "end_time": "08:09:00"
+        },
+        {
+          "trip_id": "674_2799072",
+          "service_id": "674_1000000002135",
+          "start_time": "07:35:00",
+          "end_time": "08:09:00"
+        },
+        {
+          "trip_id": "674_2795468",
+          "service_id": "674_1000000002118",
+          "start_time": "08:35:00",
+          "end_time": "09:12:00"
+        },
+        {
+          "trip_id": "674_2796047",
+          "service_id": "674_1000000002119",
+          "start_time": "08:35:00",
+          "end_time": "09:12:00"
+        },
+        {
+          "trip_id": "674_2795467",
+          "service_id": "674_1000000002118",
+          "start_time": "09:35:00",
+          "end_time": "10:12:00"
+        },
+        {
+          "trip_id": "674_2796048",
+          "service_id": "674_1000000002119",
+          "start_time": "09:35:00",
+          "end_time": "10:12:00"
+        },
+        {
+          "trip_id": "674_2795472",
+          "service_id": "674_1000000002118",
+          "start_time": "10:35:00",
+          "end_time": "11:12:00"
+        },
+        {
+          "trip_id": "674_2796050",
+          "service_id": "674_1000000002119",
+          "start_time": "10:35:00",
+          "end_time": "11:09:00"
+        },
+        {
+          "trip_id": "674_2795471",
+          "service_id": "674_1000000002118",
+          "start_time": "11:35:00",
+          "end_time": "12:12:00"
+        },
+        {
+          "trip_id": "674_2795862",
+          "service_id": "674_1000000002120",
+          "start_time": "11:35:00",
+          "end_time": "12:09:00"
+        },
+        {
+          "trip_id": "674_2796328",
+          "service_id": "674_1000000002197",
+          "start_time": "11:35:00",
+          "end_time": "12:09:00"
+        },
+        {
+          "trip_id": "674_2795470",
+          "service_id": "674_1000000002118",
+          "start_time": "12:35:00",
+          "end_time": "13:12:00"
+        },
+        {
+          "trip_id": "674_2796051",
+          "service_id": "674_1000000002119",
+          "start_time": "12:35:00",
+          "end_time": "13:09:00"
+        },
+        {
+          "trip_id": "674_2795469",
+          "service_id": "674_1000000002118",
+          "start_time": "13:35:00",
+          "end_time": "14:11:00"
+        },
+        {
+          "trip_id": "674_2795915",
+          "service_id": "674_1000000002120",
+          "start_time": "13:35:00",
+          "end_time": "14:12:00"
+        },
+        {
+          "trip_id": "674_2796325",
+          "service_id": "674_1000000002197",
+          "start_time": "13:35:00",
+          "end_time": "14:12:00"
+        },
+        {
+          "trip_id": "674_2795476",
+          "service_id": "674_1000000002118",
+          "start_time": "14:35:00",
+          "end_time": "15:12:00"
+        },
+        {
+          "trip_id": "674_2796052",
+          "service_id": "674_1000000002119",
+          "start_time": "14:35:00",
+          "end_time": "15:09:00"
+        },
+        {
+          "trip_id": "674_2795475",
+          "service_id": "674_1000000002118",
+          "start_time": "15:45:00",
+          "end_time": "16:22:00"
+        },
+        {
+          "trip_id": "674_2796053",
+          "service_id": "674_1000000002120",
+          "start_time": "15:50:00",
+          "end_time": "16:24:00"
+        },
+        {
+          "trip_id": "674_2889436",
+          "service_id": "674_1000000002197",
+          "start_time": "15:50:00",
+          "end_time": "16:24:00"
+        },
+        {
+          "trip_id": "674_2795477",
+          "service_id": "674_1000000002118",
+          "start_time": "17:35:00",
+          "end_time": "18:12:00"
+        },
+        {
+          "trip_id": "674_2796054",
+          "service_id": "674_1000000002119",
+          "start_time": "17:35:00",
+          "end_time": "18:09:00"
+        },
+        {
+          "trip_id": "674_2795474",
+          "service_id": "674_1000000002118",
+          "start_time": "18:15:00",
+          "end_time": "18:52:00"
+        },
+        {
+          "trip_id": "674_2796055",
+          "service_id": "674_1000000002120",
+          "start_time": "18:15:00",
+          "end_time": "18:49:00"
+        },
+        {
+          "trip_id": "674_2889437",
+          "service_id": "674_1000000002197",
+          "start_time": "18:15:00",
+          "end_time": "18:49:00"
+        },
+        {
+          "trip_id": "674_2795473",
+          "service_id": "674_1000000002118",
+          "start_time": "19:15:00",
+          "end_time": "19:52:00"
+        },
+        {
+          "trip_id": "674_2796056",
+          "service_id": "674_1000000002119",
+          "start_time": "19:15:00",
+          "end_time": "19:49:00"
+        },
+        {
+          "trip_id": "674_2796682",
+          "service_id": "674_1000000002106",
+          "start_time": "20:05:00",
+          "end_time": "20:38:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Maroncelli Fs 1 > Hotel Meridiana",
+      "capolinea_partenza": {
+        "stop_id": "700080",
+        "stop_name": "Maroncelli Fs 1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "715210",
+        "stop_name": "Hotel Meridiana"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:27:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795847",
+          "service_id": "674_1000000002115",
+          "start_time": "07:27:00",
+          "end_time": "07:54:00"
+        }
+      ]
+    }
+  ]
+}

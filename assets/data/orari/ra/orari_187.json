@@ -1,0 +1,202 @@
+{
+  "estrazione": "Orari da route_187.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_187.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "187",
+    "name": "Linea 187",
+    "direzioni_percorso": [
+      "Alfonsine Fs > Lugo Punto Bus",
+      "Lugo Punto Bus > Alfonsine Fs",
+      "Lugo Punto Bus > S.Alberto Piazza",
+      "P.Zza Garibaldi > Villanova B.C.",
+      "S.Alberto Piazza > Lugo Punto Bus",
+      "Villanova B.C. > P.Zza Garibaldi"
+    ],
+    "route_id": "187"
+  },
+  "totale_trips": 11,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Alfonsine Fs > Lugo Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "740000",
+        "stop_name": "Alfonsine Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "11:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796440",
+          "service_id": "674_1000000002117",
+          "start_time": "11:20:00",
+          "end_time": "12:11:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Lugo Punto Bus > Alfonsine Fs",
+      "capolinea_partenza": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "740010",
+        "stop_name": "Alfonsine Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "08:16:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796441",
+          "service_id": "674_1000000002117",
+          "start_time": "08:16:00",
+          "end_time": "09:02:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Lugo Punto Bus > S.Alberto Piazza",
+      "capolinea_partenza": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "720000",
+        "stop_name": "S.Alberto Piazza"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796356",
+          "service_id": "674_1000000002117",
+          "start_time": "12:45:00",
+          "end_time": "13:46:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Zza Garibaldi > Villanova B.C.",
+      "capolinea_partenza": {
+        "stop_id": "760050",
+        "stop_name": "P.Zza Garibaldi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "753500",
+        "stop_name": "Villanova B.C."
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "08:50:00",
+        "11:05:00",
+        "12:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2799022",
+          "service_id": "674_1000000002132",
+          "start_time": "08:50:00",
+          "end_time": "09:16:00"
+        },
+        {
+          "trip_id": "674_2799021",
+          "service_id": "674_1000000002132",
+          "start_time": "11:05:00",
+          "end_time": "11:31:00"
+        },
+        {
+          "trip_id": "674_2799020",
+          "service_id": "674_1000000002132",
+          "start_time": "12:10:00",
+          "end_time": "12:36:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.Alberto Piazza > Lugo Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "720010",
+        "stop_name": "S.Alberto Piazza"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796355",
+          "service_id": "674_1000000002117",
+          "start_time": "06:55:00",
+          "end_time": "07:50:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Villanova B.C. > P.Zza Garibaldi",
+      "capolinea_partenza": {
+        "stop_id": "753500",
+        "stop_name": "Villanova B.C."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760050",
+        "stop_name": "P.Zza Garibaldi"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "08:10:00",
+        "09:25:00",
+        "11:35:00",
+        "12:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2799019",
+          "service_id": "674_1000000002132",
+          "start_time": "08:10:00",
+          "end_time": "08:35:00"
+        },
+        {
+          "trip_id": "674_2799018",
+          "service_id": "674_1000000002132",
+          "start_time": "09:25:00",
+          "end_time": "09:50:00"
+        },
+        {
+          "trip_id": "674_2799017",
+          "service_id": "674_1000000002132",
+          "start_time": "11:35:00",
+          "end_time": "12:00:00"
+        },
+        {
+          "trip_id": "674_2799016",
+          "service_id": "674_1000000002132",
+          "start_time": "12:40:00",
+          "end_time": "13:05:00"
+        }
+      ]
+    }
+  ]
+}

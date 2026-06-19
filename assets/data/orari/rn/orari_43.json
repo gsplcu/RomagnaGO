@@ -1,0 +1,414 @@
+{
+  "estrazione": "Orari da route_43.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_43.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "43",
+    "name": "Linea 43",
+    "direzioni_percorso": [
+      "49 Curiel (Pens.C) > Monza Chiesa",
+      "Lazio Paese > 49 Curiel (Pens.C)",
+      "Monza Chiesa > 49 Curiel (Pens.C)",
+      "Riva Del Garda > 49 Curiel (Pens.C)"
+    ],
+    "route_id": "43"
+  },
+  "totale_trips": 49,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "49 Curiel (Pens.C) > Monza Chiesa",
+      "capolinea_partenza": {
+        "stop_id": "B00361",
+        "stop_name": "49 Curiel (Pens.C)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "B00300",
+        "stop_name": "Monza Chiesa"
+      },
+      "trip_count": 23,
+      "orari_partenza": [
+        "07:46:00",
+        "08:37:00",
+        "08:42:00",
+        "09:42:00",
+        "10:42:00",
+        "11:42:00",
+        "12:42:00",
+        "13:42:00",
+        "14:42:00",
+        "15:42:00",
+        "16:42:00",
+        "17:42:00",
+        "18:42:00",
+        "19:37:00",
+        "19:42:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4071401",
+          "service_id": "404_1000000001810",
+          "start_time": "07:46:00",
+          "end_time": "08:08:00"
+        },
+        {
+          "trip_id": "404_4071404",
+          "service_id": "404_1000000001812",
+          "start_time": "07:46:00",
+          "end_time": "08:08:00"
+        },
+        {
+          "trip_id": "404_4036783",
+          "service_id": "404_1000000001810",
+          "start_time": "08:37:00",
+          "end_time": "09:08:00"
+        },
+        {
+          "trip_id": "404_4021851",
+          "service_id": "404_1000000001812",
+          "start_time": "08:42:00",
+          "end_time": "09:06:00"
+        },
+        {
+          "trip_id": "404_4071399",
+          "service_id": "404_1000000001810",
+          "start_time": "09:42:00",
+          "end_time": "10:04:00"
+        },
+        {
+          "trip_id": "404_4085039",
+          "service_id": "404_1000000001810",
+          "start_time": "10:42:00",
+          "end_time": "11:08:00"
+        },
+        {
+          "trip_id": "404_4071400",
+          "service_id": "404_1000000001810",
+          "start_time": "11:42:00",
+          "end_time": "12:04:00"
+        },
+        {
+          "trip_id": "404_4021849",
+          "service_id": "404_1000000001810",
+          "start_time": "12:42:00",
+          "end_time": "13:06:00"
+        },
+        {
+          "trip_id": "404_4021853",
+          "service_id": "404_1000000001812",
+          "start_time": "12:42:00",
+          "end_time": "13:06:00"
+        },
+        {
+          "trip_id": "404_4044281",
+          "service_id": "404_1000000001810",
+          "start_time": "13:42:00",
+          "end_time": "14:02:00"
+        },
+        {
+          "trip_id": "404_4044284",
+          "service_id": "404_1000000001812",
+          "start_time": "13:42:00",
+          "end_time": "14:02:00"
+        },
+        {
+          "trip_id": "404_4085040",
+          "service_id": "404_1000000001810",
+          "start_time": "14:42:00",
+          "end_time": "15:08:00"
+        },
+        {
+          "trip_id": "404_4085043",
+          "service_id": "404_1000000001812",
+          "start_time": "14:42:00",
+          "end_time": "15:08:00"
+        },
+        {
+          "trip_id": "404_4071402",
+          "service_id": "404_1000000001810",
+          "start_time": "15:42:00",
+          "end_time": "16:04:00"
+        },
+        {
+          "trip_id": "404_4071405",
+          "service_id": "404_1000000001812",
+          "start_time": "15:42:00",
+          "end_time": "16:04:00"
+        },
+        {
+          "trip_id": "404_4085041",
+          "service_id": "404_1000000001810",
+          "start_time": "16:42:00",
+          "end_time": "17:08:00"
+        },
+        {
+          "trip_id": "404_4085042",
+          "service_id": "404_1000000001812",
+          "start_time": "16:42:00",
+          "end_time": "17:08:00"
+        },
+        {
+          "trip_id": "404_4071403",
+          "service_id": "404_1000000001810",
+          "start_time": "17:42:00",
+          "end_time": "18:04:00"
+        },
+        {
+          "trip_id": "404_4071406",
+          "service_id": "404_1000000001812",
+          "start_time": "17:42:00",
+          "end_time": "18:04:00"
+        },
+        {
+          "trip_id": "404_4021850",
+          "service_id": "404_1000000001810",
+          "start_time": "18:42:00",
+          "end_time": "19:06:00"
+        },
+        {
+          "trip_id": "404_4021852",
+          "service_id": "404_1000000001812",
+          "start_time": "18:42:00",
+          "end_time": "19:06:00"
+        },
+        {
+          "trip_id": "404_4044283",
+          "service_id": "404_1000000001812",
+          "start_time": "19:37:00",
+          "end_time": "19:57:00"
+        },
+        {
+          "trip_id": "404_4044282",
+          "service_id": "404_1000000001810",
+          "start_time": "19:42:00",
+          "end_time": "20:02:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Lazio Paese > 49 Curiel (Pens.C)",
+      "capolinea_partenza": {
+        "stop_id": "B00015",
+        "stop_name": "Lazio Paese"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "B00361",
+        "stop_name": "49 Curiel (Pens.C)"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4034590",
+          "service_id": "404_1000000001812",
+          "start_time": "12:20:00",
+          "end_time": "12:27:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Monza Chiesa > 49 Curiel (Pens.C)",
+      "capolinea_partenza": {
+        "stop_id": "B00300",
+        "stop_name": "Monza Chiesa"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "B00361",
+        "stop_name": "49 Curiel (Pens.C)"
+      },
+      "trip_count": 22,
+      "orari_partenza": [
+        "08:12:00",
+        "09:10:00",
+        "10:10:00",
+        "11:10:00",
+        "12:10:00",
+        "13:12:00",
+        "14:12:00",
+        "15:10:00",
+        "16:10:00",
+        "17:10:00",
+        "18:10:00",
+        "19:12:00",
+        "20:07:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4083926",
+          "service_id": "404_1000000001810",
+          "start_time": "08:12:00",
+          "end_time": "08:32:00"
+        },
+        {
+          "trip_id": "404_4083928",
+          "service_id": "404_1000000001812",
+          "start_time": "08:12:00",
+          "end_time": "08:32:00"
+        },
+        {
+          "trip_id": "404_4071775",
+          "service_id": "404_1000000001810",
+          "start_time": "09:10:00",
+          "end_time": "09:33:00"
+        },
+        {
+          "trip_id": "404_4071778",
+          "service_id": "404_1000000001812",
+          "start_time": "09:10:00",
+          "end_time": "09:33:00"
+        },
+        {
+          "trip_id": "404_4082844",
+          "service_id": "404_1000000001810",
+          "start_time": "10:10:00",
+          "end_time": "10:32:00"
+        },
+        {
+          "trip_id": "404_4037984",
+          "service_id": "404_1000000001810",
+          "start_time": "11:10:00",
+          "end_time": "11:38:00"
+        },
+        {
+          "trip_id": "404_4082845",
+          "service_id": "404_1000000001810",
+          "start_time": "12:10:00",
+          "end_time": "12:32:00"
+        },
+        {
+          "trip_id": "404_4020369",
+          "service_id": "404_1000000001810",
+          "start_time": "13:12:00",
+          "end_time": "13:33:00"
+        },
+        {
+          "trip_id": "404_4020371",
+          "service_id": "404_1000000001812",
+          "start_time": "13:12:00",
+          "end_time": "13:33:00"
+        },
+        {
+          "trip_id": "404_4083925",
+          "service_id": "404_1000000001810",
+          "start_time": "14:12:00",
+          "end_time": "14:32:00"
+        },
+        {
+          "trip_id": "404_4083930",
+          "service_id": "404_1000000001812",
+          "start_time": "14:12:00",
+          "end_time": "14:32:00"
+        },
+        {
+          "trip_id": "404_4071776",
+          "service_id": "404_1000000001810",
+          "start_time": "15:10:00",
+          "end_time": "15:33:00"
+        },
+        {
+          "trip_id": "404_4071779",
+          "service_id": "404_1000000001812",
+          "start_time": "15:10:00",
+          "end_time": "15:33:00"
+        },
+        {
+          "trip_id": "404_4082846",
+          "service_id": "404_1000000001810",
+          "start_time": "16:10:00",
+          "end_time": "16:32:00"
+        },
+        {
+          "trip_id": "404_4082848",
+          "service_id": "404_1000000001812",
+          "start_time": "16:10:00",
+          "end_time": "16:32:00"
+        },
+        {
+          "trip_id": "404_4071777",
+          "service_id": "404_1000000001810",
+          "start_time": "17:10:00",
+          "end_time": "17:33:00"
+        },
+        {
+          "trip_id": "404_4071780",
+          "service_id": "404_1000000001812",
+          "start_time": "17:10:00",
+          "end_time": "17:33:00"
+        },
+        {
+          "trip_id": "404_4082847",
+          "service_id": "404_1000000001810",
+          "start_time": "18:10:00",
+          "end_time": "18:32:00"
+        },
+        {
+          "trip_id": "404_4082849",
+          "service_id": "404_1000000001812",
+          "start_time": "18:10:00",
+          "end_time": "18:32:00"
+        },
+        {
+          "trip_id": "404_4020370",
+          "service_id": "404_1000000001812",
+          "start_time": "19:12:00",
+          "end_time": "19:33:00"
+        },
+        {
+          "trip_id": "404_4083927",
+          "service_id": "404_1000000001810",
+          "start_time": "20:07:00",
+          "end_time": "20:27:00"
+        },
+        {
+          "trip_id": "404_4083929",
+          "service_id": "404_1000000001812",
+          "start_time": "20:07:00",
+          "end_time": "20:27:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Riva Del Garda > 49 Curiel (Pens.C)",
+      "capolinea_partenza": {
+        "stop_id": "B00355",
+        "stop_name": "Riva Del Garda"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "B00361",
+        "stop_name": "49 Curiel (Pens.C)"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "06:31:00",
+        "07:21:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4027646",
+          "service_id": "404_1000000001810",
+          "start_time": "06:31:00",
+          "end_time": "06:53:00"
+        },
+        {
+          "trip_id": "404_4027645",
+          "service_id": "404_1000000001810",
+          "start_time": "07:21:00",
+          "end_time": "07:43:00"
+        },
+        {
+          "trip_id": "404_4027647",
+          "service_id": "404_1000000001812",
+          "start_time": "07:21:00",
+          "end_time": "07:43:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "estrazione": "Orari da route_30.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_30.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "30",
+    "name": "Linea 30",
+    "direzioni_percorso": [
+      "Ravennafs-R.Taxi > Saipem",
+      "Saipem > Ravenna Fs"
+    ],
+    "route_id": "30"
+  },
+  "totale_trips": 12,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Ravennafs-R.Taxi > Saipem",
+      "capolinea_partenza": {
+        "stop_id": "700050",
+        "stop_name": "Ravennafs-R.Taxi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "718650",
+        "stop_name": "Saipem"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "07:35:00",
+        "11:52:00",
+        "13:42:00",
+        "16:45:00",
+        "17:48:00",
+        "18:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795837",
+          "service_id": "674_1000000002118",
+          "start_time": "07:35:00",
+          "end_time": "07:53:00"
+        },
+        {
+          "trip_id": "674_2795839",
+          "service_id": "674_1000000002118",
+          "start_time": "11:52:00",
+          "end_time": "12:10:00"
+        },
+        {
+          "trip_id": "674_2795858",
+          "service_id": "674_1000000002115",
+          "start_time": "13:42:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "trip_id": "674_2795860",
+          "service_id": "674_1000000002115",
+          "start_time": "16:45:00",
+          "end_time": "17:03:00"
+        },
+        {
+          "trip_id": "674_2795841",
+          "service_id": "674_1000000002118",
+          "start_time": "17:48:00",
+          "end_time": "18:06:00"
+        },
+        {
+          "trip_id": "674_2795843",
+          "service_id": "674_1000000002118",
+          "start_time": "18:35:00",
+          "end_time": "18:53:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Saipem > Ravenna Fs",
+      "capolinea_partenza": {
+        "stop_id": "718650",
+        "stop_name": "Saipem"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700010",
+        "stop_name": "Ravenna Fs"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "07:53:00",
+        "12:10:00",
+        "14:00:00",
+        "17:04:00",
+        "18:06:00",
+        "18:53:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795838",
+          "service_id": "674_1000000002118",
+          "start_time": "07:53:00",
+          "end_time": "08:14:00"
+        },
+        {
+          "trip_id": "674_2795840",
+          "service_id": "674_1000000002118",
+          "start_time": "12:10:00",
+          "end_time": "12:31:00"
+        },
+        {
+          "trip_id": "674_2795859",
+          "service_id": "674_1000000002115",
+          "start_time": "14:00:00",
+          "end_time": "14:21:00"
+        },
+        {
+          "trip_id": "674_2795861",
+          "service_id": "674_1000000002115",
+          "start_time": "17:04:00",
+          "end_time": "17:25:00"
+        },
+        {
+          "trip_id": "674_2795842",
+          "service_id": "674_1000000002118",
+          "start_time": "18:06:00",
+          "end_time": "18:27:00"
+        },
+        {
+          "trip_id": "674_2795844",
+          "service_id": "674_1000000002118",
+          "start_time": "18:53:00",
+          "end_time": "19:14:00"
+        }
+      ]
+    }
+  ]
+}

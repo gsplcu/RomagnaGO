@@ -1,0 +1,56 @@
+{
+  "estrazione": "Orari da route_SS02.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_SS02.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "SS02",
+    "name": "Linea SS02",
+    "direzioni_percorso": [
+      "S.Sofia Centro > S.Sofia Centro"
+    ],
+    "route_id": "SS02"
+  },
+  "totale_trips": 3,
+  "totale_direzioni_percorso": 1,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.Sofia Centro > S.Sofia Centro",
+      "capolinea_partenza": {
+        "stop_id": "15192",
+        "stop_name": "S.Sofia Centro"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "15192",
+        "stop_name": "S.Sofia Centro"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "07:55:00",
+        "09:30:00",
+        "12:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1032794",
+          "service_id": "833_1000000006927",
+          "start_time": "07:55:00",
+          "end_time": "08:08:00"
+        },
+        {
+          "trip_id": "833_1032792",
+          "service_id": "833_1000000006927",
+          "start_time": "09:30:00",
+          "end_time": "09:43:00"
+        },
+        {
+          "trip_id": "833_1032793",
+          "service_id": "833_1000000006927",
+          "start_time": "12:30:00",
+          "end_time": "12:43:00"
+        }
+      ]
+    }
+  ]
+}

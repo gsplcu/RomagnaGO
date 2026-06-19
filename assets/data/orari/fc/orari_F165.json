@@ -1,0 +1,109 @@
+{
+  "estrazione": "Orari da route_F165.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F165.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F165",
+    "name": "Linea F165",
+    "direzioni_percorso": [
+      "S.Angelo Allende > Savignano Fs",
+      "Savignano Fs > S.Angelo Allende"
+    ],
+    "route_id": "F165"
+  },
+  "totale_trips": 8,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.Angelo Allende > Savignano Fs",
+      "capolinea_partenza": {
+        "stop_id": "47741",
+        "stop_name": "S.Angelo Allende"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20102",
+        "stop_name": "Savignano Fs"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "07:49:00",
+        "11:26:00",
+        "13:26:00",
+        "18:54:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031452",
+          "service_id": "833_1000000006947",
+          "start_time": "07:49:00",
+          "end_time": "08:13:00"
+        },
+        {
+          "trip_id": "833_1031453",
+          "service_id": "833_1000000006947",
+          "start_time": "11:26:00",
+          "end_time": "11:50:00"
+        },
+        {
+          "trip_id": "833_1031454",
+          "service_id": "833_1000000006947",
+          "start_time": "13:26:00",
+          "end_time": "13:50:00"
+        },
+        {
+          "trip_id": "833_1031455",
+          "service_id": "833_1000000006947",
+          "start_time": "18:54:00",
+          "end_time": "19:18:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Savignano Fs > S.Angelo Allende",
+      "capolinea_partenza": {
+        "stop_id": "20102",
+        "stop_name": "Savignano Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "47742",
+        "stop_name": "S.Angelo Allende"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "07:25:00",
+        "10:50:00",
+        "12:50:00",
+        "18:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036040",
+          "service_id": "833_1000000006947",
+          "start_time": "07:25:00",
+          "end_time": "07:49:00"
+        },
+        {
+          "trip_id": "833_1036041",
+          "service_id": "833_1000000006947",
+          "start_time": "10:50:00",
+          "end_time": "11:14:00"
+        },
+        {
+          "trip_id": "833_1036042",
+          "service_id": "833_1000000006947",
+          "start_time": "12:50:00",
+          "end_time": "13:14:00"
+        },
+        {
+          "trip_id": "833_1036043",
+          "service_id": "833_1000000006947",
+          "start_time": "18:30:00",
+          "end_time": "18:54:00"
+        }
+      ]
+    }
+  ]
+}

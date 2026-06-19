@@ -1,0 +1,88 @@
+{
+  "estrazione": "Orari da route_182.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_182.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "182",
+    "name": "Linea 182",
+    "direzioni_percorso": [
+      "Onferno Castello > P.Risorgimento",
+      "P.Risorgimento > Onferno Castello"
+    ],
+    "route_id": "182"
+  },
+  "totale_trips": 5,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Onferno Castello > P.Risorgimento",
+      "capolinea_partenza": {
+        "stop_id": "I00027",
+        "stop_name": "Onferno Castello"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "P00001",
+        "stop_name": "P.Risorgimento"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "06:25:00",
+        "13:45:00",
+        "18:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4033628",
+          "service_id": "404_1000000001810",
+          "start_time": "06:25:00",
+          "end_time": "07:04:00"
+        },
+        {
+          "trip_id": "404_4055941",
+          "service_id": "404_1000000001810",
+          "start_time": "13:45:00",
+          "end_time": "14:23:00"
+        },
+        {
+          "trip_id": "404_4055942",
+          "service_id": "404_1000000001810",
+          "start_time": "18:45:00",
+          "end_time": "19:23:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "P.Risorgimento > Onferno Castello",
+      "capolinea_partenza": {
+        "stop_id": "P00027",
+        "stop_name": "P.Risorgimento"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "I00027",
+        "stop_name": "Onferno Castello"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "13:08:00",
+        "18:08:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4066354",
+          "service_id": "404_1000000001810",
+          "start_time": "13:08:00",
+          "end_time": "13:45:00"
+        },
+        {
+          "trip_id": "404_4066355",
+          "service_id": "404_1000000001810",
+          "start_time": "18:08:00",
+          "end_time": "18:45:00"
+        }
+      ]
+    }
+  ]
+}

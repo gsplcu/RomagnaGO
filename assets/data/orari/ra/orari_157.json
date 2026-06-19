@@ -1,0 +1,81 @@
+{
+  "estrazione": "Orari da route_157.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_157.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "157",
+    "name": "Linea 157",
+    "direzioni_percorso": [
+      "Circ.Ne Al Molino > Taverna",
+      "Taverna > Circ.Ne Al Molino"
+    ],
+    "route_id": "157"
+  },
+  "totale_trips": 4,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Circ.Ne Al Molino > Taverna",
+      "capolinea_partenza": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "725030",
+        "stop_name": "Taverna"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "13:10:00",
+        "18:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888224",
+          "service_id": "674_1000000002118",
+          "start_time": "13:10:00",
+          "end_time": "13:58:00"
+        },
+        {
+          "trip_id": "674_2888225",
+          "service_id": "674_1000000002118",
+          "start_time": "18:35:00",
+          "end_time": "19:23:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Taverna > Circ.Ne Al Molino",
+      "capolinea_partenza": {
+        "stop_id": "725020",
+        "stop_name": "Taverna"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:50:00",
+        "14:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888222",
+          "service_id": "674_1000000002118",
+          "start_time": "06:50:00",
+          "end_time": "07:38:00"
+        },
+        {
+          "trip_id": "674_2888223",
+          "service_id": "674_1000000002118",
+          "start_time": "14:10:00",
+          "end_time": "14:56:00"
+        }
+      ]
+    }
+  ]
+}

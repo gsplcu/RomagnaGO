@@ -1,0 +1,173 @@
+{
+  "estrazione": "Orari da route_141.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_141.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "141",
+    "name": "Linea 141",
+    "direzioni_percorso": [
+      "Maroncelli Fs 2 > Pizzeria",
+      "Maroncelli Fs 2 > S.Alberto Piazza",
+      "Pizzeria > Ravenna Fs",
+      "S.Alberto Piazza > Ravenna Fs"
+    ],
+    "route_id": "141"
+  },
+  "totale_trips": 12,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Maroncelli Fs 2 > Pizzeria",
+      "capolinea_partenza": {
+        "stop_id": "700090",
+        "stop_name": "Maroncelli Fs 2"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "721870",
+        "stop_name": "Pizzeria"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "07:20:00",
+        "11:35:00",
+        "13:15:00",
+        "17:45:00",
+        "19:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795624",
+          "service_id": "674_1000000002118",
+          "start_time": "07:20:00",
+          "end_time": "08:00:00"
+        },
+        {
+          "trip_id": "674_2795625",
+          "service_id": "674_1000000002118",
+          "start_time": "11:35:00",
+          "end_time": "12:15:00"
+        },
+        {
+          "trip_id": "674_2795626",
+          "service_id": "674_1000000002118",
+          "start_time": "13:15:00",
+          "end_time": "13:55:00"
+        },
+        {
+          "trip_id": "674_2796361",
+          "service_id": "674_1000000002117",
+          "start_time": "17:45:00",
+          "end_time": "18:25:00"
+        },
+        {
+          "trip_id": "674_2795627",
+          "service_id": "674_1000000002118",
+          "start_time": "19:15:00",
+          "end_time": "19:55:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Maroncelli Fs 2 > S.Alberto Piazza",
+      "capolinea_partenza": {
+        "stop_id": "700090",
+        "stop_name": "Maroncelli Fs 2"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "720000",
+        "stop_name": "S.Alberto Piazza"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "05:55:00",
+        "14:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795825",
+          "service_id": "674_1000000002118",
+          "start_time": "05:55:00",
+          "end_time": "06:20:00"
+        },
+        {
+          "trip_id": "674_2795628",
+          "service_id": "674_1000000002118",
+          "start_time": "14:15:00",
+          "end_time": "14:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Pizzeria > Ravenna Fs",
+      "capolinea_partenza": {
+        "stop_id": "721870",
+        "stop_name": "Pizzeria"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700010",
+        "stop_name": "Ravenna Fs"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "06:40:00",
+        "08:15:00",
+        "12:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795742",
+          "service_id": "674_1000000002118",
+          "start_time": "06:40:00",
+          "end_time": "07:19:00"
+        },
+        {
+          "trip_id": "674_2795620",
+          "service_id": "674_1000000002118",
+          "start_time": "08:15:00",
+          "end_time": "08:55:00"
+        },
+        {
+          "trip_id": "674_2795621",
+          "service_id": "674_1000000002118",
+          "start_time": "12:30:00",
+          "end_time": "13:10:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.Alberto Piazza > Ravenna Fs",
+      "capolinea_partenza": {
+        "stop_id": "720000",
+        "stop_name": "S.Alberto Piazza"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700010",
+        "stop_name": "Ravenna Fs"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "13:50:00",
+        "14:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795622",
+          "service_id": "674_1000000002118",
+          "start_time": "13:50:00",
+          "end_time": "14:15:00"
+        },
+        {
+          "trip_id": "674_2795623",
+          "service_id": "674_1000000002118",
+          "start_time": "14:45:00",
+          "end_time": "15:10:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "estrazione": "Orari da route_F137.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F137.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F137",
+    "name": "Linea F137",
+    "direzioni_percorso": [
+      "Piazza Borello > Zignola",
+      "Zignola > Piazza Borello"
+    ],
+    "route_id": "F137"
+  },
+  "totale_trips": 2,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Piazza Borello > Zignola",
+      "capolinea_partenza": {
+        "stop_id": "12311",
+        "stop_name": "Piazza Borello"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "17032",
+        "stop_name": "Zignola"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031338",
+          "service_id": "833_1000000006928",
+          "start_time": "06:50:00",
+          "end_time": "07:45:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Zignola > Piazza Borello",
+      "capolinea_partenza": {
+        "stop_id": "17031",
+        "stop_name": "Zignola"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "12312",
+        "stop_name": "Piazza Borello"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "14:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033847",
+          "service_id": "833_1000000006928",
+          "start_time": "14:30:00",
+          "end_time": "15:20:00"
+        }
+      ]
+    }
+  ]
+}

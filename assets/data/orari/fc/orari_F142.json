@@ -1,0 +1,67 @@
+{
+  "estrazione": "Orari da route_F142.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F142.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F142",
+    "name": "Linea F142",
+    "direzioni_percorso": [
+      "Arezzo > S.Mauro Mare",
+      "S.Mauro Mare > Arezzo"
+    ],
+    "route_id": "F142"
+  },
+  "totale_trips": 2,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Arezzo > S.Mauro Mare",
+      "capolinea_partenza": {
+        "stop_id": "25160",
+        "stop_name": "Arezzo"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11830",
+        "stop_name": "S.Mauro Mare"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036166",
+          "service_id": "833_1000000006964",
+          "start_time": "06:20:00",
+          "end_time": "09:55:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.Mauro Mare > Arezzo",
+      "capolinea_partenza": {
+        "stop_id": "11830",
+        "stop_name": "S.Mauro Mare"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "25160",
+        "stop_name": "Arezzo"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "17:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086300",
+          "service_id": "833_1000000006964",
+          "start_time": "17:15:00",
+          "end_time": "20:53:00"
+        }
+      ]
+    }
+  ]
+}

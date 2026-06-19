@@ -1,0 +1,62 @@
+{
+  "estrazione": "Orari da route_F025.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F025.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F025",
+    "name": "Linea F025",
+    "direzioni_percorso": [
+      "Cesena Punto Bus C1 > Cesena Punto Bus C1"
+    ],
+    "route_id": "F025"
+  },
+  "totale_trips": 4,
+  "totale_direzioni_percorso": 1,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cesena Punto Bus C1 > Cesena Punto Bus C1",
+      "capolinea_partenza": {
+        "stop_id": "999C1",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999C1",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "06:15:00",
+        "06:30:00",
+        "10:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036268",
+          "service_id": "833_1000000006941",
+          "start_time": "06:15:00",
+          "end_time": "07:15:00"
+        },
+        {
+          "trip_id": "833_1036267",
+          "service_id": "833_1000000006933",
+          "start_time": "06:30:00",
+          "end_time": "07:15:00"
+        },
+        {
+          "trip_id": "833_1033658",
+          "service_id": "833_1000000006933",
+          "start_time": "10:30:00",
+          "end_time": "11:15:00"
+        },
+        {
+          "trip_id": "833_1033659",
+          "service_id": "833_1000000006941",
+          "start_time": "10:30:00",
+          "end_time": "11:30:00"
+        }
+      ]
+    }
+  ]
+}

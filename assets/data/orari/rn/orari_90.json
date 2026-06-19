@@ -1,0 +1,289 @@
+{
+  "estrazione": "Orari da route_90.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_90.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "90",
+    "name": "Linea 90",
+    "direzioni_percorso": [
+      "4 Rimini Fs > Savignano Fs",
+      "Marecchies-Rossa > Savignano Fs",
+      "Ospedale > Savignano Fs",
+      "Savignano Fs > 4 Rimini Fs",
+      "Savignano Fs > Ospedale"
+    ],
+    "route_id": "90"
+  },
+  "totale_trips": 26,
+  "totale_direzioni_percorso": 5,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "4 Rimini Fs > Savignano Fs",
+      "capolinea_partenza": {
+        "stop_id": "A01059",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "U00026",
+        "stop_name": "Savignano Fs"
+      },
+      "trip_count": 8,
+      "orari_partenza": [
+        "06:35:00",
+        "08:30:00",
+        "10:30:00",
+        "12:45:00",
+        "14:30:00",
+        "16:30:00",
+        "18:35:00",
+        "20:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4081909",
+          "service_id": "404_1000000001810",
+          "start_time": "06:35:00",
+          "end_time": "07:26:00"
+        },
+        {
+          "trip_id": "404_4081910",
+          "service_id": "404_1000000001810",
+          "start_time": "08:30:00",
+          "end_time": "09:22:00"
+        },
+        {
+          "trip_id": "404_4081911",
+          "service_id": "404_1000000001810",
+          "start_time": "10:30:00",
+          "end_time": "11:22:00"
+        },
+        {
+          "trip_id": "404_4081912",
+          "service_id": "404_1000000001810",
+          "start_time": "12:45:00",
+          "end_time": "13:37:00"
+        },
+        {
+          "trip_id": "404_4081913",
+          "service_id": "404_1000000001810",
+          "start_time": "14:30:00",
+          "end_time": "15:22:00"
+        },
+        {
+          "trip_id": "404_4081914",
+          "service_id": "404_1000000001810",
+          "start_time": "16:30:00",
+          "end_time": "17:22:00"
+        },
+        {
+          "trip_id": "404_4081915",
+          "service_id": "404_1000000001810",
+          "start_time": "18:35:00",
+          "end_time": "19:27:00"
+        },
+        {
+          "trip_id": "404_4081916",
+          "service_id": "404_1000000001810",
+          "start_time": "20:00:00",
+          "end_time": "20:50:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Marecchies-Rossa > Savignano Fs",
+      "capolinea_partenza": {
+        "stop_id": "A00519",
+        "stop_name": "Marecchies-Rossa"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "U00026",
+        "stop_name": "Savignano Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4035152",
+          "service_id": "404_1000000001810",
+          "start_time": "06:25:00",
+          "end_time": "06:51:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ospedale > Savignano Fs",
+      "capolinea_partenza": {
+        "stop_id": "D00008",
+        "stop_name": "Ospedale"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "U00026",
+        "stop_name": "Savignano Fs"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "09:00:00",
+        "14:18:00",
+        "14:22:00",
+        "20:08:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4038518",
+          "service_id": "404_1000000001812",
+          "start_time": "09:00:00",
+          "end_time": "09:25:00"
+        },
+        {
+          "trip_id": "404_4046041",
+          "service_id": "404_1000000001812",
+          "start_time": "14:18:00",
+          "end_time": "14:33:00"
+        },
+        {
+          "trip_id": "404_4046040",
+          "service_id": "404_1000000001810",
+          "start_time": "14:22:00",
+          "end_time": "14:37:00"
+        },
+        {
+          "trip_id": "404_4038519",
+          "service_id": "404_1000000001812",
+          "start_time": "20:08:00",
+          "end_time": "20:32:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Savignano Fs > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "U00026",
+        "stop_name": "Savignano Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01059",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "06:53:00",
+        "07:30:00",
+        "09:40:00",
+        "11:40:00",
+        "14:40:00",
+        "15:40:00",
+        "17:40:00",
+        "19:40:00",
+        "20:52:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4020006",
+          "service_id": "404_1000000001810",
+          "start_time": "06:53:00",
+          "end_time": "07:44:00"
+        },
+        {
+          "trip_id": "404_4029078",
+          "service_id": "404_1000000001810",
+          "start_time": "07:30:00",
+          "end_time": "08:21:00"
+        },
+        {
+          "trip_id": "404_4029079",
+          "service_id": "404_1000000001810",
+          "start_time": "09:40:00",
+          "end_time": "10:29:00"
+        },
+        {
+          "trip_id": "404_4029080",
+          "service_id": "404_1000000001810",
+          "start_time": "11:40:00",
+          "end_time": "12:29:00"
+        },
+        {
+          "trip_id": "404_4029081",
+          "service_id": "404_1000000001810",
+          "start_time": "14:40:00",
+          "end_time": "15:29:00"
+        },
+        {
+          "trip_id": "404_4029082",
+          "service_id": "404_1000000001810",
+          "start_time": "15:40:00",
+          "end_time": "16:29:00"
+        },
+        {
+          "trip_id": "404_4020007",
+          "service_id": "404_1000000001810",
+          "start_time": "17:40:00",
+          "end_time": "18:30:00"
+        },
+        {
+          "trip_id": "404_4020008",
+          "service_id": "404_1000000001810",
+          "start_time": "19:40:00",
+          "end_time": "20:30:00"
+        },
+        {
+          "trip_id": "404_4020009",
+          "service_id": "404_1000000001810",
+          "start_time": "20:52:00",
+          "end_time": "21:41:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Savignano Fs > Ospedale",
+      "capolinea_partenza": {
+        "stop_id": "U00026",
+        "stop_name": "Savignano Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00047",
+        "stop_name": "Ospedale"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "09:35:00",
+        "13:55:00",
+        "14:35:00",
+        "20:33:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4056573",
+          "service_id": "404_1000000001812",
+          "start_time": "09:35:00",
+          "end_time": "09:58:00"
+        },
+        {
+          "trip_id": "404_4056572",
+          "service_id": "404_1000000001810",
+          "start_time": "13:55:00",
+          "end_time": "14:19:00"
+        },
+        {
+          "trip_id": "404_4056574",
+          "service_id": "404_1000000001812",
+          "start_time": "14:35:00",
+          "end_time": "14:58:00"
+        },
+        {
+          "trip_id": "404_4027999",
+          "service_id": "404_1000000001812",
+          "start_time": "20:33:00",
+          "end_time": "20:46:00"
+        }
+      ]
+    }
+  ]
+}

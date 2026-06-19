@@ -1,0 +1,349 @@
+{
+  "estrazione": "Orari da route_16.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_16.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "16",
+    "name": "Linea 16",
+    "direzioni_percorso": [
+      "4 Rimini Fs > S.Cristinachiesa",
+      "Dogana Confine > S.Cristinachiesa",
+      "S.Cristinachiesa > 4 Rimini Fs"
+    ],
+    "route_id": "16"
+  },
+  "totale_trips": 40,
+  "totale_direzioni_percorso": 3,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "4 Rimini Fs > S.Cristinachiesa",
+      "capolinea_partenza": {
+        "stop_id": "A01175",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00103",
+        "stop_name": "S.Cristinachiesa"
+      },
+      "trip_count": 19,
+      "orari_partenza": [
+        "05:52:00",
+        "06:50:00",
+        "07:40:00",
+        "07:47:00",
+        "08:25:00",
+        "09:45:00",
+        "11:25:00",
+        "12:15:00",
+        "12:45:00",
+        "13:25:00",
+        "14:15:00",
+        "14:45:00",
+        "15:45:00",
+        "16:45:00",
+        "17:15:00",
+        "17:45:00",
+        "18:45:00",
+        "19:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4088018",
+          "service_id": "404_1000000001810",
+          "start_time": "05:52:00",
+          "end_time": "06:30:00"
+        },
+        {
+          "trip_id": "404_4088019",
+          "service_id": "404_1000000001810",
+          "start_time": "06:50:00",
+          "end_time": "07:29:00"
+        },
+        {
+          "trip_id": "404_4088015",
+          "service_id": "404_1000000001810",
+          "start_time": "07:40:00",
+          "end_time": "08:20:00"
+        },
+        {
+          "trip_id": "404_4088028",
+          "service_id": "404_1000000001812",
+          "start_time": "07:47:00",
+          "end_time": "08:25:00"
+        },
+        {
+          "trip_id": "404_4088016",
+          "service_id": "404_1000000001810",
+          "start_time": "08:25:00",
+          "end_time": "09:05:00"
+        },
+        {
+          "trip_id": "404_4088017",
+          "service_id": "404_1000000001810",
+          "start_time": "09:45:00",
+          "end_time": "10:25:00"
+        },
+        {
+          "trip_id": "404_4088020",
+          "service_id": "404_1000000001810",
+          "start_time": "11:25:00",
+          "end_time": "12:05:00"
+        },
+        {
+          "trip_id": "404_4088025",
+          "service_id": "404_1000000001810",
+          "start_time": "12:15:00",
+          "end_time": "12:55:00"
+        },
+        {
+          "trip_id": "404_4088030",
+          "service_id": "404_1000000001812",
+          "start_time": "12:45:00",
+          "end_time": "13:25:00"
+        },
+        {
+          "trip_id": "404_4088026",
+          "service_id": "404_1000000001810",
+          "start_time": "13:25:00",
+          "end_time": "14:05:00"
+        },
+        {
+          "trip_id": "404_4088029",
+          "service_id": "404_1000000001812",
+          "start_time": "14:15:00",
+          "end_time": "14:55:00"
+        },
+        {
+          "trip_id": "404_4088021",
+          "service_id": "404_1000000001810",
+          "start_time": "14:45:00",
+          "end_time": "15:25:00"
+        },
+        {
+          "trip_id": "404_4088031",
+          "service_id": "404_1000000001812",
+          "start_time": "15:45:00",
+          "end_time": "16:25:00"
+        },
+        {
+          "trip_id": "404_4088022",
+          "service_id": "404_1000000001810",
+          "start_time": "16:45:00",
+          "end_time": "17:25:00"
+        },
+        {
+          "trip_id": "404_4088032",
+          "service_id": "404_1000000001812",
+          "start_time": "17:15:00",
+          "end_time": "17:55:00"
+        },
+        {
+          "trip_id": "404_4088027",
+          "service_id": "404_1000000001810",
+          "start_time": "17:45:00",
+          "end_time": "18:25:00"
+        },
+        {
+          "trip_id": "404_4088023",
+          "service_id": "404_1000000001810",
+          "start_time": "18:45:00",
+          "end_time": "19:25:00"
+        },
+        {
+          "trip_id": "404_4088033",
+          "service_id": "404_1000000001812",
+          "start_time": "18:45:00",
+          "end_time": "19:25:00"
+        },
+        {
+          "trip_id": "404_4088024",
+          "service_id": "404_1000000001810",
+          "start_time": "19:50:00",
+          "end_time": "20:30:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Dogana Confine > S.Cristinachiesa",
+      "capolinea_partenza": {
+        "stop_id": "A00092",
+        "stop_name": "Dogana Confine"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00103",
+        "stop_name": "S.Cristinachiesa"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:47:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4038641",
+          "service_id": "404_1000000001812",
+          "start_time": "06:47:00",
+          "end_time": "06:55:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.Cristinachiesa > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "A00103",
+        "stop_name": "S.Cristinachiesa"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01059",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 20,
+      "orari_partenza": [
+        "06:30:00",
+        "06:55:00",
+        "07:30:00",
+        "08:20:00",
+        "08:25:00",
+        "09:05:00",
+        "10:25:00",
+        "12:05:00",
+        "12:55:00",
+        "13:25:00",
+        "14:05:00",
+        "14:55:00",
+        "15:25:00",
+        "16:25:00",
+        "17:25:00",
+        "17:55:00",
+        "18:25:00",
+        "19:25:00",
+        "20:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4084533",
+          "service_id": "404_1000000001810",
+          "start_time": "06:30:00",
+          "end_time": "07:05:00"
+        },
+        {
+          "trip_id": "404_4084548",
+          "service_id": "404_1000000001812",
+          "start_time": "06:55:00",
+          "end_time": "07:30:00"
+        },
+        {
+          "trip_id": "404_4084534",
+          "service_id": "404_1000000001810",
+          "start_time": "07:30:00",
+          "end_time": "08:05:00"
+        },
+        {
+          "trip_id": "404_4084530",
+          "service_id": "404_1000000001810",
+          "start_time": "08:20:00",
+          "end_time": "08:55:00"
+        },
+        {
+          "trip_id": "404_4084542",
+          "service_id": "404_1000000001812",
+          "start_time": "08:25:00",
+          "end_time": "09:00:00"
+        },
+        {
+          "trip_id": "404_4084531",
+          "service_id": "404_1000000001810",
+          "start_time": "09:05:00",
+          "end_time": "09:40:00"
+        },
+        {
+          "trip_id": "404_4084532",
+          "service_id": "404_1000000001810",
+          "start_time": "10:25:00",
+          "end_time": "11:00:00"
+        },
+        {
+          "trip_id": "404_4019319",
+          "service_id": "404_1000000001810",
+          "start_time": "12:05:00",
+          "end_time": "12:41:00"
+        },
+        {
+          "trip_id": "404_4084539",
+          "service_id": "404_1000000001810",
+          "start_time": "12:55:00",
+          "end_time": "13:30:00"
+        },
+        {
+          "trip_id": "404_4084544",
+          "service_id": "404_1000000001812",
+          "start_time": "13:25:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "trip_id": "404_4084540",
+          "service_id": "404_1000000001810",
+          "start_time": "14:05:00",
+          "end_time": "14:40:00"
+        },
+        {
+          "trip_id": "404_4084543",
+          "service_id": "404_1000000001812",
+          "start_time": "14:55:00",
+          "end_time": "15:30:00"
+        },
+        {
+          "trip_id": "404_4084535",
+          "service_id": "404_1000000001810",
+          "start_time": "15:25:00",
+          "end_time": "16:00:00"
+        },
+        {
+          "trip_id": "404_4084545",
+          "service_id": "404_1000000001812",
+          "start_time": "16:25:00",
+          "end_time": "17:00:00"
+        },
+        {
+          "trip_id": "404_4084536",
+          "service_id": "404_1000000001810",
+          "start_time": "17:25:00",
+          "end_time": "18:00:00"
+        },
+        {
+          "trip_id": "404_4084546",
+          "service_id": "404_1000000001812",
+          "start_time": "17:55:00",
+          "end_time": "18:30:00"
+        },
+        {
+          "trip_id": "404_4084541",
+          "service_id": "404_1000000001810",
+          "start_time": "18:25:00",
+          "end_time": "19:00:00"
+        },
+        {
+          "trip_id": "404_4084537",
+          "service_id": "404_1000000001810",
+          "start_time": "19:25:00",
+          "end_time": "20:00:00"
+        },
+        {
+          "trip_id": "404_4084547",
+          "service_id": "404_1000000001812",
+          "start_time": "19:25:00",
+          "end_time": "20:00:00"
+        },
+        {
+          "trip_id": "404_4084538",
+          "service_id": "404_1000000001810",
+          "start_time": "20:30:00",
+          "end_time": "21:05:00"
+        }
+      ]
+    }
+  ]
+}

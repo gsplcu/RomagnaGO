@@ -1,0 +1,622 @@
+{
+  "estrazione": "Orari da route_S094.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_S094.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "S094",
+    "name": "Linea S094",
+    "direzioni_percorso": [
+      "Cavallotti > Cesena Punto Bus A2",
+      "Cesena Punto Bus A2 > Cavallotti",
+      "Cesena Punto Bus A2 > Cesenatico (P.To Canale)",
+      "Cesena Punto Bus A2 > Gatteo Mare (Via Euclide)",
+      "Cesena Punto Bus A2 > S.Mauro Mare",
+      "Gatteo Mare (Via Euclide) > Cesena Punto Bus A2",
+      "Marconi > Cesena Punto Bus A2",
+      "S.Mauro Mare > Cesena Punto Bus A2"
+    ],
+    "route_id": "S094"
+  },
+  "totale_trips": 66,
+  "totale_direzioni_percorso": 8,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cavallotti > Cesena Punto Bus A2",
+      "capolinea_partenza": {
+        "stop_id": "30190",
+        "stop_name": "Cavallotti"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999A2",
+        "stop_name": "Cesena Punto Bus A2"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "20:30:00",
+        "22:00:00",
+        "23:30:00",
+        "25:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038655",
+          "service_id": "833_1000000006910",
+          "start_time": "20:30:00",
+          "end_time": "21:09:00"
+        },
+        {
+          "trip_id": "833_1038656",
+          "service_id": "833_1000000006910",
+          "start_time": "22:00:00",
+          "end_time": "22:39:00"
+        },
+        {
+          "trip_id": "833_1038657",
+          "service_id": "833_1000000006910",
+          "start_time": "23:30:00",
+          "end_time": "24:09:00"
+        },
+        {
+          "trip_id": "833_1038658",
+          "service_id": "833_1000000006910",
+          "start_time": "25:00:00",
+          "end_time": "25:39:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus A2 > Cavallotti",
+      "capolinea_partenza": {
+        "stop_id": "999A2",
+        "stop_name": "Cesena Punto Bus A2"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30190",
+        "stop_name": "Cavallotti"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "21:20:00",
+        "22:48:00",
+        "24:18:00",
+        "25:48:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038598",
+          "service_id": "833_1000000006910",
+          "start_time": "21:20:00",
+          "end_time": "21:58:00"
+        },
+        {
+          "trip_id": "833_1038599",
+          "service_id": "833_1000000006910",
+          "start_time": "22:48:00",
+          "end_time": "23:26:00"
+        },
+        {
+          "trip_id": "833_1038600",
+          "service_id": "833_1000000006910",
+          "start_time": "24:18:00",
+          "end_time": "24:56:00"
+        },
+        {
+          "trip_id": "833_1038601",
+          "service_id": "833_1000000006910",
+          "start_time": "25:48:00",
+          "end_time": "26:26:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus A2 > Cesenatico (P.To Canale)",
+      "capolinea_partenza": {
+        "stop_id": "999A2",
+        "stop_name": "Cesena Punto Bus A2"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30110",
+        "stop_name": "Cesenatico (P.To Canale)"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "19:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038582",
+          "service_id": "833_1000000006965",
+          "start_time": "19:50:00",
+          "end_time": "20:27:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus A2 > Gatteo Mare (Via Euclide)",
+      "capolinea_partenza": {
+        "stop_id": "999A2",
+        "stop_name": "Cesena Punto Bus A2"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "trip_count": 25,
+      "orari_partenza": [
+        "06:45:00",
+        "07:20:00",
+        "07:50:00",
+        "08:50:00",
+        "09:20:00",
+        "09:50:00",
+        "10:20:00",
+        "10:50:00",
+        "11:20:00",
+        "11:50:00",
+        "12:20:00",
+        "12:50:00",
+        "13:20:00",
+        "13:50:00",
+        "14:20:00",
+        "14:50:00",
+        "15:20:00",
+        "15:50:00",
+        "16:20:00",
+        "16:50:00",
+        "17:50:00",
+        "18:20:00",
+        "18:50:00",
+        "19:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038555",
+          "service_id": "833_1000000006965",
+          "start_time": "06:45:00",
+          "end_time": "07:35:00"
+        },
+        {
+          "trip_id": "833_1038569",
+          "service_id": "833_1000000006965",
+          "start_time": "07:20:00",
+          "end_time": "08:10:00"
+        },
+        {
+          "trip_id": "833_1038556",
+          "service_id": "833_1000000006965",
+          "start_time": "07:50:00",
+          "end_time": "08:40:00"
+        },
+        {
+          "trip_id": "833_1038557",
+          "service_id": "833_1000000006965",
+          "start_time": "08:50:00",
+          "end_time": "09:40:00"
+        },
+        {
+          "trip_id": "833_1038570",
+          "service_id": "833_1000000006965",
+          "start_time": "09:20:00",
+          "end_time": "10:10:00"
+        },
+        {
+          "trip_id": "833_1038558",
+          "service_id": "833_1000000006965",
+          "start_time": "09:50:00",
+          "end_time": "10:40:00"
+        },
+        {
+          "trip_id": "833_1038571",
+          "service_id": "833_1000000006965",
+          "start_time": "10:20:00",
+          "end_time": "11:10:00"
+        },
+        {
+          "trip_id": "833_1038559",
+          "service_id": "833_1000000006965",
+          "start_time": "10:50:00",
+          "end_time": "11:40:00"
+        },
+        {
+          "trip_id": "833_1038572",
+          "service_id": "833_1000000006965",
+          "start_time": "11:20:00",
+          "end_time": "12:10:00"
+        },
+        {
+          "trip_id": "833_1038560",
+          "service_id": "833_1000000006965",
+          "start_time": "11:50:00",
+          "end_time": "12:40:00"
+        },
+        {
+          "trip_id": "833_1038573",
+          "service_id": "833_1000000006965",
+          "start_time": "12:20:00",
+          "end_time": "13:10:00"
+        },
+        {
+          "trip_id": "833_1038561",
+          "service_id": "833_1000000006965",
+          "start_time": "12:50:00",
+          "end_time": "13:40:00"
+        },
+        {
+          "trip_id": "833_1038574",
+          "service_id": "833_1000000006965",
+          "start_time": "13:20:00",
+          "end_time": "14:10:00"
+        },
+        {
+          "trip_id": "833_1038562",
+          "service_id": "833_1000000006965",
+          "start_time": "13:50:00",
+          "end_time": "14:40:00"
+        },
+        {
+          "trip_id": "833_1038575",
+          "service_id": "833_1000000006965",
+          "start_time": "14:20:00",
+          "end_time": "15:10:00"
+        },
+        {
+          "trip_id": "833_1038563",
+          "service_id": "833_1000000006965",
+          "start_time": "14:50:00",
+          "end_time": "15:40:00"
+        },
+        {
+          "trip_id": "833_1038576",
+          "service_id": "833_1000000006965",
+          "start_time": "15:20:00",
+          "end_time": "16:10:00"
+        },
+        {
+          "trip_id": "833_1038564",
+          "service_id": "833_1000000006965",
+          "start_time": "15:50:00",
+          "end_time": "16:40:00"
+        },
+        {
+          "trip_id": "833_1038577",
+          "service_id": "833_1000000006965",
+          "start_time": "16:20:00",
+          "end_time": "17:10:00"
+        },
+        {
+          "trip_id": "833_1038565",
+          "service_id": "833_1000000006965",
+          "start_time": "16:50:00",
+          "end_time": "17:40:00"
+        },
+        {
+          "trip_id": "833_1038566",
+          "service_id": "833_1000000006965",
+          "start_time": "17:50:00",
+          "end_time": "18:40:00"
+        },
+        {
+          "trip_id": "833_1038578",
+          "service_id": "833_1000000006965",
+          "start_time": "18:20:00",
+          "end_time": "19:10:00"
+        },
+        {
+          "trip_id": "833_1038567",
+          "service_id": "833_1000000006965",
+          "start_time": "18:50:00",
+          "end_time": "19:40:00"
+        },
+        {
+          "trip_id": "833_1038579",
+          "service_id": "833_1000000006965",
+          "start_time": "19:20:00",
+          "end_time": "20:10:00"
+        },
+        {
+          "trip_id": "833_1086330",
+          "service_id": "833_1000000006983",
+          "start_time": "19:20:00",
+          "end_time": "20:10:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus A2 > S.Mauro Mare",
+      "capolinea_partenza": {
+        "stop_id": "999A2",
+        "stop_name": "Cesena Punto Bus A2"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11830",
+        "stop_name": "S.Mauro Mare"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "06:05:00",
+        "08:20:00",
+        "17:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038554",
+          "service_id": "833_1000000006965",
+          "start_time": "06:05:00",
+          "end_time": "07:03:00"
+        },
+        {
+          "trip_id": "833_1038580",
+          "service_id": "833_1000000006965",
+          "start_time": "08:20:00",
+          "end_time": "09:18:00"
+        },
+        {
+          "trip_id": "833_1038581",
+          "service_id": "833_1000000006965",
+          "start_time": "17:20:00",
+          "end_time": "18:18:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Gatteo Mare (Via Euclide) > Cesena Punto Bus A2",
+      "capolinea_partenza": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999A2",
+        "stop_name": "Cesena Punto Bus A2"
+      },
+      "trip_count": 25,
+      "orari_partenza": [
+        "05:55:00",
+        "06:45:00",
+        "07:50:00",
+        "08:20:00",
+        "08:50:00",
+        "09:50:00",
+        "10:20:00",
+        "10:50:00",
+        "11:20:00",
+        "11:50:00",
+        "12:20:00",
+        "12:50:00",
+        "13:20:00",
+        "13:50:00",
+        "14:20:00",
+        "14:50:00",
+        "15:20:00",
+        "15:50:00",
+        "16:20:00",
+        "16:50:00",
+        "17:20:00",
+        "17:50:00",
+        "18:50:00",
+        "19:20:00",
+        "19:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038627",
+          "service_id": "833_1000000006965",
+          "start_time": "05:55:00",
+          "end_time": "06:45:00"
+        },
+        {
+          "trip_id": "833_1038628",
+          "service_id": "833_1000000006965",
+          "start_time": "06:45:00",
+          "end_time": "07:35:00"
+        },
+        {
+          "trip_id": "833_1038640",
+          "service_id": "833_1000000006965",
+          "start_time": "07:50:00",
+          "end_time": "08:40:00"
+        },
+        {
+          "trip_id": "833_1038629",
+          "service_id": "833_1000000006965",
+          "start_time": "08:20:00",
+          "end_time": "09:10:00"
+        },
+        {
+          "trip_id": "833_1038641",
+          "service_id": "833_1000000006965",
+          "start_time": "08:50:00",
+          "end_time": "09:40:00"
+        },
+        {
+          "trip_id": "833_1038642",
+          "service_id": "833_1000000006965",
+          "start_time": "09:50:00",
+          "end_time": "10:40:00"
+        },
+        {
+          "trip_id": "833_1038630",
+          "service_id": "833_1000000006965",
+          "start_time": "10:20:00",
+          "end_time": "11:10:00"
+        },
+        {
+          "trip_id": "833_1038643",
+          "service_id": "833_1000000006965",
+          "start_time": "10:50:00",
+          "end_time": "11:40:00"
+        },
+        {
+          "trip_id": "833_1038631",
+          "service_id": "833_1000000006965",
+          "start_time": "11:20:00",
+          "end_time": "12:10:00"
+        },
+        {
+          "trip_id": "833_1038644",
+          "service_id": "833_1000000006965",
+          "start_time": "11:50:00",
+          "end_time": "12:40:00"
+        },
+        {
+          "trip_id": "833_1038632",
+          "service_id": "833_1000000006965",
+          "start_time": "12:20:00",
+          "end_time": "13:10:00"
+        },
+        {
+          "trip_id": "833_1038645",
+          "service_id": "833_1000000006965",
+          "start_time": "12:50:00",
+          "end_time": "13:40:00"
+        },
+        {
+          "trip_id": "833_1038633",
+          "service_id": "833_1000000006965",
+          "start_time": "13:20:00",
+          "end_time": "14:10:00"
+        },
+        {
+          "trip_id": "833_1038646",
+          "service_id": "833_1000000006965",
+          "start_time": "13:50:00",
+          "end_time": "14:40:00"
+        },
+        {
+          "trip_id": "833_1038634",
+          "service_id": "833_1000000006965",
+          "start_time": "14:20:00",
+          "end_time": "15:10:00"
+        },
+        {
+          "trip_id": "833_1038647",
+          "service_id": "833_1000000006965",
+          "start_time": "14:50:00",
+          "end_time": "15:40:00"
+        },
+        {
+          "trip_id": "833_1038635",
+          "service_id": "833_1000000006965",
+          "start_time": "15:20:00",
+          "end_time": "16:10:00"
+        },
+        {
+          "trip_id": "833_1038648",
+          "service_id": "833_1000000006965",
+          "start_time": "15:50:00",
+          "end_time": "16:40:00"
+        },
+        {
+          "trip_id": "833_1038636",
+          "service_id": "833_1000000006965",
+          "start_time": "16:20:00",
+          "end_time": "17:10:00"
+        },
+        {
+          "trip_id": "833_1038649",
+          "service_id": "833_1000000006965",
+          "start_time": "16:50:00",
+          "end_time": "17:40:00"
+        },
+        {
+          "trip_id": "833_1038637",
+          "service_id": "833_1000000006965",
+          "start_time": "17:20:00",
+          "end_time": "18:10:00"
+        },
+        {
+          "trip_id": "833_1038650",
+          "service_id": "833_1000000006965",
+          "start_time": "17:50:00",
+          "end_time": "18:40:00"
+        },
+        {
+          "trip_id": "833_1038651",
+          "service_id": "833_1000000006965",
+          "start_time": "18:50:00",
+          "end_time": "19:40:00"
+        },
+        {
+          "trip_id": "833_1038638",
+          "service_id": "833_1000000006965",
+          "start_time": "19:20:00",
+          "end_time": "20:10:00"
+        },
+        {
+          "trip_id": "833_1038652",
+          "service_id": "833_1000000006965",
+          "start_time": "19:50:00",
+          "end_time": "20:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Marconi > Cesena Punto Bus A2",
+      "capolinea_partenza": {
+        "stop_id": "10771",
+        "stop_name": "Marconi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999A2",
+        "stop_name": "Cesena Punto Bus A2"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "18:27:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086329",
+          "service_id": "833_1000000006983",
+          "start_time": "18:27:00",
+          "end_time": "19:10:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.Mauro Mare > Cesena Punto Bus A2",
+      "capolinea_partenza": {
+        "stop_id": "11830",
+        "stop_name": "S.Mauro Mare"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999A2",
+        "stop_name": "Cesena Punto Bus A2"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "07:08:00",
+        "09:23:00",
+        "18:23:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038639",
+          "service_id": "833_1000000006965",
+          "start_time": "07:08:00",
+          "end_time": "08:05:00"
+        },
+        {
+          "trip_id": "833_1038653",
+          "service_id": "833_1000000006965",
+          "start_time": "09:23:00",
+          "end_time": "10:20:00"
+        },
+        {
+          "trip_id": "833_1038654",
+          "service_id": "833_1000000006965",
+          "start_time": "18:23:00",
+          "end_time": "19:20:00"
+        }
+      ]
+    }
+  ]
+}

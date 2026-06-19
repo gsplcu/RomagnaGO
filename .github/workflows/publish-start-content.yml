@@ -1,0 +1,80 @@
+# Pubblica assets/data/start_content/ su Firebase Storage (bucket romagnago-app).
+#
+# Setup una tantum (Console Google Cloud / Firebase):
+#   1. Progetto: romagnago-app
+#   2. IAM → Crea service account (es. github-start-content-publisher)
+#   3. Ruolo: "Storage Object Admin" sul bucket romagnago-app.firebasestorage.app
+#   4. Chiavi JSON → copia in GitHub repo Settings → Secrets → GCP_SERVICE_ACCOUNT_JSON
+#   5. Storage Rules: lettura pubblica su start_content/* (l'app usa ?alt=media)
+#
+# Trigger: push su main che tocca i contenuti, cron settimanale, o manuale.
+
+name: Publish start content
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Lunedì 05:00 UTC — prova sync dal sito + upload
+    - cron: '0 5 * * 1'
+  push:
+    branches: [main, master]
+    paths:
+      - 'assets/data/start_content/**'
+      - 'lib/start_content/**'
+      - 'tool/gen_start_content_baseline.dart'
+      - 'tool/sync_start_content.dart'
+      - 'tool/publish_start_content.dart'
+      - 'tool/start_content_storage.dart'
+      - '.github/workflows/publish-start-content.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Dart
+        uses: dart-lang/setup-dart@v1
+        with:
+          sdk: stable
+
+      - name: Install dependencies
+        run: dart pub get
+
+      - name: Generate baseline JSON
+        run: dart run tool/gen_start_content_baseline.dart
+
+      - name: Sync from Start Romagna (parser)
+        run: dart run tool/sync_start_content.dart
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Upload JSON to Firebase Storage
+        run: |
+          gcloud storage rsync -r \
+            assets/data/start_content \
+            gs://romagnago-app.firebasestorage.app/start_content/
+          for f in assets/data/start_content/*.json; do
+            name=$(basename "$f")
+            gcloud storage objects update \
+              "gs://romagnago-app.firebasestorage.app/start_content/${name}" \
+              --content-type="application/json; charset=utf-8" \
+              --cache-control="public,max-age=3600"
+          done
+
+      - name: Verify manifest reachable
+        run: |
+          curl -fsSL \
+            "https://firebasestorage.googleapis.com/v0/b/romagnago-app.firebasestorage.app/o/start_content%2Fmanifest.json?alt=media" \
+            | head -c 200
+          echo ""

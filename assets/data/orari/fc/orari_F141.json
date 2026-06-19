@@ -1,0 +1,173 @@
+{
+  "estrazione": "Orari da route_F141.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F141.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F141",
+    "name": "Linea F141",
+    "direzioni_percorso": [
+      "Perticara Centro > Sogliano Capolinea",
+      "Savignano Fs > Sogliano Capolinea",
+      "Sogliano Capolinea > Perticara Centro",
+      "Sogliano Capolinea > Savignano Fs"
+    ],
+    "route_id": "F141"
+  },
+  "totale_trips": 12,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Perticara Centro > Sogliano Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "14280",
+        "stop_name": "Perticara Centro"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "14100",
+        "stop_name": "Sogliano Capolinea"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "06:50:00",
+        "08:00:00",
+        "13:10:00",
+        "14:10:00",
+        "19:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036535",
+          "service_id": "833_1000000006947",
+          "start_time": "06:50:00",
+          "end_time": "07:20:00"
+        },
+        {
+          "trip_id": "833_1036534",
+          "service_id": "833_1000000006922",
+          "start_time": "08:00:00",
+          "end_time": "08:30:00"
+        },
+        {
+          "trip_id": "833_1036536",
+          "service_id": "833_1000000006947",
+          "start_time": "13:10:00",
+          "end_time": "13:40:00"
+        },
+        {
+          "trip_id": "833_1036537",
+          "service_id": "833_1000000006947",
+          "start_time": "14:10:00",
+          "end_time": "14:40:00"
+        },
+        {
+          "trip_id": "833_1036538",
+          "service_id": "833_1000000006947",
+          "start_time": "19:50:00",
+          "end_time": "20:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Savignano Fs > Sogliano Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "20102",
+        "stop_name": "Savignano Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "14100",
+        "stop_name": "Sogliano Capolinea"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "11:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036159",
+          "service_id": "833_1000000006923",
+          "start_time": "11:30:00",
+          "end_time": "12:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Sogliano Capolinea > Perticara Centro",
+      "capolinea_partenza": {
+        "stop_id": "14100",
+        "stop_name": "Sogliano Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "14280",
+        "stop_name": "Perticara Centro"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "06:20:00",
+        "07:30:00",
+        "12:00:00",
+        "13:40:00",
+        "19:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031403",
+          "service_id": "833_1000000006947",
+          "start_time": "06:20:00",
+          "end_time": "06:50:00"
+        },
+        {
+          "trip_id": "833_1031399",
+          "service_id": "833_1000000006922",
+          "start_time": "07:30:00",
+          "end_time": "08:00:00"
+        },
+        {
+          "trip_id": "833_1031402",
+          "service_id": "833_1000000006947",
+          "start_time": "12:00:00",
+          "end_time": "12:30:00"
+        },
+        {
+          "trip_id": "833_1031400",
+          "service_id": "833_1000000006947",
+          "start_time": "13:40:00",
+          "end_time": "14:10:00"
+        },
+        {
+          "trip_id": "833_1031401",
+          "service_id": "833_1000000006947",
+          "start_time": "19:20:00",
+          "end_time": "19:50:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Sogliano Capolinea > Savignano Fs",
+      "capolinea_partenza": {
+        "stop_id": "14100",
+        "stop_name": "Sogliano Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20102",
+        "stop_name": "Savignano Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "08:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033880",
+          "service_id": "833_1000000006923",
+          "start_time": "08:30:00",
+          "end_time": "09:00:00"
+        }
+      ]
+    }
+  ]
+}

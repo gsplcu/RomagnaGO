@@ -1,0 +1,471 @@
+{
+  "estrazione": "Orari da route_7.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_7.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "7",
+    "name": "Linea 7",
+    "direzioni_percorso": [
+      "4 Rimini Fs > Museo Aviazione",
+      "Boscovich-Porto > Museo Aviazione",
+      "Museo Aviazione > 4 Rimini Fs",
+      "Museo Aviazione > Boscovich-Porto",
+      "S.S.Marino-Amola > Museo Aviazione"
+    ],
+    "route_id": "7"
+  },
+  "totale_trips": 52,
+  "totale_direzioni_percorso": 5,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "4 Rimini Fs > Museo Aviazione",
+      "capolinea_partenza": {
+        "stop_id": "A01175",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00428",
+        "stop_name": "Museo Aviazione"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:31:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4089461",
+          "service_id": "404_1000000001810",
+          "start_time": "06:31:00",
+          "end_time": "06:57:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Boscovich-Porto > Museo Aviazione",
+      "capolinea_partenza": {
+        "stop_id": "A00408",
+        "stop_name": "Boscovich-Porto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00428",
+        "stop_name": "Museo Aviazione"
+      },
+      "trip_count": 23,
+      "orari_partenza": [
+        "06:51:00",
+        "07:39:00",
+        "07:55:00",
+        "08:39:00",
+        "09:15:00",
+        "09:39:00",
+        "10:39:00",
+        "10:40:00",
+        "11:39:00",
+        "12:05:00",
+        "12:39:00",
+        "13:25:00",
+        "13:39:00",
+        "14:39:00",
+        "14:50:00",
+        "15:39:00",
+        "16:20:00",
+        "16:39:00",
+        "17:39:00",
+        "17:50:00",
+        "18:39:00",
+        "19:20:00",
+        "19:44:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4104991",
+          "service_id": "404_1000000001810",
+          "start_time": "06:51:00",
+          "end_time": "07:26:00"
+        },
+        {
+          "trip_id": "404_4104992",
+          "service_id": "404_1000000001810",
+          "start_time": "07:39:00",
+          "end_time": "08:18:00"
+        },
+        {
+          "trip_id": "404_4105009",
+          "service_id": "404_1000000001812",
+          "start_time": "07:55:00",
+          "end_time": "08:27:00"
+        },
+        {
+          "trip_id": "404_4104993",
+          "service_id": "404_1000000001810",
+          "start_time": "08:39:00",
+          "end_time": "09:18:00"
+        },
+        {
+          "trip_id": "404_4105012",
+          "service_id": "404_1000000001812",
+          "start_time": "09:15:00",
+          "end_time": "09:52:00"
+        },
+        {
+          "trip_id": "404_4104994",
+          "service_id": "404_1000000001810",
+          "start_time": "09:39:00",
+          "end_time": "10:18:00"
+        },
+        {
+          "trip_id": "404_4104995",
+          "service_id": "404_1000000001810",
+          "start_time": "10:39:00",
+          "end_time": "11:18:00"
+        },
+        {
+          "trip_id": "404_4105013",
+          "service_id": "404_1000000001812",
+          "start_time": "10:40:00",
+          "end_time": "11:17:00"
+        },
+        {
+          "trip_id": "404_4104996",
+          "service_id": "404_1000000001810",
+          "start_time": "11:39:00",
+          "end_time": "12:18:00"
+        },
+        {
+          "trip_id": "404_4105010",
+          "service_id": "404_1000000001812",
+          "start_time": "12:05:00",
+          "end_time": "12:42:00"
+        },
+        {
+          "trip_id": "404_4104997",
+          "service_id": "404_1000000001810",
+          "start_time": "12:39:00",
+          "end_time": "13:18:00"
+        },
+        {
+          "trip_id": "404_4105011",
+          "service_id": "404_1000000001812",
+          "start_time": "13:25:00",
+          "end_time": "14:05:00"
+        },
+        {
+          "trip_id": "404_4104998",
+          "service_id": "404_1000000001810",
+          "start_time": "13:39:00",
+          "end_time": "14:18:00"
+        },
+        {
+          "trip_id": "404_4104999",
+          "service_id": "404_1000000001810",
+          "start_time": "14:39:00",
+          "end_time": "15:18:00"
+        },
+        {
+          "trip_id": "404_4105005",
+          "service_id": "404_1000000001812",
+          "start_time": "14:50:00",
+          "end_time": "15:30:00"
+        },
+        {
+          "trip_id": "404_4105000",
+          "service_id": "404_1000000001810",
+          "start_time": "15:39:00",
+          "end_time": "16:18:00"
+        },
+        {
+          "trip_id": "404_4105006",
+          "service_id": "404_1000000001812",
+          "start_time": "16:20:00",
+          "end_time": "17:00:00"
+        },
+        {
+          "trip_id": "404_4105001",
+          "service_id": "404_1000000001810",
+          "start_time": "16:39:00",
+          "end_time": "17:18:00"
+        },
+        {
+          "trip_id": "404_4105002",
+          "service_id": "404_1000000001810",
+          "start_time": "17:39:00",
+          "end_time": "18:18:00"
+        },
+        {
+          "trip_id": "404_4105007",
+          "service_id": "404_1000000001812",
+          "start_time": "17:50:00",
+          "end_time": "18:30:00"
+        },
+        {
+          "trip_id": "404_4105003",
+          "service_id": "404_1000000001810",
+          "start_time": "18:39:00",
+          "end_time": "19:18:00"
+        },
+        {
+          "trip_id": "404_4105008",
+          "service_id": "404_1000000001812",
+          "start_time": "19:20:00",
+          "end_time": "19:55:00"
+        },
+        {
+          "trip_id": "404_4105004",
+          "service_id": "404_1000000001810",
+          "start_time": "19:44:00",
+          "end_time": "20:16:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Museo Aviazione > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "A00428",
+        "stop_name": "Museo Aviazione"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01059",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "19:18:00",
+        "19:55:00",
+        "20:16:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4026550",
+          "service_id": "404_1000000001810",
+          "start_time": "19:18:00",
+          "end_time": "19:47:00"
+        },
+        {
+          "trip_id": "404_4026552",
+          "service_id": "404_1000000001812",
+          "start_time": "19:55:00",
+          "end_time": "20:23:00"
+        },
+        {
+          "trip_id": "404_4026551",
+          "service_id": "404_1000000001810",
+          "start_time": "20:16:00",
+          "end_time": "20:45:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Museo Aviazione > Boscovich-Porto",
+      "capolinea_partenza": {
+        "stop_id": "A00428",
+        "stop_name": "Museo Aviazione"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00408",
+        "stop_name": "Boscovich-Porto"
+      },
+      "trip_count": 23,
+      "orari_partenza": [
+        "06:12:00",
+        "06:57:00",
+        "07:05:00",
+        "07:26:00",
+        "08:18:00",
+        "08:27:00",
+        "09:18:00",
+        "09:52:00",
+        "10:18:00",
+        "11:17:00",
+        "11:18:00",
+        "12:18:00",
+        "12:42:00",
+        "13:18:00",
+        "14:05:00",
+        "14:18:00",
+        "15:18:00",
+        "15:30:00",
+        "16:18:00",
+        "17:00:00",
+        "17:18:00",
+        "18:18:00",
+        "18:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4084884",
+          "service_id": "404_1000000001810",
+          "start_time": "06:12:00",
+          "end_time": "06:46:00"
+        },
+        {
+          "trip_id": "404_4084885",
+          "service_id": "404_1000000001810",
+          "start_time": "06:57:00",
+          "end_time": "07:34:00"
+        },
+        {
+          "trip_id": "404_4084898",
+          "service_id": "404_1000000001812",
+          "start_time": "07:05:00",
+          "end_time": "07:39:00"
+        },
+        {
+          "trip_id": "404_4084886",
+          "service_id": "404_1000000001810",
+          "start_time": "07:26:00",
+          "end_time": "08:03:00"
+        },
+        {
+          "trip_id": "404_4084887",
+          "service_id": "404_1000000001810",
+          "start_time": "08:18:00",
+          "end_time": "08:55:00"
+        },
+        {
+          "trip_id": "404_4084899",
+          "service_id": "404_1000000001812",
+          "start_time": "08:27:00",
+          "end_time": "09:03:00"
+        },
+        {
+          "trip_id": "404_4084888",
+          "service_id": "404_1000000001810",
+          "start_time": "09:18:00",
+          "end_time": "09:55:00"
+        },
+        {
+          "trip_id": "404_4084901",
+          "service_id": "404_1000000001812",
+          "start_time": "09:52:00",
+          "end_time": "10:28:00"
+        },
+        {
+          "trip_id": "404_4084889",
+          "service_id": "404_1000000001810",
+          "start_time": "10:18:00",
+          "end_time": "10:55:00"
+        },
+        {
+          "trip_id": "404_4084902",
+          "service_id": "404_1000000001812",
+          "start_time": "11:17:00",
+          "end_time": "11:53:00"
+        },
+        {
+          "trip_id": "404_4084890",
+          "service_id": "404_1000000001810",
+          "start_time": "11:18:00",
+          "end_time": "11:55:00"
+        },
+        {
+          "trip_id": "404_4084891",
+          "service_id": "404_1000000001810",
+          "start_time": "12:18:00",
+          "end_time": "12:55:00"
+        },
+        {
+          "trip_id": "404_4084903",
+          "service_id": "404_1000000001812",
+          "start_time": "12:42:00",
+          "end_time": "13:18:00"
+        },
+        {
+          "trip_id": "404_4084892",
+          "service_id": "404_1000000001810",
+          "start_time": "13:18:00",
+          "end_time": "13:55:00"
+        },
+        {
+          "trip_id": "404_4084905",
+          "service_id": "404_1000000001812",
+          "start_time": "14:05:00",
+          "end_time": "14:41:00"
+        },
+        {
+          "trip_id": "404_4084893",
+          "service_id": "404_1000000001810",
+          "start_time": "14:18:00",
+          "end_time": "14:55:00"
+        },
+        {
+          "trip_id": "404_4084894",
+          "service_id": "404_1000000001810",
+          "start_time": "15:18:00",
+          "end_time": "15:55:00"
+        },
+        {
+          "trip_id": "404_4084906",
+          "service_id": "404_1000000001812",
+          "start_time": "15:30:00",
+          "end_time": "16:06:00"
+        },
+        {
+          "trip_id": "404_4084895",
+          "service_id": "404_1000000001810",
+          "start_time": "16:18:00",
+          "end_time": "16:55:00"
+        },
+        {
+          "trip_id": "404_4084904",
+          "service_id": "404_1000000001812",
+          "start_time": "17:00:00",
+          "end_time": "17:36:00"
+        },
+        {
+          "trip_id": "404_4084896",
+          "service_id": "404_1000000001810",
+          "start_time": "17:18:00",
+          "end_time": "17:55:00"
+        },
+        {
+          "trip_id": "404_4084897",
+          "service_id": "404_1000000001810",
+          "start_time": "18:18:00",
+          "end_time": "18:55:00"
+        },
+        {
+          "trip_id": "404_4084900",
+          "service_id": "404_1000000001812",
+          "start_time": "18:30:00",
+          "end_time": "19:06:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.S.Marino-Amola > Museo Aviazione",
+      "capolinea_partenza": {
+        "stop_id": "A00440",
+        "stop_name": "S.S.Marino-Amola"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00428",
+        "stop_name": "Museo Aviazione"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:04:00",
+        "06:57:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4027018",
+          "service_id": "404_1000000001810",
+          "start_time": "06:04:00",
+          "end_time": "06:12:00"
+        },
+        {
+          "trip_id": "404_4027019",
+          "service_id": "404_1000000001812",
+          "start_time": "06:57:00",
+          "end_time": "07:05:00"
+        }
+      ]
+    }
+  ]
+}

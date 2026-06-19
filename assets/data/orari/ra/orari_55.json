@@ -1,0 +1,98 @@
+{
+  "estrazione": "Orari da route_55.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_55.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "55",
+    "name": "Linea 55",
+    "direzioni_percorso": [
+      "Stab. Terme > Stab. Terme"
+    ],
+    "route_id": "55"
+  },
+  "totale_trips": 9,
+  "totale_direzioni_percorso": 1,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Stab. Terme > Stab. Terme",
+      "capolinea_partenza": {
+        "stop_id": "775210",
+        "stop_name": "Stab. Terme"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "775210",
+        "stop_name": "Stab. Terme"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "07:45:00",
+        "08:30:00",
+        "09:15:00",
+        "10:30:00",
+        "11:30:00",
+        "12:30:00",
+        "17:15:00",
+        "18:15:00",
+        "19:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796376",
+          "service_id": "674_1000000002117",
+          "start_time": "07:45:00",
+          "end_time": "08:00:00"
+        },
+        {
+          "trip_id": "674_2796377",
+          "service_id": "674_1000000002117",
+          "start_time": "08:30:00",
+          "end_time": "08:45:00"
+        },
+        {
+          "trip_id": "674_2796378",
+          "service_id": "674_1000000002117",
+          "start_time": "09:15:00",
+          "end_time": "09:30:00"
+        },
+        {
+          "trip_id": "674_2796379",
+          "service_id": "674_1000000002117",
+          "start_time": "10:30:00",
+          "end_time": "10:45:00"
+        },
+        {
+          "trip_id": "674_2796381",
+          "service_id": "674_1000000002117",
+          "start_time": "11:30:00",
+          "end_time": "11:45:00"
+        },
+        {
+          "trip_id": "674_2796380",
+          "service_id": "674_1000000002117",
+          "start_time": "12:30:00",
+          "end_time": "12:45:00"
+        },
+        {
+          "trip_id": "674_2796382",
+          "service_id": "674_1000000002117",
+          "start_time": "17:15:00",
+          "end_time": "17:30:00"
+        },
+        {
+          "trip_id": "674_2796383",
+          "service_id": "674_1000000002117",
+          "start_time": "18:15:00",
+          "end_time": "18:30:00"
+        },
+        {
+          "trip_id": "674_2796384",
+          "service_id": "674_1000000002117",
+          "start_time": "19:15:00",
+          "end_time": "19:30:00"
+        }
+      ]
+    }
+  ]
+}

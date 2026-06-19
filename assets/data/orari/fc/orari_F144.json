@@ -1,0 +1,67 @@
+{
+  "estrazione": "Orari da route_F144.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F144.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F144",
+    "name": "Linea F144",
+    "direzioni_percorso": [
+      "Ciola > Palazzo Dolcini",
+      "Palazzo Dolcini > Ciola"
+    ],
+    "route_id": "F144"
+  },
+  "totale_trips": 2,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Ciola > Palazzo Dolcini",
+      "capolinea_partenza": {
+        "stop_id": "13650",
+        "stop_name": "Ciola"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13212",
+        "stop_name": "Palazzo Dolcini"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036167",
+          "service_id": "833_1000000006947",
+          "start_time": "06:35:00",
+          "end_time": "07:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Palazzo Dolcini > Ciola",
+      "capolinea_partenza": {
+        "stop_id": "13212",
+        "stop_name": "Palazzo Dolcini"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13650",
+        "stop_name": "Ciola"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "15:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033888",
+          "service_id": "833_1000000006947",
+          "start_time": "15:40:00",
+          "end_time": "16:05:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "estrazione": "Orari da route_158.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_158.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "158",
+    "name": "Linea 158",
+    "direzioni_percorso": [
+      "Circ.Ne Al Molino > San Marco Piazza",
+      "San Marco Piazza > Circ.Ne Al Molino"
+    ],
+    "route_id": "158"
+  },
+  "totale_trips": 4,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Circ.Ne Al Molino > San Marco Piazza",
+      "capolinea_partenza": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "724270",
+        "stop_name": "San Marco Piazza"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:40:00",
+        "12:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795483",
+          "service_id": "674_1000000002118",
+          "start_time": "08:40:00",
+          "end_time": "09:02:00"
+        },
+        {
+          "trip_id": "674_2795481",
+          "service_id": "674_1000000002118",
+          "start_time": "12:00:00",
+          "end_time": "12:22:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "San Marco Piazza > Circ.Ne Al Molino",
+      "capolinea_partenza": {
+        "stop_id": "724270",
+        "stop_name": "San Marco Piazza"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "09:02:00",
+        "12:22:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795482",
+          "service_id": "674_1000000002118",
+          "start_time": "09:02:00",
+          "end_time": "09:16:00"
+        },
+        {
+          "trip_id": "674_2795480",
+          "service_id": "674_1000000002118",
+          "start_time": "12:22:00",
+          "end_time": "12:36:00"
+        }
+      ]
+    }
+  ]
+}

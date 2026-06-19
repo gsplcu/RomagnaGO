@@ -1,0 +1,5 @@
+{
+  "terminal.integrated.env.windows": {
+    "Path": "C:\\Program Files\\nodejs;${env:APPDATA}\\npm;${env:LOCALAPPDATA}\\Pub\\Cache\\bin;${env:Path}"
+  }
+}

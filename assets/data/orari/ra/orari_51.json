@@ -1,0 +1,267 @@
+{
+  "estrazione": "Orari da route_51.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_51.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "51",
+    "name": "Linea 51",
+    "direzioni_percorso": [
+      "Bertoni > P.Zza Bologna",
+      "F.Lli Rosselli > P.Zza Bologna",
+      "P.Zza Bologna > Bertoni"
+    ],
+    "route_id": "51"
+  },
+  "totale_trips": 28,
+  "totale_direzioni_percorso": 3,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bertoni > P.Zza Bologna",
+      "capolinea_partenza": {
+        "stop_id": "782180",
+        "stop_name": "Bertoni"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "781010",
+        "stop_name": "P.Zza Bologna"
+      },
+      "trip_count": 13,
+      "orari_partenza": [
+        "06:56:00",
+        "07:56:00",
+        "09:06:00",
+        "10:06:00",
+        "11:06:00",
+        "12:06:00",
+        "13:06:00",
+        "14:06:00",
+        "15:06:00",
+        "16:06:00",
+        "17:06:00",
+        "18:06:00",
+        "19:06:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888156",
+          "service_id": "674_1000000002108",
+          "start_time": "06:56:00",
+          "end_time": "07:24:00"
+        },
+        {
+          "trip_id": "674_2888158",
+          "service_id": "674_1000000002108",
+          "start_time": "07:56:00",
+          "end_time": "08:24:00"
+        },
+        {
+          "trip_id": "674_2888154",
+          "service_id": "674_1000000002108",
+          "start_time": "09:06:00",
+          "end_time": "09:34:00"
+        },
+        {
+          "trip_id": "674_2888160",
+          "service_id": "674_1000000002108",
+          "start_time": "10:06:00",
+          "end_time": "10:34:00"
+        },
+        {
+          "trip_id": "674_2888162",
+          "service_id": "674_1000000002108",
+          "start_time": "11:06:00",
+          "end_time": "11:34:00"
+        },
+        {
+          "trip_id": "674_2888164",
+          "service_id": "674_1000000002108",
+          "start_time": "12:06:00",
+          "end_time": "12:34:00"
+        },
+        {
+          "trip_id": "674_2888166",
+          "service_id": "674_1000000002108",
+          "start_time": "13:06:00",
+          "end_time": "13:34:00"
+        },
+        {
+          "trip_id": "674_2888168",
+          "service_id": "674_1000000002108",
+          "start_time": "14:06:00",
+          "end_time": "14:34:00"
+        },
+        {
+          "trip_id": "674_2888170",
+          "service_id": "674_1000000002108",
+          "start_time": "15:06:00",
+          "end_time": "15:34:00"
+        },
+        {
+          "trip_id": "674_2888172",
+          "service_id": "674_1000000002108",
+          "start_time": "16:06:00",
+          "end_time": "16:34:00"
+        },
+        {
+          "trip_id": "674_2888174",
+          "service_id": "674_1000000002108",
+          "start_time": "17:06:00",
+          "end_time": "17:34:00"
+        },
+        {
+          "trip_id": "674_2888176",
+          "service_id": "674_1000000002108",
+          "start_time": "18:06:00",
+          "end_time": "18:34:00"
+        },
+        {
+          "trip_id": "674_2888178",
+          "service_id": "674_1000000002108",
+          "start_time": "19:06:00",
+          "end_time": "19:34:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "F.Lli Rosselli > P.Zza Bologna",
+      "capolinea_partenza": {
+        "stop_id": "781120",
+        "stop_name": "F.Lli Rosselli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "781010",
+        "stop_name": "P.Zza Bologna"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:13:00",
+        "08:33:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795997",
+          "service_id": "674_1000000002108",
+          "start_time": "06:13:00",
+          "end_time": "06:18:00"
+        },
+        {
+          "trip_id": "674_2795994",
+          "service_id": "674_1000000002108",
+          "start_time": "08:33:00",
+          "end_time": "08:38:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "P.Zza Bologna > Bertoni",
+      "capolinea_partenza": {
+        "stop_id": "781010",
+        "stop_name": "P.Zza Bologna"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "782180",
+        "stop_name": "Bertoni"
+      },
+      "trip_count": 13,
+      "orari_partenza": [
+        "06:18:00",
+        "07:28:00",
+        "08:38:00",
+        "09:38:00",
+        "10:38:00",
+        "11:38:00",
+        "12:38:00",
+        "13:38:00",
+        "14:38:00",
+        "15:38:00",
+        "16:38:00",
+        "17:38:00",
+        "18:38:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888155",
+          "service_id": "674_1000000002108",
+          "start_time": "06:18:00",
+          "end_time": "06:56:00"
+        },
+        {
+          "trip_id": "674_2888157",
+          "service_id": "674_1000000002108",
+          "start_time": "07:28:00",
+          "end_time": "07:56:00"
+        },
+        {
+          "trip_id": "674_2888153",
+          "service_id": "674_1000000002108",
+          "start_time": "08:38:00",
+          "end_time": "09:06:00"
+        },
+        {
+          "trip_id": "674_2888159",
+          "service_id": "674_1000000002108",
+          "start_time": "09:38:00",
+          "end_time": "10:06:00"
+        },
+        {
+          "trip_id": "674_2888161",
+          "service_id": "674_1000000002108",
+          "start_time": "10:38:00",
+          "end_time": "11:06:00"
+        },
+        {
+          "trip_id": "674_2888163",
+          "service_id": "674_1000000002108",
+          "start_time": "11:38:00",
+          "end_time": "12:06:00"
+        },
+        {
+          "trip_id": "674_2888165",
+          "service_id": "674_1000000002108",
+          "start_time": "12:38:00",
+          "end_time": "13:06:00"
+        },
+        {
+          "trip_id": "674_2888167",
+          "service_id": "674_1000000002108",
+          "start_time": "13:38:00",
+          "end_time": "14:06:00"
+        },
+        {
+          "trip_id": "674_2888169",
+          "service_id": "674_1000000002108",
+          "start_time": "14:38:00",
+          "end_time": "15:06:00"
+        },
+        {
+          "trip_id": "674_2888171",
+          "service_id": "674_1000000002108",
+          "start_time": "15:38:00",
+          "end_time": "16:06:00"
+        },
+        {
+          "trip_id": "674_2888173",
+          "service_id": "674_1000000002108",
+          "start_time": "16:38:00",
+          "end_time": "17:06:00"
+        },
+        {
+          "trip_id": "674_2888175",
+          "service_id": "674_1000000002108",
+          "start_time": "17:38:00",
+          "end_time": "18:06:00"
+        },
+        {
+          "trip_id": "674_2888177",
+          "service_id": "674_1000000002108",
+          "start_time": "18:38:00",
+          "end_time": "19:06:00"
+        }
+      ]
+    }
+  ]
+}

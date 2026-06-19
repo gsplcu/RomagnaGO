@@ -1,0 +1,639 @@
+{
+  "estrazione": "Orari da route_LINR.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_LINR.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "LINR",
+    "name": "Linea LINR",
+    "direzioni_percorso": [
+      "Don Ghinelli > Gatteo Mare",
+      "Don Ghinelli > Manzoni",
+      "Don Ghinelli > S.Angelo Allende",
+      "Don Ghinelli > S.Mauro Mare",
+      "Gatteo Mare > Manzoni",
+      "Gatteo Mare > Romagna Center Ingresso 3",
+      "Romagna Center > Gatteo Mare (Via Euclide)",
+      "S.Angelo Allende > Don Ghinelli",
+      "S.Mauro Mare > Don Ghinelli",
+      "S.Mauro Pascoli > Gatteo Mare",
+      "Xx Settembre > Don Ghinelli",
+      "Xx Settembre > Gatteo Mare"
+    ],
+    "route_id": "LINR"
+  },
+  "totale_trips": 62,
+  "totale_direzioni_percorso": 12,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Don Ghinelli > Gatteo Mare",
+      "capolinea_partenza": {
+        "stop_id": "20241",
+        "stop_name": "Don Ghinelli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11800",
+        "stop_name": "Gatteo Mare"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "10:02:00",
+        "14:02:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035990",
+          "service_id": "833_1000000006949",
+          "start_time": "10:02:00",
+          "end_time": "10:52:00"
+        },
+        {
+          "trip_id": "833_1035992",
+          "service_id": "833_1000000006956",
+          "start_time": "10:02:00",
+          "end_time": "10:52:00"
+        },
+        {
+          "trip_id": "833_1035991",
+          "service_id": "833_1000000006949",
+          "start_time": "14:02:00",
+          "end_time": "14:52:00"
+        },
+        {
+          "trip_id": "833_1035993",
+          "service_id": "833_1000000006956",
+          "start_time": "14:02:00",
+          "end_time": "14:52:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Don Ghinelli > Manzoni",
+      "capolinea_partenza": {
+        "stop_id": "20241",
+        "stop_name": "Don Ghinelli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20161",
+        "stop_name": "Manzoni"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "12:02:00",
+        "13:02:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035982",
+          "service_id": "833_1000000006939",
+          "start_time": "12:02:00",
+          "end_time": "12:23:00"
+        },
+        {
+          "trip_id": "833_1035983",
+          "service_id": "833_1000000006939",
+          "start_time": "13:02:00",
+          "end_time": "13:23:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Don Ghinelli > S.Angelo Allende",
+      "capolinea_partenza": {
+        "stop_id": "20242",
+        "stop_name": "Don Ghinelli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "47742",
+        "stop_name": "S.Angelo Allende"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "09:46:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038483",
+          "service_id": "833_1000000006921",
+          "start_time": "09:46:00",
+          "end_time": "09:54:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Don Ghinelli > S.Mauro Mare",
+      "capolinea_partenza": {
+        "stop_id": "20241",
+        "stop_name": "Don Ghinelli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11830",
+        "stop_name": "S.Mauro Mare"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:02:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1034629",
+          "service_id": "833_1000000006949",
+          "start_time": "07:02:00",
+          "end_time": "07:43:00"
+        },
+        {
+          "trip_id": "833_1034630",
+          "service_id": "833_1000000006956",
+          "start_time": "07:02:00",
+          "end_time": "07:43:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Gatteo Mare > Manzoni",
+      "capolinea_partenza": {
+        "stop_id": "11800",
+        "stop_name": "Gatteo Mare"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20161",
+        "stop_name": "Manzoni"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "07:45:00",
+        "10:52:00",
+        "18:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035984",
+          "service_id": "833_1000000006949",
+          "start_time": "07:45:00",
+          "end_time": "08:23:00"
+        },
+        {
+          "trip_id": "833_1035987",
+          "service_id": "833_1000000006956",
+          "start_time": "07:45:00",
+          "end_time": "08:23:00"
+        },
+        {
+          "trip_id": "833_1035985",
+          "service_id": "833_1000000006949",
+          "start_time": "10:52:00",
+          "end_time": "11:30:00"
+        },
+        {
+          "trip_id": "833_1035988",
+          "service_id": "833_1000000006956",
+          "start_time": "10:52:00",
+          "end_time": "11:30:00"
+        },
+        {
+          "trip_id": "833_1035986",
+          "service_id": "833_1000000006949",
+          "start_time": "18:15:00",
+          "end_time": "18:53:00"
+        },
+        {
+          "trip_id": "833_1035989",
+          "service_id": "833_1000000006956",
+          "start_time": "18:15:00",
+          "end_time": "18:53:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Gatteo Mare > Romagna Center Ingresso 3",
+      "capolinea_partenza": {
+        "stop_id": "11800",
+        "stop_name": "Gatteo Mare"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20560",
+        "stop_name": "Romagna Center Ingresso 3"
+      },
+      "trip_count": 18,
+      "orari_partenza": [
+        "08:48:00",
+        "09:48:00",
+        "10:48:00",
+        "11:48:00",
+        "13:48:00",
+        "14:48:00",
+        "15:48:00",
+        "16:48:00",
+        "17:48:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036324",
+          "service_id": "833_1000000006949",
+          "start_time": "08:48:00",
+          "end_time": "08:58:00"
+        },
+        {
+          "trip_id": "833_1036333",
+          "service_id": "833_1000000006956",
+          "start_time": "08:48:00",
+          "end_time": "08:58:00"
+        },
+        {
+          "trip_id": "833_1036325",
+          "service_id": "833_1000000006949",
+          "start_time": "09:48:00",
+          "end_time": "09:58:00"
+        },
+        {
+          "trip_id": "833_1036334",
+          "service_id": "833_1000000006956",
+          "start_time": "09:48:00",
+          "end_time": "09:58:00"
+        },
+        {
+          "trip_id": "833_1036326",
+          "service_id": "833_1000000006949",
+          "start_time": "10:48:00",
+          "end_time": "10:58:00"
+        },
+        {
+          "trip_id": "833_1036335",
+          "service_id": "833_1000000006956",
+          "start_time": "10:48:00",
+          "end_time": "10:58:00"
+        },
+        {
+          "trip_id": "833_1036327",
+          "service_id": "833_1000000006949",
+          "start_time": "11:48:00",
+          "end_time": "11:58:00"
+        },
+        {
+          "trip_id": "833_1036336",
+          "service_id": "833_1000000006956",
+          "start_time": "11:48:00",
+          "end_time": "11:58:00"
+        },
+        {
+          "trip_id": "833_1036328",
+          "service_id": "833_1000000006949",
+          "start_time": "13:48:00",
+          "end_time": "13:58:00"
+        },
+        {
+          "trip_id": "833_1036337",
+          "service_id": "833_1000000006956",
+          "start_time": "13:48:00",
+          "end_time": "13:58:00"
+        },
+        {
+          "trip_id": "833_1036329",
+          "service_id": "833_1000000006949",
+          "start_time": "14:48:00",
+          "end_time": "14:58:00"
+        },
+        {
+          "trip_id": "833_1036338",
+          "service_id": "833_1000000006956",
+          "start_time": "14:48:00",
+          "end_time": "14:58:00"
+        },
+        {
+          "trip_id": "833_1036330",
+          "service_id": "833_1000000006949",
+          "start_time": "15:48:00",
+          "end_time": "15:58:00"
+        },
+        {
+          "trip_id": "833_1036339",
+          "service_id": "833_1000000006956",
+          "start_time": "15:48:00",
+          "end_time": "15:58:00"
+        },
+        {
+          "trip_id": "833_1036331",
+          "service_id": "833_1000000006949",
+          "start_time": "16:48:00",
+          "end_time": "16:58:00"
+        },
+        {
+          "trip_id": "833_1036340",
+          "service_id": "833_1000000006956",
+          "start_time": "16:48:00",
+          "end_time": "16:58:00"
+        },
+        {
+          "trip_id": "833_1036332",
+          "service_id": "833_1000000006949",
+          "start_time": "17:48:00",
+          "end_time": "17:58:00"
+        },
+        {
+          "trip_id": "833_1036341",
+          "service_id": "833_1000000006956",
+          "start_time": "17:48:00",
+          "end_time": "17:58:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Romagna Center > Gatteo Mare (Via Euclide)",
+      "capolinea_partenza": {
+        "stop_id": "47980",
+        "stop_name": "Romagna Center"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "trip_count": 18,
+      "orari_partenza": [
+        "09:33:00",
+        "10:33:00",
+        "11:33:00",
+        "12:33:00",
+        "14:33:00",
+        "15:33:00",
+        "16:33:00",
+        "17:33:00",
+        "18:33:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1034611",
+          "service_id": "833_1000000006949",
+          "start_time": "09:33:00",
+          "end_time": "09:44:00"
+        },
+        {
+          "trip_id": "833_1034620",
+          "service_id": "833_1000000006956",
+          "start_time": "09:33:00",
+          "end_time": "09:44:00"
+        },
+        {
+          "trip_id": "833_1034612",
+          "service_id": "833_1000000006949",
+          "start_time": "10:33:00",
+          "end_time": "10:44:00"
+        },
+        {
+          "trip_id": "833_1034621",
+          "service_id": "833_1000000006956",
+          "start_time": "10:33:00",
+          "end_time": "10:44:00"
+        },
+        {
+          "trip_id": "833_1034613",
+          "service_id": "833_1000000006949",
+          "start_time": "11:33:00",
+          "end_time": "11:44:00"
+        },
+        {
+          "trip_id": "833_1034622",
+          "service_id": "833_1000000006956",
+          "start_time": "11:33:00",
+          "end_time": "11:44:00"
+        },
+        {
+          "trip_id": "833_1034614",
+          "service_id": "833_1000000006949",
+          "start_time": "12:33:00",
+          "end_time": "12:44:00"
+        },
+        {
+          "trip_id": "833_1034623",
+          "service_id": "833_1000000006956",
+          "start_time": "12:33:00",
+          "end_time": "12:44:00"
+        },
+        {
+          "trip_id": "833_1034616",
+          "service_id": "833_1000000006949",
+          "start_time": "14:33:00",
+          "end_time": "14:44:00"
+        },
+        {
+          "trip_id": "833_1034625",
+          "service_id": "833_1000000006956",
+          "start_time": "14:33:00",
+          "end_time": "14:44:00"
+        },
+        {
+          "trip_id": "833_1034615",
+          "service_id": "833_1000000006949",
+          "start_time": "15:33:00",
+          "end_time": "15:44:00"
+        },
+        {
+          "trip_id": "833_1034624",
+          "service_id": "833_1000000006956",
+          "start_time": "15:33:00",
+          "end_time": "15:44:00"
+        },
+        {
+          "trip_id": "833_1034617",
+          "service_id": "833_1000000006949",
+          "start_time": "16:33:00",
+          "end_time": "16:44:00"
+        },
+        {
+          "trip_id": "833_1034626",
+          "service_id": "833_1000000006956",
+          "start_time": "16:33:00",
+          "end_time": "16:44:00"
+        },
+        {
+          "trip_id": "833_1034618",
+          "service_id": "833_1000000006949",
+          "start_time": "17:33:00",
+          "end_time": "17:44:00"
+        },
+        {
+          "trip_id": "833_1034627",
+          "service_id": "833_1000000006956",
+          "start_time": "17:33:00",
+          "end_time": "17:44:00"
+        },
+        {
+          "trip_id": "833_1034619",
+          "service_id": "833_1000000006949",
+          "start_time": "18:33:00",
+          "end_time": "18:44:00"
+        },
+        {
+          "trip_id": "833_1034628",
+          "service_id": "833_1000000006956",
+          "start_time": "18:33:00",
+          "end_time": "18:44:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.Angelo Allende > Don Ghinelli",
+      "capolinea_partenza": {
+        "stop_id": "47741",
+        "stop_name": "S.Angelo Allende"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20241",
+        "stop_name": "Don Ghinelli"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "09:54:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035994",
+          "service_id": "833_1000000006921",
+          "start_time": "09:54:00",
+          "end_time": "10:02:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.Mauro Mare > Don Ghinelli",
+      "capolinea_partenza": {
+        "stop_id": "11830",
+        "stop_name": "S.Mauro Mare"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20242",
+        "stop_name": "Don Ghinelli"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "07:43:00",
+        "19:13:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038477",
+          "service_id": "833_1000000006949",
+          "start_time": "07:43:00",
+          "end_time": "08:28:00"
+        },
+        {
+          "trip_id": "833_1038479",
+          "service_id": "833_1000000006956",
+          "start_time": "07:43:00",
+          "end_time": "08:28:00"
+        },
+        {
+          "trip_id": "833_1038478",
+          "service_id": "833_1000000006949",
+          "start_time": "19:13:00",
+          "end_time": "19:58:00"
+        },
+        {
+          "trip_id": "833_1038480",
+          "service_id": "833_1000000006956",
+          "start_time": "19:13:00",
+          "end_time": "19:58:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.Mauro Pascoli > Gatteo Mare",
+      "capolinea_partenza": {
+        "stop_id": "20201",
+        "stop_name": "S.Mauro Pascoli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11800",
+        "stop_name": "Gatteo Mare"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "14:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038484",
+          "service_id": "833_1000000006949",
+          "start_time": "14:05:00",
+          "end_time": "14:45:00"
+        },
+        {
+          "trip_id": "833_1038485",
+          "service_id": "833_1000000006956",
+          "start_time": "14:05:00",
+          "end_time": "14:45:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Xx Settembre > Don Ghinelli",
+      "capolinea_partenza": {
+        "stop_id": "19401",
+        "stop_name": "Xx Settembre"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20242",
+        "stop_name": "Don Ghinelli"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "12:05:00",
+        "13:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038475",
+          "service_id": "833_1000000006939",
+          "start_time": "12:05:00",
+          "end_time": "12:28:00"
+        },
+        {
+          "trip_id": "833_1038476",
+          "service_id": "833_1000000006939",
+          "start_time": "13:05:00",
+          "end_time": "13:28:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Xx Settembre > Gatteo Mare",
+      "capolinea_partenza": {
+        "stop_id": "19401",
+        "stop_name": "Xx Settembre"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11801",
+        "stop_name": "Gatteo Mare"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:04:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038481",
+          "service_id": "833_1000000006949",
+          "start_time": "07:04:00",
+          "end_time": "07:45:00"
+        },
+        {
+          "trip_id": "833_1038482",
+          "service_id": "833_1000000006956",
+          "start_time": "07:04:00",
+          "end_time": "07:45:00"
+        }
+      ]
+    }
+  ]
+}

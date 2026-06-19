@@ -1,0 +1,95 @@
+{
+  "estrazione": "Orari da route_188.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_188.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "188",
+    "name": "Linea 188",
+    "direzioni_percorso": [
+      "Bagnara Rocca > Faenza Fs C",
+      "Faenza Fs C > Bagnara Rocca"
+    ],
+    "route_id": "188"
+  },
+  "totale_trips": 6,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bagnara Rocca > Faenza Fs C",
+      "capolinea_partenza": {
+        "stop_id": "772010",
+        "stop_name": "Bagnara Rocca"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780420",
+        "stop_name": "Faenza Fs C"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "09:00:00",
+        "11:35:00",
+        "16:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889478",
+          "service_id": "674_1000000002117",
+          "start_time": "09:00:00",
+          "end_time": "09:37:00"
+        },
+        {
+          "trip_id": "674_2889479",
+          "service_id": "674_1000000002117",
+          "start_time": "11:35:00",
+          "end_time": "12:10:00"
+        },
+        {
+          "trip_id": "674_2889480",
+          "service_id": "674_1000000002220",
+          "start_time": "16:30:00",
+          "end_time": "17:05:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Faenza Fs C > Bagnara Rocca",
+      "capolinea_partenza": {
+        "stop_id": "780420",
+        "stop_name": "Faenza Fs C"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "772010",
+        "stop_name": "Bagnara Rocca"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "09:40:00",
+        "12:10:00",
+        "17:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889481",
+          "service_id": "674_1000000002117",
+          "start_time": "09:40:00",
+          "end_time": "10:04:00"
+        },
+        {
+          "trip_id": "674_2889482",
+          "service_id": "674_1000000002117",
+          "start_time": "12:10:00",
+          "end_time": "12:34:00"
+        },
+        {
+          "trip_id": "674_2889483",
+          "service_id": "674_1000000002220",
+          "start_time": "17:05:00",
+          "end_time": "17:29:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "estrazione": "Orari da route_S093.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_S093.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "S093",
+    "name": "Linea S093",
+    "direzioni_percorso": [
+      "Cesena Punto Bus C2 > Peep Borello",
+      "Peep Borello > Cesena Punto Bus C2"
+    ],
+    "route_id": "S093"
+  },
+  "totale_trips": 65,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus C2 > Peep Borello",
+      "capolinea_partenza": {
+        "stop_id": "999C2",
+        "stop_name": "Cesena Punto Bus C2"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "12330",
+        "stop_name": "Peep Borello"
+      },
+      "trip_count": 32,
+      "orari_partenza": [
+        "06:15:00",
+        "07:05:00",
+        "07:35:00",
+        "08:35:00",
+        "09:35:00",
+        "10:35:00",
+        "11:35:00",
+        "12:05:00",
+        "12:35:00",
+        "13:05:00",
+        "13:35:00",
+        "14:05:00",
+        "14:35:00",
+        "15:35:00",
+        "16:35:00",
+        "17:05:00",
+        "18:05:00",
+        "18:35:00",
+        "19:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036077",
+          "service_id": "833_1000000006932",
+          "start_time": "06:15:00",
+          "end_time": "06:51:00"
+        },
+        {
+          "trip_id": "833_1036094",
+          "service_id": "833_1000000006917",
+          "start_time": "06:15:00",
+          "end_time": "06:51:00"
+        },
+        {
+          "trip_id": "833_1036078",
+          "service_id": "833_1000000006932",
+          "start_time": "07:05:00",
+          "end_time": "07:41:00"
+        },
+        {
+          "trip_id": "833_1036095",
+          "service_id": "833_1000000006917",
+          "start_time": "07:05:00",
+          "end_time": "07:41:00"
+        },
+        {
+          "trip_id": "833_1036079",
+          "service_id": "833_1000000006932",
+          "start_time": "07:35:00",
+          "end_time": "08:11:00"
+        },
+        {
+          "trip_id": "833_1036096",
+          "service_id": "833_1000000006917",
+          "start_time": "07:35:00",
+          "end_time": "08:11:00"
+        },
+        {
+          "trip_id": "833_1036080",
+          "service_id": "833_1000000006932",
+          "start_time": "08:35:00",
+          "end_time": "09:11:00"
+        },
+        {
+          "trip_id": "833_1036097",
+          "service_id": "833_1000000006917",
+          "start_time": "08:35:00",
+          "end_time": "09:11:00"
+        },
+        {
+          "trip_id": "833_1036081",
+          "service_id": "833_1000000006932",
+          "start_time": "09:35:00",
+          "end_time": "10:11:00"
+        },
+        {
+          "trip_id": "833_1036098",
+          "service_id": "833_1000000006917",
+          "start_time": "09:35:00",
+          "end_time": "10:11:00"
+        },
+        {
+          "trip_id": "833_1036082",
+          "service_id": "833_1000000006932",
+          "start_time": "10:35:00",
+          "end_time": "11:11:00"
+        },
+        {
+          "trip_id": "833_1036099",
+          "service_id": "833_1000000006917",
+          "start_time": "10:35:00",
+          "end_time": "11:11:00"
+        },
+        {
+          "trip_id": "833_1036083",
+          "service_id": "833_1000000006932",
+          "start_time": "11:35:00",
+          "end_time": "12:11:00"
+        },
+        {
+          "trip_id": "833_1036100",
+          "service_id": "833_1000000006917",
+          "start_time": "11:35:00",
+          "end_time": "12:11:00"
+        },
+        {
+          "trip_id": "833_1036084",
+          "service_id": "833_1000000006932",
+          "start_time": "12:05:00",
+          "end_time": "12:41:00"
+        },
+        {
+          "trip_id": "833_1036101",
+          "service_id": "833_1000000006917",
+          "start_time": "12:05:00",
+          "end_time": "12:41:00"
+        },
+        {
+          "trip_id": "833_1036085",
+          "service_id": "833_1000000006932",
+          "start_time": "12:35:00",
+          "end_time": "13:11:00"
+        },
+        {
+          "trip_id": "833_1036102",
+          "service_id": "833_1000000006917",
+          "start_time": "12:35:00",
+          "end_time": "13:11:00"
+        },
+        {
+          "trip_id": "833_1036086",
+          "service_id": "833_1000000006932",
+          "start_time": "13:05:00",
+          "end_time": "13:41:00"
+        },
+        {
+          "trip_id": "833_1036103",
+          "service_id": "833_1000000006917",
+          "start_time": "13:05:00",
+          "end_time": "13:41:00"
+        },
+        {
+          "trip_id": "833_1036087",
+          "service_id": "833_1000000006932",
+          "start_time": "13:35:00",
+          "end_time": "14:11:00"
+        },
+        {
+          "trip_id": "833_1036104",
+          "service_id": "833_1000000006917",
+          "start_time": "13:35:00",
+          "end_time": "14:11:00"
+        },
+        {
+          "trip_id": "833_1036117",
+          "service_id": "833_1000000006917",
+          "start_time": "14:05:00",
+          "end_time": "14:41:00"
+        },
+        {
+          "trip_id": "833_1036141",
+          "service_id": "833_1000000006932",
+          "start_time": "14:05:00",
+          "end_time": "14:41:00"
+        },
+        {
+          "trip_id": "833_1036118",
+          "service_id": "833_1000000006917",
+          "start_time": "14:35:00",
+          "end_time": "15:11:00"
+        },
+        {
+          "trip_id": "833_1036140",
+          "service_id": "833_1000000006932",
+          "start_time": "14:35:00",
+          "end_time": "15:11:00"
+        },
+        {
+          "trip_id": "833_1036111",
+          "service_id": "833_1000000006950",
+          "start_time": "15:35:00",
+          "end_time": "16:11:00"
+        },
+        {
+          "trip_id": "833_1036112",
+          "service_id": "833_1000000006950",
+          "start_time": "16:35:00",
+          "end_time": "17:11:00"
+        },
+        {
+          "trip_id": "833_1036113",
+          "service_id": "833_1000000006950",
+          "start_time": "17:05:00",
+          "end_time": "17:41:00"
+        },
+        {
+          "trip_id": "833_1036114",
+          "service_id": "833_1000000006950",
+          "start_time": "18:05:00",
+          "end_time": "18:41:00"
+        },
+        {
+          "trip_id": "833_1036115",
+          "service_id": "833_1000000006950",
+          "start_time": "18:35:00",
+          "end_time": "19:11:00"
+        },
+        {
+          "trip_id": "833_1036116",
+          "service_id": "833_1000000006950",
+          "start_time": "19:05:00",
+          "end_time": "19:41:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Peep Borello > Cesena Punto Bus C2",
+      "capolinea_partenza": {
+        "stop_id": "12330",
+        "stop_name": "Peep Borello"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999C2",
+        "stop_name": "Cesena Punto Bus C2"
+      },
+      "trip_count": 33,
+      "orari_partenza": [
+        "06:11:00",
+        "06:51:00",
+        "07:41:00",
+        "08:11:00",
+        "09:11:00",
+        "10:11:00",
+        "11:11:00",
+        "12:11:00",
+        "12:41:00",
+        "13:16:00",
+        "13:41:00",
+        "14:11:00",
+        "14:41:00",
+        "15:11:00",
+        "16:11:00",
+        "17:11:00",
+        "17:41:00",
+        "18:41:00",
+        "19:11:00",
+        "19:51:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035147",
+          "service_id": "833_1000000006917",
+          "start_time": "06:11:00",
+          "end_time": "06:45:00"
+        },
+        {
+          "trip_id": "833_1035195",
+          "service_id": "833_1000000006932",
+          "start_time": "06:11:00",
+          "end_time": "06:45:00"
+        },
+        {
+          "trip_id": "833_1035148",
+          "service_id": "833_1000000006917",
+          "start_time": "06:51:00",
+          "end_time": "07:25:00"
+        },
+        {
+          "trip_id": "833_1035196",
+          "service_id": "833_1000000006932",
+          "start_time": "06:51:00",
+          "end_time": "07:25:00"
+        },
+        {
+          "trip_id": "833_1035149",
+          "service_id": "833_1000000006917",
+          "start_time": "07:41:00",
+          "end_time": "08:15:00"
+        },
+        {
+          "trip_id": "833_1035197",
+          "service_id": "833_1000000006932",
+          "start_time": "07:41:00",
+          "end_time": "08:15:00"
+        },
+        {
+          "trip_id": "833_1035150",
+          "service_id": "833_1000000006917",
+          "start_time": "08:11:00",
+          "end_time": "08:45:00"
+        },
+        {
+          "trip_id": "833_1035198",
+          "service_id": "833_1000000006932",
+          "start_time": "08:11:00",
+          "end_time": "08:45:00"
+        },
+        {
+          "trip_id": "833_1035151",
+          "service_id": "833_1000000006917",
+          "start_time": "09:11:00",
+          "end_time": "09:45:00"
+        },
+        {
+          "trip_id": "833_1035199",
+          "service_id": "833_1000000006932",
+          "start_time": "09:11:00",
+          "end_time": "09:45:00"
+        },
+        {
+          "trip_id": "833_1035152",
+          "service_id": "833_1000000006917",
+          "start_time": "10:11:00",
+          "end_time": "10:45:00"
+        },
+        {
+          "trip_id": "833_1035200",
+          "service_id": "833_1000000006932",
+          "start_time": "10:11:00",
+          "end_time": "10:45:00"
+        },
+        {
+          "trip_id": "833_1035153",
+          "service_id": "833_1000000006917",
+          "start_time": "11:11:00",
+          "end_time": "11:45:00"
+        },
+        {
+          "trip_id": "833_1035201",
+          "service_id": "833_1000000006932",
+          "start_time": "11:11:00",
+          "end_time": "11:45:00"
+        },
+        {
+          "trip_id": "833_1035154",
+          "service_id": "833_1000000006917",
+          "start_time": "12:11:00",
+          "end_time": "12:45:00"
+        },
+        {
+          "trip_id": "833_1035202",
+          "service_id": "833_1000000006932",
+          "start_time": "12:11:00",
+          "end_time": "12:45:00"
+        },
+        {
+          "trip_id": "833_1035155",
+          "service_id": "833_1000000006917",
+          "start_time": "12:41:00",
+          "end_time": "13:15:00"
+        },
+        {
+          "trip_id": "833_1035203",
+          "service_id": "833_1000000006932",
+          "start_time": "12:41:00",
+          "end_time": "13:15:00"
+        },
+        {
+          "trip_id": "833_1035156",
+          "service_id": "833_1000000006917",
+          "start_time": "13:16:00",
+          "end_time": "13:50:00"
+        },
+        {
+          "trip_id": "833_1035204",
+          "service_id": "833_1000000006932",
+          "start_time": "13:16:00",
+          "end_time": "13:50:00"
+        },
+        {
+          "trip_id": "833_1035157",
+          "service_id": "833_1000000006917",
+          "start_time": "13:41:00",
+          "end_time": "14:15:00"
+        },
+        {
+          "trip_id": "833_1035205",
+          "service_id": "833_1000000006932",
+          "start_time": "13:41:00",
+          "end_time": "14:15:00"
+        },
+        {
+          "trip_id": "833_1035158",
+          "service_id": "833_1000000006917",
+          "start_time": "14:11:00",
+          "end_time": "14:45:00"
+        },
+        {
+          "trip_id": "833_1035206",
+          "service_id": "833_1000000006932",
+          "start_time": "14:11:00",
+          "end_time": "14:45:00"
+        },
+        {
+          "trip_id": "833_1035159",
+          "service_id": "833_1000000006917",
+          "start_time": "14:41:00",
+          "end_time": "15:15:00"
+        },
+        {
+          "trip_id": "833_1035207",
+          "service_id": "833_1000000006932",
+          "start_time": "14:41:00",
+          "end_time": "15:15:00"
+        },
+        {
+          "trip_id": "833_1035160",
+          "service_id": "833_1000000006950",
+          "start_time": "15:11:00",
+          "end_time": "15:45:00"
+        },
+        {
+          "trip_id": "833_1035161",
+          "service_id": "833_1000000006950",
+          "start_time": "16:11:00",
+          "end_time": "16:45:00"
+        },
+        {
+          "trip_id": "833_1035162",
+          "service_id": "833_1000000006950",
+          "start_time": "17:11:00",
+          "end_time": "17:45:00"
+        },
+        {
+          "trip_id": "833_1035163",
+          "service_id": "833_1000000006950",
+          "start_time": "17:41:00",
+          "end_time": "18:15:00"
+        },
+        {
+          "trip_id": "833_1035164",
+          "service_id": "833_1000000006950",
+          "start_time": "18:41:00",
+          "end_time": "19:15:00"
+        },
+        {
+          "trip_id": "833_1035165",
+          "service_id": "833_1000000006950",
+          "start_time": "19:11:00",
+          "end_time": "19:45:00"
+        },
+        {
+          "trip_id": "833_1035166",
+          "service_id": "833_1000000006950",
+          "start_time": "19:51:00",
+          "end_time": "20:25:00"
+        }
+      ]
+    }
+  ]
+}

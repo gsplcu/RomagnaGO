@@ -1,0 +1,67 @@
+{
+  "estrazione": "Orari da route_F021.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F021.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F021",
+    "name": "Linea F021",
+    "direzioni_percorso": [
+      "Palazzo Dolcini > Via Larga",
+      "Via Larga > Palazzo Dolcini"
+    ],
+    "route_id": "F021"
+  },
+  "totale_trips": 2,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Palazzo Dolcini > Via Larga",
+      "capolinea_partenza": {
+        "stop_id": "13211",
+        "stop_name": "Palazzo Dolcini"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "45522",
+        "stop_name": "Via Larga"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:42:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031173",
+          "service_id": "833_1000000006928",
+          "start_time": "06:42:00",
+          "end_time": "07:30:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Via Larga > Palazzo Dolcini",
+      "capolinea_partenza": {
+        "stop_id": "45522",
+        "stop_name": "Via Larga"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13212",
+        "stop_name": "Palazzo Dolcini"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "17:16:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033642",
+          "service_id": "833_1000000006928",
+          "start_time": "17:16:00",
+          "end_time": "18:09:00"
+        }
+      ]
+    }
+  ]
+}

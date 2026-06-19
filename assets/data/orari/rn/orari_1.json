@@ -1,0 +1,390 @@
+{
+  "estrazione": "Orari da route_1.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_1.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "1",
+    "name": "Linea 1",
+    "direzioni_percorso": [
+      "4 Rimini Fs > Anagrafe",
+      "4 Rimini Fs > Marzabotto",
+      "Covignano-Pioppo > Marzabotto",
+      "Marzabotto > 4 Rimini Fs"
+    ],
+    "route_id": "1"
+  },
+  "totale_trips": 43,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "4 Rimini Fs > Anagrafe",
+      "capolinea_partenza": {
+        "stop_id": "A00012",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00191",
+        "stop_name": "Anagrafe"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "20:18:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4040998",
+          "service_id": "404_1000000001810",
+          "start_time": "20:18:00",
+          "end_time": "20:33:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "4 Rimini Fs > Marzabotto",
+      "capolinea_partenza": {
+        "stop_id": "A00012",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00034",
+        "stop_name": "Marzabotto"
+      },
+      "trip_count": 20,
+      "orari_partenza": [
+        "07:05:00",
+        "07:45:00",
+        "08:25:00",
+        "09:05:00",
+        "09:45:00",
+        "10:25:00",
+        "11:05:00",
+        "11:45:00",
+        "12:25:00",
+        "13:05:00",
+        "13:45:00",
+        "14:25:00",
+        "15:05:00",
+        "15:45:00",
+        "16:25:00",
+        "17:05:00",
+        "17:45:00",
+        "18:25:00",
+        "19:05:00",
+        "19:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4063968",
+          "service_id": "404_1000000001810",
+          "start_time": "07:05:00",
+          "end_time": "07:20:00"
+        },
+        {
+          "trip_id": "404_4063961",
+          "service_id": "404_1000000001810",
+          "start_time": "07:45:00",
+          "end_time": "08:00:00"
+        },
+        {
+          "trip_id": "404_4063962",
+          "service_id": "404_1000000001810",
+          "start_time": "08:25:00",
+          "end_time": "08:40:00"
+        },
+        {
+          "trip_id": "404_4063963",
+          "service_id": "404_1000000001810",
+          "start_time": "09:05:00",
+          "end_time": "09:20:00"
+        },
+        {
+          "trip_id": "404_4063959",
+          "service_id": "404_1000000001810",
+          "start_time": "09:45:00",
+          "end_time": "10:00:00"
+        },
+        {
+          "trip_id": "404_4063964",
+          "service_id": "404_1000000001810",
+          "start_time": "10:25:00",
+          "end_time": "10:40:00"
+        },
+        {
+          "trip_id": "404_4063960",
+          "service_id": "404_1000000001810",
+          "start_time": "11:05:00",
+          "end_time": "11:20:00"
+        },
+        {
+          "trip_id": "404_4063966",
+          "service_id": "404_1000000001810",
+          "start_time": "11:45:00",
+          "end_time": "12:00:00"
+        },
+        {
+          "trip_id": "404_4063965",
+          "service_id": "404_1000000001810",
+          "start_time": "12:25:00",
+          "end_time": "12:40:00"
+        },
+        {
+          "trip_id": "404_4063967",
+          "service_id": "404_1000000001810",
+          "start_time": "13:05:00",
+          "end_time": "13:20:00"
+        },
+        {
+          "trip_id": "404_4063973",
+          "service_id": "404_1000000001810",
+          "start_time": "13:45:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "trip_id": "404_4063972",
+          "service_id": "404_1000000001810",
+          "start_time": "14:25:00",
+          "end_time": "14:40:00"
+        },
+        {
+          "trip_id": "404_4063974",
+          "service_id": "404_1000000001810",
+          "start_time": "15:05:00",
+          "end_time": "15:20:00"
+        },
+        {
+          "trip_id": "404_4063975",
+          "service_id": "404_1000000001810",
+          "start_time": "15:45:00",
+          "end_time": "16:00:00"
+        },
+        {
+          "trip_id": "404_4063969",
+          "service_id": "404_1000000001810",
+          "start_time": "16:25:00",
+          "end_time": "16:40:00"
+        },
+        {
+          "trip_id": "404_4063976",
+          "service_id": "404_1000000001810",
+          "start_time": "17:05:00",
+          "end_time": "17:20:00"
+        },
+        {
+          "trip_id": "404_4063970",
+          "service_id": "404_1000000001810",
+          "start_time": "17:45:00",
+          "end_time": "18:00:00"
+        },
+        {
+          "trip_id": "404_4063977",
+          "service_id": "404_1000000001810",
+          "start_time": "18:25:00",
+          "end_time": "18:40:00"
+        },
+        {
+          "trip_id": "404_4063978",
+          "service_id": "404_1000000001810",
+          "start_time": "19:05:00",
+          "end_time": "19:20:00"
+        },
+        {
+          "trip_id": "404_4063971",
+          "service_id": "404_1000000001810",
+          "start_time": "19:45:00",
+          "end_time": "20:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Covignano-Pioppo > Marzabotto",
+      "capolinea_partenza": {
+        "stop_id": "A00028",
+        "stop_name": "Covignano-Pioppo"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00034",
+        "stop_name": "Marzabotto"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:36:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4033192",
+          "service_id": "404_1000000001810",
+          "start_time": "06:36:00",
+          "end_time": "06:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Marzabotto > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "A00034",
+        "stop_name": "Marzabotto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00012",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 21,
+      "orari_partenza": [
+        "06:40:00",
+        "07:20:00",
+        "08:00:00",
+        "08:40:00",
+        "09:20:00",
+        "10:00:00",
+        "10:40:00",
+        "11:20:00",
+        "12:00:00",
+        "12:40:00",
+        "13:20:00",
+        "14:00:00",
+        "14:40:00",
+        "15:20:00",
+        "16:00:00",
+        "16:40:00",
+        "17:20:00",
+        "18:00:00",
+        "18:40:00",
+        "19:20:00",
+        "20:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4094289",
+          "service_id": "404_1000000001810",
+          "start_time": "06:40:00",
+          "end_time": "06:58:00"
+        },
+        {
+          "trip_id": "404_4094290",
+          "service_id": "404_1000000001810",
+          "start_time": "07:20:00",
+          "end_time": "07:38:00"
+        },
+        {
+          "trip_id": "404_4094291",
+          "service_id": "404_1000000001810",
+          "start_time": "08:00:00",
+          "end_time": "08:18:00"
+        },
+        {
+          "trip_id": "404_4094292",
+          "service_id": "404_1000000001810",
+          "start_time": "08:40:00",
+          "end_time": "08:58:00"
+        },
+        {
+          "trip_id": "404_4094293",
+          "service_id": "404_1000000001810",
+          "start_time": "09:20:00",
+          "end_time": "09:38:00"
+        },
+        {
+          "trip_id": "404_4094294",
+          "service_id": "404_1000000001810",
+          "start_time": "10:00:00",
+          "end_time": "10:18:00"
+        },
+        {
+          "trip_id": "404_4094295",
+          "service_id": "404_1000000001810",
+          "start_time": "10:40:00",
+          "end_time": "10:58:00"
+        },
+        {
+          "trip_id": "404_4094296",
+          "service_id": "404_1000000001810",
+          "start_time": "11:20:00",
+          "end_time": "11:38:00"
+        },
+        {
+          "trip_id": "404_4094297",
+          "service_id": "404_1000000001810",
+          "start_time": "12:00:00",
+          "end_time": "12:18:00"
+        },
+        {
+          "trip_id": "404_4094298",
+          "service_id": "404_1000000001810",
+          "start_time": "12:40:00",
+          "end_time": "12:58:00"
+        },
+        {
+          "trip_id": "404_4094299",
+          "service_id": "404_1000000001810",
+          "start_time": "13:20:00",
+          "end_time": "13:38:00"
+        },
+        {
+          "trip_id": "404_4094300",
+          "service_id": "404_1000000001810",
+          "start_time": "14:00:00",
+          "end_time": "14:18:00"
+        },
+        {
+          "trip_id": "404_4094301",
+          "service_id": "404_1000000001810",
+          "start_time": "14:40:00",
+          "end_time": "14:58:00"
+        },
+        {
+          "trip_id": "404_4094302",
+          "service_id": "404_1000000001810",
+          "start_time": "15:20:00",
+          "end_time": "15:38:00"
+        },
+        {
+          "trip_id": "404_4094303",
+          "service_id": "404_1000000001810",
+          "start_time": "16:00:00",
+          "end_time": "16:18:00"
+        },
+        {
+          "trip_id": "404_4094304",
+          "service_id": "404_1000000001810",
+          "start_time": "16:40:00",
+          "end_time": "16:58:00"
+        },
+        {
+          "trip_id": "404_4094305",
+          "service_id": "404_1000000001810",
+          "start_time": "17:20:00",
+          "end_time": "17:38:00"
+        },
+        {
+          "trip_id": "404_4094306",
+          "service_id": "404_1000000001810",
+          "start_time": "18:00:00",
+          "end_time": "18:18:00"
+        },
+        {
+          "trip_id": "404_4094307",
+          "service_id": "404_1000000001810",
+          "start_time": "18:40:00",
+          "end_time": "18:58:00"
+        },
+        {
+          "trip_id": "404_4094308",
+          "service_id": "404_1000000001810",
+          "start_time": "19:20:00",
+          "end_time": "19:38:00"
+        },
+        {
+          "trip_id": "404_4094309",
+          "service_id": "404_1000000001810",
+          "start_time": "20:00:00",
+          "end_time": "20:18:00"
+        }
+      ]
+    }
+  ]
+}

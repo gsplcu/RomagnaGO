@@ -1,0 +1,454 @@
+{
+  "estrazione": "Orari da route_CE21.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_CE21.json",
+  "route": {
+    "basin": "FC",
+    "area": "Cesena",
+    "line": "CE21",
+    "name": "Linea CE21",
+    "direzioni_percorso": [
+      "Barriera-Carducci > S.Martino Capolinea",
+      "Cesena Punto Bus F > Gambettola F.Boario",
+      "Gambettola F.Boario > Cesena Punto Bus F",
+      "Gambettola F.Boario > S.Martino Capolinea",
+      "S.Martino Capolinea > Barriera Terminal",
+      "S.Martino Capolinea > Gambettola F.Boario"
+    ],
+    "route_id": "CE21"
+  },
+  "totale_trips": 47,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Barriera-Carducci > S.Martino Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "5580",
+        "stop_name": "Barriera-Carducci"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "6210",
+        "stop_name": "S.Martino Capolinea"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036883",
+          "service_id": "833_1000000006936",
+          "start_time": "12:15:00",
+          "end_time": "12:44:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus F > Gambettola F.Boario",
+      "capolinea_partenza": {
+        "stop_id": "999F1",
+        "stop_name": "Cesena Punto Bus F"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "12032",
+        "stop_name": "Gambettola F.Boario"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "12:10:00",
+        "17:10:00",
+        "18:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038248",
+          "service_id": "833_1000000006936",
+          "start_time": "12:10:00",
+          "end_time": "12:44:00"
+        },
+        {
+          "trip_id": "833_1038249",
+          "service_id": "833_1000000006936",
+          "start_time": "17:10:00",
+          "end_time": "17:44:00"
+        },
+        {
+          "trip_id": "833_1038250",
+          "service_id": "833_1000000006936",
+          "start_time": "18:10:00",
+          "end_time": "18:44:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Gambettola F.Boario > Cesena Punto Bus F",
+      "capolinea_partenza": {
+        "stop_id": "12032",
+        "stop_name": "Gambettola F.Boario"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999F1",
+        "stop_name": "Cesena Punto Bus F"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:50:00",
+        "14:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036879",
+          "service_id": "833_1000000006950",
+          "start_time": "08:50:00",
+          "end_time": "09:22:00"
+        },
+        {
+          "trip_id": "833_1036880",
+          "service_id": "833_1000000006936",
+          "start_time": "14:50:00",
+          "end_time": "15:22:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Gambettola F.Boario > S.Martino Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "12032",
+        "stop_name": "Gambettola F.Boario"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "6210",
+        "stop_name": "S.Martino Capolinea"
+      },
+      "trip_count": 20,
+      "orari_partenza": [
+        "06:18:00",
+        "06:48:00",
+        "07:18:00",
+        "07:48:00",
+        "08:18:00",
+        "09:18:00",
+        "10:18:00",
+        "11:18:00",
+        "12:18:00",
+        "12:48:00",
+        "13:18:00",
+        "13:48:00",
+        "14:18:00",
+        "15:18:00",
+        "16:18:00",
+        "17:18:00",
+        "17:48:00",
+        "18:18:00",
+        "18:48:00",
+        "19:18:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036887",
+          "service_id": "833_1000000006950",
+          "start_time": "06:18:00",
+          "end_time": "07:14:00"
+        },
+        {
+          "trip_id": "833_1036888",
+          "service_id": "833_1000000006950",
+          "start_time": "06:48:00",
+          "end_time": "07:44:00"
+        },
+        {
+          "trip_id": "833_1036889",
+          "service_id": "833_1000000006950",
+          "start_time": "07:18:00",
+          "end_time": "08:14:00"
+        },
+        {
+          "trip_id": "833_1036890",
+          "service_id": "833_1000000006950",
+          "start_time": "07:48:00",
+          "end_time": "08:44:00"
+        },
+        {
+          "trip_id": "833_1036891",
+          "service_id": "833_1000000006950",
+          "start_time": "08:18:00",
+          "end_time": "09:14:00"
+        },
+        {
+          "trip_id": "833_1036892",
+          "service_id": "833_1000000006950",
+          "start_time": "09:18:00",
+          "end_time": "10:14:00"
+        },
+        {
+          "trip_id": "833_1036893",
+          "service_id": "833_1000000006950",
+          "start_time": "10:18:00",
+          "end_time": "11:14:00"
+        },
+        {
+          "trip_id": "833_1036886",
+          "service_id": "833_1000000006950",
+          "start_time": "11:18:00",
+          "end_time": "12:14:00"
+        },
+        {
+          "trip_id": "833_1036894",
+          "service_id": "833_1000000006950",
+          "start_time": "12:18:00",
+          "end_time": "13:14:00"
+        },
+        {
+          "trip_id": "833_1036895",
+          "service_id": "833_1000000006950",
+          "start_time": "12:48:00",
+          "end_time": "13:44:00"
+        },
+        {
+          "trip_id": "833_1036896",
+          "service_id": "833_1000000006950",
+          "start_time": "13:18:00",
+          "end_time": "14:14:00"
+        },
+        {
+          "trip_id": "833_1036897",
+          "service_id": "833_1000000006950",
+          "start_time": "13:48:00",
+          "end_time": "14:44:00"
+        },
+        {
+          "trip_id": "833_1036898",
+          "service_id": "833_1000000006950",
+          "start_time": "14:18:00",
+          "end_time": "15:14:00"
+        },
+        {
+          "trip_id": "833_1036899",
+          "service_id": "833_1000000006950",
+          "start_time": "15:18:00",
+          "end_time": "16:14:00"
+        },
+        {
+          "trip_id": "833_1036900",
+          "service_id": "833_1000000006950",
+          "start_time": "16:18:00",
+          "end_time": "17:14:00"
+        },
+        {
+          "trip_id": "833_1036901",
+          "service_id": "833_1000000006950",
+          "start_time": "17:18:00",
+          "end_time": "18:14:00"
+        },
+        {
+          "trip_id": "833_1036904",
+          "service_id": "833_1000000006936",
+          "start_time": "17:48:00",
+          "end_time": "18:44:00"
+        },
+        {
+          "trip_id": "833_1036902",
+          "service_id": "833_1000000006950",
+          "start_time": "18:18:00",
+          "end_time": "19:14:00"
+        },
+        {
+          "trip_id": "833_1036905",
+          "service_id": "833_1000000006936",
+          "start_time": "18:48:00",
+          "end_time": "19:44:00"
+        },
+        {
+          "trip_id": "833_1036903",
+          "service_id": "833_1000000006950",
+          "start_time": "19:18:00",
+          "end_time": "20:14:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.Martino Capolinea > Barriera Terminal",
+      "capolinea_partenza": {
+        "stop_id": "6210",
+        "stop_name": "S.Martino Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "5120A",
+        "stop_name": "Barriera Terminal"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:47:00",
+        "14:47:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038253",
+          "service_id": "833_1000000006950",
+          "start_time": "08:47:00",
+          "end_time": "09:16:00"
+        },
+        {
+          "trip_id": "833_1038254",
+          "service_id": "833_1000000006936",
+          "start_time": "14:47:00",
+          "end_time": "15:16:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.Martino Capolinea > Gambettola F.Boario",
+      "capolinea_partenza": {
+        "stop_id": "6210",
+        "stop_name": "S.Martino Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "12032",
+        "stop_name": "Gambettola F.Boario"
+      },
+      "trip_count": 19,
+      "orari_partenza": [
+        "06:17:00",
+        "06:47:00",
+        "07:17:00",
+        "07:47:00",
+        "08:17:00",
+        "09:17:00",
+        "10:17:00",
+        "11:17:00",
+        "12:17:00",
+        "12:47:00",
+        "13:17:00",
+        "13:47:00",
+        "14:17:00",
+        "15:17:00",
+        "16:17:00",
+        "17:17:00",
+        "18:17:00",
+        "18:47:00",
+        "19:32:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038258",
+          "service_id": "833_1000000006950",
+          "start_time": "06:17:00",
+          "end_time": "07:14:00"
+        },
+        {
+          "trip_id": "833_1038259",
+          "service_id": "833_1000000006950",
+          "start_time": "06:47:00",
+          "end_time": "07:44:00"
+        },
+        {
+          "trip_id": "833_1038260",
+          "service_id": "833_1000000006950",
+          "start_time": "07:17:00",
+          "end_time": "08:14:00"
+        },
+        {
+          "trip_id": "833_1038261",
+          "service_id": "833_1000000006950",
+          "start_time": "07:47:00",
+          "end_time": "08:44:00"
+        },
+        {
+          "trip_id": "833_1038262",
+          "service_id": "833_1000000006950",
+          "start_time": "08:17:00",
+          "end_time": "09:14:00"
+        },
+        {
+          "trip_id": "833_1038257",
+          "service_id": "833_1000000006950",
+          "start_time": "09:17:00",
+          "end_time": "10:14:00"
+        },
+        {
+          "trip_id": "833_1038263",
+          "service_id": "833_1000000006950",
+          "start_time": "10:17:00",
+          "end_time": "11:14:00"
+        },
+        {
+          "trip_id": "833_1038264",
+          "service_id": "833_1000000006950",
+          "start_time": "11:17:00",
+          "end_time": "12:14:00"
+        },
+        {
+          "trip_id": "833_1038265",
+          "service_id": "833_1000000006950",
+          "start_time": "12:17:00",
+          "end_time": "13:14:00"
+        },
+        {
+          "trip_id": "833_1038266",
+          "service_id": "833_1000000006950",
+          "start_time": "12:47:00",
+          "end_time": "13:44:00"
+        },
+        {
+          "trip_id": "833_1038267",
+          "service_id": "833_1000000006950",
+          "start_time": "13:17:00",
+          "end_time": "14:14:00"
+        },
+        {
+          "trip_id": "833_1038268",
+          "service_id": "833_1000000006950",
+          "start_time": "13:47:00",
+          "end_time": "14:44:00"
+        },
+        {
+          "trip_id": "833_1038269",
+          "service_id": "833_1000000006950",
+          "start_time": "14:17:00",
+          "end_time": "15:14:00"
+        },
+        {
+          "trip_id": "833_1038270",
+          "service_id": "833_1000000006950",
+          "start_time": "15:17:00",
+          "end_time": "16:14:00"
+        },
+        {
+          "trip_id": "833_1038271",
+          "service_id": "833_1000000006950",
+          "start_time": "16:17:00",
+          "end_time": "17:14:00"
+        },
+        {
+          "trip_id": "833_1038272",
+          "service_id": "833_1000000006950",
+          "start_time": "17:17:00",
+          "end_time": "18:14:00"
+        },
+        {
+          "trip_id": "833_1038273",
+          "service_id": "833_1000000006950",
+          "start_time": "18:17:00",
+          "end_time": "19:14:00"
+        },
+        {
+          "trip_id": "833_1038275",
+          "service_id": "833_1000000006936",
+          "start_time": "18:47:00",
+          "end_time": "19:44:00"
+        },
+        {
+          "trip_id": "833_1038274",
+          "service_id": "833_1000000006950",
+          "start_time": "19:32:00",
+          "end_time": "20:29:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "estrazione": "Orari da route_F129.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F129.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F129",
+    "name": "Linea F129",
+    "direzioni_percorso": [
+      "Forli Punto Bus > Predappio",
+      "Forli Punto Bus > Premilcuore Capolinea",
+      "Predappio > Forli Punto Bus",
+      "Predappio > Predappio Alta V. Barberino",
+      "Predappio > Premilcuore Capolinea",
+      "Predappio Alta V. Barberino > Predappio",
+      "Premilcuore Capolinea > Forli Punto Bus",
+      "Premilcuore Capolinea > Predappio"
+    ],
+    "route_id": "F129"
+  },
+  "totale_trips": 54,
+  "totale_direzioni_percorso": 8,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Forli Punto Bus > Predappio",
+      "capolinea_partenza": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10272",
+        "stop_name": "Predappio"
+      },
+      "trip_count": 8,
+      "orari_partenza": [
+        "07:11:00",
+        "07:31:00",
+        "08:10:00",
+        "12:45:00",
+        "18:20:00",
+        "18:40:00",
+        "19:15:00",
+        "19:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031296",
+          "service_id": "833_1000000006947",
+          "start_time": "07:11:00",
+          "end_time": "07:41:00"
+        },
+        {
+          "trip_id": "833_1031294",
+          "service_id": "833_1000000006947",
+          "start_time": "07:31:00",
+          "end_time": "08:01:00"
+        },
+        {
+          "trip_id": "833_1031292",
+          "service_id": "833_1000000006959",
+          "start_time": "08:10:00",
+          "end_time": "08:40:00"
+        },
+        {
+          "trip_id": "833_1031298",
+          "service_id": "833_1000000006965",
+          "start_time": "12:45:00",
+          "end_time": "13:15:00"
+        },
+        {
+          "trip_id": "833_1037431",
+          "service_id": "833_1000000006947",
+          "start_time": "18:20:00",
+          "end_time": "18:56:00"
+        },
+        {
+          "trip_id": "833_1037430",
+          "service_id": "833_1000000006959",
+          "start_time": "18:40:00",
+          "end_time": "19:16:00"
+        },
+        {
+          "trip_id": "833_1031291",
+          "service_id": "833_1000000006959",
+          "start_time": "19:15:00",
+          "end_time": "19:45:00"
+        },
+        {
+          "trip_id": "833_1031295",
+          "service_id": "833_1000000006947",
+          "start_time": "19:45:00",
+          "end_time": "20:15:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Forli Punto Bus > Premilcuore Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10000",
+        "stop_name": "Premilcuore Capolinea"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "14:15:00",
+        "18:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036874",
+          "service_id": "833_1000000006947",
+          "start_time": "14:15:00",
+          "end_time": "15:26:00"
+        },
+        {
+          "trip_id": "833_1036875",
+          "service_id": "833_1000000006947",
+          "start_time": "18:55:00",
+          "end_time": "20:06:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Predappio > Forli Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "10272",
+        "stop_name": "Predappio"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "trip_count": 8,
+      "orari_partenza": [
+        "06:07:00",
+        "06:55:00",
+        "07:30:00",
+        "08:45:00",
+        "12:07:00",
+        "13:32:00",
+        "13:37:00",
+        "18:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036619",
+          "service_id": "833_1000000006947",
+          "start_time": "06:07:00",
+          "end_time": "06:35:00"
+        },
+        {
+          "trip_id": "833_1033822",
+          "service_id": "833_1000000006947",
+          "start_time": "06:55:00",
+          "end_time": "07:31:00"
+        },
+        {
+          "trip_id": "833_1033820",
+          "service_id": "833_1000000006959",
+          "start_time": "07:30:00",
+          "end_time": "08:01:00"
+        },
+        {
+          "trip_id": "833_1036620",
+          "service_id": "833_1000000006947",
+          "start_time": "08:45:00",
+          "end_time": "09:15:00"
+        },
+        {
+          "trip_id": "833_1036614",
+          "service_id": "833_1000000006959",
+          "start_time": "12:07:00",
+          "end_time": "12:37:00"
+        },
+        {
+          "trip_id": "833_1033819",
+          "service_id": "833_1000000006959",
+          "start_time": "13:32:00",
+          "end_time": "14:08:00"
+        },
+        {
+          "trip_id": "833_1033823",
+          "service_id": "833_1000000006947",
+          "start_time": "13:37:00",
+          "end_time": "14:13:00"
+        },
+        {
+          "trip_id": "833_1036613",
+          "service_id": "833_1000000006959",
+          "start_time": "18:10:00",
+          "end_time": "18:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Predappio > Predappio Alta V. Barberino",
+      "capolinea_partenza": {
+        "stop_id": "10272",
+        "stop_name": "Predappio"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20010",
+        "stop_name": "Predappio Alta V. Barberino"
+      },
+      "trip_count": 14,
+      "orari_partenza": [
+        "07:16:00",
+        "08:01:00",
+        "08:40:00",
+        "10:01:00",
+        "12:25:00",
+        "13:15:00",
+        "14:15:00",
+        "17:56:00",
+        "18:11:00",
+        "18:56:00",
+        "19:16:00",
+        "19:45:00",
+        "20:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036859",
+          "service_id": "833_1000000006959",
+          "start_time": "07:16:00",
+          "end_time": "07:23:00"
+        },
+        {
+          "trip_id": "833_1036864",
+          "service_id": "833_1000000006947",
+          "start_time": "08:01:00",
+          "end_time": "08:08:00"
+        },
+        {
+          "trip_id": "833_1036860",
+          "service_id": "833_1000000006959",
+          "start_time": "08:40:00",
+          "end_time": "08:47:00"
+        },
+        {
+          "trip_id": "833_1036871",
+          "service_id": "833_1000000006947",
+          "start_time": "10:01:00",
+          "end_time": "10:08:00"
+        },
+        {
+          "trip_id": "833_1036865",
+          "service_id": "833_1000000006947",
+          "start_time": "12:25:00",
+          "end_time": "12:32:00"
+        },
+        {
+          "trip_id": "833_1036872",
+          "service_id": "833_1000000006965",
+          "start_time": "13:15:00",
+          "end_time": "13:22:00"
+        },
+        {
+          "trip_id": "833_1036866",
+          "service_id": "833_1000000006947",
+          "start_time": "14:15:00",
+          "end_time": "14:22:00"
+        },
+        {
+          "trip_id": "833_1036861",
+          "service_id": "833_1000000006959",
+          "start_time": "17:56:00",
+          "end_time": "18:03:00"
+        },
+        {
+          "trip_id": "833_1036867",
+          "service_id": "833_1000000006947",
+          "start_time": "17:56:00",
+          "end_time": "18:03:00"
+        },
+        {
+          "trip_id": "833_1036868",
+          "service_id": "833_1000000006947",
+          "start_time": "18:11:00",
+          "end_time": "18:18:00"
+        },
+        {
+          "trip_id": "833_1036869",
+          "service_id": "833_1000000006947",
+          "start_time": "18:56:00",
+          "end_time": "19:03:00"
+        },
+        {
+          "trip_id": "833_1036862",
+          "service_id": "833_1000000006959",
+          "start_time": "19:16:00",
+          "end_time": "19:23:00"
+        },
+        {
+          "trip_id": "833_1036863",
+          "service_id": "833_1000000006959",
+          "start_time": "19:45:00",
+          "end_time": "19:52:00"
+        },
+        {
+          "trip_id": "833_1036870",
+          "service_id": "833_1000000006947",
+          "start_time": "20:15:00",
+          "end_time": "20:22:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Predappio > Premilcuore Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "10272",
+        "stop_name": "Predappio"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10000",
+        "stop_name": "Premilcuore Capolinea"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "08:15:00",
+        "08:54:00",
+        "19:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1037416",
+          "service_id": "833_1000000006947",
+          "start_time": "08:15:00",
+          "end_time": "08:56:00"
+        },
+        {
+          "trip_id": "833_1037411",
+          "service_id": "833_1000000006959",
+          "start_time": "08:54:00",
+          "end_time": "09:35:00"
+        },
+        {
+          "trip_id": "833_1037410",
+          "service_id": "833_1000000006959",
+          "start_time": "19:30:00",
+          "end_time": "20:11:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Predappio Alta V. Barberino > Predappio",
+      "capolinea_partenza": {
+        "stop_id": "20010",
+        "stop_name": "Predappio Alta V. Barberino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10272",
+        "stop_name": "Predappio"
+      },
+      "trip_count": 13,
+      "orari_partenza": [
+        "06:00:00",
+        "06:48:00",
+        "07:23:00",
+        "08:08:00",
+        "08:47:00",
+        "10:08:00",
+        "12:00:00",
+        "12:07:00",
+        "13:25:00",
+        "13:30:00",
+        "18:03:00",
+        "19:23:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036601",
+          "service_id": "833_1000000006947",
+          "start_time": "06:00:00",
+          "end_time": "06:07:00"
+        },
+        {
+          "trip_id": "833_1036602",
+          "service_id": "833_1000000006947",
+          "start_time": "06:48:00",
+          "end_time": "06:55:00"
+        },
+        {
+          "trip_id": "833_1036596",
+          "service_id": "833_1000000006959",
+          "start_time": "07:23:00",
+          "end_time": "07:30:00"
+        },
+        {
+          "trip_id": "833_1036606",
+          "service_id": "833_1000000006947",
+          "start_time": "08:08:00",
+          "end_time": "08:15:00"
+        },
+        {
+          "trip_id": "833_1036597",
+          "service_id": "833_1000000006959",
+          "start_time": "08:47:00",
+          "end_time": "08:54:00"
+        },
+        {
+          "trip_id": "833_1036603",
+          "service_id": "833_1000000006947",
+          "start_time": "10:08:00",
+          "end_time": "10:15:00"
+        },
+        {
+          "trip_id": "833_1036598",
+          "service_id": "833_1000000006959",
+          "start_time": "12:00:00",
+          "end_time": "12:07:00"
+        },
+        {
+          "trip_id": "833_1036607",
+          "service_id": "833_1000000006947",
+          "start_time": "12:07:00",
+          "end_time": "12:14:00"
+        },
+        {
+          "trip_id": "833_1036605",
+          "service_id": "833_1000000006959",
+          "start_time": "13:25:00",
+          "end_time": "13:32:00"
+        },
+        {
+          "trip_id": "833_1036604",
+          "service_id": "833_1000000006947",
+          "start_time": "13:30:00",
+          "end_time": "13:37:00"
+        },
+        {
+          "trip_id": "833_1036599",
+          "service_id": "833_1000000006959",
+          "start_time": "18:03:00",
+          "end_time": "18:10:00"
+        },
+        {
+          "trip_id": "833_1036608",
+          "service_id": "833_1000000006947",
+          "start_time": "18:03:00",
+          "end_time": "18:10:00"
+        },
+        {
+          "trip_id": "833_1036600",
+          "service_id": "833_1000000006959",
+          "start_time": "19:23:00",
+          "end_time": "19:30:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Premilcuore Capolinea > Forli Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "10000",
+        "stop_name": "Premilcuore Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036611",
+          "service_id": "833_1000000006947",
+          "start_time": "06:45:00",
+          "end_time": "07:56:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Premilcuore Capolinea > Predappio",
+      "capolinea_partenza": {
+        "stop_id": "10000",
+        "stop_name": "Premilcuore Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10272",
+        "stop_name": "Predappio"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "06:35:00",
+        "09:20:00",
+        "13:35:00",
+        "17:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033805",
+          "service_id": "833_1000000006959",
+          "start_time": "06:35:00",
+          "end_time": "07:16:00"
+        },
+        {
+          "trip_id": "833_1033809",
+          "service_id": "833_1000000006947",
+          "start_time": "09:20:00",
+          "end_time": "10:01:00"
+        },
+        {
+          "trip_id": "833_1033811",
+          "service_id": "833_1000000006947",
+          "start_time": "13:35:00",
+          "end_time": "14:15:00"
+        },
+        {
+          "trip_id": "833_1033804",
+          "service_id": "833_1000000006959",
+          "start_time": "17:15:00",
+          "end_time": "17:56:00"
+        },
+        {
+          "trip_id": "833_1033810",
+          "service_id": "833_1000000006947",
+          "start_time": "17:15:00",
+          "end_time": "17:56:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "estrazione": "Orari da route_F003.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F003.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F003",
+    "name": "Linea F003",
+    "direzioni_percorso": [
+      "Piazza Borello > Teodorano Centro",
+      "Teodorano Centro > Piazza Borello"
+    ],
+    "route_id": "F003"
+  },
+  "totale_trips": 4,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Piazza Borello > Teodorano Centro",
+      "capolinea_partenza": {
+        "stop_id": "12311",
+        "stop_name": "Piazza Borello"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "41612",
+        "stop_name": "Teodorano Centro"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:02:00",
+        "12:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1032115",
+          "service_id": "833_1000000006914",
+          "start_time": "07:02:00",
+          "end_time": "07:19:00"
+        },
+        {
+          "trip_id": "833_1032116",
+          "service_id": "833_1000000006914",
+          "start_time": "12:20:00",
+          "end_time": "12:37:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Teodorano Centro > Piazza Borello",
+      "capolinea_partenza": {
+        "stop_id": "41611",
+        "stop_name": "Teodorano Centro"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "12312",
+        "stop_name": "Piazza Borello"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:21:00",
+        "12:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1032417",
+          "service_id": "833_1000000006914",
+          "start_time": "07:21:00",
+          "end_time": "07:38:00"
+        },
+        {
+          "trip_id": "833_1032418",
+          "service_id": "833_1000000006914",
+          "start_time": "12:40:00",
+          "end_time": "12:57:00"
+        }
+      ]
+    }
+  ]
+}

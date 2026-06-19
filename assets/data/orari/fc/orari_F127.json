@@ -1,0 +1,372 @@
+{
+  "estrazione": "Orari da route_F127.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F127.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F127",
+    "name": "Linea F127",
+    "direzioni_percorso": [
+      "Dante > Forli Punto Bus",
+      "Dante > Muraglione",
+      "Dante > S.Benedetto In Alpe",
+      "Forli Punto Bus > Dante",
+      "Muraglione > Dante",
+      "Portico Centro > Forli Punto Bus",
+      "S.Benedetto In Alpe > Dante"
+    ],
+    "route_id": "F127"
+  },
+  "totale_trips": 33,
+  "totale_direzioni_percorso": 7,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Dante > Forli Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "19890",
+        "stop_name": "Dante"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "05:35:00",
+        "07:10:00",
+        "09:10:00",
+        "11:10:00",
+        "13:10:00",
+        "14:10:00",
+        "15:10:00",
+        "17:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033785",
+          "service_id": "833_1000000006947",
+          "start_time": "05:35:00",
+          "end_time": "06:25:00"
+        },
+        {
+          "trip_id": "833_1033786",
+          "service_id": "833_1000000006947",
+          "start_time": "07:10:00",
+          "end_time": "08:00:00"
+        },
+        {
+          "trip_id": "833_1033791",
+          "service_id": "833_1000000006965",
+          "start_time": "09:10:00",
+          "end_time": "10:00:00"
+        },
+        {
+          "trip_id": "833_1033787",
+          "service_id": "833_1000000006947",
+          "start_time": "11:10:00",
+          "end_time": "12:00:00"
+        },
+        {
+          "trip_id": "833_1033792",
+          "service_id": "833_1000000006965",
+          "start_time": "13:10:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "trip_id": "833_1033778",
+          "service_id": "833_1000000006959",
+          "start_time": "14:10:00",
+          "end_time": "15:00:00"
+        },
+        {
+          "trip_id": "833_1033788",
+          "service_id": "833_1000000006947",
+          "start_time": "15:10:00",
+          "end_time": "16:00:00"
+        },
+        {
+          "trip_id": "833_1033793",
+          "service_id": "833_1000000006947",
+          "start_time": "17:25:00",
+          "end_time": "18:15:00"
+        },
+        {
+          "trip_id": "833_1033794",
+          "service_id": "833_1000000006959",
+          "start_time": "17:25:00",
+          "end_time": "18:15:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Dante > Muraglione",
+      "capolinea_partenza": {
+        "stop_id": "19890",
+        "stop_name": "Dante"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "18120",
+        "stop_name": "Muraglione"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:15:00",
+        "15:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031263",
+          "service_id": "833_1000000006965",
+          "start_time": "07:15:00",
+          "end_time": "08:05:00"
+        },
+        {
+          "trip_id": "833_1031264",
+          "service_id": "833_1000000006965",
+          "start_time": "15:10:00",
+          "end_time": "16:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Dante > S.Benedetto In Alpe",
+      "capolinea_partenza": {
+        "stop_id": "19890",
+        "stop_name": "Dante"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "18092",
+        "stop_name": "S.Benedetto In Alpe"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "09:10:00",
+        "12:05:00",
+        "14:05:00",
+        "19:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036851",
+          "service_id": "833_1000000006947",
+          "start_time": "09:10:00",
+          "end_time": "09:40:00"
+        },
+        {
+          "trip_id": "833_1036852",
+          "service_id": "833_1000000006947",
+          "start_time": "12:05:00",
+          "end_time": "12:35:00"
+        },
+        {
+          "trip_id": "833_1036853",
+          "service_id": "833_1000000006947",
+          "start_time": "14:05:00",
+          "end_time": "14:35:00"
+        },
+        {
+          "trip_id": "833_1036854",
+          "service_id": "833_1000000006947",
+          "start_time": "19:25:00",
+          "end_time": "19:55:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Forli Punto Bus > Dante",
+      "capolinea_partenza": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "19890",
+        "stop_name": "Dante"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "06:20:00",
+        "07:40:00",
+        "11:15:00",
+        "13:15:00",
+        "14:15:00",
+        "16:35:00",
+        "18:35:00",
+        "19:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031281",
+          "service_id": "833_1000000006947",
+          "start_time": "06:20:00",
+          "end_time": "07:10:00"
+        },
+        {
+          "trip_id": "833_1031282",
+          "service_id": "833_1000000006959",
+          "start_time": "06:20:00",
+          "end_time": "07:10:00"
+        },
+        {
+          "trip_id": "833_1031272",
+          "service_id": "833_1000000006947",
+          "start_time": "07:40:00",
+          "end_time": "08:30:00"
+        },
+        {
+          "trip_id": "833_1031273",
+          "service_id": "833_1000000006947",
+          "start_time": "11:15:00",
+          "end_time": "12:05:00"
+        },
+        {
+          "trip_id": "833_1031278",
+          "service_id": "833_1000000006965",
+          "start_time": "13:15:00",
+          "end_time": "14:05:00"
+        },
+        {
+          "trip_id": "833_1031279",
+          "service_id": "833_1000000006965",
+          "start_time": "14:15:00",
+          "end_time": "15:05:00"
+        },
+        {
+          "trip_id": "833_1031274",
+          "service_id": "833_1000000006947",
+          "start_time": "16:35:00",
+          "end_time": "17:25:00"
+        },
+        {
+          "trip_id": "833_1031275",
+          "service_id": "833_1000000006947",
+          "start_time": "18:35:00",
+          "end_time": "19:25:00"
+        },
+        {
+          "trip_id": "833_1031280",
+          "service_id": "833_1000000006965",
+          "start_time": "19:15:00",
+          "end_time": "20:05:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Muraglione > Dante",
+      "capolinea_partenza": {
+        "stop_id": "18120",
+        "stop_name": "Muraglione"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "19890",
+        "stop_name": "Dante"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "08:20:00",
+        "16:20:00",
+        "16:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036591",
+          "service_id": "833_1000000006965",
+          "start_time": "08:20:00",
+          "end_time": "09:10:00"
+        },
+        {
+          "trip_id": "833_1036590",
+          "service_id": "833_1000000006959",
+          "start_time": "16:20:00",
+          "end_time": "17:10:00"
+        },
+        {
+          "trip_id": "833_1036592",
+          "service_id": "833_1000000006947",
+          "start_time": "16:35:00",
+          "end_time": "17:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Portico Centro > Forli Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "18031",
+        "stop_name": "Portico Centro"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033797",
+          "service_id": "833_1000000006947",
+          "start_time": "06:10:00",
+          "end_time": "07:15:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.Benedetto In Alpe > Dante",
+      "capolinea_partenza": {
+        "stop_id": "18091",
+        "stop_name": "S.Benedetto In Alpe"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "19890",
+        "stop_name": "Dante"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "06:40:00",
+        "09:40:00",
+        "12:40:00",
+        "14:40:00",
+        "20:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036586",
+          "service_id": "833_1000000006947",
+          "start_time": "06:40:00",
+          "end_time": "07:10:00"
+        },
+        {
+          "trip_id": "833_1036589",
+          "service_id": "833_1000000006947",
+          "start_time": "09:40:00",
+          "end_time": "10:10:00"
+        },
+        {
+          "trip_id": "833_1036587",
+          "service_id": "833_1000000006947",
+          "start_time": "12:40:00",
+          "end_time": "13:10:00"
+        },
+        {
+          "trip_id": "833_1036588",
+          "service_id": "833_1000000006947",
+          "start_time": "14:40:00",
+          "end_time": "15:10:00"
+        },
+        {
+          "trip_id": "833_1036578",
+          "service_id": "833_1000000006947",
+          "start_time": "20:00:00",
+          "end_time": "20:30:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "romagnago-app",
+          "appId": "1:1037967421326:android:21cbc516f312bc7ec93edf",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "romagnago-app",
+          "configurations": {
+            "android": "1:1037967421326:android:21cbc516f312bc7ec93edf",
+            "ios": "1:1037967421326:ios:c02c8d9f9896bac6c93edf",
+            "web": "1:1037967421326:web:4f9724de414f59cec93edf"
+          }
+        }
+      }
+    }
+  }
+}

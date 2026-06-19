@@ -1,0 +1,209 @@
+{
+  "estrazione": "Orari da route_162.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_162.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "162",
+    "name": "Linea 162",
+    "direzioni_percorso": [
+      "Novafeltria Capolinea > S.Agata Feltria",
+      "Novafeltria Capolinea > San Donato",
+      "Ospedale > Novafeltria Capolinea",
+      "S.Agata Feltria > Novafeltria Capolinea",
+      "San Donato > Novafeltria Capolinea",
+      "San Donato > Ospedale"
+    ],
+    "route_id": "162"
+  },
+  "totale_trips": 12,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Novafeltria Capolinea > S.Agata Feltria",
+      "capolinea_partenza": {
+        "stop_id": "AC0009",
+        "stop_name": "Novafeltria Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "AD0003",
+        "stop_name": "S.Agata Feltria"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:25:00",
+        "12:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4105529",
+          "service_id": "404_1000000001810",
+          "start_time": "06:25:00",
+          "end_time": "06:45:00"
+        },
+        {
+          "trip_id": "404_4093472",
+          "service_id": "404_1000000001810",
+          "start_time": "12:10:00",
+          "end_time": "12:49:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Novafeltria Capolinea > San Donato",
+      "capolinea_partenza": {
+        "stop_id": "AC0009",
+        "stop_name": "Novafeltria Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "AD0007",
+        "stop_name": "San Donato"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "08:05:00",
+        "14:10:00",
+        "18:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4058792",
+          "service_id": "404_1000000001810",
+          "start_time": "08:05:00",
+          "end_time": "08:52:00"
+        },
+        {
+          "trip_id": "404_4038245",
+          "service_id": "404_1000000001810",
+          "start_time": "14:10:00",
+          "end_time": "14:54:00"
+        },
+        {
+          "trip_id": "404_4038244",
+          "service_id": "404_1000000001810",
+          "start_time": "18:40:00",
+          "end_time": "19:24:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Ospedale > Novafeltria Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "AC0066",
+        "stop_name": "Ospedale"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "AC0009",
+        "stop_name": "Novafeltria Capolinea"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:49:00",
+        "09:57:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4105486",
+          "service_id": "404_1000000001810",
+          "start_time": "07:49:00",
+          "end_time": "07:53:00"
+        },
+        {
+          "trip_id": "404_4105485",
+          "service_id": "404_1000000001810",
+          "start_time": "09:57:00",
+          "end_time": "10:01:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.Agata Feltria > Novafeltria Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "AD0023",
+        "stop_name": "S.Agata Feltria"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "AC0009",
+        "stop_name": "Novafeltria Capolinea"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "13:05:00",
+        "15:06:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4023549",
+          "service_id": "404_1000000001810",
+          "start_time": "13:05:00",
+          "end_time": "13:44:00"
+        },
+        {
+          "trip_id": "404_4023550",
+          "service_id": "404_1000000001810",
+          "start_time": "15:06:00",
+          "end_time": "15:45:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "San Donato > Novafeltria Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "AD0019",
+        "stop_name": "San Donato"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "AC0009",
+        "stop_name": "Novafeltria Capolinea"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "19:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4113961",
+          "service_id": "404_1000000001810",
+          "start_time": "19:25:00",
+          "end_time": "20:06:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "San Donato > Ospedale",
+      "capolinea_partenza": {
+        "stop_id": "AD0019",
+        "stop_name": "San Donato"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "AC0050",
+        "stop_name": "Ospedale"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:00:00",
+        "09:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4036919",
+          "service_id": "404_1000000001810",
+          "start_time": "07:00:00",
+          "end_time": "07:48:00"
+        },
+        {
+          "trip_id": "404_4069490",
+          "service_id": "404_1000000001810",
+          "start_time": "09:05:00",
+          "end_time": "09:56:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "estrazione": "Orari da route_F134.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F134.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F134",
+    "name": "Linea F134",
+    "direzioni_percorso": [
+      "Bertinoro > Centro Forlimpopoli",
+      "Bertinoro > Forli Punto Bus",
+      "Capolinea Fratta T. > Centro Forlimpopoli",
+      "Centro Forlimpopoli > Bertinoro",
+      "Centro Forlimpopoli > Capolinea Fratta T.",
+      "Forli Punto Bus > Bertinoro"
+    ],
+    "route_id": "F134"
+  },
+  "totale_trips": 12,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bertinoro > Centro Forlimpopoli",
+      "capolinea_partenza": {
+        "stop_id": "16591",
+        "stop_name": "Bertinoro"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11311",
+        "stop_name": "Centro Forlimpopoli"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:55:00",
+        "07:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033840",
+          "service_id": "833_1000000006947",
+          "start_time": "06:55:00",
+          "end_time": "07:15:00"
+        },
+        {
+          "trip_id": "833_1033841",
+          "service_id": "833_1000000006947",
+          "start_time": "07:50:00",
+          "end_time": "08:10:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bertinoro > Forli Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "16591",
+        "stop_name": "Bertinoro"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "06:45:00",
+        "07:35:00",
+        "13:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1037457",
+          "service_id": "833_1000000006947",
+          "start_time": "06:45:00",
+          "end_time": "07:10:00"
+        },
+        {
+          "trip_id": "833_1037458",
+          "service_id": "833_1000000006947",
+          "start_time": "07:35:00",
+          "end_time": "08:00:00"
+        },
+        {
+          "trip_id": "833_1037459",
+          "service_id": "833_1000000006947",
+          "start_time": "13:45:00",
+          "end_time": "14:10:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Capolinea Fratta T. > Centro Forlimpopoli",
+      "capolinea_partenza": {
+        "stop_id": "15890",
+        "stop_name": "Capolinea Fratta T."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11311",
+        "stop_name": "Centro Forlimpopoli"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "13:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1037463",
+          "service_id": "833_1000000006947",
+          "start_time": "13:10:00",
+          "end_time": "13:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Centro Forlimpopoli > Bertinoro",
+      "capolinea_partenza": {
+        "stop_id": "11312",
+        "stop_name": "Centro Forlimpopoli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "16592",
+        "stop_name": "Bertinoro"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "07:23:00",
+        "08:28:00",
+        "13:33:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1087092",
+          "service_id": "833_1000000006947",
+          "start_time": "07:23:00",
+          "end_time": "07:45:00"
+        },
+        {
+          "trip_id": "833_1087093",
+          "service_id": "833_1000000006947",
+          "start_time": "08:28:00",
+          "end_time": "08:50:00"
+        },
+        {
+          "trip_id": "833_1031327",
+          "service_id": "833_1000000006947",
+          "start_time": "13:33:00",
+          "end_time": "13:43:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Centro Forlimpopoli > Capolinea Fratta T.",
+      "capolinea_partenza": {
+        "stop_id": "11312",
+        "stop_name": "Centro Forlimpopoli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "15890",
+        "stop_name": "Capolinea Fratta T."
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "13:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031326",
+          "service_id": "833_1000000006947",
+          "start_time": "13:00:00",
+          "end_time": "13:10:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Forli Punto Bus > Bertinoro",
+      "capolinea_partenza": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "16592",
+        "stop_name": "Bertinoro"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:10:00",
+        "07:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031322",
+          "service_id": "833_1000000006947",
+          "start_time": "06:10:00",
+          "end_time": "06:35:00"
+        },
+        {
+          "trip_id": "833_1031321",
+          "service_id": "833_1000000006947",
+          "start_time": "07:10:00",
+          "end_time": "07:35:00"
+        }
+      ]
+    }
+  ]
+}

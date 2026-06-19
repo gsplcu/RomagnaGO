@@ -1,0 +1,109 @@
+{
+  "estrazione": "Orari da route_F166.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F166.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F166",
+    "name": "Linea F166",
+    "direzioni_percorso": [
+      "Longiano Centro > Savignano Fs",
+      "Savignano Fs > Longiano Centro"
+    ],
+    "route_id": "F166"
+  },
+  "totale_trips": 8,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Longiano Centro > Savignano Fs",
+      "capolinea_partenza": {
+        "stop_id": "14480",
+        "stop_name": "Longiano Centro"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20102",
+        "stop_name": "Savignano Fs"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "07:12:00",
+        "12:35:00",
+        "13:45:00",
+        "18:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036050",
+          "service_id": "833_1000000006947",
+          "start_time": "07:12:00",
+          "end_time": "07:25:00"
+        },
+        {
+          "trip_id": "833_1036051",
+          "service_id": "833_1000000006947",
+          "start_time": "12:35:00",
+          "end_time": "12:48:00"
+        },
+        {
+          "trip_id": "833_1036053",
+          "service_id": "833_1000000006947",
+          "start_time": "13:45:00",
+          "end_time": "13:58:00"
+        },
+        {
+          "trip_id": "833_1036052",
+          "service_id": "833_1000000006947",
+          "start_time": "18:15:00",
+          "end_time": "18:28:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Savignano Fs > Longiano Centro",
+      "capolinea_partenza": {
+        "stop_id": "20102",
+        "stop_name": "Savignano Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "14480",
+        "stop_name": "Longiano Centro"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "06:57:00",
+        "12:20:00",
+        "13:30:00",
+        "18:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031468",
+          "service_id": "833_1000000006947",
+          "start_time": "06:57:00",
+          "end_time": "07:10:00"
+        },
+        {
+          "trip_id": "833_1031465",
+          "service_id": "833_1000000006947",
+          "start_time": "12:20:00",
+          "end_time": "12:33:00"
+        },
+        {
+          "trip_id": "833_1031466",
+          "service_id": "833_1000000006947",
+          "start_time": "13:30:00",
+          "end_time": "13:43:00"
+        },
+        {
+          "trip_id": "833_1031467",
+          "service_id": "833_1000000006947",
+          "start_time": "18:00:00",
+          "end_time": "18:13:00"
+        }
+      ]
+    }
+  ]
+}

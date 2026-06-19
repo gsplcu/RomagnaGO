@@ -1,0 +1,81 @@
+{
+  "estrazione": "Orari da route_F168.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F168.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F168",
+    "name": "Linea F168",
+    "direzioni_percorso": [
+      "Cesenatico (P.To Canale) > Roncofreddo",
+      "Roncofreddo > Cesenatico (P.To Canale)"
+    ],
+    "route_id": "F168"
+  },
+  "totale_trips": 4,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cesenatico (P.To Canale) > Roncofreddo",
+      "capolinea_partenza": {
+        "stop_id": "30110",
+        "stop_name": "Cesenatico (P.To Canale)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "14512",
+        "stop_name": "Roncofreddo"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "12:23:00",
+        "18:13:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036058",
+          "service_id": "833_1000000006969",
+          "start_time": "12:23:00",
+          "end_time": "13:21:00"
+        },
+        {
+          "trip_id": "833_1036059",
+          "service_id": "833_1000000006969",
+          "start_time": "18:13:00",
+          "end_time": "19:11:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Roncofreddo > Cesenatico (P.To Canale)",
+      "capolinea_partenza": {
+        "stop_id": "14511",
+        "stop_name": "Roncofreddo"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30111",
+        "stop_name": "Cesenatico (P.To Canale)"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:30:00",
+        "13:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036358",
+          "service_id": "833_1000000006969",
+          "start_time": "07:30:00",
+          "end_time": "08:28:00"
+        },
+        {
+          "trip_id": "833_1036359",
+          "service_id": "833_1000000006969",
+          "start_time": "13:55:00",
+          "end_time": "14:53:00"
+        }
+      ]
+    }
+  ]
+}

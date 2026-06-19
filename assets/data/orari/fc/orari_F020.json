@@ -1,0 +1,81 @@
+{
+  "estrazione": "Orari da route_F020.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F020.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F020",
+    "name": "Linea F020",
+    "direzioni_percorso": [
+      "Bagno Di Romagna > Spinello Parcheggio",
+      "Spinello Parcheggio > Bagno Di R. (Terme)"
+    ],
+    "route_id": "F020"
+  },
+  "totale_trips": 4,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bagno Di Romagna > Spinello Parcheggio",
+      "capolinea_partenza": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "15740",
+        "stop_name": "Spinello Parcheggio"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:30:00",
+        "15:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031171",
+          "service_id": "833_1000000006947",
+          "start_time": "08:30:00",
+          "end_time": "08:50:00"
+        },
+        {
+          "trip_id": "833_1031172",
+          "service_id": "833_1000000006947",
+          "start_time": "15:45:00",
+          "end_time": "16:05:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Spinello Parcheggio > Bagno Di R. (Terme)",
+      "capolinea_partenza": {
+        "stop_id": "15740",
+        "stop_name": "Spinello Parcheggio"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13500",
+        "stop_name": "Bagno Di R. (Terme)"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "09:00:00",
+        "16:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033640",
+          "service_id": "833_1000000006947",
+          "start_time": "09:00:00",
+          "end_time": "09:20:00"
+        },
+        {
+          "trip_id": "833_1033641",
+          "service_id": "833_1000000006947",
+          "start_time": "16:15:00",
+          "end_time": "16:35:00"
+        }
+      ]
+    }
+  ]
+}

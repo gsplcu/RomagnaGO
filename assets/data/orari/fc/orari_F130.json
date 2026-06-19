@@ -1,0 +1,145 @@
+{
+  "estrazione": "Orari da route_F130.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F130.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F130",
+    "name": "Linea F130",
+    "direzioni_percorso": [
+      "Bidentina I > Cervia (Circ. Sacchetti Ovest)",
+      "Cervia (Circ. Sacchetti Ovest) > Marconi",
+      "Cervia - Sacchetti > Bidentina I",
+      "Marconi > Cervia - Sacchetti"
+    ],
+    "route_id": "F130"
+  },
+  "totale_trips": 8,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bidentina I > Cervia (Circ. Sacchetti Ovest)",
+      "capolinea_partenza": {
+        "stop_id": "14812",
+        "stop_name": "Bidentina I"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10942",
+        "stop_name": "Cervia (Circ. Sacchetti Ovest)"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:40:00",
+        "13:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1037433",
+          "service_id": "833_1000000006969",
+          "start_time": "07:40:00",
+          "end_time": "08:39:00"
+        },
+        {
+          "trip_id": "833_1037434",
+          "service_id": "833_1000000006969",
+          "start_time": "13:25:00",
+          "end_time": "14:24:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cervia (Circ. Sacchetti Ovest) > Marconi",
+      "capolinea_partenza": {
+        "stop_id": "10942",
+        "stop_name": "Cervia (Circ. Sacchetti Ovest)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10772",
+        "stop_name": "Marconi"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:45:00",
+        "14:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1037435",
+          "service_id": "833_1000000006969",
+          "start_time": "08:45:00",
+          "end_time": "09:11:00"
+        },
+        {
+          "trip_id": "833_1037436",
+          "service_id": "833_1000000006969",
+          "start_time": "14:30:00",
+          "end_time": "14:56:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cervia - Sacchetti > Bidentina I",
+      "capolinea_partenza": {
+        "stop_id": "10941",
+        "stop_name": "Cervia - Sacchetti"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "14811",
+        "stop_name": "Bidentina I"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "12:20:00",
+        "19:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033828",
+          "service_id": "833_1000000006969",
+          "start_time": "12:20:00",
+          "end_time": "13:19:00"
+        },
+        {
+          "trip_id": "833_1033829",
+          "service_id": "833_1000000006969",
+          "start_time": "19:10:00",
+          "end_time": "20:09:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Marconi > Cervia - Sacchetti",
+      "capolinea_partenza": {
+        "stop_id": "10771",
+        "stop_name": "Marconi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10941",
+        "stop_name": "Cervia - Sacchetti"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "11:40:00",
+        "18:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086298",
+          "service_id": "833_1000000006969",
+          "start_time": "11:40:00",
+          "end_time": "12:11:00"
+        },
+        {
+          "trip_id": "833_1086299",
+          "service_id": "833_1000000006969",
+          "start_time": "18:30:00",
+          "end_time": "19:01:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "estrazione": "Orari da route_180.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_180.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "180",
+    "name": "Linea 180",
+    "direzioni_percorso": [
+      "P.Risorgimento > P.Zza V.Emanuele",
+      "P.Zza V.Emanuele > P.Risorgimento"
+    ],
+    "route_id": "180"
+  },
+  "totale_trips": 3,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Risorgimento > P.Zza V.Emanuele",
+      "capolinea_partenza": {
+        "stop_id": "P00001",
+        "stop_name": "P.Risorgimento"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "X00004",
+        "stop_name": "P.Zza V.Emanuele"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "05:32:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4054157",
+          "service_id": "404_1000000001810",
+          "start_time": "05:32:00",
+          "end_time": "05:56:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "P.Zza V.Emanuele > P.Risorgimento",
+      "capolinea_partenza": {
+        "stop_id": "X00003",
+        "stop_name": "P.Zza V.Emanuele"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "P00027",
+        "stop_name": "P.Risorgimento"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "13:40:00",
+        "19:57:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4048508",
+          "service_id": "404_1000000001810",
+          "start_time": "13:40:00",
+          "end_time": "14:08:00"
+        },
+        {
+          "trip_id": "404_4036363",
+          "service_id": "404_1000000001810",
+          "start_time": "19:57:00",
+          "end_time": "20:22:00"
+        }
+      ]
+    }
+  ]
+}

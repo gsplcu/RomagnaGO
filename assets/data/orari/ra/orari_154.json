@@ -1,0 +1,117 @@
+{
+  "estrazione": "Orari da route_154.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_154.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "154",
+    "name": "Linea 154",
+    "direzioni_percorso": [
+      "Circ.Ne Al Molino > Lugo Punto Bus",
+      "Lugo Punto Bus > Circ.Ne Al Molino",
+      "Lugo Punto Bus > P.Le Enichem",
+      "P.Le Enichem > Lugo Punto Bus"
+    ],
+    "route_id": "154"
+  },
+  "totale_trips": 4,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Circ.Ne Al Molino > Lugo Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "10:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796408",
+          "service_id": "674_1000000002117",
+          "start_time": "10:40:00",
+          "end_time": "11:28:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Lugo Punto Bus > Circ.Ne Al Molino",
+      "capolinea_partenza": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796409",
+          "service_id": "674_1000000002117",
+          "start_time": "07:45:00",
+          "end_time": "08:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Lugo Punto Bus > P.Le Enichem",
+      "capolinea_partenza": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "707900",
+        "stop_name": "P.Le Enichem"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795851",
+          "service_id": "674_1000000002115",
+          "start_time": "06:30:00",
+          "end_time": "07:30:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Le Enichem > Lugo Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "707900",
+        "stop_name": "P.Le Enichem"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "17:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795850",
+          "service_id": "674_1000000002115",
+          "start_time": "17:10:00",
+          "end_time": "17:58:00"
+        }
+      ]
+    }
+  ]
+}

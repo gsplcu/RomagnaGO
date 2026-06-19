@@ -1,0 +1,17 @@
+graphhopper:
+  datareader.file: romagna.osm.pbf
+  graph.location: romagna-gh
+
+  import.osm.ignored_highways: motorway,trunk
+
+  graph.dataaccess.default_type: MMAP
+
+  profiles:
+    - name: foot
+      vehicle: foot
+      custom_model_files: []
+
+  profiles_ch:
+    - profile: foot
+
+  prepare.min_network_size: 200

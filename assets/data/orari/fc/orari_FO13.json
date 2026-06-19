@@ -1,0 +1,315 @@
+{
+  "estrazione": "Orari da route_FO13.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_FO13.json",
+  "route": {
+    "basin": "FC",
+    "area": "Forli",
+    "line": "FO13",
+    "name": "Linea FO13",
+    "direzioni_percorso": [
+      "Forli Fs B > S.Leonardo",
+      "S.Leonardo > Forli Fs C"
+    ],
+    "route_id": "FO13"
+  },
+  "totale_trips": 40,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Forli Fs B > S.Leonardo",
+      "capolinea_partenza": {
+        "stop_id": "3120B",
+        "stop_name": "Forli Fs B"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "18240",
+        "stop_name": "S.Leonardo"
+      },
+      "trip_count": 20,
+      "orari_partenza": [
+        "06:30:00",
+        "06:54:00",
+        "08:03:00",
+        "09:33:00",
+        "11:03:00",
+        "12:23:00",
+        "13:23:00",
+        "14:23:00",
+        "15:15:00",
+        "17:25:00",
+        "18:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035961",
+          "service_id": "833_1000000006991",
+          "start_time": "06:30:00",
+          "end_time": "06:54:00"
+        },
+        {
+          "trip_id": "833_1087347",
+          "service_id": "833_1000000006992",
+          "start_time": "06:30:00",
+          "end_time": "06:54:00"
+        },
+        {
+          "trip_id": "833_1035964",
+          "service_id": "833_1000000006993",
+          "start_time": "06:54:00",
+          "end_time": "07:18:00"
+        },
+        {
+          "trip_id": "833_1087349",
+          "service_id": "833_1000000006992",
+          "start_time": "06:54:00",
+          "end_time": "07:18:00"
+        },
+        {
+          "trip_id": "833_1035976",
+          "service_id": "833_1000000006991",
+          "start_time": "08:03:00",
+          "end_time": "08:27:00"
+        },
+        {
+          "trip_id": "833_1087350",
+          "service_id": "833_1000000006992",
+          "start_time": "08:03:00",
+          "end_time": "08:27:00"
+        },
+        {
+          "trip_id": "833_1087334",
+          "service_id": "833_1000000006991",
+          "start_time": "09:33:00",
+          "end_time": "09:57:00"
+        },
+        {
+          "trip_id": "833_1087335",
+          "service_id": "833_1000000006991",
+          "start_time": "11:03:00",
+          "end_time": "11:27:00"
+        },
+        {
+          "trip_id": "833_1035965",
+          "service_id": "833_1000000006993",
+          "start_time": "12:23:00",
+          "end_time": "12:47:00"
+        },
+        {
+          "trip_id": "833_1087351",
+          "service_id": "833_1000000006992",
+          "start_time": "12:23:00",
+          "end_time": "12:47:00"
+        },
+        {
+          "trip_id": "833_1035966",
+          "service_id": "833_1000000006993",
+          "start_time": "13:23:00",
+          "end_time": "13:47:00"
+        },
+        {
+          "trip_id": "833_1087352",
+          "service_id": "833_1000000006992",
+          "start_time": "13:23:00",
+          "end_time": "13:47:00"
+        },
+        {
+          "trip_id": "833_1035967",
+          "service_id": "833_1000000006993",
+          "start_time": "14:23:00",
+          "end_time": "14:47:00"
+        },
+        {
+          "trip_id": "833_1087353",
+          "service_id": "833_1000000006992",
+          "start_time": "14:23:00",
+          "end_time": "14:47:00"
+        },
+        {
+          "trip_id": "833_1035963",
+          "service_id": "833_1000000006991",
+          "start_time": "15:15:00",
+          "end_time": "15:39:00"
+        },
+        {
+          "trip_id": "833_1087348",
+          "service_id": "833_1000000006992",
+          "start_time": "15:15:00",
+          "end_time": "15:39:00"
+        },
+        {
+          "trip_id": "833_1035975",
+          "service_id": "833_1000000006991",
+          "start_time": "17:25:00",
+          "end_time": "17:49:00"
+        },
+        {
+          "trip_id": "833_1087354",
+          "service_id": "833_1000000006992",
+          "start_time": "17:25:00",
+          "end_time": "17:49:00"
+        },
+        {
+          "trip_id": "833_1035974",
+          "service_id": "833_1000000006991",
+          "start_time": "18:25:00",
+          "end_time": "18:49:00"
+        },
+        {
+          "trip_id": "833_1087355",
+          "service_id": "833_1000000006992",
+          "start_time": "18:25:00",
+          "end_time": "18:49:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.Leonardo > Forli Fs C",
+      "capolinea_partenza": {
+        "stop_id": "18241",
+        "stop_name": "S.Leonardo"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "3120C",
+        "stop_name": "Forli Fs C"
+      },
+      "trip_count": 20,
+      "orari_partenza": [
+        "06:30:00",
+        "07:18:00",
+        "08:30:00",
+        "10:00:00",
+        "11:30:00",
+        "12:53:00",
+        "13:53:00",
+        "14:47:00",
+        "15:40:00",
+        "18:00:00",
+        "19:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035912",
+          "service_id": "833_1000000006993",
+          "start_time": "06:30:00",
+          "end_time": "06:54:00"
+        },
+        {
+          "trip_id": "833_1087336",
+          "service_id": "833_1000000006992",
+          "start_time": "06:30:00",
+          "end_time": "06:54:00"
+        },
+        {
+          "trip_id": "833_1035913",
+          "service_id": "833_1000000006993",
+          "start_time": "07:18:00",
+          "end_time": "07:42:00"
+        },
+        {
+          "trip_id": "833_1087337",
+          "service_id": "833_1000000006992",
+          "start_time": "07:18:00",
+          "end_time": "07:42:00"
+        },
+        {
+          "trip_id": "833_1035924",
+          "service_id": "833_1000000006991",
+          "start_time": "08:30:00",
+          "end_time": "08:54:00"
+        },
+        {
+          "trip_id": "833_1087338",
+          "service_id": "833_1000000006992",
+          "start_time": "08:30:00",
+          "end_time": "08:54:00"
+        },
+        {
+          "trip_id": "833_1087332",
+          "service_id": "833_1000000006991",
+          "start_time": "10:00:00",
+          "end_time": "10:24:00"
+        },
+        {
+          "trip_id": "833_1087333",
+          "service_id": "833_1000000006991",
+          "start_time": "11:30:00",
+          "end_time": "11:54:00"
+        },
+        {
+          "trip_id": "833_1035914",
+          "service_id": "833_1000000006993",
+          "start_time": "12:53:00",
+          "end_time": "13:17:00"
+        },
+        {
+          "trip_id": "833_1087341",
+          "service_id": "833_1000000006992",
+          "start_time": "12:53:00",
+          "end_time": "13:17:00"
+        },
+        {
+          "trip_id": "833_1035915",
+          "service_id": "833_1000000006993",
+          "start_time": "13:53:00",
+          "end_time": "14:17:00"
+        },
+        {
+          "trip_id": "833_1087342",
+          "service_id": "833_1000000006992",
+          "start_time": "13:53:00",
+          "end_time": "14:17:00"
+        },
+        {
+          "trip_id": "833_1035916",
+          "service_id": "833_1000000006993",
+          "start_time": "14:47:00",
+          "end_time": "15:11:00"
+        },
+        {
+          "trip_id": "833_1087343",
+          "service_id": "833_1000000006992",
+          "start_time": "14:47:00",
+          "end_time": "15:11:00"
+        },
+        {
+          "trip_id": "833_1035911",
+          "service_id": "833_1000000006991",
+          "start_time": "15:40:00",
+          "end_time": "16:04:00"
+        },
+        {
+          "trip_id": "833_1087346",
+          "service_id": "833_1000000006992",
+          "start_time": "15:40:00",
+          "end_time": "16:04:00"
+        },
+        {
+          "trip_id": "833_1035925",
+          "service_id": "833_1000000006991",
+          "start_time": "18:00:00",
+          "end_time": "18:24:00"
+        },
+        {
+          "trip_id": "833_1087344",
+          "service_id": "833_1000000006992",
+          "start_time": "18:00:00",
+          "end_time": "18:24:00"
+        },
+        {
+          "trip_id": "833_1035926",
+          "service_id": "833_1000000006991",
+          "start_time": "19:00:00",
+          "end_time": "19:24:00"
+        },
+        {
+          "trip_id": "833_1087345",
+          "service_id": "833_1000000006992",
+          "start_time": "19:00:00",
+          "end_time": "19:24:00"
+        }
+      ]
+    }
+  ]
+}

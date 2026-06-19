@@ -1,0 +1,81 @@
+{
+  "estrazione": "Orari da route_172.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_172.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "172",
+    "name": "Linea 172",
+    "direzioni_percorso": [
+      "49 Curiel (Pens.C) > P.Risorgimento",
+      "P.Risorgimento > 49 Curiel (Pens.C)"
+    ],
+    "route_id": "172"
+  },
+  "totale_trips": 4,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "49 Curiel (Pens.C) > P.Risorgimento",
+      "capolinea_partenza": {
+        "stop_id": "B00361",
+        "stop_name": "49 Curiel (Pens.C)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "P00001",
+        "stop_name": "P.Risorgimento"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "12:25:00",
+        "17:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4037944",
+          "service_id": "404_1000000001810",
+          "start_time": "12:25:00",
+          "end_time": "13:06:00"
+        },
+        {
+          "trip_id": "404_4037945",
+          "service_id": "404_1000000001810",
+          "start_time": "17:25:00",
+          "end_time": "18:06:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Risorgimento > 49 Curiel (Pens.C)",
+      "capolinea_partenza": {
+        "stop_id": "P00027",
+        "stop_name": "P.Risorgimento"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "B00361",
+        "stop_name": "49 Curiel (Pens.C)"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:05:00",
+        "14:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4061731",
+          "service_id": "404_1000000001810",
+          "start_time": "07:05:00",
+          "end_time": "07:45:00"
+        },
+        {
+          "trip_id": "404_4061732",
+          "service_id": "404_1000000001810",
+          "start_time": "14:25:00",
+          "end_time": "15:05:00"
+        }
+      ]
+    }
+  ]
+}

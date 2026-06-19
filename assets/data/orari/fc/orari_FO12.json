@@ -1,0 +1,595 @@
+{
+  "estrazione": "Orari da route_FO12.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_FO12.json",
+  "route": {
+    "basin": "FC",
+    "area": "Forli",
+    "line": "FO12",
+    "name": "Linea FO12",
+    "direzioni_percorso": [
+      "Carpinello Capolinea > Villanova",
+      "Forli Fs C > Villanova",
+      "Piazzale Del Lavoro > Rotta",
+      "Rotta > Piazzale Del Lavoro",
+      "Rotta > Villanova",
+      "Villanova > Carpinello Capolinea",
+      "Villanova > Forli Fs B",
+      "Villanova > Rotta"
+    ],
+    "route_id": "FO12"
+  },
+  "totale_trips": 64,
+  "totale_direzioni_percorso": 8,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Carpinello Capolinea > Villanova",
+      "capolinea_partenza": {
+        "stop_id": "47900",
+        "stop_name": "Carpinello Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "17070",
+        "stop_name": "Villanova"
+      },
+      "trip_count": 16,
+      "orari_partenza": [
+        "05:56:00",
+        "06:59:00",
+        "08:56:00",
+        "10:04:00",
+        "11:04:00",
+        "13:05:00",
+        "13:09:00",
+        "13:56:00",
+        "15:19:00",
+        "16:19:00",
+        "17:19:00",
+        "18:19:00",
+        "18:56:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1034541",
+          "service_id": "833_1000000006936",
+          "start_time": "05:56:00",
+          "end_time": "06:41:00"
+        },
+        {
+          "trip_id": "833_1034549",
+          "service_id": "833_1000000006940",
+          "start_time": "05:56:00",
+          "end_time": "06:41:00"
+        },
+        {
+          "trip_id": "833_1034540",
+          "service_id": "833_1000000006936",
+          "start_time": "06:59:00",
+          "end_time": "07:44:00"
+        },
+        {
+          "trip_id": "833_1034550",
+          "service_id": "833_1000000006940",
+          "start_time": "06:59:00",
+          "end_time": "07:44:00"
+        },
+        {
+          "trip_id": "833_1034544",
+          "service_id": "833_1000000006959",
+          "start_time": "08:56:00",
+          "end_time": "09:41:00"
+        },
+        {
+          "trip_id": "833_1034539",
+          "service_id": "833_1000000006936",
+          "start_time": "10:04:00",
+          "end_time": "10:49:00"
+        },
+        {
+          "trip_id": "833_1034538",
+          "service_id": "833_1000000006936",
+          "start_time": "11:04:00",
+          "end_time": "11:49:00"
+        },
+        {
+          "trip_id": "833_1034537",
+          "service_id": "833_1000000006936",
+          "start_time": "13:05:00",
+          "end_time": "13:50:00"
+        },
+        {
+          "trip_id": "833_1034551",
+          "service_id": "833_1000000006940",
+          "start_time": "13:09:00",
+          "end_time": "13:54:00"
+        },
+        {
+          "trip_id": "833_1034543",
+          "service_id": "833_1000000006959",
+          "start_time": "13:56:00",
+          "end_time": "14:41:00"
+        },
+        {
+          "trip_id": "833_1034548",
+          "service_id": "833_1000000006936",
+          "start_time": "15:19:00",
+          "end_time": "16:04:00"
+        },
+        {
+          "trip_id": "833_1034547",
+          "service_id": "833_1000000006936",
+          "start_time": "16:19:00",
+          "end_time": "17:04:00"
+        },
+        {
+          "trip_id": "833_1034546",
+          "service_id": "833_1000000006936",
+          "start_time": "17:19:00",
+          "end_time": "18:04:00"
+        },
+        {
+          "trip_id": "833_1034545",
+          "service_id": "833_1000000006936",
+          "start_time": "18:19:00",
+          "end_time": "19:04:00"
+        },
+        {
+          "trip_id": "833_1034552",
+          "service_id": "833_1000000006940",
+          "start_time": "18:19:00",
+          "end_time": "19:04:00"
+        },
+        {
+          "trip_id": "833_1034542",
+          "service_id": "833_1000000006959",
+          "start_time": "18:56:00",
+          "end_time": "19:41:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Forli Fs C > Villanova",
+      "capolinea_partenza": {
+        "stop_id": "3120C",
+        "stop_name": "Forli Fs C"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "17070",
+        "stop_name": "Villanova"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "07:17:00",
+        "11:17:00",
+        "11:25:00",
+        "16:40:00",
+        "17:17:00",
+        "17:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1034529",
+          "service_id": "833_1000000006959",
+          "start_time": "07:17:00",
+          "end_time": "07:41:00"
+        },
+        {
+          "trip_id": "833_1034528",
+          "service_id": "833_1000000006959",
+          "start_time": "11:17:00",
+          "end_time": "11:41:00"
+        },
+        {
+          "trip_id": "833_1034532",
+          "service_id": "833_1000000006940",
+          "start_time": "11:25:00",
+          "end_time": "11:49:00"
+        },
+        {
+          "trip_id": "833_1034531",
+          "service_id": "833_1000000006940",
+          "start_time": "16:40:00",
+          "end_time": "17:04:00"
+        },
+        {
+          "trip_id": "833_1034527",
+          "service_id": "833_1000000006959",
+          "start_time": "17:17:00",
+          "end_time": "17:41:00"
+        },
+        {
+          "trip_id": "833_1034530",
+          "service_id": "833_1000000006940",
+          "start_time": "17:40:00",
+          "end_time": "18:04:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Piazzale Del Lavoro > Rotta",
+      "capolinea_partenza": {
+        "stop_id": "3022",
+        "stop_name": "Piazzale Del Lavoro"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "18741",
+        "stop_name": "Rotta"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "11:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1032177",
+          "service_id": "833_1000000006940",
+          "start_time": "11:15:00",
+          "end_time": "11:46:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Rotta > Piazzale Del Lavoro",
+      "capolinea_partenza": {
+        "stop_id": "18741",
+        "stop_name": "Rotta"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "3021",
+        "stop_name": "Piazzale Del Lavoro"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "09:02:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1034536",
+          "service_id": "833_1000000006940",
+          "start_time": "09:02:00",
+          "end_time": "09:31:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Rotta > Villanova",
+      "capolinea_partenza": {
+        "stop_id": "18741",
+        "stop_name": "Rotta"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "17070",
+        "stop_name": "Villanova"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "07:34:00",
+        "09:02:00",
+        "12:17:00",
+        "14:17:00",
+        "19:17:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035936",
+          "service_id": "833_1000000006936",
+          "start_time": "07:34:00",
+          "end_time": "08:21:00"
+        },
+        {
+          "trip_id": "833_1035937",
+          "service_id": "833_1000000006940",
+          "start_time": "07:34:00",
+          "end_time": "08:21:00"
+        },
+        {
+          "trip_id": "833_1035935",
+          "service_id": "833_1000000006936",
+          "start_time": "09:02:00",
+          "end_time": "09:49:00"
+        },
+        {
+          "trip_id": "833_1035934",
+          "service_id": "833_1000000006936",
+          "start_time": "12:17:00",
+          "end_time": "13:04:00"
+        },
+        {
+          "trip_id": "833_1035938",
+          "service_id": "833_1000000006940",
+          "start_time": "12:17:00",
+          "end_time": "13:04:00"
+        },
+        {
+          "trip_id": "833_1035933",
+          "service_id": "833_1000000006936",
+          "start_time": "14:17:00",
+          "end_time": "15:04:00"
+        },
+        {
+          "trip_id": "833_1035939",
+          "service_id": "833_1000000006940",
+          "start_time": "14:17:00",
+          "end_time": "15:04:00"
+        },
+        {
+          "trip_id": "833_1035932",
+          "service_id": "833_1000000006936",
+          "start_time": "19:17:00",
+          "end_time": "20:04:00"
+        },
+        {
+          "trip_id": "833_1035940",
+          "service_id": "833_1000000006940",
+          "start_time": "19:17:00",
+          "end_time": "20:04:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Villanova > Carpinello Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "17070",
+        "stop_name": "Villanova"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "47900",
+        "stop_name": "Carpinello Capolinea"
+      },
+      "trip_count": 16,
+      "orari_partenza": [
+        "06:05:00",
+        "07:49:00",
+        "08:55:00",
+        "09:55:00",
+        "11:49:00",
+        "12:15:00",
+        "12:20:00",
+        "14:05:00",
+        "15:15:00",
+        "16:15:00",
+        "17:05:00",
+        "17:49:00",
+        "19:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1032189",
+          "service_id": "833_1000000006936",
+          "start_time": "06:05:00",
+          "end_time": "06:53:00"
+        },
+        {
+          "trip_id": "833_1032190",
+          "service_id": "833_1000000006940",
+          "start_time": "06:05:00",
+          "end_time": "06:53:00"
+        },
+        {
+          "trip_id": "833_1032185",
+          "service_id": "833_1000000006959",
+          "start_time": "07:49:00",
+          "end_time": "08:37:00"
+        },
+        {
+          "trip_id": "833_1032188",
+          "service_id": "833_1000000006936",
+          "start_time": "08:55:00",
+          "end_time": "09:43:00"
+        },
+        {
+          "trip_id": "833_1032184",
+          "service_id": "833_1000000006936",
+          "start_time": "09:55:00",
+          "end_time": "10:43:00"
+        },
+        {
+          "trip_id": "833_1032186",
+          "service_id": "833_1000000006959",
+          "start_time": "11:49:00",
+          "end_time": "12:37:00"
+        },
+        {
+          "trip_id": "833_1032183",
+          "service_id": "833_1000000006936",
+          "start_time": "12:15:00",
+          "end_time": "13:03:00"
+        },
+        {
+          "trip_id": "833_1032191",
+          "service_id": "833_1000000006940",
+          "start_time": "12:20:00",
+          "end_time": "13:08:00"
+        },
+        {
+          "trip_id": "833_1032182",
+          "service_id": "833_1000000006936",
+          "start_time": "14:05:00",
+          "end_time": "14:53:00"
+        },
+        {
+          "trip_id": "833_1032181",
+          "service_id": "833_1000000006936",
+          "start_time": "15:15:00",
+          "end_time": "16:03:00"
+        },
+        {
+          "trip_id": "833_1032180",
+          "service_id": "833_1000000006936",
+          "start_time": "16:15:00",
+          "end_time": "17:03:00"
+        },
+        {
+          "trip_id": "833_1032179",
+          "service_id": "833_1000000006936",
+          "start_time": "17:05:00",
+          "end_time": "17:53:00"
+        },
+        {
+          "trip_id": "833_1032192",
+          "service_id": "833_1000000006940",
+          "start_time": "17:05:00",
+          "end_time": "17:53:00"
+        },
+        {
+          "trip_id": "833_1032187",
+          "service_id": "833_1000000006959",
+          "start_time": "17:49:00",
+          "end_time": "18:37:00"
+        },
+        {
+          "trip_id": "833_1032178",
+          "service_id": "833_1000000006936",
+          "start_time": "19:15:00",
+          "end_time": "20:03:00"
+        },
+        {
+          "trip_id": "833_1032193",
+          "service_id": "833_1000000006940",
+          "start_time": "19:15:00",
+          "end_time": "20:03:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Villanova > Forli Fs B",
+      "capolinea_partenza": {
+        "stop_id": "17070",
+        "stop_name": "Villanova"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "3120B",
+        "stop_name": "Forli Fs B"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "08:55:00",
+        "09:49:00",
+        "14:05:00",
+        "14:49:00",
+        "15:15:00",
+        "20:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036032",
+          "service_id": "833_1000000006940",
+          "start_time": "08:55:00",
+          "end_time": "09:22:00"
+        },
+        {
+          "trip_id": "833_1036028",
+          "service_id": "833_1000000006959",
+          "start_time": "09:49:00",
+          "end_time": "10:16:00"
+        },
+        {
+          "trip_id": "833_1036031",
+          "service_id": "833_1000000006940",
+          "start_time": "14:05:00",
+          "end_time": "14:32:00"
+        },
+        {
+          "trip_id": "833_1036029",
+          "service_id": "833_1000000006959",
+          "start_time": "14:49:00",
+          "end_time": "15:16:00"
+        },
+        {
+          "trip_id": "833_1036030",
+          "service_id": "833_1000000006940",
+          "start_time": "15:15:00",
+          "end_time": "15:42:00"
+        },
+        {
+          "trip_id": "833_1036027",
+          "service_id": "833_1000000006936",
+          "start_time": "20:05:00",
+          "end_time": "20:32:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Villanova > Rotta",
+      "capolinea_partenza": {
+        "stop_id": "17070",
+        "stop_name": "Villanova"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "18741",
+        "stop_name": "Rotta"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "06:42:00",
+        "07:45:00",
+        "10:55:00",
+        "13:25:00",
+        "18:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1032199",
+          "service_id": "833_1000000006936",
+          "start_time": "06:42:00",
+          "end_time": "07:33:00"
+        },
+        {
+          "trip_id": "833_1032200",
+          "service_id": "833_1000000006940",
+          "start_time": "06:42:00",
+          "end_time": "07:33:00"
+        },
+        {
+          "trip_id": "833_1032198",
+          "service_id": "833_1000000006936",
+          "start_time": "07:45:00",
+          "end_time": "08:36:00"
+        },
+        {
+          "trip_id": "833_1032201",
+          "service_id": "833_1000000006940",
+          "start_time": "07:45:00",
+          "end_time": "08:36:00"
+        },
+        {
+          "trip_id": "833_1032197",
+          "service_id": "833_1000000006936",
+          "start_time": "10:55:00",
+          "end_time": "11:46:00"
+        },
+        {
+          "trip_id": "833_1032196",
+          "service_id": "833_1000000006936",
+          "start_time": "13:25:00",
+          "end_time": "14:16:00"
+        },
+        {
+          "trip_id": "833_1032202",
+          "service_id": "833_1000000006940",
+          "start_time": "13:25:00",
+          "end_time": "14:16:00"
+        },
+        {
+          "trip_id": "833_1032195",
+          "service_id": "833_1000000006936",
+          "start_time": "18:15:00",
+          "end_time": "19:06:00"
+        },
+        {
+          "trip_id": "833_1032203",
+          "service_id": "833_1000000006940",
+          "start_time": "18:15:00",
+          "end_time": "19:06:00"
+        }
+      ]
+    }
+  ]
+}

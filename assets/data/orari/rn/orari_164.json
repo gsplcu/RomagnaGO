@@ -1,0 +1,333 @@
+{
+  "estrazione": "Orari da route_164.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_164.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "164",
+    "name": "Linea 164",
+    "direzioni_percorso": [
+      "Ospedale > Celletta-Cupa",
+      "Ospedale > Stazione V.Ver.",
+      "Santarcangelo Fs > Ospedale",
+      "Santarcangelo Fs > Stazione V.Ver.",
+      "Santarcangelo Fs > Verucchio Z.Ind.",
+      "Stazione V.Ver. > Celletta-Cupa",
+      "Stazione V.Ver. > Ospedale",
+      "Verucchio Z.Ind. > Celletta-Cupa",
+      "Verucchio Z.Ind. > Stazione V.Ver."
+    ],
+    "route_id": "164"
+  },
+  "totale_trips": 22,
+  "totale_direzioni_percorso": 9,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ospedale > Celletta-Cupa",
+      "capolinea_partenza": {
+        "stop_id": "Z00032",
+        "stop_name": "Ospedale"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00089",
+        "stop_name": "Celletta-Cupa"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "08:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4029919",
+          "service_id": "404_1000000001810",
+          "start_time": "08:00:00",
+          "end_time": "08:36:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ospedale > Stazione V.Ver.",
+      "capolinea_partenza": {
+        "stop_id": "Z00032",
+        "stop_name": "Ospedale"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "Z00116",
+        "stop_name": "Stazione V.Ver."
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "07:30:00",
+        "13:25:00",
+        "19:52:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4093397",
+          "service_id": "404_1000000001810",
+          "start_time": "07:30:00",
+          "end_time": "07:45:00"
+        },
+        {
+          "trip_id": "404_4093398",
+          "service_id": "404_1000000001810",
+          "start_time": "13:25:00",
+          "end_time": "13:40:00"
+        },
+        {
+          "trip_id": "404_4093399",
+          "service_id": "404_1000000001810",
+          "start_time": "19:52:00",
+          "end_time": "20:07:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Santarcangelo Fs > Ospedale",
+      "capolinea_partenza": {
+        "stop_id": "D00014",
+        "stop_name": "Santarcangelo Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "Z00017",
+        "stop_name": "Ospedale"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "19:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4034117",
+          "service_id": "404_1000000001810",
+          "start_time": "19:15:00",
+          "end_time": "19:52:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Santarcangelo Fs > Stazione V.Ver.",
+      "capolinea_partenza": {
+        "stop_id": "D00014",
+        "stop_name": "Santarcangelo Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "Z00008",
+        "stop_name": "Stazione V.Ver."
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "15:34:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4058964",
+          "service_id": "404_1000000001810",
+          "start_time": "15:34:00",
+          "end_time": "15:59:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Santarcangelo Fs > Verucchio Z.Ind.",
+      "capolinea_partenza": {
+        "stop_id": "D00014",
+        "stop_name": "Santarcangelo Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "Z00119",
+        "stop_name": "Verucchio Z.Ind."
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "09:44:00",
+        "10:34:00",
+        "12:27:00",
+        "14:00:00",
+        "19:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4019149",
+          "service_id": "404_1000000001810",
+          "start_time": "09:44:00",
+          "end_time": "10:13:00"
+        },
+        {
+          "trip_id": "404_4019150",
+          "service_id": "404_1000000001810",
+          "start_time": "10:34:00",
+          "end_time": "11:03:00"
+        },
+        {
+          "trip_id": "404_4019148",
+          "service_id": "404_1000000001810",
+          "start_time": "12:27:00",
+          "end_time": "12:56:00"
+        },
+        {
+          "trip_id": "404_4019151",
+          "service_id": "404_1000000001810",
+          "start_time": "14:00:00",
+          "end_time": "14:29:00"
+        },
+        {
+          "trip_id": "404_4019152",
+          "service_id": "404_1000000001812",
+          "start_time": "19:00:00",
+          "end_time": "19:29:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Stazione V.Ver. > Celletta-Cupa",
+      "capolinea_partenza": {
+        "stop_id": "Z00116",
+        "stop_name": "Stazione V.Ver."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00089",
+        "stop_name": "Celletta-Cupa"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "17:38:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4048888",
+          "service_id": "404_1000000001810",
+          "start_time": "17:38:00",
+          "end_time": "17:59:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Stazione V.Ver. > Ospedale",
+      "capolinea_partenza": {
+        "stop_id": "Z00008",
+        "stop_name": "Stazione V.Ver."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "Z00017",
+        "stop_name": "Ospedale"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "07:20:00",
+        "07:50:00",
+        "13:12:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4048170",
+          "service_id": "404_1000000001810",
+          "start_time": "07:20:00",
+          "end_time": "07:30:00"
+        },
+        {
+          "trip_id": "404_4048171",
+          "service_id": "404_1000000001810",
+          "start_time": "07:50:00",
+          "end_time": "08:00:00"
+        },
+        {
+          "trip_id": "404_4048172",
+          "service_id": "404_1000000001810",
+          "start_time": "13:12:00",
+          "end_time": "13:22:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Verucchio Z.Ind. > Celletta-Cupa",
+      "capolinea_partenza": {
+        "stop_id": "Z00120",
+        "stop_name": "Verucchio Z.Ind."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00089",
+        "stop_name": "Celletta-Cupa"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "07:02:00",
+        "08:40:00",
+        "10:46:00",
+        "11:45:00",
+        "13:55:00",
+        "14:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4065271",
+          "service_id": "404_1000000001810",
+          "start_time": "07:02:00",
+          "end_time": "07:26:00"
+        },
+        {
+          "trip_id": "404_4065275",
+          "service_id": "404_1000000001812",
+          "start_time": "08:40:00",
+          "end_time": "09:04:00"
+        },
+        {
+          "trip_id": "404_4065272",
+          "service_id": "404_1000000001810",
+          "start_time": "10:46:00",
+          "end_time": "11:10:00"
+        },
+        {
+          "trip_id": "404_4065273",
+          "service_id": "404_1000000001810",
+          "start_time": "11:45:00",
+          "end_time": "12:09:00"
+        },
+        {
+          "trip_id": "404_4065276",
+          "service_id": "404_1000000001812",
+          "start_time": "13:55:00",
+          "end_time": "14:19:00"
+        },
+        {
+          "trip_id": "404_4065274",
+          "service_id": "404_1000000001810",
+          "start_time": "14:05:00",
+          "end_time": "14:29:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Verucchio Z.Ind. > Stazione V.Ver.",
+      "capolinea_partenza": {
+        "stop_id": "Z00120",
+        "stop_name": "Verucchio Z.Ind."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "Z00116",
+        "stop_name": "Stazione V.Ver."
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "13:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4042403",
+          "service_id": "404_1000000001810",
+          "start_time": "13:05:00",
+          "end_time": "13:08:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Controllo incrociato disabili FC
+Regole extra applicate: 512B->5120B, 512C->5120C
+Codici ignorati: 102025, 47662, 6731
+Codici PDF estratti (normalizzati + mapping): 291
+Fermate totali JSON: 3029
+Fermate disabili=yes nel JSON: 288
+Fermate disabili=no nel JSON: 2741
+
+Codici PDF non presenti in fermate_fc.json (esclusi ignorati): 0
+
+Codici PDF non marcati yes nel JSON (esclusi ignorati): 0
+
+Codici marcati yes nel JSON ma non presenti nel PDF/mapping (esclusi ignorati): 0

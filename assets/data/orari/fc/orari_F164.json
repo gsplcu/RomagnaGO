@@ -1,0 +1,205 @@
+{
+  "estrazione": "Orari da route_F164.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F164.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F164",
+    "name": "Linea F164",
+    "direzioni_percorso": [
+      "Badia Prataglia > Bagno Di Romagna",
+      "Bagno Di Romagna > Badia Prataglia",
+      "Bagno Di Romagna > Sarsina",
+      "Cesena Punto Bus C2 > Sarsina",
+      "Sarsina > Bagno Di Romagna",
+      "Sarsina > Cesena Punto Bus C2"
+    ],
+    "route_id": "F164"
+  },
+  "totale_trips": 12,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Badia Prataglia > Bagno Di Romagna",
+      "capolinea_partenza": {
+        "stop_id": "19781",
+        "stop_name": "Badia Prataglia"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "16:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033934",
+          "service_id": "833_1000000006913",
+          "start_time": "16:50:00",
+          "end_time": "17:30:00"
+        },
+        {
+          "trip_id": "833_1033935",
+          "service_id": "833_1000000006954",
+          "start_time": "16:50:00",
+          "end_time": "17:30:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bagno Di Romagna > Badia Prataglia",
+      "capolinea_partenza": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "19782",
+        "stop_name": "Badia Prataglia"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "10:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036022",
+          "service_id": "833_1000000006913",
+          "start_time": "10:25:00",
+          "end_time": "11:11:00"
+        },
+        {
+          "trip_id": "833_1036023",
+          "service_id": "833_1000000006954",
+          "start_time": "10:25:00",
+          "end_time": "11:11:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bagno Di Romagna > Sarsina",
+      "capolinea_partenza": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13301",
+        "stop_name": "Sarsina"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "17:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033930",
+          "service_id": "833_1000000006913",
+          "start_time": "17:35:00",
+          "end_time": "18:10:00"
+        },
+        {
+          "trip_id": "833_1033931",
+          "service_id": "833_1000000006954",
+          "start_time": "17:35:00",
+          "end_time": "18:10:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus C2 > Sarsina",
+      "capolinea_partenza": {
+        "stop_id": "999C2",
+        "stop_name": "Cesena Punto Bus C2"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13302",
+        "stop_name": "Sarsina"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:45:00",
+        "08:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036021",
+          "service_id": "833_1000000006954",
+          "start_time": "08:45:00",
+          "end_time": "09:47:00"
+        },
+        {
+          "trip_id": "833_1036020",
+          "service_id": "833_1000000006913",
+          "start_time": "08:55:00",
+          "end_time": "09:49:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Sarsina > Bagno Di Romagna",
+      "capolinea_partenza": {
+        "stop_id": "13302",
+        "stop_name": "Sarsina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "09:48:00",
+        "09:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036019",
+          "service_id": "833_1000000006954",
+          "start_time": "09:48:00",
+          "end_time": "10:23:00"
+        },
+        {
+          "trip_id": "833_1036018",
+          "service_id": "833_1000000006913",
+          "start_time": "09:50:00",
+          "end_time": "10:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Sarsina > Cesena Punto Bus C2",
+      "capolinea_partenza": {
+        "stop_id": "13301",
+        "stop_name": "Sarsina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999C2",
+        "stop_name": "Cesena Punto Bus C2"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "18:11:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033932",
+          "service_id": "833_1000000006913",
+          "start_time": "18:11:00",
+          "end_time": "19:05:00"
+        },
+        {
+          "trip_id": "833_1033933",
+          "service_id": "833_1000000006954",
+          "start_time": "18:11:00",
+          "end_time": "19:13:00"
+        }
+      ]
+    }
+  ]
+}

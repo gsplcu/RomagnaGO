@@ -1,0 +1,234 @@
+{
+  "estrazione": "Orari da route_199.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_199.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "199",
+    "name": "Linea 199",
+    "direzioni_percorso": [
+      "Autostazione > Faenza Fs F",
+      "Faenza Fs F > Autostazione",
+      "Faenza Fs F > Fognano Fs",
+      "Faenza Fs F > S.M. In Gattara",
+      "Fognano Fs > Faenza Fs F",
+      "S.M. In Gattara > Faenza Fs F",
+      "S.M. In Gattara > Fognano Fs"
+    ],
+    "route_id": "199"
+  },
+  "totale_trips": 13,
+  "totale_direzioni_percorso": 7,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Autostazione > Faenza Fs F",
+      "capolinea_partenza": {
+        "stop_id": "592000",
+        "stop_name": "Autostazione"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888278",
+          "service_id": "674_1000000002117",
+          "start_time": "07:10:00",
+          "end_time": "07:41:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Faenza Fs F > Autostazione",
+      "capolinea_partenza": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "592010",
+        "stop_name": "Autostazione"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:43:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888273",
+          "service_id": "674_1000000002117",
+          "start_time": "06:43:00",
+          "end_time": "07:08:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Faenza Fs F > Fognano Fs",
+      "capolinea_partenza": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "778001",
+        "stop_name": "Fognano Fs"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "10:40:00",
+        "11:58:00",
+        "18:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888276",
+          "service_id": "674_1000000002117",
+          "start_time": "10:40:00",
+          "end_time": "11:10:00"
+        },
+        {
+          "trip_id": "674_2888277",
+          "service_id": "674_1000000002117",
+          "start_time": "11:58:00",
+          "end_time": "12:28:00"
+        },
+        {
+          "trip_id": "674_2888279",
+          "service_id": "674_1000000002113",
+          "start_time": "18:05:00",
+          "end_time": "18:35:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Faenza Fs F > S.M. In Gattara",
+      "capolinea_partenza": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "778970",
+        "stop_name": "S.M. In Gattara"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:47:00",
+        "13:14:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888274",
+          "service_id": "674_1000000002117",
+          "start_time": "06:47:00",
+          "end_time": "07:38:00"
+        },
+        {
+          "trip_id": "674_2888275",
+          "service_id": "674_1000000002117",
+          "start_time": "13:14:00",
+          "end_time": "14:09:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Fognano Fs > Faenza Fs F",
+      "capolinea_partenza": {
+        "stop_id": "778000",
+        "stop_name": "Fognano Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "06:10:00",
+        "11:15:00",
+        "12:35:00",
+        "18:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888272",
+          "service_id": "674_1000000002117",
+          "start_time": "06:10:00",
+          "end_time": "06:40:00"
+        },
+        {
+          "trip_id": "674_2888270",
+          "service_id": "674_1000000002117",
+          "start_time": "11:15:00",
+          "end_time": "11:46:00"
+        },
+        {
+          "trip_id": "674_2888271",
+          "service_id": "674_1000000002117",
+          "start_time": "12:35:00",
+          "end_time": "13:10:00"
+        },
+        {
+          "trip_id": "674_2888280",
+          "service_id": "674_1000000002113",
+          "start_time": "18:35:00",
+          "end_time": "19:07:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.M. In Gattara > Faenza Fs F",
+      "capolinea_partenza": {
+        "stop_id": "778970",
+        "stop_name": "S.M. In Gattara"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780450",
+        "stop_name": "Faenza Fs F"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889556",
+          "service_id": "674_1000000002117",
+          "start_time": "07:40:00",
+          "end_time": "08:37:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.M. In Gattara > Fognano Fs",
+      "capolinea_partenza": {
+        "stop_id": "778970",
+        "stop_name": "S.M. In Gattara"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "778000",
+        "stop_name": "Fognano Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "14:11:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796479",
+          "service_id": "674_1000000002117",
+          "start_time": "14:11:00",
+          "end_time": "14:33:00"
+        }
+      ]
+    }
+  ]
+}

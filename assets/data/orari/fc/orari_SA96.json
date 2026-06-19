@@ -1,0 +1,137 @@
+{
+  "estrazione": "Orari da route_SA96.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_SA96.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "SA96",
+    "name": "Linea SA96",
+    "direzioni_percorso": [
+      "Cimitero Predappio > Forli Punto Bus",
+      "Forli Punto Bus > Cimitero Predappio"
+    ],
+    "route_id": "SA96"
+  },
+  "totale_trips": 12,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cimitero Predappio > Forli Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "10231",
+        "stop_name": "Cimitero Predappio"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "08:17:00",
+        "10:17:00",
+        "12:17:00",
+        "14:17:00",
+        "16:17:00",
+        "18:17:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035251",
+          "service_id": "833_1000000006947",
+          "start_time": "08:17:00",
+          "end_time": "08:54:00"
+        },
+        {
+          "trip_id": "833_1035252",
+          "service_id": "833_1000000006947",
+          "start_time": "10:17:00",
+          "end_time": "10:54:00"
+        },
+        {
+          "trip_id": "833_1035253",
+          "service_id": "833_1000000006947",
+          "start_time": "12:17:00",
+          "end_time": "12:54:00"
+        },
+        {
+          "trip_id": "833_1035254",
+          "service_id": "833_1000000006947",
+          "start_time": "14:17:00",
+          "end_time": "14:54:00"
+        },
+        {
+          "trip_id": "833_1035266",
+          "service_id": "833_1000000006947",
+          "start_time": "16:17:00",
+          "end_time": "16:57:00"
+        },
+        {
+          "trip_id": "833_1035267",
+          "service_id": "833_1000000006947",
+          "start_time": "18:17:00",
+          "end_time": "18:57:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Forli Punto Bus > Cimitero Predappio",
+      "capolinea_partenza": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10232",
+        "stop_name": "Cimitero Predappio"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "07:35:00",
+        "09:35:00",
+        "11:35:00",
+        "13:35:00",
+        "15:35:00",
+        "17:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1032767",
+          "service_id": "833_1000000006947",
+          "start_time": "07:35:00",
+          "end_time": "08:13:00"
+        },
+        {
+          "trip_id": "833_1032768",
+          "service_id": "833_1000000006947",
+          "start_time": "09:35:00",
+          "end_time": "10:13:00"
+        },
+        {
+          "trip_id": "833_1032769",
+          "service_id": "833_1000000006947",
+          "start_time": "11:35:00",
+          "end_time": "12:13:00"
+        },
+        {
+          "trip_id": "833_1032770",
+          "service_id": "833_1000000006947",
+          "start_time": "13:35:00",
+          "end_time": "14:13:00"
+        },
+        {
+          "trip_id": "833_1032771",
+          "service_id": "833_1000000006947",
+          "start_time": "15:35:00",
+          "end_time": "16:13:00"
+        },
+        {
+          "trip_id": "833_1032772",
+          "service_id": "833_1000000006947",
+          "start_time": "17:35:00",
+          "end_time": "18:13:00"
+        }
+      ]
+    }
+  ]
+}

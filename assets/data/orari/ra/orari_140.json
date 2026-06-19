@@ -1,0 +1,170 @@
+{
+  "estrazione": "Orari da route_140.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_140.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "140",
+    "name": "Linea 140",
+    "direzioni_percorso": [
+      "Bar S.Marino > Pizzeria",
+      "Bar S.Marino > Ravenna Fs",
+      "Bar S.Marino > S.Alberto Piazza",
+      "Pizzeria > Bar S.Marino",
+      "S.Alberto Piazza > Bar S.Marino"
+    ],
+    "route_id": "140"
+  },
+  "totale_trips": 9,
+  "totale_direzioni_percorso": 5,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bar S.Marino > Pizzeria",
+      "capolinea_partenza": {
+        "stop_id": "716171",
+        "stop_name": "Bar S.Marino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "721870",
+        "stop_name": "Pizzeria"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:11:00",
+        "11:17:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2799013",
+          "service_id": "674_1000000002122",
+          "start_time": "08:11:00",
+          "end_time": "08:43:00"
+        },
+        {
+          "trip_id": "674_2799012",
+          "service_id": "674_1000000002122",
+          "start_time": "11:17:00",
+          "end_time": "11:49:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bar S.Marino > Ravenna Fs",
+      "capolinea_partenza": {
+        "stop_id": "716171",
+        "stop_name": "Bar S.Marino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700010",
+        "stop_name": "Ravenna Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "15:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796362",
+          "service_id": "674_1000000002117",
+          "start_time": "15:20:00",
+          "end_time": "16:03:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bar S.Marino > S.Alberto Piazza",
+      "capolinea_partenza": {
+        "stop_id": "716171",
+        "stop_name": "Bar S.Marino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "720010",
+        "stop_name": "S.Alberto Piazza"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:38:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795478",
+          "service_id": "674_1000000002118",
+          "start_time": "06:38:00",
+          "end_time": "06:55:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Pizzeria > Bar S.Marino",
+      "capolinea_partenza": {
+        "stop_id": "721870",
+        "stop_name": "Pizzeria"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "716171",
+        "stop_name": "Bar S.Marino"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "08:43:00",
+        "11:50:00",
+        "18:28:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2799011",
+          "service_id": "674_1000000002122",
+          "start_time": "08:43:00",
+          "end_time": "09:14:00"
+        },
+        {
+          "trip_id": "674_2799014",
+          "service_id": "674_1000000002122",
+          "start_time": "11:50:00",
+          "end_time": "12:21:00"
+        },
+        {
+          "trip_id": "674_2796497",
+          "service_id": "674_1000000002117",
+          "start_time": "18:28:00",
+          "end_time": "18:59:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.Alberto Piazza > Bar S.Marino",
+      "capolinea_partenza": {
+        "stop_id": "720000",
+        "stop_name": "S.Alberto Piazza"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "716171",
+        "stop_name": "Bar S.Marino"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:20:00",
+        "13:54:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795824",
+          "service_id": "674_1000000002118",
+          "start_time": "06:20:00",
+          "end_time": "06:36:00"
+        },
+        {
+          "trip_id": "674_2795479",
+          "service_id": "674_1000000002118",
+          "start_time": "13:54:00",
+          "end_time": "14:10:00"
+        }
+      ]
+    }
+  ]
+}

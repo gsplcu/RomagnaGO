@@ -1,0 +1,67 @@
+{
+  "estrazione": "Orari da route_F008.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F008.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F008",
+    "name": "Linea F008",
+    "direzioni_percorso": [
+      "Cesena Punto Bus C1 > S.Maria N. Scuole",
+      "S.Maria N. Scuole > Cesena Punto Bus C1"
+    ],
+    "route_id": "F008"
+  },
+  "totale_trips": 2,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus C1 > S.Maria N. Scuole",
+      "capolinea_partenza": {
+        "stop_id": "999C1",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "45882",
+        "stop_name": "S.Maria N. Scuole"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1032120",
+          "service_id": "833_1000000006931",
+          "start_time": "12:25:00",
+          "end_time": "12:43:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.Maria N. Scuole > Cesena Punto Bus C1",
+      "capolinea_partenza": {
+        "stop_id": "45881",
+        "stop_name": "S.Maria N. Scuole"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999C1",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "08:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033603",
+          "service_id": "833_1000000006931",
+          "start_time": "08:25:00",
+          "end_time": "08:43:00"
+        }
+      ]
+    }
+  ]
+}

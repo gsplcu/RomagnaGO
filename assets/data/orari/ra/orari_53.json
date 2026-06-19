@@ -1,0 +1,355 @@
+{
+  "estrazione": "Orari da route_53.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_53.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "53",
+    "name": "Linea 53",
+    "direzioni_percorso": [
+      "Costituzione > Faenza Fs B",
+      "Costituzione > Xx Settembre",
+      "Faenza Fs B > Costituzione",
+      "Xx Settembre > Costituzione"
+    ],
+    "route_id": "53"
+  },
+  "totale_trips": 38,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Costituzione > Faenza Fs B",
+      "capolinea_partenza": {
+        "stop_id": "783670",
+        "stop_name": "Costituzione"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780410",
+        "stop_name": "Faenza Fs B"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "07:29:00",
+        "07:59:00",
+        "08:23:00",
+        "08:47:00",
+        "16:45:00",
+        "17:17:00",
+        "17:41:00",
+        "18:11:00",
+        "18:41:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888149",
+          "service_id": "674_1000000002109",
+          "start_time": "07:29:00",
+          "end_time": "07:38:00"
+        },
+        {
+          "trip_id": "674_2888150",
+          "service_id": "674_1000000002109",
+          "start_time": "07:59:00",
+          "end_time": "08:08:00"
+        },
+        {
+          "trip_id": "674_2888151",
+          "service_id": "674_1000000002109",
+          "start_time": "08:23:00",
+          "end_time": "08:32:00"
+        },
+        {
+          "trip_id": "674_2888152",
+          "service_id": "674_1000000002109",
+          "start_time": "08:47:00",
+          "end_time": "08:56:00"
+        },
+        {
+          "trip_id": "674_2888140",
+          "service_id": "674_1000000002109",
+          "start_time": "16:45:00",
+          "end_time": "16:54:00"
+        },
+        {
+          "trip_id": "674_2888142",
+          "service_id": "674_1000000002109",
+          "start_time": "17:17:00",
+          "end_time": "17:26:00"
+        },
+        {
+          "trip_id": "674_2888144",
+          "service_id": "674_1000000002109",
+          "start_time": "17:41:00",
+          "end_time": "17:50:00"
+        },
+        {
+          "trip_id": "674_2888146",
+          "service_id": "674_1000000002109",
+          "start_time": "18:11:00",
+          "end_time": "18:20:00"
+        },
+        {
+          "trip_id": "674_2888148",
+          "service_id": "674_1000000002109",
+          "start_time": "18:41:00",
+          "end_time": "18:50:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Costituzione > Xx Settembre",
+      "capolinea_partenza": {
+        "stop_id": "783670",
+        "stop_name": "Costituzione"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780260",
+        "stop_name": "Xx Settembre"
+      },
+      "trip_count": 10,
+      "orari_partenza": [
+        "10:05:00",
+        "10:15:00",
+        "10:25:00",
+        "10:35:00",
+        "10:55:00",
+        "11:05:00",
+        "11:15:00",
+        "11:25:00",
+        "11:35:00",
+        "11:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888106",
+          "service_id": "674_1000000002109",
+          "start_time": "10:05:00",
+          "end_time": "10:10:00"
+        },
+        {
+          "trip_id": "674_2888108",
+          "service_id": "674_1000000002109",
+          "start_time": "10:15:00",
+          "end_time": "10:20:00"
+        },
+        {
+          "trip_id": "674_2888110",
+          "service_id": "674_1000000002109",
+          "start_time": "10:25:00",
+          "end_time": "10:30:00"
+        },
+        {
+          "trip_id": "674_2888112",
+          "service_id": "674_1000000002109",
+          "start_time": "10:35:00",
+          "end_time": "10:40:00"
+        },
+        {
+          "trip_id": "674_2888124",
+          "service_id": "674_1000000002109",
+          "start_time": "10:55:00",
+          "end_time": "11:00:00"
+        },
+        {
+          "trip_id": "674_2888115",
+          "service_id": "674_1000000002109",
+          "start_time": "11:05:00",
+          "end_time": "11:10:00"
+        },
+        {
+          "trip_id": "674_2888117",
+          "service_id": "674_1000000002109",
+          "start_time": "11:15:00",
+          "end_time": "11:20:00"
+        },
+        {
+          "trip_id": "674_2888119",
+          "service_id": "674_1000000002109",
+          "start_time": "11:25:00",
+          "end_time": "11:30:00"
+        },
+        {
+          "trip_id": "674_2888121",
+          "service_id": "674_1000000002109",
+          "start_time": "11:35:00",
+          "end_time": "11:40:00"
+        },
+        {
+          "trip_id": "674_2888123",
+          "service_id": "674_1000000002109",
+          "start_time": "11:45:00",
+          "end_time": "11:50:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Faenza Fs B > Costituzione",
+      "capolinea_partenza": {
+        "stop_id": "780410",
+        "stop_name": "Faenza Fs B"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "783670",
+        "stop_name": "Costituzione"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "07:14:00",
+        "07:43:00",
+        "08:08:00",
+        "08:32:00",
+        "16:30:00",
+        "17:02:00",
+        "17:26:00",
+        "17:56:00",
+        "18:26:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888135",
+          "service_id": "674_1000000002109",
+          "start_time": "07:14:00",
+          "end_time": "07:29:00"
+        },
+        {
+          "trip_id": "674_2888136",
+          "service_id": "674_1000000002109",
+          "start_time": "07:43:00",
+          "end_time": "07:59:00"
+        },
+        {
+          "trip_id": "674_2888137",
+          "service_id": "674_1000000002109",
+          "start_time": "08:08:00",
+          "end_time": "08:23:00"
+        },
+        {
+          "trip_id": "674_2888138",
+          "service_id": "674_1000000002109",
+          "start_time": "08:32:00",
+          "end_time": "08:47:00"
+        },
+        {
+          "trip_id": "674_2888139",
+          "service_id": "674_1000000002109",
+          "start_time": "16:30:00",
+          "end_time": "16:45:00"
+        },
+        {
+          "trip_id": "674_2888141",
+          "service_id": "674_1000000002109",
+          "start_time": "17:02:00",
+          "end_time": "17:17:00"
+        },
+        {
+          "trip_id": "674_2888143",
+          "service_id": "674_1000000002109",
+          "start_time": "17:26:00",
+          "end_time": "17:41:00"
+        },
+        {
+          "trip_id": "674_2888145",
+          "service_id": "674_1000000002109",
+          "start_time": "17:56:00",
+          "end_time": "18:11:00"
+        },
+        {
+          "trip_id": "674_2888147",
+          "service_id": "674_1000000002109",
+          "start_time": "18:26:00",
+          "end_time": "18:41:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Xx Settembre > Costituzione",
+      "capolinea_partenza": {
+        "stop_id": "780260",
+        "stop_name": "Xx Settembre"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "783670",
+        "stop_name": "Costituzione"
+      },
+      "trip_count": 10,
+      "orari_partenza": [
+        "10:00:00",
+        "10:10:00",
+        "10:20:00",
+        "10:30:00",
+        "10:40:00",
+        "11:00:00",
+        "11:10:00",
+        "11:20:00",
+        "11:30:00",
+        "11:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888105",
+          "service_id": "674_1000000002109",
+          "start_time": "10:00:00",
+          "end_time": "10:05:00"
+        },
+        {
+          "trip_id": "674_2888107",
+          "service_id": "674_1000000002109",
+          "start_time": "10:10:00",
+          "end_time": "10:15:00"
+        },
+        {
+          "trip_id": "674_2888109",
+          "service_id": "674_1000000002109",
+          "start_time": "10:20:00",
+          "end_time": "10:25:00"
+        },
+        {
+          "trip_id": "674_2888111",
+          "service_id": "674_1000000002109",
+          "start_time": "10:30:00",
+          "end_time": "10:35:00"
+        },
+        {
+          "trip_id": "674_2888113",
+          "service_id": "674_1000000002109",
+          "start_time": "10:40:00",
+          "end_time": "10:45:00"
+        },
+        {
+          "trip_id": "674_2888114",
+          "service_id": "674_1000000002109",
+          "start_time": "11:00:00",
+          "end_time": "11:05:00"
+        },
+        {
+          "trip_id": "674_2888116",
+          "service_id": "674_1000000002109",
+          "start_time": "11:10:00",
+          "end_time": "11:15:00"
+        },
+        {
+          "trip_id": "674_2888118",
+          "service_id": "674_1000000002109",
+          "start_time": "11:20:00",
+          "end_time": "11:25:00"
+        },
+        {
+          "trip_id": "674_2888120",
+          "service_id": "674_1000000002109",
+          "start_time": "11:30:00",
+          "end_time": "11:35:00"
+        },
+        {
+          "trip_id": "674_2888122",
+          "service_id": "674_1000000002109",
+          "start_time": "11:40:00",
+          "end_time": "11:45:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+/// Baseline testi Navetto Mare mostrati in app.
+Map<String, dynamic> baselineNavettaNavettomare() => {
+  'sourceUrl': 'https://www.startromagna.it/navetto-mare-2026/',
+  'heroTitle': 'Navetto Mare',
+  'heroSubtitle':
+      'Parcheggi, mare e collegamenti gratuiti tra i parcheggi scambiatori e il litorale di Ravenna.',
+  'heroServiceNote':
+      'Servizio gratuito finanziato dal Comune di Ravenna, attivo dal 25 aprile al 13 settembre 2026 sulle linee 65 e 66.',
+  'heroChips': ['Gratis', 'Linee 65 e 66', '25 apr – 13 set'],
+  'helpLinks': [
+    {'title': 'Telefono', 'subtitle': '199.11.55.77'},
+    {'title': 'WhatsApp', 'subtitle': 'Chatta con noi'},
+    {'title': 'Servizio Clienti', 'subtitle': 'Vai ai contatti'},
+  ],
+};

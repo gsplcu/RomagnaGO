@@ -1,0 +1,193 @@
+{
+  "estrazione": "Orari da route_F112.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F112.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F112",
+    "name": "Linea F112",
+    "direzioni_percorso": [
+      "Bivio Badia > Cesenatico (Ial)",
+      "Bivio Badia > Montenovo Piazza",
+      "Cesenatico (Ial) > Bivio Badia",
+      "Cesenatico (Ial) > Montiano",
+      "Montenovo Piazza > Bivio Badia",
+      "Montiano > Cesenatico (Ial)"
+    ],
+    "route_id": "F112"
+  },
+  "totale_trips": 10,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bivio Badia > Cesenatico (Ial)",
+      "capolinea_partenza": {
+        "stop_id": "14631",
+        "stop_name": "Bivio Badia"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30432",
+        "stop_name": "Cesenatico (Ial)"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:22:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033705",
+          "service_id": "833_1000000006947",
+          "start_time": "07:22:00",
+          "end_time": "08:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bivio Badia > Montenovo Piazza",
+      "capolinea_partenza": {
+        "stop_id": "14632",
+        "stop_name": "Bivio Badia"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11550",
+        "stop_name": "Montenovo Piazza"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "18:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036567",
+          "service_id": "833_1000000006947",
+          "start_time": "18:45:00",
+          "end_time": "19:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesenatico (Ial) > Bivio Badia",
+      "capolinea_partenza": {
+        "stop_id": "30431",
+        "stop_name": "Cesenatico (Ial)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "14632",
+        "stop_name": "Bivio Badia"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "17:54:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036559",
+          "service_id": "833_1000000006947",
+          "start_time": "17:54:00",
+          "end_time": "18:39:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesenatico (Ial) > Montiano",
+      "capolinea_partenza": {
+        "stop_id": "30431",
+        "stop_name": "Cesenatico (Ial)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "14642",
+        "stop_name": "Montiano"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "12:00:00",
+        "18:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036560",
+          "service_id": "833_1000000006959",
+          "start_time": "12:00:00",
+          "end_time": "12:40:00"
+        },
+        {
+          "trip_id": "833_1036562",
+          "service_id": "833_1000000006947",
+          "start_time": "12:00:00",
+          "end_time": "12:40:00"
+        },
+        {
+          "trip_id": "833_1036561",
+          "service_id": "833_1000000006959",
+          "start_time": "18:00:00",
+          "end_time": "18:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Montenovo Piazza > Bivio Badia",
+      "capolinea_partenza": {
+        "stop_id": "11550",
+        "stop_name": "Montenovo Piazza"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "14631",
+        "stop_name": "Bivio Badia"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033711",
+          "service_id": "833_1000000006947",
+          "start_time": "07:15:00",
+          "end_time": "07:22:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Montiano > Cesenatico (Ial)",
+      "capolinea_partenza": {
+        "stop_id": "14641",
+        "stop_name": "Montiano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30432",
+        "stop_name": "Cesenatico (Ial)"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "07:20:00",
+        "13:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033706",
+          "service_id": "833_1000000006959",
+          "start_time": "07:20:00",
+          "end_time": "08:00:00"
+        },
+        {
+          "trip_id": "833_1033704",
+          "service_id": "833_1000000006947",
+          "start_time": "13:40:00",
+          "end_time": "14:20:00"
+        },
+        {
+          "trip_id": "833_1033707",
+          "service_id": "833_1000000006959",
+          "start_time": "13:40:00",
+          "end_time": "14:20:00"
+        }
+      ]
+    }
+  ]
+}

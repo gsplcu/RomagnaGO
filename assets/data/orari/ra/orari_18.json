@@ -1,0 +1,250 @@
+{
+  "estrazione": "Orari da route_18.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_18.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "18",
+    "name": "Linea 18",
+    "direzioni_percorso": [
+      "Enichem Bar > Lago Di Lugano",
+      "Lago Di Lugano > Baiona Mocadoro",
+      "Lago Di Lugano > Enichem Bar",
+      "Ravenna Fs-P.Bus > Enichem Bar"
+    ],
+    "route_id": "18"
+  },
+  "totale_trips": 23,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Enichem Bar > Lago Di Lugano",
+      "capolinea_partenza": {
+        "stop_id": "707310",
+        "stop_name": "Enichem Bar"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "708320",
+        "stop_name": "Lago Di Lugano"
+      },
+      "trip_count": 11,
+      "orari_partenza": [
+        "07:20:00",
+        "08:30:00",
+        "09:40:00",
+        "10:50:00",
+        "12:00:00",
+        "13:10:00",
+        "14:20:00",
+        "15:30:00",
+        "16:40:00",
+        "17:50:00",
+        "19:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889316",
+          "service_id": "674_1000000002119",
+          "start_time": "07:20:00",
+          "end_time": "07:54:00"
+        },
+        {
+          "trip_id": "674_2889317",
+          "service_id": "674_1000000002119",
+          "start_time": "08:30:00",
+          "end_time": "09:04:00"
+        },
+        {
+          "trip_id": "674_2889318",
+          "service_id": "674_1000000002119",
+          "start_time": "09:40:00",
+          "end_time": "10:14:00"
+        },
+        {
+          "trip_id": "674_2889319",
+          "service_id": "674_1000000002119",
+          "start_time": "10:50:00",
+          "end_time": "11:24:00"
+        },
+        {
+          "trip_id": "674_2889320",
+          "service_id": "674_1000000002119",
+          "start_time": "12:00:00",
+          "end_time": "12:34:00"
+        },
+        {
+          "trip_id": "674_2889321",
+          "service_id": "674_1000000002119",
+          "start_time": "13:10:00",
+          "end_time": "13:44:00"
+        },
+        {
+          "trip_id": "674_2889322",
+          "service_id": "674_1000000002119",
+          "start_time": "14:20:00",
+          "end_time": "14:54:00"
+        },
+        {
+          "trip_id": "674_2889323",
+          "service_id": "674_1000000002119",
+          "start_time": "15:30:00",
+          "end_time": "16:04:00"
+        },
+        {
+          "trip_id": "674_2889324",
+          "service_id": "674_1000000002119",
+          "start_time": "16:40:00",
+          "end_time": "17:14:00"
+        },
+        {
+          "trip_id": "674_2889325",
+          "service_id": "674_1000000002119",
+          "start_time": "17:50:00",
+          "end_time": "18:24:00"
+        },
+        {
+          "trip_id": "674_2889326",
+          "service_id": "674_1000000002119",
+          "start_time": "19:00:00",
+          "end_time": "19:34:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Lago Di Lugano > Baiona Mocadoro",
+      "capolinea_partenza": {
+        "stop_id": "708320",
+        "stop_name": "Lago Di Lugano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "707210",
+        "stop_name": "Baiona Mocadoro"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "19:42:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796324",
+          "service_id": "674_1000000002119",
+          "start_time": "19:42:00",
+          "end_time": "20:05:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Lago Di Lugano > Enichem Bar",
+      "capolinea_partenza": {
+        "stop_id": "708320",
+        "stop_name": "Lago Di Lugano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "707310",
+        "stop_name": "Enichem Bar"
+      },
+      "trip_count": 10,
+      "orari_partenza": [
+        "08:02:00",
+        "09:12:00",
+        "10:22:00",
+        "11:32:00",
+        "12:42:00",
+        "13:52:00",
+        "15:02:00",
+        "16:12:00",
+        "17:22:00",
+        "18:32:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796303",
+          "service_id": "674_1000000002119",
+          "start_time": "08:02:00",
+          "end_time": "08:30:00"
+        },
+        {
+          "trip_id": "674_2796305",
+          "service_id": "674_1000000002119",
+          "start_time": "09:12:00",
+          "end_time": "09:40:00"
+        },
+        {
+          "trip_id": "674_2796307",
+          "service_id": "674_1000000002119",
+          "start_time": "10:22:00",
+          "end_time": "10:50:00"
+        },
+        {
+          "trip_id": "674_2796309",
+          "service_id": "674_1000000002119",
+          "start_time": "11:32:00",
+          "end_time": "12:00:00"
+        },
+        {
+          "trip_id": "674_2796311",
+          "service_id": "674_1000000002119",
+          "start_time": "12:42:00",
+          "end_time": "13:10:00"
+        },
+        {
+          "trip_id": "674_2796313",
+          "service_id": "674_1000000002119",
+          "start_time": "13:52:00",
+          "end_time": "14:20:00"
+        },
+        {
+          "trip_id": "674_2796315",
+          "service_id": "674_1000000002119",
+          "start_time": "15:02:00",
+          "end_time": "15:30:00"
+        },
+        {
+          "trip_id": "674_2796317",
+          "service_id": "674_1000000002119",
+          "start_time": "16:12:00",
+          "end_time": "16:40:00"
+        },
+        {
+          "trip_id": "674_2796319",
+          "service_id": "674_1000000002119",
+          "start_time": "17:22:00",
+          "end_time": "17:50:00"
+        },
+        {
+          "trip_id": "674_2796321",
+          "service_id": "674_1000000002119",
+          "start_time": "18:32:00",
+          "end_time": "19:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ravenna Fs-P.Bus > Enichem Bar",
+      "capolinea_partenza": {
+        "stop_id": "700030",
+        "stop_name": "Ravenna Fs-P.Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "707310",
+        "stop_name": "Enichem Bar"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796214",
+          "service_id": "674_1000000002119",
+          "start_time": "07:05:00",
+          "end_time": "07:20:00"
+        }
+      ]
+    }
+  ]
+}

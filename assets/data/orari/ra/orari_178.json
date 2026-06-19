@@ -1,0 +1,109 @@
+{
+  "estrazione": "Orari da route_178.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_178.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "178",
+    "name": "Linea 178",
+    "direzioni_percorso": [
+      "Lugo Punto Bus > P.Zza Caduti",
+      "P.Zza Caduti > Lugo Punto Bus"
+    ],
+    "route_id": "178"
+  },
+  "totale_trips": 8,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Lugo Punto Bus > P.Zza Caduti",
+      "capolinea_partenza": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "745010",
+        "stop_name": "P.Zza Caduti"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "10:00:00",
+        "10:01:00",
+        "12:00:00",
+        "12:01:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2800655",
+          "service_id": "674_1000000002130",
+          "start_time": "10:00:00",
+          "end_time": "10:48:00"
+        },
+        {
+          "trip_id": "674_2800659",
+          "service_id": "674_1000000002129",
+          "start_time": "10:01:00",
+          "end_time": "10:48:00"
+        },
+        {
+          "trip_id": "674_2800656",
+          "service_id": "674_1000000002130",
+          "start_time": "12:00:00",
+          "end_time": "12:48:00"
+        },
+        {
+          "trip_id": "674_2800660",
+          "service_id": "674_1000000002129",
+          "start_time": "12:01:00",
+          "end_time": "12:48:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "P.Zza Caduti > Lugo Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "745010",
+        "stop_name": "P.Zza Caduti"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "09:00:00",
+        "09:01:00",
+        "11:00:00",
+        "11:01:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2800653",
+          "service_id": "674_1000000002130",
+          "start_time": "09:00:00",
+          "end_time": "09:47:00"
+        },
+        {
+          "trip_id": "674_2800658",
+          "service_id": "674_1000000002129",
+          "start_time": "09:01:00",
+          "end_time": "09:47:00"
+        },
+        {
+          "trip_id": "674_2800654",
+          "service_id": "674_1000000002130",
+          "start_time": "11:00:00",
+          "end_time": "11:47:00"
+        },
+        {
+          "trip_id": "674_2800657",
+          "service_id": "674_1000000002129",
+          "start_time": "11:01:00",
+          "end_time": "11:47:00"
+        }
+      ]
+    }
+  ]
+}

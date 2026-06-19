@@ -1,0 +1,95 @@
+{
+  "estrazione": "Orari da route_5.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_5.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "5",
+    "name": "Linea 5",
+    "direzioni_percorso": [
+      "53 S.Mauro P.L. > Fiera",
+      "Fiera > 53 S.Mauro P.L."
+    ],
+    "route_id": "5"
+  },
+  "totale_trips": 6,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "53 S.Mauro P.L. > Fiera",
+      "capolinea_partenza": {
+        "stop_id": "W00026",
+        "stop_name": "53 S.Mauro P.L."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00229",
+        "stop_name": "Fiera"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "08:52:00",
+        "10:02:00",
+        "11:12:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4041362",
+          "service_id": "404_1000000001793",
+          "start_time": "08:52:00",
+          "end_time": "09:34:00"
+        },
+        {
+          "trip_id": "404_4041363",
+          "service_id": "404_1000000001793",
+          "start_time": "10:02:00",
+          "end_time": "10:44:00"
+        },
+        {
+          "trip_id": "404_4041364",
+          "service_id": "404_1000000001793",
+          "start_time": "11:12:00",
+          "end_time": "11:54:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Fiera > 53 S.Mauro P.L.",
+      "capolinea_partenza": {
+        "stop_id": "A00229",
+        "stop_name": "Fiera"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "W00027",
+        "stop_name": "53 S.Mauro P.L."
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "16:15:00",
+        "17:30:00",
+        "18:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4051817",
+          "service_id": "404_1000000001793",
+          "start_time": "16:15:00",
+          "end_time": "16:56:00"
+        },
+        {
+          "trip_id": "404_4051818",
+          "service_id": "404_1000000001793",
+          "start_time": "17:30:00",
+          "end_time": "18:11:00"
+        },
+        {
+          "trip_id": "404_4051819",
+          "service_id": "404_1000000001793",
+          "start_time": "18:50:00",
+          "end_time": "19:31:00"
+        }
+      ]
+    }
+  ]
+}

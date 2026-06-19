@@ -1,0 +1,138 @@
+{
+  "estrazione": "Orari da route_144.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_144.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "144",
+    "name": "Linea 144",
+    "direzioni_percorso": [
+      "Alfonsine Fs > Bar S.Marino",
+      "Bar S.Marino > Alfonsine Fs",
+      "Bar S.Marino > Lugo Punto Bus",
+      "Lugo Punto Bus > Bar S.Marino"
+    ],
+    "route_id": "144"
+  },
+  "totale_trips": 7,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Alfonsine Fs > Bar S.Marino",
+      "capolinea_partenza": {
+        "stop_id": "740000",
+        "stop_name": "Alfonsine Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "716171",
+        "stop_name": "Bar S.Marino"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "14:12:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796357",
+          "service_id": "674_1000000002117",
+          "start_time": "14:12:00",
+          "end_time": "15:01:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bar S.Marino > Alfonsine Fs",
+      "capolinea_partenza": {
+        "stop_id": "716171",
+        "stop_name": "Bar S.Marino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "740010",
+        "stop_name": "Alfonsine Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "19:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796358",
+          "service_id": "674_1000000002117",
+          "start_time": "19:00:00",
+          "end_time": "19:49:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bar S.Marino > Lugo Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "716171",
+        "stop_name": "Bar S.Marino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "12:15:00",
+        "12:25:00",
+        "19:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2799008",
+          "service_id": "674_1000000002123",
+          "start_time": "12:15:00",
+          "end_time": "13:38:00"
+        },
+        {
+          "trip_id": "674_2799010",
+          "service_id": "674_1000000002121",
+          "start_time": "12:25:00",
+          "end_time": "13:48:00"
+        },
+        {
+          "trip_id": "674_2799009",
+          "service_id": "674_1000000002123",
+          "start_time": "19:00:00",
+          "end_time": "20:23:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Lugo Punto Bus > Bar S.Marino",
+      "capolinea_partenza": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "716171",
+        "stop_name": "Bar S.Marino"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:45:00",
+        "13:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2799015",
+          "service_id": "674_1000000002105",
+          "start_time": "06:45:00",
+          "end_time": "08:07:00"
+        },
+        {
+          "trip_id": "674_2799007",
+          "service_id": "674_1000000002123",
+          "start_time": "13:45:00",
+          "end_time": "15:07:00"
+        }
+      ]
+    }
+  ]
+}

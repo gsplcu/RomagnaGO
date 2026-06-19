@@ -1,0 +1,272 @@
+{
+  "estrazione": "Orari da route_95.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_95.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "95",
+    "name": "Linea 95",
+    "direzioni_percorso": [
+      "38 Casa Anep > Celletta-Cupa",
+      "38 Casa Anep > Santarcangelo Fs",
+      "Cagnona > Celletta-Cupa",
+      "Cagnona > Santarcangelo Fs",
+      "Celletta-Cupa > 38 Casa Anep",
+      "Celletta-Cupa > Cagnona"
+    ],
+    "route_id": "95"
+  },
+  "totale_trips": 21,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "38 Casa Anep > Celletta-Cupa",
+      "capolinea_partenza": {
+        "stop_id": "E00068",
+        "stop_name": "38 Casa Anep"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00089",
+        "stop_name": "Celletta-Cupa"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "17:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4041030",
+          "service_id": "404_1000000001812",
+          "start_time": "17:15:00",
+          "end_time": "17:42:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "38 Casa Anep > Santarcangelo Fs",
+      "capolinea_partenza": {
+        "stop_id": "E00068",
+        "stop_name": "38 Casa Anep"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00014",
+        "stop_name": "Santarcangelo Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "18:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4041019",
+          "service_id": "404_1000000001812",
+          "start_time": "18:25:00",
+          "end_time": "18:47:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cagnona > Celletta-Cupa",
+      "capolinea_partenza": {
+        "stop_id": "E00073",
+        "stop_name": "Cagnona"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00089",
+        "stop_name": "Celletta-Cupa"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4029319",
+          "service_id": "404_1000000001810",
+          "start_time": "12:40:00",
+          "end_time": "13:09:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cagnona > Santarcangelo Fs",
+      "capolinea_partenza": {
+        "stop_id": "E00073",
+        "stop_name": "Cagnona"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00014",
+        "stop_name": "Santarcangelo Fs"
+      },
+      "trip_count": 7,
+      "orari_partenza": [
+        "08:10:00",
+        "09:20:00",
+        "10:10:00",
+        "11:55:00",
+        "15:10:00",
+        "17:50:00",
+        "18:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4057572",
+          "service_id": "404_1000000001810",
+          "start_time": "08:10:00",
+          "end_time": "08:34:00"
+        },
+        {
+          "trip_id": "404_4057573",
+          "service_id": "404_1000000001810",
+          "start_time": "09:20:00",
+          "end_time": "09:44:00"
+        },
+        {
+          "trip_id": "404_4057574",
+          "service_id": "404_1000000001810",
+          "start_time": "10:10:00",
+          "end_time": "10:34:00"
+        },
+        {
+          "trip_id": "404_4038562",
+          "service_id": "404_1000000001810",
+          "start_time": "11:55:00",
+          "end_time": "12:26:00"
+        },
+        {
+          "trip_id": "404_4057575",
+          "service_id": "404_1000000001810",
+          "start_time": "15:10:00",
+          "end_time": "15:34:00"
+        },
+        {
+          "trip_id": "404_4038563",
+          "service_id": "404_1000000001810",
+          "start_time": "17:50:00",
+          "end_time": "18:21:00"
+        },
+        {
+          "trip_id": "404_4038564",
+          "service_id": "404_1000000001810",
+          "start_time": "18:40:00",
+          "end_time": "19:11:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Celletta-Cupa > 38 Casa Anep",
+      "capolinea_partenza": {
+        "stop_id": "D00089",
+        "stop_name": "Celletta-Cupa"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "E00039",
+        "stop_name": "38 Casa Anep"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "09:05:00",
+        "14:20:00",
+        "18:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4033745",
+          "service_id": "404_1000000001812",
+          "start_time": "09:05:00",
+          "end_time": "09:32:00"
+        },
+        {
+          "trip_id": "404_4033746",
+          "service_id": "404_1000000001812",
+          "start_time": "14:20:00",
+          "end_time": "14:47:00"
+        },
+        {
+          "trip_id": "404_4040418",
+          "service_id": "404_1000000001812",
+          "start_time": "18:00:00",
+          "end_time": "18:19:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Celletta-Cupa > Cagnona",
+      "capolinea_partenza": {
+        "stop_id": "D00089",
+        "stop_name": "Celletta-Cupa"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "E00073",
+        "stop_name": "Cagnona"
+      },
+      "trip_count": 8,
+      "orari_partenza": [
+        "07:26:00",
+        "08:45:00",
+        "09:05:00",
+        "11:10:00",
+        "12:10:00",
+        "14:30:00",
+        "17:15:00",
+        "18:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4061281",
+          "service_id": "404_1000000001810",
+          "start_time": "07:26:00",
+          "end_time": "08:03:00"
+        },
+        {
+          "trip_id": "404_4092385",
+          "service_id": "404_1000000001810",
+          "start_time": "08:45:00",
+          "end_time": "09:14:00"
+        },
+        {
+          "trip_id": "404_4061282",
+          "service_id": "404_1000000001810",
+          "start_time": "09:05:00",
+          "end_time": "09:42:00"
+        },
+        {
+          "trip_id": "404_4092381",
+          "service_id": "404_1000000001810",
+          "start_time": "11:10:00",
+          "end_time": "11:39:00"
+        },
+        {
+          "trip_id": "404_4092382",
+          "service_id": "404_1000000001810",
+          "start_time": "12:10:00",
+          "end_time": "12:39:00"
+        },
+        {
+          "trip_id": "404_4061283",
+          "service_id": "404_1000000001810",
+          "start_time": "14:30:00",
+          "end_time": "15:07:00"
+        },
+        {
+          "trip_id": "404_4092383",
+          "service_id": "404_1000000001810",
+          "start_time": "17:15:00",
+          "end_time": "17:44:00"
+        },
+        {
+          "trip_id": "404_4092384",
+          "service_id": "404_1000000001810",
+          "start_time": "18:00:00",
+          "end_time": "18:29:00"
+        }
+      ]
+    }
+  ]
+}

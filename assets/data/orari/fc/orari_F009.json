@@ -1,0 +1,287 @@
+{
+  "estrazione": "Orari da route_F009.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F009.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F009",
+    "name": "Linea F009",
+    "direzioni_percorso": [
+      "Bagno Di Romagna > Pieve S.Stefano",
+      "Balze > Verghereto",
+      "Cimitero S.Piero In B. > Pieve S.Stefano",
+      "Pieve S.Stefano > Bagno Di Romagna",
+      "Pieve S.Stefano > Cimitero S.Piero In B.",
+      "Pieve S.Stefano > Verghereto",
+      "Verghereto > Balze",
+      "Verghereto > Pieve S.Stefano"
+    ],
+    "route_id": "F009"
+  },
+  "totale_trips": 18,
+  "totale_direzioni_percorso": 8,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bagno Di Romagna > Pieve S.Stefano",
+      "capolinea_partenza": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "46220",
+        "stop_name": "Pieve S.Stefano"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "06:55:00",
+        "15:15:00",
+        "16:30:00",
+        "16:50:00",
+        "19:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035715",
+          "service_id": "833_1000000006507",
+          "start_time": "06:55:00",
+          "end_time": "07:28:00"
+        },
+        {
+          "trip_id": "833_1035712",
+          "service_id": "833_1000000006507",
+          "start_time": "15:15:00",
+          "end_time": "16:00:00"
+        },
+        {
+          "trip_id": "833_1035710",
+          "service_id": "833_1000000006947",
+          "start_time": "16:30:00",
+          "end_time": "17:15:00"
+        },
+        {
+          "trip_id": "833_1035720",
+          "service_id": "833_1000000006508",
+          "start_time": "16:50:00",
+          "end_time": "17:20:00"
+        },
+        {
+          "trip_id": "833_1035711",
+          "service_id": "833_1000000006947",
+          "start_time": "19:40:00",
+          "end_time": "20:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Balze > Verghereto",
+      "capolinea_partenza": {
+        "stop_id": "13590",
+        "stop_name": "Balze"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13551",
+        "stop_name": "Verghereto"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033625",
+          "service_id": "833_1000000006947",
+          "start_time": "06:45:00",
+          "end_time": "07:10:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cimitero S.Piero In B. > Pieve S.Stefano",
+      "capolinea_partenza": {
+        "stop_id": "13433",
+        "stop_name": "Cimitero S.Piero In B."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "46220",
+        "stop_name": "Pieve S.Stefano"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "09:30:00",
+        "11:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1032127",
+          "service_id": "833_1000000006924",
+          "start_time": "09:30:00",
+          "end_time": "10:20:00"
+        },
+        {
+          "trip_id": "833_1032128",
+          "service_id": "833_1000000006933",
+          "start_time": "11:30:00",
+          "end_time": "12:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Pieve S.Stefano > Bagno Di Romagna",
+      "capolinea_partenza": {
+        "stop_id": "46220",
+        "stop_name": "Pieve S.Stefano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "05:55:00",
+        "07:25:00",
+        "14:30:00",
+        "16:05:00",
+        "18:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033609",
+          "service_id": "833_1000000006507",
+          "start_time": "05:55:00",
+          "end_time": "06:40:00"
+        },
+        {
+          "trip_id": "833_1033626",
+          "service_id": "833_1000000006947",
+          "start_time": "07:25:00",
+          "end_time": "07:55:00"
+        },
+        {
+          "trip_id": "833_1033621",
+          "service_id": "833_1000000006507",
+          "start_time": "14:30:00",
+          "end_time": "15:05:00"
+        },
+        {
+          "trip_id": "833_1033615",
+          "service_id": "833_1000000006508",
+          "start_time": "16:05:00",
+          "end_time": "16:50:00"
+        },
+        {
+          "trip_id": "833_1033618",
+          "service_id": "833_1000000006947",
+          "start_time": "18:20:00",
+          "end_time": "19:05:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Pieve S.Stefano > Cimitero S.Piero In B.",
+      "capolinea_partenza": {
+        "stop_id": "46220",
+        "stop_name": "Pieve S.Stefano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13433",
+        "stop_name": "Cimitero S.Piero In B."
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:30:00",
+        "15:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033610",
+          "service_id": "833_1000000006947",
+          "start_time": "08:30:00",
+          "end_time": "09:20:00"
+        },
+        {
+          "trip_id": "833_1033612",
+          "service_id": "833_1000000006947",
+          "start_time": "15:05:00",
+          "end_time": "15:48:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Pieve S.Stefano > Verghereto",
+      "capolinea_partenza": {
+        "stop_id": "46220",
+        "stop_name": "Pieve S.Stefano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13552",
+        "stop_name": "Verghereto"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "14:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033628",
+          "service_id": "833_1000000006947",
+          "start_time": "14:30:00",
+          "end_time": "14:50:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Verghereto > Balze",
+      "capolinea_partenza": {
+        "stop_id": "13552",
+        "stop_name": "Verghereto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13590",
+        "stop_name": "Balze"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "14:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035719",
+          "service_id": "833_1000000006947",
+          "start_time": "14:50:00",
+          "end_time": "15:15:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Verghereto > Pieve S.Stefano",
+      "capolinea_partenza": {
+        "stop_id": "13551",
+        "stop_name": "Verghereto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "46220",
+        "stop_name": "Pieve S.Stefano"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035724",
+          "service_id": "833_1000000006947",
+          "start_time": "07:10:00",
+          "end_time": "07:30:00"
+        }
+      ]
+    }
+  ]
+}

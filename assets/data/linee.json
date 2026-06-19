@@ -1,0 +1,964 @@
+{
+  "linee": [
+    {
+      "linea": "1",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "1"
+    },
+    {
+      "linea": "10",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "10"
+    },
+    {
+      "linea": "11",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "11"
+    },
+    {
+      "linea": "124",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "124"
+    },
+    {
+      "linea": "125",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "125"
+    },
+    {
+      "linea": "134",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "134"
+    },
+    {
+      "linea": "14",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "14"
+    },
+    {
+      "linea": "15",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "15"
+    },
+    {
+      "linea": "16",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "16"
+    },
+    {
+      "linea": "160",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "160"
+    },
+    {
+      "linea": "161",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "161"
+    },
+    {
+      "linea": "162",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "162"
+    },
+    {
+      "linea": "164",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "164"
+    },
+    {
+      "linea": "166",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "166"
+    },
+    {
+      "linea": "169",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "169"
+    },
+    {
+      "linea": "170",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "170"
+    },
+    {
+      "linea": "172",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "172"
+    },
+    {
+      "linea": "175",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "175"
+    },
+    {
+      "linea": "18",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "18"
+    },
+    {
+      "linea": "180",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "180"
+    },
+    {
+      "linea": "182",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "182"
+    },
+    {
+      "linea": "19",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "19"
+    },
+    {
+      "linea": "2",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "2"
+    },
+    {
+      "linea": "20",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "20"
+    },
+    {
+      "linea": "3",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "3"
+    },
+    {
+      "linea": "4",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "4"
+    },
+    {
+      "linea": "43",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "43"
+    },
+    {
+      "linea": "5",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "5"
+    },
+    {
+      "linea": "58",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "58"
+    },
+    {
+      "linea": "7",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "7"
+    },
+    {
+      "linea": "8",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "8"
+    },
+    {
+      "linea": "9",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "9"
+    },
+    {
+      "linea": "90",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "90"
+    },
+    {
+      "linea": "95",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "95"
+    },
+    {
+      "linea": "Metromare",
+      "bacino": "RN",
+      "area": "Rimini",
+      "route_id": "Metromare"
+    },
+    {
+      "linea": "1",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "1"
+    },
+    {
+      "linea": "140",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "140"
+    },
+    {
+      "linea": "141",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "141"
+    },
+    {
+      "linea": "144",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "144"
+    },
+    {
+      "linea": "147",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "147"
+    },
+    {
+      "linea": "149",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "149"
+    },
+    {
+      "linea": "151",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "151"
+    },
+    {
+      "linea": "152",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "152"
+    },
+    {
+      "linea": "154",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "154"
+    },
+    {
+      "linea": "155",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "155"
+    },
+    {
+      "linea": "156",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "156"
+    },
+    {
+      "linea": "157",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "157"
+    },
+    {
+      "linea": "158",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "158"
+    },
+    {
+      "linea": "159",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "159"
+    },
+    {
+      "linea": "161",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "161"
+    },
+    {
+      "linea": "162",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "162"
+    },
+    {
+      "linea": "176",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "176"
+    },
+    {
+      "linea": "177",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "177"
+    },
+    {
+      "linea": "178",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "178"
+    },
+    {
+      "linea": "18",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "18"
+    },
+    {
+      "linea": "180",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "180"
+    },
+    {
+      "linea": "181",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "181"
+    },
+    {
+      "linea": "182",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "182"
+    },
+    {
+      "linea": "185",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "185"
+    },
+    {
+      "linea": "187",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "187"
+    },
+    {
+      "linea": "188",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "188"
+    },
+    {
+      "linea": "189",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "189"
+    },
+    {
+      "linea": "195",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "195"
+    },
+    {
+      "linea": "198",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "198"
+    },
+    {
+      "linea": "199",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "199"
+    },
+    {
+      "linea": "2",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "2"
+    },
+    {
+      "linea": "201",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "201"
+    },
+    {
+      "linea": "251",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "251"
+    },
+    {
+      "linea": "3",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "3"
+    },
+    {
+      "linea": "30",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "30"
+    },
+    {
+      "linea": "4",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "4"
+    },
+    {
+      "linea": "5",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "5"
+    },
+    {
+      "linea": "51",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "51"
+    },
+    {
+      "linea": "52",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "52"
+    },
+    {
+      "linea": "53",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "53"
+    },
+    {
+      "linea": "55",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "55"
+    },
+    {
+      "linea": "59",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "59"
+    },
+    {
+      "linea": "60",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "60"
+    },
+    {
+      "linea": "65",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "65"
+    },
+    {
+      "linea": "66",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "66"
+    },
+    {
+      "linea": "70",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "70"
+    },
+    {
+      "linea": "75",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "75"
+    },
+    {
+      "linea": "8",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "8"
+    },
+    {
+      "linea": "80",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "80"
+    },
+    {
+      "linea": "85",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "85"
+    },
+    {
+      "linea": "90",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "90"
+    },
+    {
+      "linea": "971",
+      "bacino": "RA",
+      "area": "Ravenna",
+      "route_id": "971"
+    },
+    {
+      "linea": "1",
+      "bacino": "CE",
+      "area": "Cesena",
+      "route_id": "CE01"
+    },
+    {
+      "linea": "3",
+      "bacino": "CE",
+      "area": "Cesena",
+      "route_id": "CE03"
+    },
+    {
+      "linea": "4",
+      "bacino": "CE",
+      "area": "Cesena",
+      "route_id": "CE04"
+    },
+    {
+      "linea": "5",
+      "bacino": "CE",
+      "area": "Cesena",
+      "route_id": "CE05"
+    },
+    {
+      "linea": "6",
+      "bacino": "CE",
+      "area": "Cesena",
+      "route_id": "CE06"
+    },
+    {
+      "linea": "11",
+      "bacino": "CE",
+      "area": "Cesena",
+      "route_id": "CE11"
+    },
+    {
+      "linea": "13",
+      "bacino": "CE",
+      "area": "Cesena",
+      "route_id": "CE13"
+    },
+    {
+      "linea": "21",
+      "bacino": "CE",
+      "area": "Cesena",
+      "route_id": "CE21"
+    },
+    {
+      "linea": "41",
+      "bacino": "CE",
+      "area": "Cesena",
+      "route_id": "CE41"
+    },
+    {
+      "linea": "1A",
+      "bacino": "CE",
+      "area": "Cesena",
+      "route_id": "CEA1"
+    },
+    {
+      "linea": "2",
+      "bacino": "FO",
+      "area": "Forli",
+      "route_id": "FO02"
+    },
+    {
+      "linea": "3",
+      "bacino": "FO",
+      "area": "Forli",
+      "route_id": "FO03"
+    },
+    {
+      "linea": "4",
+      "bacino": "FO",
+      "area": "Forli",
+      "route_id": "FO04"
+    },
+    {
+      "linea": "5",
+      "bacino": "FO",
+      "area": "Forli",
+      "route_id": "FO05"
+    },
+    {
+      "linea": "6",
+      "bacino": "FO",
+      "area": "Forli",
+      "route_id": "FO06"
+    },
+    {
+      "linea": "7",
+      "bacino": "FO",
+      "area": "Forli",
+      "route_id": "FO07"
+    },
+    {
+      "linea": "8",
+      "bacino": "FO",
+      "area": "Forli",
+      "route_id": "FO08"
+    },
+    {
+      "linea": "11",
+      "bacino": "FO",
+      "area": "Forli",
+      "route_id": "FO11"
+    },
+    {
+      "linea": "12",
+      "bacino": "FO",
+      "area": "Forli",
+      "route_id": "FO12"
+    },
+    {
+      "linea": "13",
+      "bacino": "FO",
+      "area": "Forli",
+      "route_id": "FO13"
+    },
+    {
+      "linea": "1A",
+      "bacino": "FO",
+      "area": "Forli",
+      "route_id": "FOA1"
+    },
+    {
+      "linea": "5A",
+      "bacino": "FO",
+      "area": "Forli",
+      "route_id": "FOA5"
+    },
+    {
+      "linea": "4",
+      "bacino": "CO",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "1-2CO"
+    },
+    {
+      "linea": "1",
+      "bacino": "CO",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "1CO"
+    },
+    {
+      "linea": "2",
+      "bacino": "CO",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "2CO"
+    },
+    {
+      "linea": "3",
+      "bacino": "CO",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "3CO"
+    },
+    {
+      "linea": "206",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "BA01"
+    },
+    {
+      "linea": "203",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F003"
+    },
+    {
+      "linea": "208",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F008"
+    },
+    {
+      "linea": "209",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F009"
+    },
+    {
+      "linea": "210",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F010"
+    },
+    {
+      "linea": "218",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F018"
+    },
+    {
+      "linea": "220",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F020"
+    },
+    {
+      "linea": "221",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F021"
+    },
+    {
+      "linea": "222",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F022"
+    },
+    {
+      "linea": "224",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F024"
+    },
+    {
+      "linea": "225",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F025"
+    },
+    {
+      "linea": "241",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F041"
+    },
+    {
+      "linea": "112",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F112"
+    },
+    {
+      "linea": "121",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F121"
+    },
+    {
+      "linea": "122",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F122"
+    },
+    {
+      "linea": "126",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F126"
+    },
+    {
+      "linea": "127",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F127"
+    },
+    {
+      "linea": "129",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F129"
+    },
+    {
+      "linea": "130",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F130"
+    },
+    {
+      "linea": "131",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F131"
+    },
+    {
+      "linea": "132",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F132"
+    },
+    {
+      "linea": "134",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F134"
+    },
+    {
+      "linea": "137",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F137"
+    },
+    {
+      "linea": "138",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F138"
+    },
+    {
+      "linea": "139",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F139"
+    },
+    {
+      "linea": "140",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F140"
+    },
+    {
+      "linea": "141",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F141"
+    },
+    {
+      "linea": "142",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F142"
+    },
+    {
+      "linea": "144",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F144"
+    },
+    {
+      "linea": "148",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F148"
+    },
+    {
+      "linea": "153",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F153"
+    },
+    {
+      "linea": "164",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F164"
+    },
+    {
+      "linea": "165",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F165"
+    },
+    {
+      "linea": "166",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F166"
+    },
+    {
+      "linea": "167",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F167"
+    },
+    {
+      "linea": "168",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F168"
+    },
+    {
+      "linea": "216",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "F216"
+    },
+    {
+      "linea": "R",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "LINR"
+    },
+    {
+      "linea": "Navetta Montiano",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "NAVM"
+    },
+    {
+      "linea": "91",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "S091"
+    },
+    {
+      "linea": "92",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "S092"
+    },
+    {
+      "linea": "93",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "S093"
+    },
+    {
+      "linea": "94",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "S094"
+    },
+    {
+      "linea": "95",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "S095"
+    },
+    {
+      "linea": "96",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "S096"
+    },
+    {
+      "linea": "96A",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "SA96"
+    },
+    {
+      "linea": "Navetta Nefetti",
+      "bacino": "FC",
+      "area": "Suburbano ed Extraurbano",
+      "route_id": "SS02"
+    }
+  ]
+}

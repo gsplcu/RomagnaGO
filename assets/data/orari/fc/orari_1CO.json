@@ -1,0 +1,1218 @@
+{
+  "estrazione": "Orari da route_1CO.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_1CO.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "1CO",
+    "name": "Linea 1CO",
+    "direzioni_percorso": [
+      "Carducci > Gatteo Mare (Via Euclide)",
+      "Cavallotti > Gatteo Mare (Via Euclide)",
+      "Cesenatico (P.To Canale) > Gatteo Mare (Via Euclide)",
+      "Cesenatico (V.Le Roma) > Gatteo Mare (Via Euclide)",
+      "Gatteo Mare (Via Euclide) > Carducci",
+      "Gatteo Mare (Via Euclide) > Cavallotti",
+      "Gatteo Mare (Via Euclide) > Cesenatico (P.To Canale)",
+      "Gatteo Mare (Via Euclide) > Cesenatico (V.Le Roma)"
+    ],
+    "route_id": "1CO"
+  },
+  "totale_trips": 151,
+  "totale_direzioni_percorso": 8,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Carducci > Gatteo Mare (Via Euclide)",
+      "capolinea_partenza": {
+        "stop_id": "30122",
+        "stop_name": "Carducci"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "trip_count": 15,
+      "orari_partenza": [
+        "20:50:00",
+        "20:55:00",
+        "21:05:00",
+        "21:30:00",
+        "21:35:00",
+        "21:45:00",
+        "22:10:00",
+        "22:15:00",
+        "22:25:00",
+        "22:50:00",
+        "22:55:00",
+        "23:05:00",
+        "23:30:00",
+        "23:45:00",
+        "24:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086349",
+          "service_id": "833_1000000006978",
+          "start_time": "20:50:00",
+          "end_time": "21:05:00"
+        },
+        {
+          "trip_id": "833_1086350",
+          "service_id": "833_1000000006978",
+          "start_time": "20:55:00",
+          "end_time": "21:10:00"
+        },
+        {
+          "trip_id": "833_1086351",
+          "service_id": "833_1000000006978",
+          "start_time": "21:05:00",
+          "end_time": "21:20:00"
+        },
+        {
+          "trip_id": "833_1086352",
+          "service_id": "833_1000000006978",
+          "start_time": "21:30:00",
+          "end_time": "21:45:00"
+        },
+        {
+          "trip_id": "833_1086353",
+          "service_id": "833_1000000006978",
+          "start_time": "21:35:00",
+          "end_time": "21:50:00"
+        },
+        {
+          "trip_id": "833_1086354",
+          "service_id": "833_1000000006978",
+          "start_time": "21:45:00",
+          "end_time": "22:00:00"
+        },
+        {
+          "trip_id": "833_1086355",
+          "service_id": "833_1000000006978",
+          "start_time": "22:10:00",
+          "end_time": "22:25:00"
+        },
+        {
+          "trip_id": "833_1086356",
+          "service_id": "833_1000000006978",
+          "start_time": "22:15:00",
+          "end_time": "22:30:00"
+        },
+        {
+          "trip_id": "833_1086357",
+          "service_id": "833_1000000006978",
+          "start_time": "22:25:00",
+          "end_time": "22:40:00"
+        },
+        {
+          "trip_id": "833_1086358",
+          "service_id": "833_1000000006978",
+          "start_time": "22:50:00",
+          "end_time": "23:05:00"
+        },
+        {
+          "trip_id": "833_1086359",
+          "service_id": "833_1000000006978",
+          "start_time": "22:55:00",
+          "end_time": "23:10:00"
+        },
+        {
+          "trip_id": "833_1086360",
+          "service_id": "833_1000000006978",
+          "start_time": "23:05:00",
+          "end_time": "23:20:00"
+        },
+        {
+          "trip_id": "833_1086361",
+          "service_id": "833_1000000006978",
+          "start_time": "23:30:00",
+          "end_time": "23:45:00"
+        },
+        {
+          "trip_id": "833_1086770",
+          "service_id": "833_1000000006978",
+          "start_time": "23:45:00",
+          "end_time": "24:00:00"
+        },
+        {
+          "trip_id": "833_1086362",
+          "service_id": "833_1000000006978",
+          "start_time": "24:10:00",
+          "end_time": "24:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cavallotti > Gatteo Mare (Via Euclide)",
+      "capolinea_partenza": {
+        "stop_id": "30190",
+        "stop_name": "Cavallotti"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "trip_count": 24,
+      "orari_partenza": [
+        "20:56:00",
+        "21:06:00",
+        "21:16:00",
+        "21:26:00",
+        "21:36:00",
+        "21:46:00",
+        "21:56:00",
+        "22:06:00",
+        "22:16:00",
+        "22:26:00",
+        "22:36:00",
+        "22:46:00",
+        "22:56:00",
+        "23:06:00",
+        "23:16:00",
+        "23:26:00",
+        "23:36:00",
+        "23:51:00",
+        "24:06:00",
+        "24:21:00",
+        "24:36:00",
+        "24:51:00",
+        "25:21:00",
+        "25:51:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035474",
+          "service_id": "833_1000000006981",
+          "start_time": "20:56:00",
+          "end_time": "21:20:00"
+        },
+        {
+          "trip_id": "833_1035475",
+          "service_id": "833_1000000006981",
+          "start_time": "21:06:00",
+          "end_time": "21:30:00"
+        },
+        {
+          "trip_id": "833_1035476",
+          "service_id": "833_1000000006981",
+          "start_time": "21:16:00",
+          "end_time": "21:40:00"
+        },
+        {
+          "trip_id": "833_1035477",
+          "service_id": "833_1000000006981",
+          "start_time": "21:26:00",
+          "end_time": "21:50:00"
+        },
+        {
+          "trip_id": "833_1035478",
+          "service_id": "833_1000000006981",
+          "start_time": "21:36:00",
+          "end_time": "22:00:00"
+        },
+        {
+          "trip_id": "833_1035479",
+          "service_id": "833_1000000006981",
+          "start_time": "21:46:00",
+          "end_time": "22:10:00"
+        },
+        {
+          "trip_id": "833_1035480",
+          "service_id": "833_1000000006981",
+          "start_time": "21:56:00",
+          "end_time": "22:20:00"
+        },
+        {
+          "trip_id": "833_1035481",
+          "service_id": "833_1000000006981",
+          "start_time": "22:06:00",
+          "end_time": "22:30:00"
+        },
+        {
+          "trip_id": "833_1035482",
+          "service_id": "833_1000000006981",
+          "start_time": "22:16:00",
+          "end_time": "22:40:00"
+        },
+        {
+          "trip_id": "833_1035483",
+          "service_id": "833_1000000006981",
+          "start_time": "22:26:00",
+          "end_time": "22:50:00"
+        },
+        {
+          "trip_id": "833_1035484",
+          "service_id": "833_1000000006981",
+          "start_time": "22:36:00",
+          "end_time": "23:00:00"
+        },
+        {
+          "trip_id": "833_1035485",
+          "service_id": "833_1000000006981",
+          "start_time": "22:46:00",
+          "end_time": "23:10:00"
+        },
+        {
+          "trip_id": "833_1035486",
+          "service_id": "833_1000000006981",
+          "start_time": "22:56:00",
+          "end_time": "23:20:00"
+        },
+        {
+          "trip_id": "833_1035487",
+          "service_id": "833_1000000006981",
+          "start_time": "23:06:00",
+          "end_time": "23:30:00"
+        },
+        {
+          "trip_id": "833_1035488",
+          "service_id": "833_1000000006981",
+          "start_time": "23:16:00",
+          "end_time": "23:40:00"
+        },
+        {
+          "trip_id": "833_1035489",
+          "service_id": "833_1000000006981",
+          "start_time": "23:26:00",
+          "end_time": "23:50:00"
+        },
+        {
+          "trip_id": "833_1035490",
+          "service_id": "833_1000000006981",
+          "start_time": "23:36:00",
+          "end_time": "24:00:00"
+        },
+        {
+          "trip_id": "833_1035491",
+          "service_id": "833_1000000006981",
+          "start_time": "23:51:00",
+          "end_time": "24:15:00"
+        },
+        {
+          "trip_id": "833_1035492",
+          "service_id": "833_1000000006981",
+          "start_time": "24:06:00",
+          "end_time": "24:30:00"
+        },
+        {
+          "trip_id": "833_1035493",
+          "service_id": "833_1000000006981",
+          "start_time": "24:21:00",
+          "end_time": "24:45:00"
+        },
+        {
+          "trip_id": "833_1035494",
+          "service_id": "833_1000000006981",
+          "start_time": "24:36:00",
+          "end_time": "25:00:00"
+        },
+        {
+          "trip_id": "833_1035495",
+          "service_id": "833_1000000006981",
+          "start_time": "24:51:00",
+          "end_time": "25:15:00"
+        },
+        {
+          "trip_id": "833_1035496",
+          "service_id": "833_1000000006981",
+          "start_time": "25:21:00",
+          "end_time": "25:45:00"
+        },
+        {
+          "trip_id": "833_1035497",
+          "service_id": "833_1000000006981",
+          "start_time": "25:51:00",
+          "end_time": "26:15:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesenatico (P.To Canale) > Gatteo Mare (Via Euclide)",
+      "capolinea_partenza": {
+        "stop_id": "30111",
+        "stop_name": "Cesenatico (P.To Canale)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "trip_count": 11,
+      "orari_partenza": [
+        "20:50:00",
+        "21:05:00",
+        "21:30:00",
+        "21:45:00",
+        "22:10:00",
+        "22:25:00",
+        "22:50:00",
+        "23:05:00",
+        "23:30:00",
+        "23:45:00",
+        "24:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1037375",
+          "service_id": "833_1000000006980",
+          "start_time": "20:50:00",
+          "end_time": "21:05:00"
+        },
+        {
+          "trip_id": "833_1037376",
+          "service_id": "833_1000000006980",
+          "start_time": "21:05:00",
+          "end_time": "21:20:00"
+        },
+        {
+          "trip_id": "833_1037377",
+          "service_id": "833_1000000006980",
+          "start_time": "21:30:00",
+          "end_time": "21:45:00"
+        },
+        {
+          "trip_id": "833_1037378",
+          "service_id": "833_1000000006980",
+          "start_time": "21:45:00",
+          "end_time": "22:00:00"
+        },
+        {
+          "trip_id": "833_1037381",
+          "service_id": "833_1000000006980",
+          "start_time": "22:10:00",
+          "end_time": "22:25:00"
+        },
+        {
+          "trip_id": "833_1037382",
+          "service_id": "833_1000000006980",
+          "start_time": "22:25:00",
+          "end_time": "22:40:00"
+        },
+        {
+          "trip_id": "833_1037383",
+          "service_id": "833_1000000006980",
+          "start_time": "22:50:00",
+          "end_time": "23:05:00"
+        },
+        {
+          "trip_id": "833_1037384",
+          "service_id": "833_1000000006980",
+          "start_time": "23:05:00",
+          "end_time": "23:20:00"
+        },
+        {
+          "trip_id": "833_1037385",
+          "service_id": "833_1000000006980",
+          "start_time": "23:30:00",
+          "end_time": "23:45:00"
+        },
+        {
+          "trip_id": "833_1086769",
+          "service_id": "833_1000000006980",
+          "start_time": "23:45:00",
+          "end_time": "24:00:00"
+        },
+        {
+          "trip_id": "833_1037388",
+          "service_id": "833_1000000006980",
+          "start_time": "24:10:00",
+          "end_time": "24:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesenatico (V.Le Roma) > Gatteo Mare (Via Euclide)",
+      "capolinea_partenza": {
+        "stop_id": "10732",
+        "stop_name": "Cesenatico (V.Le Roma)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "trip_count": 24,
+      "orari_partenza": [
+        "21:00:00",
+        "21:10:00",
+        "21:20:00",
+        "21:30:00",
+        "21:40:00",
+        "21:50:00",
+        "22:00:00",
+        "22:10:00",
+        "22:20:00",
+        "22:30:00",
+        "22:40:00",
+        "22:50:00",
+        "23:00:00",
+        "23:10:00",
+        "23:20:00",
+        "23:30:00",
+        "23:40:00",
+        "23:55:00",
+        "24:10:00",
+        "24:25:00",
+        "24:40:00",
+        "24:55:00",
+        "25:25:00",
+        "25:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086416",
+          "service_id": "833_1000000006979",
+          "start_time": "21:00:00",
+          "end_time": "21:20:00"
+        },
+        {
+          "trip_id": "833_1086417",
+          "service_id": "833_1000000006979",
+          "start_time": "21:10:00",
+          "end_time": "21:30:00"
+        },
+        {
+          "trip_id": "833_1086418",
+          "service_id": "833_1000000006979",
+          "start_time": "21:20:00",
+          "end_time": "21:40:00"
+        },
+        {
+          "trip_id": "833_1086419",
+          "service_id": "833_1000000006979",
+          "start_time": "21:30:00",
+          "end_time": "21:50:00"
+        },
+        {
+          "trip_id": "833_1086420",
+          "service_id": "833_1000000006979",
+          "start_time": "21:40:00",
+          "end_time": "22:00:00"
+        },
+        {
+          "trip_id": "833_1086421",
+          "service_id": "833_1000000006979",
+          "start_time": "21:50:00",
+          "end_time": "22:10:00"
+        },
+        {
+          "trip_id": "833_1086422",
+          "service_id": "833_1000000006979",
+          "start_time": "22:00:00",
+          "end_time": "22:20:00"
+        },
+        {
+          "trip_id": "833_1086423",
+          "service_id": "833_1000000006979",
+          "start_time": "22:10:00",
+          "end_time": "22:30:00"
+        },
+        {
+          "trip_id": "833_1086424",
+          "service_id": "833_1000000006979",
+          "start_time": "22:20:00",
+          "end_time": "22:40:00"
+        },
+        {
+          "trip_id": "833_1086425",
+          "service_id": "833_1000000006979",
+          "start_time": "22:30:00",
+          "end_time": "22:50:00"
+        },
+        {
+          "trip_id": "833_1086426",
+          "service_id": "833_1000000006979",
+          "start_time": "22:40:00",
+          "end_time": "23:00:00"
+        },
+        {
+          "trip_id": "833_1086427",
+          "service_id": "833_1000000006979",
+          "start_time": "22:50:00",
+          "end_time": "23:10:00"
+        },
+        {
+          "trip_id": "833_1086428",
+          "service_id": "833_1000000006979",
+          "start_time": "23:00:00",
+          "end_time": "23:20:00"
+        },
+        {
+          "trip_id": "833_1086429",
+          "service_id": "833_1000000006979",
+          "start_time": "23:10:00",
+          "end_time": "23:30:00"
+        },
+        {
+          "trip_id": "833_1086430",
+          "service_id": "833_1000000006979",
+          "start_time": "23:20:00",
+          "end_time": "23:40:00"
+        },
+        {
+          "trip_id": "833_1086431",
+          "service_id": "833_1000000006979",
+          "start_time": "23:30:00",
+          "end_time": "23:50:00"
+        },
+        {
+          "trip_id": "833_1086432",
+          "service_id": "833_1000000006979",
+          "start_time": "23:40:00",
+          "end_time": "24:00:00"
+        },
+        {
+          "trip_id": "833_1086433",
+          "service_id": "833_1000000006979",
+          "start_time": "23:55:00",
+          "end_time": "24:15:00"
+        },
+        {
+          "trip_id": "833_1086434",
+          "service_id": "833_1000000006979",
+          "start_time": "24:10:00",
+          "end_time": "24:30:00"
+        },
+        {
+          "trip_id": "833_1086435",
+          "service_id": "833_1000000006979",
+          "start_time": "24:25:00",
+          "end_time": "24:45:00"
+        },
+        {
+          "trip_id": "833_1086436",
+          "service_id": "833_1000000006979",
+          "start_time": "24:40:00",
+          "end_time": "25:00:00"
+        },
+        {
+          "trip_id": "833_1086437",
+          "service_id": "833_1000000006979",
+          "start_time": "24:55:00",
+          "end_time": "25:15:00"
+        },
+        {
+          "trip_id": "833_1086438",
+          "service_id": "833_1000000006979",
+          "start_time": "25:25:00",
+          "end_time": "25:45:00"
+        },
+        {
+          "trip_id": "833_1086439",
+          "service_id": "833_1000000006979",
+          "start_time": "25:55:00",
+          "end_time": "26:15:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Gatteo Mare (Via Euclide) > Carducci",
+      "capolinea_partenza": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30122",
+        "stop_name": "Carducci"
+      },
+      "trip_count": 15,
+      "orari_partenza": [
+        "20:30:00",
+        "20:40:00",
+        "20:45:00",
+        "21:10:00",
+        "21:15:00",
+        "21:25:00",
+        "21:50:00",
+        "21:55:00",
+        "22:05:00",
+        "22:30:00",
+        "22:35:00",
+        "22:45:00",
+        "23:10:00",
+        "23:25:00",
+        "23:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086363",
+          "service_id": "833_1000000006978",
+          "start_time": "20:30:00",
+          "end_time": "20:45:00"
+        },
+        {
+          "trip_id": "833_1086364",
+          "service_id": "833_1000000006978",
+          "start_time": "20:40:00",
+          "end_time": "20:55:00"
+        },
+        {
+          "trip_id": "833_1086365",
+          "service_id": "833_1000000006978",
+          "start_time": "20:45:00",
+          "end_time": "21:00:00"
+        },
+        {
+          "trip_id": "833_1086366",
+          "service_id": "833_1000000006978",
+          "start_time": "21:10:00",
+          "end_time": "21:25:00"
+        },
+        {
+          "trip_id": "833_1086367",
+          "service_id": "833_1000000006978",
+          "start_time": "21:15:00",
+          "end_time": "21:30:00"
+        },
+        {
+          "trip_id": "833_1086368",
+          "service_id": "833_1000000006978",
+          "start_time": "21:25:00",
+          "end_time": "21:40:00"
+        },
+        {
+          "trip_id": "833_1086369",
+          "service_id": "833_1000000006978",
+          "start_time": "21:50:00",
+          "end_time": "22:05:00"
+        },
+        {
+          "trip_id": "833_1086370",
+          "service_id": "833_1000000006978",
+          "start_time": "21:55:00",
+          "end_time": "22:10:00"
+        },
+        {
+          "trip_id": "833_1086371",
+          "service_id": "833_1000000006978",
+          "start_time": "22:05:00",
+          "end_time": "22:20:00"
+        },
+        {
+          "trip_id": "833_1086372",
+          "service_id": "833_1000000006978",
+          "start_time": "22:30:00",
+          "end_time": "22:45:00"
+        },
+        {
+          "trip_id": "833_1086373",
+          "service_id": "833_1000000006978",
+          "start_time": "22:35:00",
+          "end_time": "22:50:00"
+        },
+        {
+          "trip_id": "833_1086374",
+          "service_id": "833_1000000006978",
+          "start_time": "22:45:00",
+          "end_time": "23:00:00"
+        },
+        {
+          "trip_id": "833_1086375",
+          "service_id": "833_1000000006978",
+          "start_time": "23:10:00",
+          "end_time": "23:25:00"
+        },
+        {
+          "trip_id": "833_1086376",
+          "service_id": "833_1000000006978",
+          "start_time": "23:25:00",
+          "end_time": "23:40:00"
+        },
+        {
+          "trip_id": "833_1086377",
+          "service_id": "833_1000000006978",
+          "start_time": "23:50:00",
+          "end_time": "24:05:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Gatteo Mare (Via Euclide) > Cavallotti",
+      "capolinea_partenza": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30190",
+        "stop_name": "Cavallotti"
+      },
+      "trip_count": 25,
+      "orari_partenza": [
+        "20:30:00",
+        "20:40:00",
+        "20:50:00",
+        "20:55:00",
+        "21:00:00",
+        "21:10:00",
+        "21:20:00",
+        "21:30:00",
+        "21:40:00",
+        "21:50:00",
+        "22:00:00",
+        "22:10:00",
+        "22:20:00",
+        "22:30:00",
+        "22:40:00",
+        "22:50:00",
+        "23:00:00",
+        "23:10:00",
+        "23:25:00",
+        "23:40:00",
+        "23:55:00",
+        "24:10:00",
+        "24:25:00",
+        "24:55:00",
+        "25:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1032800",
+          "service_id": "833_1000000006981",
+          "start_time": "20:30:00",
+          "end_time": "20:54:00"
+        },
+        {
+          "trip_id": "833_1032801",
+          "service_id": "833_1000000006981",
+          "start_time": "20:40:00",
+          "end_time": "21:04:00"
+        },
+        {
+          "trip_id": "833_1032802",
+          "service_id": "833_1000000006981",
+          "start_time": "20:50:00",
+          "end_time": "21:14:00"
+        },
+        {
+          "trip_id": "833_1032824",
+          "service_id": "833_1000000006981",
+          "start_time": "20:55:00",
+          "end_time": "21:19:00"
+        },
+        {
+          "trip_id": "833_1032803",
+          "service_id": "833_1000000006981",
+          "start_time": "21:00:00",
+          "end_time": "21:24:00"
+        },
+        {
+          "trip_id": "833_1032804",
+          "service_id": "833_1000000006981",
+          "start_time": "21:10:00",
+          "end_time": "21:34:00"
+        },
+        {
+          "trip_id": "833_1032805",
+          "service_id": "833_1000000006981",
+          "start_time": "21:20:00",
+          "end_time": "21:44:00"
+        },
+        {
+          "trip_id": "833_1032806",
+          "service_id": "833_1000000006981",
+          "start_time": "21:30:00",
+          "end_time": "21:54:00"
+        },
+        {
+          "trip_id": "833_1032807",
+          "service_id": "833_1000000006981",
+          "start_time": "21:40:00",
+          "end_time": "22:04:00"
+        },
+        {
+          "trip_id": "833_1032808",
+          "service_id": "833_1000000006981",
+          "start_time": "21:50:00",
+          "end_time": "22:14:00"
+        },
+        {
+          "trip_id": "833_1032809",
+          "service_id": "833_1000000006981",
+          "start_time": "22:00:00",
+          "end_time": "22:24:00"
+        },
+        {
+          "trip_id": "833_1032810",
+          "service_id": "833_1000000006981",
+          "start_time": "22:10:00",
+          "end_time": "22:34:00"
+        },
+        {
+          "trip_id": "833_1032811",
+          "service_id": "833_1000000006981",
+          "start_time": "22:20:00",
+          "end_time": "22:44:00"
+        },
+        {
+          "trip_id": "833_1032812",
+          "service_id": "833_1000000006981",
+          "start_time": "22:30:00",
+          "end_time": "22:54:00"
+        },
+        {
+          "trip_id": "833_1032813",
+          "service_id": "833_1000000006981",
+          "start_time": "22:40:00",
+          "end_time": "23:04:00"
+        },
+        {
+          "trip_id": "833_1032814",
+          "service_id": "833_1000000006981",
+          "start_time": "22:50:00",
+          "end_time": "23:14:00"
+        },
+        {
+          "trip_id": "833_1032815",
+          "service_id": "833_1000000006981",
+          "start_time": "23:00:00",
+          "end_time": "23:24:00"
+        },
+        {
+          "trip_id": "833_1032816",
+          "service_id": "833_1000000006981",
+          "start_time": "23:10:00",
+          "end_time": "23:34:00"
+        },
+        {
+          "trip_id": "833_1032817",
+          "service_id": "833_1000000006981",
+          "start_time": "23:25:00",
+          "end_time": "23:49:00"
+        },
+        {
+          "trip_id": "833_1032818",
+          "service_id": "833_1000000006981",
+          "start_time": "23:40:00",
+          "end_time": "24:04:00"
+        },
+        {
+          "trip_id": "833_1032819",
+          "service_id": "833_1000000006981",
+          "start_time": "23:55:00",
+          "end_time": "24:19:00"
+        },
+        {
+          "trip_id": "833_1032820",
+          "service_id": "833_1000000006981",
+          "start_time": "24:10:00",
+          "end_time": "24:34:00"
+        },
+        {
+          "trip_id": "833_1032821",
+          "service_id": "833_1000000006981",
+          "start_time": "24:25:00",
+          "end_time": "24:49:00"
+        },
+        {
+          "trip_id": "833_1032822",
+          "service_id": "833_1000000006981",
+          "start_time": "24:55:00",
+          "end_time": "25:19:00"
+        },
+        {
+          "trip_id": "833_1032823",
+          "service_id": "833_1000000006981",
+          "start_time": "25:25:00",
+          "end_time": "25:49:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Gatteo Mare (Via Euclide) > Cesenatico (P.To Canale)",
+      "capolinea_partenza": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30111",
+        "stop_name": "Cesenatico (P.To Canale)"
+      },
+      "trip_count": 12,
+      "orari_partenza": [
+        "20:30:00",
+        "20:40:00",
+        "20:45:00",
+        "21:10:00",
+        "21:25:00",
+        "21:50:00",
+        "22:05:00",
+        "22:30:00",
+        "22:45:00",
+        "23:10:00",
+        "23:25:00",
+        "23:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1037746",
+          "service_id": "833_1000000006980",
+          "start_time": "20:30:00",
+          "end_time": "20:45:00"
+        },
+        {
+          "trip_id": "833_1037747",
+          "service_id": "833_1000000006980",
+          "start_time": "20:40:00",
+          "end_time": "20:55:00"
+        },
+        {
+          "trip_id": "833_1037732",
+          "service_id": "833_1000000006980",
+          "start_time": "20:45:00",
+          "end_time": "21:00:00"
+        },
+        {
+          "trip_id": "833_1037740",
+          "service_id": "833_1000000006980",
+          "start_time": "21:10:00",
+          "end_time": "21:25:00"
+        },
+        {
+          "trip_id": "833_1037733",
+          "service_id": "833_1000000006980",
+          "start_time": "21:25:00",
+          "end_time": "21:40:00"
+        },
+        {
+          "trip_id": "833_1037741",
+          "service_id": "833_1000000006980",
+          "start_time": "21:50:00",
+          "end_time": "22:05:00"
+        },
+        {
+          "trip_id": "833_1037735",
+          "service_id": "833_1000000006980",
+          "start_time": "22:05:00",
+          "end_time": "22:20:00"
+        },
+        {
+          "trip_id": "833_1037743",
+          "service_id": "833_1000000006980",
+          "start_time": "22:30:00",
+          "end_time": "22:45:00"
+        },
+        {
+          "trip_id": "833_1037736",
+          "service_id": "833_1000000006980",
+          "start_time": "22:45:00",
+          "end_time": "23:00:00"
+        },
+        {
+          "trip_id": "833_1037744",
+          "service_id": "833_1000000006980",
+          "start_time": "23:10:00",
+          "end_time": "23:25:00"
+        },
+        {
+          "trip_id": "833_1037737",
+          "service_id": "833_1000000006980",
+          "start_time": "23:25:00",
+          "end_time": "23:40:00"
+        },
+        {
+          "trip_id": "833_1037745",
+          "service_id": "833_1000000006980",
+          "start_time": "23:50:00",
+          "end_time": "24:05:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Gatteo Mare (Via Euclide) > Cesenatico (V.Le Roma)",
+      "capolinea_partenza": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10732",
+        "stop_name": "Cesenatico (V.Le Roma)"
+      },
+      "trip_count": 25,
+      "orari_partenza": [
+        "20:30:00",
+        "20:40:00",
+        "20:50:00",
+        "20:55:00",
+        "21:00:00",
+        "21:10:00",
+        "21:20:00",
+        "21:30:00",
+        "21:40:00",
+        "21:50:00",
+        "22:00:00",
+        "22:10:00",
+        "22:20:00",
+        "22:30:00",
+        "22:40:00",
+        "22:50:00",
+        "23:00:00",
+        "23:10:00",
+        "23:25:00",
+        "23:40:00",
+        "23:55:00",
+        "24:10:00",
+        "24:25:00",
+        "24:55:00",
+        "25:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086391",
+          "service_id": "833_1000000006979",
+          "start_time": "20:30:00",
+          "end_time": "20:51:00"
+        },
+        {
+          "trip_id": "833_1086392",
+          "service_id": "833_1000000006979",
+          "start_time": "20:40:00",
+          "end_time": "21:01:00"
+        },
+        {
+          "trip_id": "833_1086393",
+          "service_id": "833_1000000006979",
+          "start_time": "20:50:00",
+          "end_time": "21:11:00"
+        },
+        {
+          "trip_id": "833_1086394",
+          "service_id": "833_1000000006979",
+          "start_time": "20:55:00",
+          "end_time": "21:16:00"
+        },
+        {
+          "trip_id": "833_1086395",
+          "service_id": "833_1000000006979",
+          "start_time": "21:00:00",
+          "end_time": "21:21:00"
+        },
+        {
+          "trip_id": "833_1086396",
+          "service_id": "833_1000000006979",
+          "start_time": "21:10:00",
+          "end_time": "21:31:00"
+        },
+        {
+          "trip_id": "833_1086397",
+          "service_id": "833_1000000006979",
+          "start_time": "21:20:00",
+          "end_time": "21:41:00"
+        },
+        {
+          "trip_id": "833_1086398",
+          "service_id": "833_1000000006979",
+          "start_time": "21:30:00",
+          "end_time": "21:51:00"
+        },
+        {
+          "trip_id": "833_1086399",
+          "service_id": "833_1000000006979",
+          "start_time": "21:40:00",
+          "end_time": "22:01:00"
+        },
+        {
+          "trip_id": "833_1086400",
+          "service_id": "833_1000000006979",
+          "start_time": "21:50:00",
+          "end_time": "22:11:00"
+        },
+        {
+          "trip_id": "833_1086401",
+          "service_id": "833_1000000006979",
+          "start_time": "22:00:00",
+          "end_time": "22:21:00"
+        },
+        {
+          "trip_id": "833_1086402",
+          "service_id": "833_1000000006979",
+          "start_time": "22:10:00",
+          "end_time": "22:31:00"
+        },
+        {
+          "trip_id": "833_1086403",
+          "service_id": "833_1000000006979",
+          "start_time": "22:20:00",
+          "end_time": "22:41:00"
+        },
+        {
+          "trip_id": "833_1086404",
+          "service_id": "833_1000000006979",
+          "start_time": "22:30:00",
+          "end_time": "22:51:00"
+        },
+        {
+          "trip_id": "833_1086405",
+          "service_id": "833_1000000006979",
+          "start_time": "22:40:00",
+          "end_time": "23:01:00"
+        },
+        {
+          "trip_id": "833_1086406",
+          "service_id": "833_1000000006979",
+          "start_time": "22:50:00",
+          "end_time": "23:11:00"
+        },
+        {
+          "trip_id": "833_1086407",
+          "service_id": "833_1000000006979",
+          "start_time": "23:00:00",
+          "end_time": "23:21:00"
+        },
+        {
+          "trip_id": "833_1086408",
+          "service_id": "833_1000000006979",
+          "start_time": "23:10:00",
+          "end_time": "23:31:00"
+        },
+        {
+          "trip_id": "833_1086409",
+          "service_id": "833_1000000006979",
+          "start_time": "23:25:00",
+          "end_time": "23:46:00"
+        },
+        {
+          "trip_id": "833_1086410",
+          "service_id": "833_1000000006979",
+          "start_time": "23:40:00",
+          "end_time": "24:01:00"
+        },
+        {
+          "trip_id": "833_1086411",
+          "service_id": "833_1000000006979",
+          "start_time": "23:55:00",
+          "end_time": "24:16:00"
+        },
+        {
+          "trip_id": "833_1086412",
+          "service_id": "833_1000000006979",
+          "start_time": "24:10:00",
+          "end_time": "24:31:00"
+        },
+        {
+          "trip_id": "833_1086413",
+          "service_id": "833_1000000006979",
+          "start_time": "24:25:00",
+          "end_time": "24:46:00"
+        },
+        {
+          "trip_id": "833_1086414",
+          "service_id": "833_1000000006979",
+          "start_time": "24:55:00",
+          "end_time": "25:16:00"
+        },
+        {
+          "trip_id": "833_1086415",
+          "service_id": "833_1000000006979",
+          "start_time": "25:25:00",
+          "end_time": "25:46:00"
+        }
+      ]
+    }
+  ]
+}

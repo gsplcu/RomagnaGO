@@ -1,0 +1,67 @@
+{
+  "estrazione": "Orari da route_152.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_152.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "152",
+    "name": "Linea 152",
+    "direzioni_percorso": [
+      "Castr.Terme Inv. > Lugo Punto Bus",
+      "Lugo Punto Bus > Castr.Terme Inv."
+    ],
+    "route_id": "152"
+  },
+  "totale_trips": 2,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Castr.Terme Inv. > Lugo Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "896430",
+        "stop_name": "Castr.Terme Inv."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "11:56:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889445",
+          "service_id": "674_1000000002117",
+          "start_time": "11:56:00",
+          "end_time": "13:11:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Lugo Punto Bus > Castr.Terme Inv.",
+      "capolinea_partenza": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "896430",
+        "stop_name": "Castr.Terme Inv."
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:42:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889444",
+          "service_id": "674_1000000002117",
+          "start_time": "07:42:00",
+          "end_time": "09:00:00"
+        }
+      ]
+    }
+  ]
+}

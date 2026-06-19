@@ -1,0 +1,18 @@
+{
+  "stops": [
+    {
+      "nome_fermata": "Marina di Ravenna",
+      "comune": "Marina di Ravenna",
+      "provincia": "RA",
+      "lat": 44.491722,
+      "long": 12.279611
+    },
+    {
+      "nome_fermata": "Porto Corsini",
+      "comune": "Porto Corsini",
+      "provincia": "RA",
+      "lat": 44.493194,
+      "long": 12.281333
+    }
+  ]
+}

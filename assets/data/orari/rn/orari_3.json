@@ -1,0 +1,867 @@
+{
+  "estrazione": "Orari da route_3.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_3.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "3",
+    "name": "Linea 3",
+    "direzioni_percorso": [
+      "4 Rimini Fs > Boscovich-Porto",
+      "4 Rimini Fs > Gaiofana",
+      "4 Rimini Fs > Ospedaletto",
+      "4 Rimini Fs > S. Patrignano-Dir.Rn",
+      "4 Rimini Fs > San Patrignano",
+      "4 Rimini Fs > Sp41,1",
+      "Boscovich-Porto > 4 Rimini Fs",
+      "Boscovich-Porto > Ospedaletto",
+      "Boscovich-Porto > San Patrignano",
+      "Boscovich-Porto > Sp41,1",
+      "Bv. Vecciano > 4 Rimini Fs",
+      "Flaminio > Ospedaletto",
+      "Ospedaletto > 4 Rimini Fs",
+      "Ospedaletto > Boscovich-Porto",
+      "S. Lorenzo Rampa > S.Salvat.-Ronco",
+      "S. Patrignano-Dir.Rn > Ospedaletto",
+      "S.Salvat.-Ronco > Boscovich-Porto",
+      "San Patrignano > 4 Rimini Fs",
+      "San Patrignano > Boscovich-Porto",
+      "San Patrignano > Ospedaletto",
+      "Sp41,1 > 4 Rimini Fs",
+      "Sp41,1 > Boscovich-Porto",
+      "Vill.I Maggio 1 > Bv. Vecciano",
+      "Vill.I Maggio 1 > Ospedaletto"
+    ],
+    "route_id": "3"
+  },
+  "totale_trips": 60,
+  "totale_direzioni_percorso": 24,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "4 Rimini Fs > Boscovich-Porto",
+      "capolinea_partenza": {
+        "stop_id": "A00006",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00408",
+        "stop_name": "Boscovich-Porto"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:37:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4044864",
+          "service_id": "404_1000000001812",
+          "start_time": "12:37:00",
+          "end_time": "12:45:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "4 Rimini Fs > Gaiofana",
+      "capolinea_partenza": {
+        "stop_id": "A01175",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00836",
+        "stop_name": "Gaiofana"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4037865",
+          "service_id": "404_1000000001810",
+          "start_time": "12:45:00",
+          "end_time": "13:06:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "4 Rimini Fs > Ospedaletto",
+      "capolinea_partenza": {
+        "stop_id": "A01175",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "C00151",
+        "stop_name": "Ospedaletto"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "06:35:00",
+        "07:10:00",
+        "14:10:00",
+        "20:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4013895",
+          "service_id": "404_1000000001810",
+          "start_time": "06:35:00",
+          "end_time": "07:12:00"
+        },
+        {
+          "trip_id": "404_4013896",
+          "service_id": "404_1000000001812",
+          "start_time": "07:10:00",
+          "end_time": "07:48:00"
+        },
+        {
+          "trip_id": "404_4013897",
+          "service_id": "404_1000000001812",
+          "start_time": "14:10:00",
+          "end_time": "14:50:00"
+        },
+        {
+          "trip_id": "404_4051342",
+          "service_id": "404_1000000001810",
+          "start_time": "20:15:00",
+          "end_time": "20:38:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "4 Rimini Fs > S. Patrignano-Dir.Rn",
+      "capolinea_partenza": {
+        "stop_id": "A01175",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "C00218",
+        "stop_name": "S. Patrignano-Dir.Rn"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "11:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4032904",
+          "service_id": "404_1000000001823",
+          "start_time": "11:40:00",
+          "end_time": "12:38:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "4 Rimini Fs > San Patrignano",
+      "capolinea_partenza": {
+        "stop_id": "A01175",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "C00212",
+        "stop_name": "San Patrignano"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4031190",
+          "service_id": "404_1000000001810",
+          "start_time": "07:10:00",
+          "end_time": "07:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "4 Rimini Fs > Sp41,1",
+      "capolinea_partenza": {
+        "stop_id": "A01175",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "O00013",
+        "stop_name": "Sp41,1"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:00:00",
+        "09:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4040320",
+          "service_id": "404_1000000001810",
+          "start_time": "07:00:00",
+          "end_time": "07:38:00"
+        },
+        {
+          "trip_id": "404_4040321",
+          "service_id": "404_1000000001812",
+          "start_time": "09:00:00",
+          "end_time": "09:38:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Boscovich-Porto > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "A00408",
+        "stop_name": "Boscovich-Porto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01175",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "08:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4029969",
+          "service_id": "404_1000000001812",
+          "start_time": "08:30:00",
+          "end_time": "08:37:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Boscovich-Porto > Ospedaletto",
+      "capolinea_partenza": {
+        "stop_id": "A00408",
+        "stop_name": "Boscovich-Porto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "C00151",
+        "stop_name": "Ospedaletto"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "09:03:00",
+        "10:03:00",
+        "12:03:00",
+        "12:48:00",
+        "14:03:00",
+        "15:43:00",
+        "16:03:00",
+        "17:23:00",
+        "18:08:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4108500",
+          "service_id": "404_1000000001810",
+          "start_time": "09:03:00",
+          "end_time": "09:51:00"
+        },
+        {
+          "trip_id": "404_4108501",
+          "service_id": "404_1000000001810",
+          "start_time": "10:03:00",
+          "end_time": "10:51:00"
+        },
+        {
+          "trip_id": "404_4108502",
+          "service_id": "404_1000000001810",
+          "start_time": "12:03:00",
+          "end_time": "12:51:00"
+        },
+        {
+          "trip_id": "404_4108506",
+          "service_id": "404_1000000001812",
+          "start_time": "12:48:00",
+          "end_time": "13:35:00"
+        },
+        {
+          "trip_id": "404_4108503",
+          "service_id": "404_1000000001810",
+          "start_time": "14:03:00",
+          "end_time": "14:51:00"
+        },
+        {
+          "trip_id": "404_4108507",
+          "service_id": "404_1000000001812",
+          "start_time": "15:43:00",
+          "end_time": "16:31:00"
+        },
+        {
+          "trip_id": "404_4108504",
+          "service_id": "404_1000000001810",
+          "start_time": "16:03:00",
+          "end_time": "16:51:00"
+        },
+        {
+          "trip_id": "404_4108508",
+          "service_id": "404_1000000001812",
+          "start_time": "17:23:00",
+          "end_time": "18:11:00"
+        },
+        {
+          "trip_id": "404_4108505",
+          "service_id": "404_1000000001810",
+          "start_time": "18:08:00",
+          "end_time": "18:56:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Boscovich-Porto > San Patrignano",
+      "capolinea_partenza": {
+        "stop_id": "A00408",
+        "stop_name": "Boscovich-Porto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "C00212",
+        "stop_name": "San Patrignano"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "08:03:00",
+        "11:03:00",
+        "13:03:00",
+        "15:03:00",
+        "17:03:00",
+        "19:38:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4050252",
+          "service_id": "404_1000000001810",
+          "start_time": "08:03:00",
+          "end_time": "08:46:00"
+        },
+        {
+          "trip_id": "404_4050253",
+          "service_id": "404_1000000001810",
+          "start_time": "11:03:00",
+          "end_time": "11:46:00"
+        },
+        {
+          "trip_id": "404_4050254",
+          "service_id": "404_1000000001810",
+          "start_time": "13:03:00",
+          "end_time": "13:46:00"
+        },
+        {
+          "trip_id": "404_4050255",
+          "service_id": "404_1000000001810",
+          "start_time": "15:03:00",
+          "end_time": "15:46:00"
+        },
+        {
+          "trip_id": "404_4050256",
+          "service_id": "404_1000000001810",
+          "start_time": "17:03:00",
+          "end_time": "17:46:00"
+        },
+        {
+          "trip_id": "404_4050257",
+          "service_id": "404_1000000001810",
+          "start_time": "19:38:00",
+          "end_time": "20:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Boscovich-Porto > Sp41,1",
+      "capolinea_partenza": {
+        "stop_id": "A00408",
+        "stop_name": "Boscovich-Porto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "O00013",
+        "stop_name": "Sp41,1"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "19:03:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4036740",
+          "service_id": "404_1000000001812",
+          "start_time": "19:03:00",
+          "end_time": "19:54:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bv. Vecciano > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "C00043",
+        "stop_name": "Bv. Vecciano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01059",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4027860",
+          "service_id": "404_1000000001823",
+          "start_time": "07:20:00",
+          "end_time": "08:13:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Flaminio > Ospedaletto",
+      "capolinea_partenza": {
+        "stop_id": "A00751",
+        "stop_name": "Flaminio"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "C00151",
+        "stop_name": "Ospedaletto"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:18:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4016863",
+          "service_id": "404_1000000001810",
+          "start_time": "06:18:00",
+          "end_time": "06:33:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ospedaletto > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "C00154",
+        "stop_name": "Ospedaletto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01059",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "06:05:00",
+        "06:35:00",
+        "13:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4049334",
+          "service_id": "404_1000000001810",
+          "start_time": "06:05:00",
+          "end_time": "06:34:00"
+        },
+        {
+          "trip_id": "404_4049333",
+          "service_id": "404_1000000001810",
+          "start_time": "06:35:00",
+          "end_time": "07:04:00"
+        },
+        {
+          "trip_id": "404_4049335",
+          "service_id": "404_1000000001812",
+          "start_time": "06:35:00",
+          "end_time": "07:05:00"
+        },
+        {
+          "trip_id": "404_4049336",
+          "service_id": "404_1000000001812",
+          "start_time": "13:35:00",
+          "end_time": "14:06:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ospedaletto > Boscovich-Porto",
+      "capolinea_partenza": {
+        "stop_id": "C00154",
+        "stop_name": "Ospedaletto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00408",
+        "stop_name": "Boscovich-Porto"
+      },
+      "trip_count": 11,
+      "orari_partenza": [
+        "07:15:00",
+        "07:50:00",
+        "09:55:00",
+        "10:55:00",
+        "12:55:00",
+        "14:55:00",
+        "16:35:00",
+        "16:55:00",
+        "18:15:00",
+        "19:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4107739",
+          "service_id": "404_1000000001810",
+          "start_time": "07:15:00",
+          "end_time": "07:54:00"
+        },
+        {
+          "trip_id": "404_4107746",
+          "service_id": "404_1000000001812",
+          "start_time": "07:50:00",
+          "end_time": "08:27:00"
+        },
+        {
+          "trip_id": "404_4107740",
+          "service_id": "404_1000000001810",
+          "start_time": "09:55:00",
+          "end_time": "10:35:00"
+        },
+        {
+          "trip_id": "404_4107741",
+          "service_id": "404_1000000001810",
+          "start_time": "10:55:00",
+          "end_time": "11:35:00"
+        },
+        {
+          "trip_id": "404_4107742",
+          "service_id": "404_1000000001810",
+          "start_time": "12:55:00",
+          "end_time": "13:35:00"
+        },
+        {
+          "trip_id": "404_4107743",
+          "service_id": "404_1000000001810",
+          "start_time": "14:55:00",
+          "end_time": "15:35:00"
+        },
+        {
+          "trip_id": "404_4107749",
+          "service_id": "404_1000000001812",
+          "start_time": "14:55:00",
+          "end_time": "15:35:00"
+        },
+        {
+          "trip_id": "404_4107747",
+          "service_id": "404_1000000001812",
+          "start_time": "16:35:00",
+          "end_time": "17:15:00"
+        },
+        {
+          "trip_id": "404_4107744",
+          "service_id": "404_1000000001810",
+          "start_time": "16:55:00",
+          "end_time": "17:35:00"
+        },
+        {
+          "trip_id": "404_4107748",
+          "service_id": "404_1000000001812",
+          "start_time": "18:15:00",
+          "end_time": "18:55:00"
+        },
+        {
+          "trip_id": "404_4107745",
+          "service_id": "404_1000000001810",
+          "start_time": "19:00:00",
+          "end_time": "19:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S. Lorenzo Rampa > S.Salvat.-Ronco",
+      "capolinea_partenza": {
+        "stop_id": "A00838",
+        "stop_name": "S. Lorenzo Rampa"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00871",
+        "stop_name": "S.Salvat.-Ronco"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4051953",
+          "service_id": "404_1000000001810",
+          "start_time": "07:55:00",
+          "end_time": "08:06:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S. Patrignano-Dir.Rn > Ospedaletto",
+      "capolinea_partenza": {
+        "stop_id": "C00218",
+        "stop_name": "S. Patrignano-Dir.Rn"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "C00154",
+        "stop_name": "Ospedaletto"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4065427",
+          "service_id": "404_1000000001823",
+          "start_time": "12:45:00",
+          "end_time": "12:52:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.Salvat.-Ronco > Boscovich-Porto",
+      "capolinea_partenza": {
+        "stop_id": "A00954",
+        "stop_name": "S.Salvat.-Ronco"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00408",
+        "stop_name": "Boscovich-Porto"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "08:06:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4027819",
+          "service_id": "404_1000000001810",
+          "start_time": "08:06:00",
+          "end_time": "08:47:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "San Patrignano > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "C00212",
+        "stop_name": "San Patrignano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01059",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "20:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4040207",
+          "service_id": "404_1000000001810",
+          "start_time": "20:25:00",
+          "end_time": "20:58:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "San Patrignano > Boscovich-Porto",
+      "capolinea_partenza": {
+        "stop_id": "C00212",
+        "stop_name": "San Patrignano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00408",
+        "stop_name": "Boscovich-Porto"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "08:48:00",
+        "11:48:00",
+        "13:48:00",
+        "15:48:00",
+        "17:48:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4050855",
+          "service_id": "404_1000000001810",
+          "start_time": "08:48:00",
+          "end_time": "09:35:00"
+        },
+        {
+          "trip_id": "404_4050856",
+          "service_id": "404_1000000001810",
+          "start_time": "11:48:00",
+          "end_time": "12:35:00"
+        },
+        {
+          "trip_id": "404_4050857",
+          "service_id": "404_1000000001810",
+          "start_time": "13:48:00",
+          "end_time": "14:35:00"
+        },
+        {
+          "trip_id": "404_4050858",
+          "service_id": "404_1000000001810",
+          "start_time": "15:48:00",
+          "end_time": "16:35:00"
+        },
+        {
+          "trip_id": "404_4050859",
+          "service_id": "404_1000000001810",
+          "start_time": "17:48:00",
+          "end_time": "18:35:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "San Patrignano > Ospedaletto",
+      "capolinea_partenza": {
+        "stop_id": "C00212",
+        "stop_name": "San Patrignano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "C00154",
+        "stop_name": "Ospedaletto"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:42:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4037378",
+          "service_id": "404_1000000001810",
+          "start_time": "07:42:00",
+          "end_time": "07:49:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Sp41,1 > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "O00022",
+        "stop_name": "Sp41,1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01059",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "19:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4027866",
+          "service_id": "404_1000000001812",
+          "start_time": "19:55:00",
+          "end_time": "20:37:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Sp41,1 > Boscovich-Porto",
+      "capolinea_partenza": {
+        "stop_id": "O00022",
+        "stop_name": "Sp41,1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00408",
+        "stop_name": "Boscovich-Porto"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:43:00",
+        "09:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4045704",
+          "service_id": "404_1000000001810",
+          "start_time": "07:43:00",
+          "end_time": "08:35:00"
+        },
+        {
+          "trip_id": "404_4027863",
+          "service_id": "404_1000000001812",
+          "start_time": "09:40:00",
+          "end_time": "10:34:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Vill.I Maggio 1 > Bv. Vecciano",
+      "capolinea_partenza": {
+        "stop_id": "A00825",
+        "stop_name": "Vill.I Maggio 1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "C00043",
+        "stop_name": "Bv. Vecciano"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:04:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4032901",
+          "service_id": "404_1000000001823",
+          "start_time": "07:04:00",
+          "end_time": "07:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Vill.I Maggio 1 > Ospedaletto",
+      "capolinea_partenza": {
+        "stop_id": "A00825",
+        "stop_name": "Vill.I Maggio 1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "C00151",
+        "stop_name": "Ospedaletto"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "05:37:00",
+        "06:24:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4032890",
+          "service_id": "404_1000000001810",
+          "start_time": "05:37:00",
+          "end_time": "06:02:00"
+        },
+        {
+          "trip_id": "404_4042674",
+          "service_id": "404_1000000001812",
+          "start_time": "06:24:00",
+          "end_time": "06:34:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "estrazione": "Orari da route_5.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_5.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "5",
+    "name": "Linea 5",
+    "direzioni_percorso": [
+      "Piscina > S.Alberto Cap.",
+      "Ravenna Fs-P.Bus > S.Alberto Cap.",
+      "S.Alberto Cap. > Piscina"
+    ],
+    "route_id": "5"
+  },
+  "totale_trips": 51,
+  "totale_direzioni_percorso": 3,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Piscina > S.Alberto Cap.",
+      "capolinea_partenza": {
+        "stop_id": "703240",
+        "stop_name": "Piscina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "708490",
+        "stop_name": "S.Alberto Cap."
+      },
+      "trip_count": 24,
+      "orari_partenza": [
+        "08:02:00",
+        "08:32:00",
+        "09:02:00",
+        "09:32:00",
+        "10:02:00",
+        "10:32:00",
+        "11:02:00",
+        "11:32:00",
+        "12:02:00",
+        "12:32:00",
+        "13:02:00",
+        "13:32:00",
+        "14:02:00",
+        "14:32:00",
+        "15:02:00",
+        "15:32:00",
+        "16:02:00",
+        "16:32:00",
+        "17:02:00",
+        "17:32:00",
+        "18:02:00",
+        "18:32:00",
+        "19:02:00",
+        "19:32:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795400",
+          "service_id": "674_1000000002118",
+          "start_time": "08:02:00",
+          "end_time": "08:27:00"
+        },
+        {
+          "trip_id": "674_2795402",
+          "service_id": "674_1000000002118",
+          "start_time": "08:32:00",
+          "end_time": "08:57:00"
+        },
+        {
+          "trip_id": "674_2795404",
+          "service_id": "674_1000000002118",
+          "start_time": "09:02:00",
+          "end_time": "09:27:00"
+        },
+        {
+          "trip_id": "674_2795406",
+          "service_id": "674_1000000002118",
+          "start_time": "09:32:00",
+          "end_time": "09:57:00"
+        },
+        {
+          "trip_id": "674_2795408",
+          "service_id": "674_1000000002118",
+          "start_time": "10:02:00",
+          "end_time": "10:27:00"
+        },
+        {
+          "trip_id": "674_2795410",
+          "service_id": "674_1000000002118",
+          "start_time": "10:32:00",
+          "end_time": "10:57:00"
+        },
+        {
+          "trip_id": "674_2795412",
+          "service_id": "674_1000000002118",
+          "start_time": "11:02:00",
+          "end_time": "11:27:00"
+        },
+        {
+          "trip_id": "674_2795414",
+          "service_id": "674_1000000002118",
+          "start_time": "11:32:00",
+          "end_time": "11:57:00"
+        },
+        {
+          "trip_id": "674_2795416",
+          "service_id": "674_1000000002118",
+          "start_time": "12:02:00",
+          "end_time": "12:27:00"
+        },
+        {
+          "trip_id": "674_2795418",
+          "service_id": "674_1000000002118",
+          "start_time": "12:32:00",
+          "end_time": "12:57:00"
+        },
+        {
+          "trip_id": "674_2795420",
+          "service_id": "674_1000000002118",
+          "start_time": "13:02:00",
+          "end_time": "13:27:00"
+        },
+        {
+          "trip_id": "674_2795763",
+          "service_id": "674_1000000002118",
+          "start_time": "13:32:00",
+          "end_time": "13:57:00"
+        },
+        {
+          "trip_id": "674_2795423",
+          "service_id": "674_1000000002118",
+          "start_time": "14:02:00",
+          "end_time": "14:27:00"
+        },
+        {
+          "trip_id": "674_2795425",
+          "service_id": "674_1000000002118",
+          "start_time": "14:32:00",
+          "end_time": "14:57:00"
+        },
+        {
+          "trip_id": "674_2795427",
+          "service_id": "674_1000000002118",
+          "start_time": "15:02:00",
+          "end_time": "15:27:00"
+        },
+        {
+          "trip_id": "674_2795429",
+          "service_id": "674_1000000002118",
+          "start_time": "15:32:00",
+          "end_time": "15:57:00"
+        },
+        {
+          "trip_id": "674_2795431",
+          "service_id": "674_1000000002118",
+          "start_time": "16:02:00",
+          "end_time": "16:27:00"
+        },
+        {
+          "trip_id": "674_2795433",
+          "service_id": "674_1000000002118",
+          "start_time": "16:32:00",
+          "end_time": "16:57:00"
+        },
+        {
+          "trip_id": "674_2795435",
+          "service_id": "674_1000000002118",
+          "start_time": "17:02:00",
+          "end_time": "17:27:00"
+        },
+        {
+          "trip_id": "674_2795437",
+          "service_id": "674_1000000002118",
+          "start_time": "17:32:00",
+          "end_time": "17:57:00"
+        },
+        {
+          "trip_id": "674_2795439",
+          "service_id": "674_1000000002118",
+          "start_time": "18:02:00",
+          "end_time": "18:27:00"
+        },
+        {
+          "trip_id": "674_2795441",
+          "service_id": "674_1000000002118",
+          "start_time": "18:32:00",
+          "end_time": "18:57:00"
+        },
+        {
+          "trip_id": "674_2795443",
+          "service_id": "674_1000000002118",
+          "start_time": "19:02:00",
+          "end_time": "19:27:00"
+        },
+        {
+          "trip_id": "674_2795445",
+          "service_id": "674_1000000002118",
+          "start_time": "19:32:00",
+          "end_time": "19:57:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ravenna Fs-P.Bus > S.Alberto Cap.",
+      "capolinea_partenza": {
+        "stop_id": "700030",
+        "stop_name": "Ravenna Fs-P.Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "708490",
+        "stop_name": "S.Alberto Cap."
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:15:00",
+        "07:47:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795446",
+          "service_id": "674_1000000002118",
+          "start_time": "07:15:00",
+          "end_time": "07:27:00"
+        },
+        {
+          "trip_id": "674_2795447",
+          "service_id": "674_1000000002118",
+          "start_time": "07:47:00",
+          "end_time": "07:59:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.Alberto Cap. > Piscina",
+      "capolinea_partenza": {
+        "stop_id": "708490",
+        "stop_name": "S.Alberto Cap."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "703240",
+        "stop_name": "Piscina"
+      },
+      "trip_count": 25,
+      "orari_partenza": [
+        "07:30:00",
+        "08:02:00",
+        "08:32:00",
+        "09:02:00",
+        "09:32:00",
+        "10:02:00",
+        "10:32:00",
+        "11:02:00",
+        "11:32:00",
+        "12:02:00",
+        "12:32:00",
+        "13:02:00",
+        "13:32:00",
+        "14:02:00",
+        "14:32:00",
+        "15:02:00",
+        "15:32:00",
+        "16:02:00",
+        "16:32:00",
+        "17:02:00",
+        "17:32:00",
+        "18:02:00",
+        "18:32:00",
+        "19:02:00",
+        "19:32:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889196",
+          "service_id": "674_1000000002118",
+          "start_time": "07:30:00",
+          "end_time": "08:01:00"
+        },
+        {
+          "trip_id": "674_2889197",
+          "service_id": "674_1000000002118",
+          "start_time": "08:02:00",
+          "end_time": "08:31:00"
+        },
+        {
+          "trip_id": "674_2889199",
+          "service_id": "674_1000000002118",
+          "start_time": "08:32:00",
+          "end_time": "09:01:00"
+        },
+        {
+          "trip_id": "674_2889200",
+          "service_id": "674_1000000002118",
+          "start_time": "09:02:00",
+          "end_time": "09:31:00"
+        },
+        {
+          "trip_id": "674_2889201",
+          "service_id": "674_1000000002118",
+          "start_time": "09:32:00",
+          "end_time": "10:01:00"
+        },
+        {
+          "trip_id": "674_2889202",
+          "service_id": "674_1000000002118",
+          "start_time": "10:02:00",
+          "end_time": "10:31:00"
+        },
+        {
+          "trip_id": "674_2889203",
+          "service_id": "674_1000000002118",
+          "start_time": "10:32:00",
+          "end_time": "11:01:00"
+        },
+        {
+          "trip_id": "674_2889204",
+          "service_id": "674_1000000002118",
+          "start_time": "11:02:00",
+          "end_time": "11:31:00"
+        },
+        {
+          "trip_id": "674_2889205",
+          "service_id": "674_1000000002118",
+          "start_time": "11:32:00",
+          "end_time": "12:01:00"
+        },
+        {
+          "trip_id": "674_2889206",
+          "service_id": "674_1000000002118",
+          "start_time": "12:02:00",
+          "end_time": "12:31:00"
+        },
+        {
+          "trip_id": "674_2889207",
+          "service_id": "674_1000000002118",
+          "start_time": "12:32:00",
+          "end_time": "13:01:00"
+        },
+        {
+          "trip_id": "674_2889418",
+          "service_id": "674_1000000002118",
+          "start_time": "13:02:00",
+          "end_time": "13:31:00"
+        },
+        {
+          "trip_id": "674_2889419",
+          "service_id": "674_1000000002118",
+          "start_time": "13:32:00",
+          "end_time": "14:01:00"
+        },
+        {
+          "trip_id": "674_2889198",
+          "service_id": "674_1000000002118",
+          "start_time": "14:02:00",
+          "end_time": "14:31:00"
+        },
+        {
+          "trip_id": "674_2889210",
+          "service_id": "674_1000000002118",
+          "start_time": "14:32:00",
+          "end_time": "15:01:00"
+        },
+        {
+          "trip_id": "674_2889211",
+          "service_id": "674_1000000002118",
+          "start_time": "15:02:00",
+          "end_time": "15:31:00"
+        },
+        {
+          "trip_id": "674_2889212",
+          "service_id": "674_1000000002118",
+          "start_time": "15:32:00",
+          "end_time": "16:01:00"
+        },
+        {
+          "trip_id": "674_2889213",
+          "service_id": "674_1000000002118",
+          "start_time": "16:02:00",
+          "end_time": "16:31:00"
+        },
+        {
+          "trip_id": "674_2889214",
+          "service_id": "674_1000000002118",
+          "start_time": "16:32:00",
+          "end_time": "17:01:00"
+        },
+        {
+          "trip_id": "674_2889215",
+          "service_id": "674_1000000002118",
+          "start_time": "17:02:00",
+          "end_time": "17:31:00"
+        },
+        {
+          "trip_id": "674_2889216",
+          "service_id": "674_1000000002118",
+          "start_time": "17:32:00",
+          "end_time": "18:01:00"
+        },
+        {
+          "trip_id": "674_2889217",
+          "service_id": "674_1000000002118",
+          "start_time": "18:02:00",
+          "end_time": "18:31:00"
+        },
+        {
+          "trip_id": "674_2889218",
+          "service_id": "674_1000000002118",
+          "start_time": "18:32:00",
+          "end_time": "19:01:00"
+        },
+        {
+          "trip_id": "674_2889219",
+          "service_id": "674_1000000002118",
+          "start_time": "19:02:00",
+          "end_time": "19:31:00"
+        },
+        {
+          "trip_id": "674_2889220",
+          "service_id": "674_1000000002118",
+          "start_time": "19:32:00",
+          "end_time": "20:01:00"
+        }
+      ]
+    }
+  ]
+}

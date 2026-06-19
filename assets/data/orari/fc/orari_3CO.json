@@ -1,0 +1,246 @@
+{
+  "estrazione": "Orari da route_3CO.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_3CO.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "3CO",
+    "name": "Linea 3CO",
+    "direzioni_percorso": [
+      "Celle > Cesenatico (P. Comandini)",
+      "Cesenatico (P. Comandini) > Celle"
+    ],
+    "route_id": "3CO"
+  },
+  "totale_trips": 28,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Celle > Cesenatico (P. Comandini)",
+      "capolinea_partenza": {
+        "stop_id": "30220",
+        "stop_name": "Celle"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10721",
+        "stop_name": "Cesenatico (P. Comandini)"
+      },
+      "trip_count": 14,
+      "orari_partenza": [
+        "07:20:00",
+        "07:30:00",
+        "08:45:00",
+        "10:30:00",
+        "11:50:00",
+        "12:30:00",
+        "13:30:00",
+        "13:45:00",
+        "15:30:00",
+        "16:30:00",
+        "17:30:00",
+        "17:50:00",
+        "18:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086269",
+          "service_id": "833_1000000006947",
+          "start_time": "07:20:00",
+          "end_time": "07:45:00"
+        },
+        {
+          "trip_id": "833_1086270",
+          "service_id": "833_1000000006957",
+          "start_time": "07:30:00",
+          "end_time": "07:55:00"
+        },
+        {
+          "trip_id": "833_1086271",
+          "service_id": "833_1000000006947",
+          "start_time": "08:45:00",
+          "end_time": "09:10:00"
+        },
+        {
+          "trip_id": "833_1086272",
+          "service_id": "833_1000000006957",
+          "start_time": "10:30:00",
+          "end_time": "10:55:00"
+        },
+        {
+          "trip_id": "833_1086273",
+          "service_id": "833_1000000006947",
+          "start_time": "10:30:00",
+          "end_time": "10:55:00"
+        },
+        {
+          "trip_id": "833_1086281",
+          "service_id": "833_1000000006930",
+          "start_time": "11:50:00",
+          "end_time": "12:18:00"
+        },
+        {
+          "trip_id": "833_1086274",
+          "service_id": "833_1000000006943",
+          "start_time": "12:30:00",
+          "end_time": "12:55:00"
+        },
+        {
+          "trip_id": "833_1086275",
+          "service_id": "833_1000000006957",
+          "start_time": "13:30:00",
+          "end_time": "13:55:00"
+        },
+        {
+          "trip_id": "833_1086280",
+          "service_id": "833_1000000006947",
+          "start_time": "13:45:00",
+          "end_time": "14:10:00"
+        },
+        {
+          "trip_id": "833_1086276",
+          "service_id": "833_1000000006947",
+          "start_time": "15:30:00",
+          "end_time": "15:55:00"
+        },
+        {
+          "trip_id": "833_1086277",
+          "service_id": "833_1000000006957",
+          "start_time": "16:30:00",
+          "end_time": "16:55:00"
+        },
+        {
+          "trip_id": "833_1086278",
+          "service_id": "833_1000000006943",
+          "start_time": "17:30:00",
+          "end_time": "17:55:00"
+        },
+        {
+          "trip_id": "833_1086282",
+          "service_id": "833_1000000006930",
+          "start_time": "17:50:00",
+          "end_time": "18:18:00"
+        },
+        {
+          "trip_id": "833_1086279",
+          "service_id": "833_1000000006947",
+          "start_time": "18:45:00",
+          "end_time": "19:10:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cesenatico (P. Comandini) > Celle",
+      "capolinea_partenza": {
+        "stop_id": "10722",
+        "stop_name": "Cesenatico (P. Comandini)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30220",
+        "stop_name": "Celle"
+      },
+      "trip_count": 14,
+      "orari_partenza": [
+        "08:15:00",
+        "09:20:00",
+        "09:40:00",
+        "11:20:00",
+        "12:40:00",
+        "13:20:00",
+        "14:20:00",
+        "15:40:00",
+        "16:20:00",
+        "18:20:00",
+        "18:40:00",
+        "19:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086283",
+          "service_id": "833_1000000006943",
+          "start_time": "08:15:00",
+          "end_time": "08:40:00"
+        },
+        {
+          "trip_id": "833_1086296",
+          "service_id": "833_1000000006930",
+          "start_time": "08:15:00",
+          "end_time": "08:43:00"
+        },
+        {
+          "trip_id": "833_1086284",
+          "service_id": "833_1000000006947",
+          "start_time": "09:20:00",
+          "end_time": "09:45:00"
+        },
+        {
+          "trip_id": "833_1086285",
+          "service_id": "833_1000000006957",
+          "start_time": "09:40:00",
+          "end_time": "10:05:00"
+        },
+        {
+          "trip_id": "833_1086286",
+          "service_id": "833_1000000006947",
+          "start_time": "11:20:00",
+          "end_time": "11:45:00"
+        },
+        {
+          "trip_id": "833_1086287",
+          "service_id": "833_1000000006957",
+          "start_time": "12:40:00",
+          "end_time": "13:05:00"
+        },
+        {
+          "trip_id": "833_1086294",
+          "service_id": "833_1000000006947",
+          "start_time": "13:20:00",
+          "end_time": "13:45:00"
+        },
+        {
+          "trip_id": "833_1086288",
+          "service_id": "833_1000000006943",
+          "start_time": "14:20:00",
+          "end_time": "14:45:00"
+        },
+        {
+          "trip_id": "833_1087312",
+          "service_id": "833_1000000006930",
+          "start_time": "14:20:00",
+          "end_time": "14:48:00"
+        },
+        {
+          "trip_id": "833_1086289",
+          "service_id": "833_1000000006957",
+          "start_time": "15:40:00",
+          "end_time": "16:05:00"
+        },
+        {
+          "trip_id": "833_1086290",
+          "service_id": "833_1000000006947",
+          "start_time": "16:20:00",
+          "end_time": "16:45:00"
+        },
+        {
+          "trip_id": "833_1086291",
+          "service_id": "833_1000000006947",
+          "start_time": "18:20:00",
+          "end_time": "18:45:00"
+        },
+        {
+          "trip_id": "833_1086293",
+          "service_id": "833_1000000006957",
+          "start_time": "18:40:00",
+          "end_time": "19:05:00"
+        },
+        {
+          "trip_id": "833_1086292",
+          "service_id": "833_1000000006947",
+          "start_time": "19:20:00",
+          "end_time": "19:45:00"
+        }
+      ]
+    }
+  ]
+}

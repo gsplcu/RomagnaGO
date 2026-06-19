@@ -1,0 +1,372 @@
+{
+  "estrazione": "Orari da route_166.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_166.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "166",
+    "name": "Linea 166",
+    "direzioni_percorso": [
+      "Montebello > Celletta-Cupa",
+      "Montebello > Municipio",
+      "Montebello > Santarcangelo Fs",
+      "P.Zza Liberta > Municipio",
+      "P.Zza Liberta > Santarcangelo Fs",
+      "P.Zza Marconi > Montebello",
+      "Pantano > Celletta-Cupa",
+      "Santarcangelo Fs > Montebello",
+      "Santarcangelo Fs > P.Zza Liberta",
+      "Santarcangelo Fs > Pantano"
+    ],
+    "route_id": "166"
+  },
+  "totale_trips": 25,
+  "totale_direzioni_percorso": 10,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Montebello > Celletta-Cupa",
+      "capolinea_partenza": {
+        "stop_id": "Y00011",
+        "stop_name": "Montebello"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00089",
+        "stop_name": "Celletta-Cupa"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "18:53:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4024334",
+          "service_id": "404_1000000001810",
+          "start_time": "18:53:00",
+          "end_time": "19:16:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Montebello > Municipio",
+      "capolinea_partenza": {
+        "stop_id": "Y00011",
+        "stop_name": "Montebello"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00092",
+        "stop_name": "Municipio"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "08:20:00",
+        "13:39:00",
+        "19:39:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4038440",
+          "service_id": "404_1000000001812",
+          "start_time": "08:20:00",
+          "end_time": "08:56:00"
+        },
+        {
+          "trip_id": "404_4038441",
+          "service_id": "404_1000000001812",
+          "start_time": "13:39:00",
+          "end_time": "14:15:00"
+        },
+        {
+          "trip_id": "404_4044587",
+          "service_id": "404_1000000001812",
+          "start_time": "19:39:00",
+          "end_time": "20:03:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Montebello > Santarcangelo Fs",
+      "capolinea_partenza": {
+        "stop_id": "Y00011",
+        "stop_name": "Montebello"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00014",
+        "stop_name": "Santarcangelo Fs"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "07:50:00",
+        "10:08:00",
+        "11:58:00",
+        "14:58:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4031608",
+          "service_id": "404_1000000001810",
+          "start_time": "07:50:00",
+          "end_time": "08:29:00"
+        },
+        {
+          "trip_id": "404_4072589",
+          "service_id": "404_1000000001810",
+          "start_time": "10:08:00",
+          "end_time": "10:35:00"
+        },
+        {
+          "trip_id": "404_4072590",
+          "service_id": "404_1000000001810",
+          "start_time": "11:58:00",
+          "end_time": "12:25:00"
+        },
+        {
+          "trip_id": "404_4072591",
+          "service_id": "404_1000000001810",
+          "start_time": "14:58:00",
+          "end_time": "15:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Zza Liberta > Municipio",
+      "capolinea_partenza": {
+        "stop_id": "Y00046",
+        "stop_name": "P.Zza Liberta"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00092",
+        "stop_name": "Municipio"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4025137",
+          "service_id": "404_1000000001812",
+          "start_time": "07:30:00",
+          "end_time": "07:49:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Zza Liberta > Santarcangelo Fs",
+      "capolinea_partenza": {
+        "stop_id": "Y00046",
+        "stop_name": "P.Zza Liberta"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00014",
+        "stop_name": "Santarcangelo Fs"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "06:37:00",
+        "13:13:00",
+        "14:03:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4043771",
+          "service_id": "404_1000000001810",
+          "start_time": "06:37:00",
+          "end_time": "06:59:00"
+        },
+        {
+          "trip_id": "404_4043773",
+          "service_id": "404_1000000001810",
+          "start_time": "13:13:00",
+          "end_time": "13:35:00"
+        },
+        {
+          "trip_id": "404_4043772",
+          "service_id": "404_1000000001810",
+          "start_time": "14:03:00",
+          "end_time": "14:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "P.Zza Marconi > Montebello",
+      "capolinea_partenza": {
+        "stop_id": "D00064",
+        "stop_name": "P.Zza Marconi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "Y00011",
+        "stop_name": "Montebello"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4041574",
+          "service_id": "404_1000000001812",
+          "start_time": "07:55:00",
+          "end_time": "08:19:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Pantano > Celletta-Cupa",
+      "capolinea_partenza": {
+        "stop_id": "Q00013",
+        "stop_name": "Pantano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "D00089",
+        "stop_name": "Celletta-Cupa"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "08:54:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4044579",
+          "service_id": "404_1000000001810",
+          "start_time": "08:54:00",
+          "end_time": "09:03:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Santarcangelo Fs > Montebello",
+      "capolinea_partenza": {
+        "stop_id": "D00014",
+        "stop_name": "Santarcangelo Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "Y00011",
+        "stop_name": "Montebello"
+      },
+      "trip_count": 7,
+      "orari_partenza": [
+        "07:15:00",
+        "09:35:00",
+        "11:20:00",
+        "13:00:00",
+        "14:30:00",
+        "18:25:00",
+        "19:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4113036",
+          "service_id": "404_1000000001810",
+          "start_time": "07:15:00",
+          "end_time": "07:42:00"
+        },
+        {
+          "trip_id": "404_4113037",
+          "service_id": "404_1000000001810",
+          "start_time": "09:35:00",
+          "end_time": "10:02:00"
+        },
+        {
+          "trip_id": "404_4113039",
+          "service_id": "404_1000000001810",
+          "start_time": "11:20:00",
+          "end_time": "11:47:00"
+        },
+        {
+          "trip_id": "404_4053780",
+          "service_id": "404_1000000001812",
+          "start_time": "13:00:00",
+          "end_time": "13:37:00"
+        },
+        {
+          "trip_id": "404_4113040",
+          "service_id": "404_1000000001810",
+          "start_time": "14:30:00",
+          "end_time": "14:57:00"
+        },
+        {
+          "trip_id": "404_4113038",
+          "service_id": "404_1000000001810",
+          "start_time": "18:25:00",
+          "end_time": "18:52:00"
+        },
+        {
+          "trip_id": "404_4053779",
+          "service_id": "404_1000000001812",
+          "start_time": "19:00:00",
+          "end_time": "19:37:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Santarcangelo Fs > P.Zza Liberta",
+      "capolinea_partenza": {
+        "stop_id": "D00014",
+        "stop_name": "Santarcangelo Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "Y00018",
+        "stop_name": "P.Zza Liberta"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "12:40:00",
+        "13:40:00",
+        "19:57:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4041592",
+          "service_id": "404_1000000001810",
+          "start_time": "12:40:00",
+          "end_time": "13:12:00"
+        },
+        {
+          "trip_id": "404_4035244",
+          "service_id": "404_1000000001810",
+          "start_time": "13:40:00",
+          "end_time": "14:02:00"
+        },
+        {
+          "trip_id": "404_4041591",
+          "service_id": "404_1000000001810",
+          "start_time": "19:57:00",
+          "end_time": "20:29:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Santarcangelo Fs > Pantano",
+      "capolinea_partenza": {
+        "stop_id": "D00014",
+        "stop_name": "Santarcangelo Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "Q00013",
+        "stop_name": "Pantano"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "08:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4088651",
+          "service_id": "404_1000000001810",
+          "start_time": "08:35:00",
+          "end_time": "08:52:00"
+        }
+      ]
+    }
+  ]
+}

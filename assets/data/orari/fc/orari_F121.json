@@ -1,0 +1,229 @@
+{
+  "estrazione": "Orari da route_F121.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F121.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F121",
+    "name": "Linea F121",
+    "direzioni_percorso": [
+      "Centro Forlimpopoli > P.Zza Liberta",
+      "Centro Forlimpopoli > S.Maria Nuova Chiesa",
+      "P.Zza Liberta > Centro Forlimpopoli",
+      "S.Maria Nuova Chiesa > Centro Forlimpopoli"
+    ],
+    "route_id": "F121"
+  },
+  "totale_trips": 20,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Centro Forlimpopoli > P.Zza Liberta",
+      "capolinea_partenza": {
+        "stop_id": "11311",
+        "stop_name": "Centro Forlimpopoli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "19241",
+        "stop_name": "P.Zza Liberta"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "08:15:00",
+        "10:38:00",
+        "12:13:00",
+        "14:23:00",
+        "16:33:00",
+        "18:48:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031205",
+          "service_id": "833_1000000006948",
+          "start_time": "08:15:00",
+          "end_time": "08:27:00"
+        },
+        {
+          "trip_id": "833_1031206",
+          "service_id": "833_1000000006948",
+          "start_time": "10:38:00",
+          "end_time": "10:50:00"
+        },
+        {
+          "trip_id": "833_1031207",
+          "service_id": "833_1000000006948",
+          "start_time": "12:13:00",
+          "end_time": "12:25:00"
+        },
+        {
+          "trip_id": "833_1031208",
+          "service_id": "833_1000000006948",
+          "start_time": "14:23:00",
+          "end_time": "14:35:00"
+        },
+        {
+          "trip_id": "833_1031209",
+          "service_id": "833_1000000006948",
+          "start_time": "16:33:00",
+          "end_time": "16:45:00"
+        },
+        {
+          "trip_id": "833_1031210",
+          "service_id": "833_1000000006948",
+          "start_time": "18:48:00",
+          "end_time": "19:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Centro Forlimpopoli > S.Maria Nuova Chiesa",
+      "capolinea_partenza": {
+        "stop_id": "11311",
+        "stop_name": "Centro Forlimpopoli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "16792",
+        "stop_name": "S.Maria Nuova Chiesa"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "07:45:00",
+        "11:05:00",
+        "14:45:00",
+        "17:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036573",
+          "service_id": "833_1000000006948",
+          "start_time": "07:45:00",
+          "end_time": "07:57:00"
+        },
+        {
+          "trip_id": "833_1036574",
+          "service_id": "833_1000000006948",
+          "start_time": "11:05:00",
+          "end_time": "11:17:00"
+        },
+        {
+          "trip_id": "833_1036575",
+          "service_id": "833_1000000006948",
+          "start_time": "14:45:00",
+          "end_time": "14:57:00"
+        },
+        {
+          "trip_id": "833_1036576",
+          "service_id": "833_1000000006948",
+          "start_time": "17:30:00",
+          "end_time": "17:42:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Zza Liberta > Centro Forlimpopoli",
+      "capolinea_partenza": {
+        "stop_id": "19241",
+        "stop_name": "P.Zza Liberta"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11311",
+        "stop_name": "Centro Forlimpopoli"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "08:27:00",
+        "10:50:00",
+        "12:25:00",
+        "14:35:00",
+        "16:45:00",
+        "19:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036811",
+          "service_id": "833_1000000006948",
+          "start_time": "08:27:00",
+          "end_time": "08:37:00"
+        },
+        {
+          "trip_id": "833_1036812",
+          "service_id": "833_1000000006948",
+          "start_time": "10:50:00",
+          "end_time": "11:00:00"
+        },
+        {
+          "trip_id": "833_1036813",
+          "service_id": "833_1000000006948",
+          "start_time": "12:25:00",
+          "end_time": "12:35:00"
+        },
+        {
+          "trip_id": "833_1036814",
+          "service_id": "833_1000000006948",
+          "start_time": "14:35:00",
+          "end_time": "14:45:00"
+        },
+        {
+          "trip_id": "833_1036815",
+          "service_id": "833_1000000006948",
+          "start_time": "16:45:00",
+          "end_time": "16:55:00"
+        },
+        {
+          "trip_id": "833_1036816",
+          "service_id": "833_1000000006948",
+          "start_time": "19:00:00",
+          "end_time": "19:10:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.Maria Nuova Chiesa > Centro Forlimpopoli",
+      "capolinea_partenza": {
+        "stop_id": "16791",
+        "stop_name": "S.Maria Nuova Chiesa"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11311",
+        "stop_name": "Centro Forlimpopoli"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "08:00:00",
+        "11:20:00",
+        "15:00:00",
+        "17:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036800",
+          "service_id": "833_1000000006948",
+          "start_time": "08:00:00",
+          "end_time": "08:12:00"
+        },
+        {
+          "trip_id": "833_1036801",
+          "service_id": "833_1000000006948",
+          "start_time": "11:20:00",
+          "end_time": "11:32:00"
+        },
+        {
+          "trip_id": "833_1036802",
+          "service_id": "833_1000000006948",
+          "start_time": "15:00:00",
+          "end_time": "15:12:00"
+        },
+        {
+          "trip_id": "833_1036803",
+          "service_id": "833_1000000006948",
+          "start_time": "17:45:00",
+          "end_time": "17:57:00"
+        }
+      ]
+    }
+  ]
+}

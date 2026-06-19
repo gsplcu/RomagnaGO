@@ -1,0 +1,282 @@
+{
+  "estrazione": "Orari da route_177.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_177.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "177",
+    "name": "Linea 177",
+    "direzioni_percorso": [
+      "Faenza Fs E > Foro Boario",
+      "Faenza Fs E > Lugo Punto Bus",
+      "Lugo Punto Bus > Faenza Fs E",
+      "Lugo Punto Bus > P.Zza Caduti",
+      "P.Zza Caduti > Lugo Punto Bus"
+    ],
+    "route_id": "177"
+  },
+  "totale_trips": 25,
+  "totale_direzioni_percorso": 5,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Faenza Fs E > Foro Boario",
+      "capolinea_partenza": {
+        "stop_id": "780440",
+        "stop_name": "Faenza Fs E"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760001",
+        "stop_name": "Foro Boario"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "15:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888269",
+          "service_id": "674_1000000002117",
+          "start_time": "15:20:00",
+          "end_time": "15:55:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Faenza Fs E > Lugo Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "780440",
+        "stop_name": "Faenza Fs E"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "07:00:00",
+        "12:20:00",
+        "14:20:00",
+        "17:20:00",
+        "18:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888264",
+          "service_id": "674_1000000002117",
+          "start_time": "07:00:00",
+          "end_time": "07:31:00"
+        },
+        {
+          "trip_id": "674_2888265",
+          "service_id": "674_1000000002117",
+          "start_time": "12:20:00",
+          "end_time": "12:51:00"
+        },
+        {
+          "trip_id": "674_2888266",
+          "service_id": "674_1000000002117",
+          "start_time": "14:20:00",
+          "end_time": "14:51:00"
+        },
+        {
+          "trip_id": "674_2888267",
+          "service_id": "674_1000000002117",
+          "start_time": "17:20:00",
+          "end_time": "17:51:00"
+        },
+        {
+          "trip_id": "674_2888268",
+          "service_id": "674_1000000002113",
+          "start_time": "18:50:00",
+          "end_time": "19:21:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Lugo Punto Bus > Faenza Fs E",
+      "capolinea_partenza": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780440",
+        "stop_name": "Faenza Fs E"
+      },
+      "trip_count": 7,
+      "orari_partenza": [
+        "06:23:00",
+        "07:29:00",
+        "09:05:00",
+        "14:26:00",
+        "17:55:00",
+        "19:30:00",
+        "20:46:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888257",
+          "service_id": "674_1000000002117",
+          "start_time": "06:23:00",
+          "end_time": "06:51:00"
+        },
+        {
+          "trip_id": "674_2888258",
+          "service_id": "674_1000000002117",
+          "start_time": "07:29:00",
+          "end_time": "08:00:00"
+        },
+        {
+          "trip_id": "674_2888259",
+          "service_id": "674_1000000002117",
+          "start_time": "09:05:00",
+          "end_time": "09:36:00"
+        },
+        {
+          "trip_id": "674_2888260",
+          "service_id": "674_1000000002117",
+          "start_time": "14:26:00",
+          "end_time": "14:57:00"
+        },
+        {
+          "trip_id": "674_2888261",
+          "service_id": "674_1000000002117",
+          "start_time": "17:55:00",
+          "end_time": "18:26:00"
+        },
+        {
+          "trip_id": "674_2888262",
+          "service_id": "674_1000000002117",
+          "start_time": "19:30:00",
+          "end_time": "20:01:00"
+        },
+        {
+          "trip_id": "674_2888263",
+          "service_id": "674_1000000002113",
+          "start_time": "20:46:00",
+          "end_time": "21:17:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Lugo Punto Bus > P.Zza Caduti",
+      "capolinea_partenza": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "745000",
+        "stop_name": "P.Zza Caduti"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "07:32:00",
+        "12:52:00",
+        "14:52:00",
+        "17:52:00",
+        "19:22:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796493",
+          "service_id": "674_1000000002117",
+          "start_time": "07:32:00",
+          "end_time": "08:10:00"
+        },
+        {
+          "trip_id": "674_2796494",
+          "service_id": "674_1000000002117",
+          "start_time": "12:52:00",
+          "end_time": "13:30:00"
+        },
+        {
+          "trip_id": "674_2796495",
+          "service_id": "674_1000000002117",
+          "start_time": "14:52:00",
+          "end_time": "15:30:00"
+        },
+        {
+          "trip_id": "674_2796496",
+          "service_id": "674_1000000002117",
+          "start_time": "17:52:00",
+          "end_time": "18:30:00"
+        },
+        {
+          "trip_id": "674_2799004",
+          "service_id": "674_1000000002113",
+          "start_time": "19:22:00",
+          "end_time": "20:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "P.Zza Caduti > Lugo Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "745010",
+        "stop_name": "P.Zza Caduti"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "trip_count": 7,
+      "orari_partenza": [
+        "05:40:00",
+        "06:45:00",
+        "08:25:00",
+        "13:46:00",
+        "17:15:00",
+        "18:50:00",
+        "20:06:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796487",
+          "service_id": "674_1000000002117",
+          "start_time": "05:40:00",
+          "end_time": "06:22:00"
+        },
+        {
+          "trip_id": "674_2796488",
+          "service_id": "674_1000000002117",
+          "start_time": "06:45:00",
+          "end_time": "07:29:00"
+        },
+        {
+          "trip_id": "674_2796489",
+          "service_id": "674_1000000002117",
+          "start_time": "08:25:00",
+          "end_time": "09:04:00"
+        },
+        {
+          "trip_id": "674_2796490",
+          "service_id": "674_1000000002117",
+          "start_time": "13:46:00",
+          "end_time": "14:25:00"
+        },
+        {
+          "trip_id": "674_2796491",
+          "service_id": "674_1000000002117",
+          "start_time": "17:15:00",
+          "end_time": "17:54:00"
+        },
+        {
+          "trip_id": "674_2796492",
+          "service_id": "674_1000000002117",
+          "start_time": "18:50:00",
+          "end_time": "19:29:00"
+        },
+        {
+          "trip_id": "674_2799003",
+          "service_id": "674_1000000002113",
+          "start_time": "20:06:00",
+          "end_time": "20:45:00"
+        }
+      ]
+    }
+  ]
+}

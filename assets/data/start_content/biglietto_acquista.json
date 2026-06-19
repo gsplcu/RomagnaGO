@@ -1,0 +1,135 @@
+{
+  "sourceUrl": "https://www.startromagna.it/chat-go/",
+  "whatsapp": {
+    "intro": "Con Chat&Go acquisti biglietti per autobus urbani, interurbani e traghetto di Ravenna direttamente su WhatsApp, senza app aggiuntive e senza registrazione.",
+    "chips": [
+      "Bus e traghetto",
+      "Pagamento digitale sicuro",
+      "Disponibile 24/7"
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "title": "Avvia la chat su WhatsApp",
+        "text": "Clicca il pulsante qui sotto oppure inquadra il QR Code alle fermate."
+      },
+      {
+        "number": 2,
+        "title": "Scegli il biglietto",
+        "text": "L’assistente virtuale propone i titoli per TPL e traghetto di Ravenna."
+      },
+      {
+        "number": 3,
+        "title": "Paga e ricevi il QR Code",
+        "text": "Concludi il pagamento e ricevi in chat il link al biglietto digitale."
+      }
+    ],
+    "bullets": [
+      "Non serve scaricare nuove app: basta WhatsApp.",
+      "Puoi acquistare anche all’ultimo momento prima di salire.",
+      "I biglietti restano nella chat anche se chiudi l’app.",
+      "È possibile acquistare per più passeggeri che viaggiano insieme."
+    ],
+    "note": "I titoli bus vanno convalidati sul validatore verde. I biglietti acquistati su WhatsApp sono personali e non trasferibili."
+  },
+  "onboard": {
+    "intro": "StarTap è il pagamento contactless con carta, smartphone o smartwatch sul validatore verde di bordo. Selezioni il titolo da 1 a 4 zone e la convalida avviene in pochi secondi.",
+    "primaDiSalireBullets": [
+      "Carta contactless Mastercard, Maestro, Visa o VPay.",
+      "Anche smartphone e smartwatch con NFC abilitato.",
+      "1 carta = 1 passeggero per ogni acquisto."
+    ],
+    "acquistoBullets": [
+      "Avvicina carta o dispositivo al validatore verde.",
+      "Seleziona il titolo da 1, 2, 3 o 4 zone.",
+      "Attendi luce verde, messaggio e segnale acustico."
+    ],
+    "note": "Tariffa identica agli altri canali, senza commissioni aggiuntive. Le carte Postepay Visa non sono compatibili. In caso di luce rossa riprova o usa un altro canale di acquisto.",
+    "fareTable": [
+      {
+        "ticket": "1 zona",
+        "price": "€ 2,00",
+        "validity": "60 min"
+      },
+      {
+        "ticket": "2 zone",
+        "price": "€ 3,00",
+        "validity": "75 min"
+      },
+      {
+        "ticket": "3 zone",
+        "price": "€ 4,00",
+        "validity": "90 min"
+      },
+      {
+        "ticket": "4 zone",
+        "price": "€ 5,00",
+        "validity": "105 min"
+      }
+    ]
+  },
+  "app": {
+    "intro": "Con le app partner puoi acquistare titoli digitali Start Romagna dal telefono, attivarli e convalidarli secondo le istruzioni dell’app scelta.",
+    "apps": [
+      {
+        "name": "Chat&Go",
+        "description": "Acquisto su WhatsApp con assistente Start Romagna. Bus, Metromare e traghetto."
+      },
+      {
+        "name": "MooneyGo",
+        "description": "Pianifica il viaggio e acquista biglietti e abbonamenti bus/treno."
+      },
+      {
+        "name": "Roger",
+        "description": "App regionale per muoversi in Emilia-Romagna e acquistare titoli di viaggio."
+      },
+      {
+        "name": "DropTicket",
+        "description": "Biglietti digitali con carta, sistemi dedicati o credito telefonico."
+      }
+    ],
+    "note": "La disponibilità dei titoli può variare tra le app. I titoli non utilizzati non sono rimborsabili: verifica sempre il titolo scelto."
+  },
+  "emettitrice": {
+    "intro": "Le emettitrici automatiche permettono di acquistare biglietti e, in molti casi, multicorsa e abbonamenti con contanti o carte, h24.",
+    "terraBullets": [
+      "Presenti a Rimini, Riccione, Forlì, Cesena, Santarcangelo e altre località.",
+      "Biglietti da 1 a 9 zone, multicorsa e Day Ticket.",
+      "Pagamento con monete, banconote, Bancomat e carte di credito."
+    ],
+    "traghettoBody": "Agli imbarchi di Porto Corsini e Marina di Ravenna per pedoni e ciclisti, con pagamento in moneta e banconote.",
+    "bordoBullets": [
+      "Su alcuni bus turistici del bacino di Rimini.",
+      "Pagamento solo in monete, senza resto.",
+      "Il titolo cartaceo non va convalidato; è previsto sovrapprezzo.",
+      "Disponibili anche Metromare 75 min e 24h senza sovrapprezzo."
+    ],
+    "fareTable": [
+      {
+        "ticket": "1 zona",
+        "price": "€ 3,00",
+        "validity": "60 min"
+      },
+      {
+        "ticket": "2 zone",
+        "price": "€ 4,00",
+        "validity": "75 min"
+      },
+      {
+        "ticket": "3 zone",
+        "price": "€ 5,00",
+        "validity": "90 min"
+      },
+      {
+        "ticket": "4 zone",
+        "price": "€ 6,00",
+        "validity": "105 min"
+      },
+      {
+        "ticket": "5 zone",
+        "price": "€ 7,00",
+        "validity": "135 min"
+      }
+    ]
+  }
+}

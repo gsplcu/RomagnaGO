@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="https://gpx.studio" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>NAV Cimitero Cesenatico</name>
+    <author>
+      <name>gpx.studio</name>
+      <link href="https://gpx.studio"/>
+    </author>
+  </metadata>
+  <wpt lat="44.205758" lon="12.388519">
+    <ele>1</ele>
+    <name>44.20575811292511, 12.388519068476837</name>
+  </wpt>
+  <trk>
+    <name>NAV Cimitero Cesenatico</name>
+    <trkseg>
+      <trkpt lat="44.205667" lon="12.388297">
+        <ele>-2.45</ele>
+      </trkpt>
+      <trkpt lat="44.206106" lon="12.387844">
+        <ele>-2.6</ele>
+      </trkpt>
+      <trkpt lat="44.20651" lon="12.38746">
+        <ele>-2.11</ele>
+      </trkpt>
+      <trkpt lat="44.208682" lon="12.385229">
+        <ele>-0.53</ele>
+      </trkpt>
+      <trkpt lat="44.209521" lon="12.384368">
+        <ele>0.08</ele>
+      </trkpt>
+      <trkpt lat="44.209564" lon="12.384471">
+        <ele>0.21</ele>
+      </trkpt>
+      <trkpt lat="44.210493" lon="12.38628">
+        <ele>3.02</ele>
+      </trkpt>
+      <trkpt lat="44.210614" lon="12.386525">
+        <ele>2.81</ele>
+      </trkpt>
+      <trkpt lat="44.210647" lon="12.386704">
+        <ele>2.24</ele>
+      </trkpt>
+      <trkpt lat="44.212188" lon="12.389797">
+        <ele>1.5</ele>
+      </trkpt>
+      <trkpt lat="44.213023" lon="12.389118">
+        <ele>2.1</ele>
+      </trkpt>
+      <trkpt lat="44.215352" lon="12.387224">
+        <ele>3.01</ele>
+      </trkpt>
+      <trkpt lat="44.215965" lon="12.386713">
+        <ele>2.66</ele>
+      </trkpt>
+      <trkpt lat="44.216698" lon="12.386144">
+        <ele>2.74</ele>
+      </trkpt>
+      <trkpt lat="44.216698" lon="12.386144">
+        <ele>2.74</ele>
+      </trkpt>
+      <trkpt lat="44.216926" lon="12.385967">
+        <ele>2.76</ele>
+      </trkpt>
+      <trkpt lat="44.217797" lon="12.385247">
+        <ele>3.33</ele>
+      </trkpt>
+      <trkpt lat="44.218309" lon="12.384846">
+        <ele>3.42</ele>
+      </trkpt>
+      <trkpt lat="44.219424" lon="12.383941">
+        <ele>2.79</ele>
+      </trkpt>
+      <trkpt lat="44.218936" lon="12.384339">
+        <ele>3.55</ele>
+      </trkpt>
+      <trkpt lat="44.218309" lon="12.384846">
+        <ele>3.42</ele>
+      </trkpt>
+      <trkpt lat="44.217797" lon="12.385247">
+        <ele>3.33</ele>
+      </trkpt>
+      <trkpt lat="44.216926" lon="12.385967">
+        <ele>2.76</ele>
+      </trkpt>
+      <trkpt lat="44.215965" lon="12.386713">
+        <ele>2.66</ele>
+      </trkpt>
+      <trkpt lat="44.215352" lon="12.387224">
+        <ele>3.01</ele>
+      </trkpt>
+      <trkpt lat="44.21231" lon="12.389697">
+        <ele>1.31</ele>
+      </trkpt>
+      <trkpt lat="44.211978" lon="12.389057">
+        <ele>0.31</ele>
+      </trkpt>
+      <trkpt lat="44.210776" lon="12.386737">
+        <ele>2.15</ele>
+      </trkpt>
+      <trkpt lat="44.210705" lon="12.386599">
+        <ele>2.67</ele>
+      </trkpt>
+      <trkpt lat="44.210614" lon="12.386525">
+        <ele>2.81</ele>
+      </trkpt>
+      <trkpt lat="44.210394" lon="12.386082">
+        <ele>3.2</ele>
+      </trkpt>
+      <trkpt lat="44.209564" lon="12.384471">
+        <ele>0.21</ele>
+      </trkpt>
+      <trkpt lat="44.209521" lon="12.384368">
+        <ele>0.08</ele>
+      </trkpt>
+      <trkpt lat="44.20935" lon="12.384543">
+        <ele>-0.04</ele>
+      </trkpt>
+      <trkpt lat="44.20651" lon="12.38746">
+        <ele>-2.11</ele>
+      </trkpt>
+      <trkpt lat="44.205992" lon="12.38796">
+        <ele>-2.76</ele>
+      </trkpt>
+      <trkpt lat="44.205667" lon="12.388297">
+        <ele>-2.45</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,92 @@
+{
+  "estrazione": "Orari da route_147.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_147.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "147",
+    "name": "Linea 147",
+    "direzioni_percorso": [
+      "Cesena Punto Bus C1 > P.Le Enichem",
+      "Cesena Punto Bus C1 > P.Zza Aldo Moro",
+      "P.Le Enichem > Cesena Punto Bus C1"
+    ],
+    "route_id": "147"
+  },
+  "totale_trips": 3,
+  "totale_direzioni_percorso": 3,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus C1 > P.Le Enichem",
+      "capolinea_partenza": {
+        "stop_id": "897070",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "707900",
+        "stop_name": "P.Le Enichem"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2798997",
+          "service_id": "674_1000000002113",
+          "start_time": "06:30:00",
+          "end_time": "07:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus C1 > P.Zza Aldo Moro",
+      "capolinea_partenza": {
+        "stop_id": "897070",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "701000",
+        "stop_name": "P.Zza Aldo Moro"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2885305",
+          "service_id": "674_1000000002124",
+          "start_time": "06:30:00",
+          "end_time": "07:22:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Le Enichem > Cesena Punto Bus C1",
+      "capolinea_partenza": {
+        "stop_id": "707900",
+        "stop_name": "P.Le Enichem"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "897070",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "17:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889616",
+          "service_id": "674_1000000002113",
+          "start_time": "17:10:00",
+          "end_time": "18:25:00"
+        }
+      ]
+    }
+  ]
+}

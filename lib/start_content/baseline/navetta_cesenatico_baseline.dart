@@ -1,0 +1,158 @@
+/// Dati navetta Cesenatico senza dipendenze Flutter (baseline + sync).
+library;
+
+const kNavettaCesenaticoBaselineFeatures = [
+  {
+    'title': '400 posti auto',
+    'body':
+        'Grande parcheggio gratuito realizzato in materiale permeabile con oltre 90 nuove piantumazioni.',
+  },
+  {
+    'title': 'Servizio navetta',
+    'body':
+        'Collegamento gratuito con Atlantica, via De Varthema e via Diaz fino al lungomare.',
+  },
+  {
+    'title': 'Vicino al mare',
+    'body':
+        'Collegamento rapido verso Ponente grazie al percorso ciclo-pedonale e alla navetta dedicata.',
+  },
+];
+
+const kNavettaCesenaticoBaselineMapStops = [
+  {
+    'displayName': 'Parcheggio Cimitero',
+    'roleLabel': 'Capolinea',
+    'lat': 44.20575811292511,
+    'lon': 12.388519068476837,
+  },
+  {
+    'displayName': 'Atlantica',
+    'roleLabel': 'Andata',
+    'lat': 44.21152168619593,
+    'lon': 12.388710618544446,
+  },
+  {
+    'displayName': 'De Varthema',
+    'roleLabel': 'Andata',
+    'lat': 44.21535666971264,
+    'lon': 12.387248034467962,
+  },
+  {
+    'displayName': 'Diaz',
+    'roleLabel': 'Andata',
+    'lat': 44.21867569856016,
+    'lon': 12.384610408604605,
+  },
+  {
+    'displayName': 'De Varthema',
+    'roleLabel': 'Ritorno',
+    'lat': 44.21456067441028,
+    'lon': 12.387839695184384,
+  },
+  {
+    'displayName': 'Atlantica',
+    'roleLabel': 'Ritorno',
+    'lat': 44.2117541768743,
+    'lon': 12.388461529661793,
+  },
+];
+
+const kNavettaCesenaticoBaselineRouteStops = [
+  {'stopName': 'Parcheggio Cimitero', 'directionLabel': 'Partenza'},
+  {'stopName': 'Atlantica', 'directionLabel': 'Andata'},
+  {'stopName': 'De Varthema', 'directionLabel': 'Andata'},
+  {'stopName': 'Diaz', 'directionLabel': 'Andata'},
+  {'stopName': 'De Varthema', 'directionLabel': 'Ritorno'},
+  {'stopName': 'Atlantica', 'directionLabel': 'Ritorno'},
+  {'stopName': 'Parcheggio Cimitero', 'directionLabel': 'Arrivo'},
+];
+
+const kNavettaCesenaticoBaselineScheduleRows = [
+  [
+    '08:30', '08:50', '09:10', '09:30', '09:50', '10:10', '10:30', '10:50',
+    '11:10', '11:30', '11:50', '14:00', '14:20', '14:40', '15:00', '15:20',
+    '15:40', '16:00', '16:20', '16:40', '17:00', '17:20', '17:40', '18:00',
+    '18:20', '18:40',
+  ],
+  [
+    '08:33', '08:53', '09:13', '09:33', '09:53', '10:13', '10:33', '10:53',
+    '11:13', '11:33', '11:53', '14:03', '14:23', '14:43', '15:03', '15:23',
+    '15:43', '16:03', '16:23', '16:43', '17:03', '17:23', '17:43', '18:03',
+    '18:23', '18:43',
+  ],
+  [
+    '08:35', '08:55', '09:15', '09:35', '09:55', '10:15', '10:35', '10:55',
+    '11:15', '11:35', '11:55', '14:05', '14:25', '14:45', '15:05', '15:25',
+    '15:45', '16:05', '16:25', '16:45', '17:05', '17:25', '17:45', '18:05',
+    '18:25', '18:45',
+  ],
+  [
+    '08:36', '08:56', '09:16', '09:36', '09:56', '10:16', '10:36', '10:56',
+    '11:16', '11:36', '11:56', '14:06', '14:26', '14:46', '15:06', '15:26',
+    '15:46', '16:06', '16:26', '16:46', '17:06', '17:26', '17:46', '18:06',
+    '18:26', '18:46',
+  ],
+  [
+    '08:38', '08:58', '09:18', '09:38', '09:58', '10:18', '10:38', '10:58',
+    '11:18', '11:38', '11:58', '14:08', '14:28', '14:48', '15:08', '15:28',
+    '15:48', '16:08', '16:28', '16:48', '17:08', '17:28', '17:48', '18:08',
+    '18:28', '18:48',
+  ],
+  [
+    '08:40', '09:00', '09:20', '09:40', '10:00', '10:20', '10:40', '11:00',
+    '11:20', '11:40', '12:00', '14:10', '14:30', '14:50', '15:10', '15:30',
+    '15:50', '16:10', '16:30', '16:50', '17:10', '17:30', '17:50', '18:10',
+    '18:30', '18:50',
+  ],
+  [
+    '08:43', '09:03', '09:23', '09:43', '10:03', '10:23', '10:43', '11:03',
+    '11:23', '11:43', '12:03', '14:13', '14:33', '14:53', '15:13', '15:33',
+    '15:53', '16:13', '16:33', '16:53', '17:13', '17:33', '17:53', '18:13',
+    '18:33', '18:53',
+  ],
+];
+
+const kNavettaCesenaticoBaselineStopFilters = [
+  'Parcheggio Cimitero',
+  'Atlantica',
+  'De Varthema',
+  'Diaz',
+];
+
+Map<String, dynamic> baselineNavettaCesenatico() => {
+  'sourceUrl': 'https://www.startromagna.it/navetta-cesenatico/',
+  'features': kNavettaCesenaticoBaselineFeatures,
+  'mapStops': kNavettaCesenaticoBaselineMapStops,
+  'routeStops': kNavettaCesenaticoBaselineRouteStops,
+  'scheduleRows': kNavettaCesenaticoBaselineScheduleRows,
+  'stopFilters': kNavettaCesenaticoBaselineStopFilters,
+};
+
+List<List<String>> navettaCesenaticoScheduleRowsFromJson(Map<String, dynamic>? j) {
+  final raw = j?['scheduleRows'];
+  if (raw is! List) return _castSchedule(kNavettaCesenaticoBaselineScheduleRows);
+  return _castSchedule(raw);
+}
+
+List<Map<String, String>> navettaCesenaticoRouteStopsFromJson(Map<String, dynamic>? j) {
+  final raw = j?['routeStops'];
+  if (raw is! List) {
+    return kNavettaCesenaticoBaselineRouteStops
+        .map((e) => Map<String, String>.from(e))
+        .toList();
+  }
+  return [
+    for (final item in raw)
+      if (item is Map)
+        {
+          'stopName': '${item['stopName']}',
+          'directionLabel': '${item['directionLabel']}',
+        },
+  ];
+}
+
+List<List<String>> _castSchedule(List raw) => [
+  for (final row in raw)
+    if (row is List) [for (final c in row) '$c'],
+];

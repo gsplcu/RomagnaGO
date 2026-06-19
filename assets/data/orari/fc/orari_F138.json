@@ -1,0 +1,736 @@
+{
+  "estrazione": "Orari da route_F138.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F138.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F138",
+    "name": "Linea F138",
+    "direzioni_percorso": [
+      "Bagno Di Romagna > Balze",
+      "Bagno Di Romagna > Sarsina",
+      "Bagno Di Romagna > Verghereto",
+      "Balze > Bagno Di Romagna",
+      "Borello (Scuola Elementare) > Ca' Nuova Bacciolino",
+      "Ca' Nuova Bacciolino > Borello (Scuola Elementare)",
+      "Ca' Nuova Bacciolino > Cesena Punto Bus C2",
+      "Cesena Punto Bus C2 > Sarsina",
+      "Sarsina > Bagno Di R. (Terme)",
+      "Sarsina > Bagno Di Romagna",
+      "Sarsina > Cesena Punto Bus C2",
+      "Verghereto > Bagno Di Romagna"
+    ],
+    "route_id": "F138"
+  },
+  "totale_trips": 73,
+  "totale_direzioni_percorso": 12,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bagno Di Romagna > Balze",
+      "capolinea_partenza": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13590",
+        "stop_name": "Balze"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "08:35:00",
+        "10:30:00",
+        "14:00:00",
+        "16:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031372",
+          "service_id": "833_1000000006959",
+          "start_time": "08:35:00",
+          "end_time": "09:10:00"
+        },
+        {
+          "trip_id": "833_1031375",
+          "service_id": "833_1000000006947",
+          "start_time": "10:30:00",
+          "end_time": "11:05:00"
+        },
+        {
+          "trip_id": "833_1031371",
+          "service_id": "833_1000000006959",
+          "start_time": "14:00:00",
+          "end_time": "14:35:00"
+        },
+        {
+          "trip_id": "833_1031376",
+          "service_id": "833_1000000006947",
+          "start_time": "14:00:00",
+          "end_time": "14:35:00"
+        },
+        {
+          "trip_id": "833_1031370",
+          "service_id": "833_1000000006959",
+          "start_time": "16:20:00",
+          "end_time": "16:55:00"
+        },
+        {
+          "trip_id": "833_1031377",
+          "service_id": "833_1000000006947",
+          "start_time": "16:20:00",
+          "end_time": "16:55:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bagno Di Romagna > Sarsina",
+      "capolinea_partenza": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13301",
+        "stop_name": "Sarsina"
+      },
+      "trip_count": 14,
+      "orari_partenza": [
+        "06:00:00",
+        "06:05:00",
+        "06:45:00",
+        "07:30:00",
+        "07:35:00",
+        "10:30:00",
+        "12:35:00",
+        "12:45:00",
+        "14:35:00",
+        "15:10:00",
+        "15:35:00",
+        "17:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035343",
+          "service_id": "833_1000000006947",
+          "start_time": "06:00:00",
+          "end_time": "06:35:00"
+        },
+        {
+          "trip_id": "833_1035327",
+          "service_id": "833_1000000006959",
+          "start_time": "06:05:00",
+          "end_time": "06:40:00"
+        },
+        {
+          "trip_id": "833_1035344",
+          "service_id": "833_1000000006947",
+          "start_time": "06:45:00",
+          "end_time": "07:20:00"
+        },
+        {
+          "trip_id": "833_1035345",
+          "service_id": "833_1000000006947",
+          "start_time": "07:30:00",
+          "end_time": "08:05:00"
+        },
+        {
+          "trip_id": "833_1035328",
+          "service_id": "833_1000000006959",
+          "start_time": "07:35:00",
+          "end_time": "08:10:00"
+        },
+        {
+          "trip_id": "833_1035329",
+          "service_id": "833_1000000006959",
+          "start_time": "10:30:00",
+          "end_time": "11:05:00"
+        },
+        {
+          "trip_id": "833_1035346",
+          "service_id": "833_1000000006947",
+          "start_time": "10:30:00",
+          "end_time": "11:05:00"
+        },
+        {
+          "trip_id": "833_1035330",
+          "service_id": "833_1000000006959",
+          "start_time": "12:35:00",
+          "end_time": "13:10:00"
+        },
+        {
+          "trip_id": "833_1035347",
+          "service_id": "833_1000000006947",
+          "start_time": "12:45:00",
+          "end_time": "13:20:00"
+        },
+        {
+          "trip_id": "833_1035348",
+          "service_id": "833_1000000006947",
+          "start_time": "14:35:00",
+          "end_time": "15:10:00"
+        },
+        {
+          "trip_id": "833_1035331",
+          "service_id": "833_1000000006959",
+          "start_time": "15:10:00",
+          "end_time": "15:45:00"
+        },
+        {
+          "trip_id": "833_1035349",
+          "service_id": "833_1000000006947",
+          "start_time": "15:35:00",
+          "end_time": "16:10:00"
+        },
+        {
+          "trip_id": "833_1035341",
+          "service_id": "833_1000000006953",
+          "start_time": "17:35:00",
+          "end_time": "18:10:00"
+        },
+        {
+          "trip_id": "833_1035342",
+          "service_id": "833_1000000006912",
+          "start_time": "17:35:00",
+          "end_time": "18:10:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bagno Di Romagna > Verghereto",
+      "capolinea_partenza": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13552",
+        "stop_name": "Verghereto"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031367",
+          "service_id": "833_1000000006947",
+          "start_time": "06:50:00",
+          "end_time": "07:05:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Balze > Bagno Di Romagna",
+      "capolinea_partenza": {
+        "stop_id": "13590",
+        "stop_name": "Balze"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "09:45:00",
+        "11:50:00",
+        "14:35:00",
+        "14:45:00",
+        "16:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033864",
+          "service_id": "833_1000000006959",
+          "start_time": "09:45:00",
+          "end_time": "10:18:00"
+        },
+        {
+          "trip_id": "833_1033866",
+          "service_id": "833_1000000006947",
+          "start_time": "11:50:00",
+          "end_time": "12:23:00"
+        },
+        {
+          "trip_id": "833_1033862",
+          "service_id": "833_1000000006959",
+          "start_time": "14:35:00",
+          "end_time": "15:08:00"
+        },
+        {
+          "trip_id": "833_1033867",
+          "service_id": "833_1000000006947",
+          "start_time": "14:45:00",
+          "end_time": "15:18:00"
+        },
+        {
+          "trip_id": "833_1033863",
+          "service_id": "833_1000000006959",
+          "start_time": "16:55:00",
+          "end_time": "17:28:00"
+        },
+        {
+          "trip_id": "833_1033868",
+          "service_id": "833_1000000006947",
+          "start_time": "16:55:00",
+          "end_time": "17:28:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Borello (Scuola Elementare) > Ca' Nuova Bacciolino",
+      "capolinea_partenza": {
+        "stop_id": "12322",
+        "stop_name": "Borello (Scuola Elementare)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "14410",
+        "stop_name": "Ca' Nuova Bacciolino"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "14:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031361",
+          "service_id": "833_1000000006947",
+          "start_time": "14:45:00",
+          "end_time": "14:58:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ca' Nuova Bacciolino > Borello (Scuola Elementare)",
+      "capolinea_partenza": {
+        "stop_id": "14410",
+        "stop_name": "Ca' Nuova Bacciolino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "12321",
+        "stop_name": "Borello (Scuola Elementare)"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "15:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038526",
+          "service_id": "833_1000000006947",
+          "start_time": "15:00:00",
+          "end_time": "15:12:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ca' Nuova Bacciolino > Cesena Punto Bus C2",
+      "capolinea_partenza": {
+        "stop_id": "14410",
+        "stop_name": "Ca' Nuova Bacciolino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999C2",
+        "stop_name": "Cesena Punto Bus C2"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038549",
+          "service_id": "833_1000000006947",
+          "start_time": "07:10:00",
+          "end_time": "07:53:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus C2 > Sarsina",
+      "capolinea_partenza": {
+        "stop_id": "999C2",
+        "stop_name": "Cesena Punto Bus C2"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13302",
+        "stop_name": "Sarsina"
+      },
+      "trip_count": 14,
+      "orari_partenza": [
+        "06:55:00",
+        "08:45:00",
+        "08:55:00",
+        "10:45:00",
+        "10:55:00",
+        "12:15:00",
+        "12:25:00",
+        "13:45:00",
+        "14:50:00",
+        "15:40:00",
+        "18:15:00",
+        "18:40:00",
+        "19:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031344",
+          "service_id": "833_1000000006959",
+          "start_time": "06:55:00",
+          "end_time": "07:57:00"
+        },
+        {
+          "trip_id": "833_1031351",
+          "service_id": "833_1000000006947",
+          "start_time": "06:55:00",
+          "end_time": "07:49:00"
+        },
+        {
+          "trip_id": "833_1031345",
+          "service_id": "833_1000000006953",
+          "start_time": "08:45:00",
+          "end_time": "09:47:00"
+        },
+        {
+          "trip_id": "833_1031352",
+          "service_id": "833_1000000006912",
+          "start_time": "08:55:00",
+          "end_time": "09:49:00"
+        },
+        {
+          "trip_id": "833_1031346",
+          "service_id": "833_1000000006959",
+          "start_time": "10:45:00",
+          "end_time": "11:47:00"
+        },
+        {
+          "trip_id": "833_1031353",
+          "service_id": "833_1000000006947",
+          "start_time": "10:55:00",
+          "end_time": "11:49:00"
+        },
+        {
+          "trip_id": "833_1031347",
+          "service_id": "833_1000000006959",
+          "start_time": "12:15:00",
+          "end_time": "13:17:00"
+        },
+        {
+          "trip_id": "833_1031354",
+          "service_id": "833_1000000006947",
+          "start_time": "12:25:00",
+          "end_time": "13:19:00"
+        },
+        {
+          "trip_id": "833_1031355",
+          "service_id": "833_1000000006947",
+          "start_time": "13:45:00",
+          "end_time": "14:39:00"
+        },
+        {
+          "trip_id": "833_1031356",
+          "service_id": "833_1000000006947",
+          "start_time": "14:50:00",
+          "end_time": "15:44:00"
+        },
+        {
+          "trip_id": "833_1031348",
+          "service_id": "833_1000000006959",
+          "start_time": "15:40:00",
+          "end_time": "16:42:00"
+        },
+        {
+          "trip_id": "833_1031357",
+          "service_id": "833_1000000006947",
+          "start_time": "18:15:00",
+          "end_time": "19:09:00"
+        },
+        {
+          "trip_id": "833_1031349",
+          "service_id": "833_1000000006959",
+          "start_time": "18:40:00",
+          "end_time": "19:42:00"
+        },
+        {
+          "trip_id": "833_1031350",
+          "service_id": "833_1000000006947",
+          "start_time": "19:50:00",
+          "end_time": "20:52:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Sarsina > Bagno Di R. (Terme)",
+      "capolinea_partenza": {
+        "stop_id": "13302",
+        "stop_name": "Sarsina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13500",
+        "stop_name": "Bagno Di R. (Terme)"
+      },
+      "trip_count": 13,
+      "orari_partenza": [
+        "07:50:00",
+        "07:58:00",
+        "09:48:00",
+        "09:50:00",
+        "11:48:00",
+        "11:50:00",
+        "13:18:00",
+        "13:20:00",
+        "14:40:00",
+        "15:45:00",
+        "19:10:00",
+        "19:43:00",
+        "20:53:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035288",
+          "service_id": "833_1000000006947",
+          "start_time": "07:50:00",
+          "end_time": "08:26:00"
+        },
+        {
+          "trip_id": "833_1035282",
+          "service_id": "833_1000000006959",
+          "start_time": "07:58:00",
+          "end_time": "08:34:00"
+        },
+        {
+          "trip_id": "833_1035286",
+          "service_id": "833_1000000006953",
+          "start_time": "09:48:00",
+          "end_time": "10:24:00"
+        },
+        {
+          "trip_id": "833_1035287",
+          "service_id": "833_1000000006912",
+          "start_time": "09:50:00",
+          "end_time": "10:26:00"
+        },
+        {
+          "trip_id": "833_1035283",
+          "service_id": "833_1000000006959",
+          "start_time": "11:48:00",
+          "end_time": "12:24:00"
+        },
+        {
+          "trip_id": "833_1035289",
+          "service_id": "833_1000000006947",
+          "start_time": "11:50:00",
+          "end_time": "12:26:00"
+        },
+        {
+          "trip_id": "833_1035284",
+          "service_id": "833_1000000006959",
+          "start_time": "13:18:00",
+          "end_time": "13:54:00"
+        },
+        {
+          "trip_id": "833_1035290",
+          "service_id": "833_1000000006947",
+          "start_time": "13:20:00",
+          "end_time": "13:56:00"
+        },
+        {
+          "trip_id": "833_1035291",
+          "service_id": "833_1000000006947",
+          "start_time": "14:40:00",
+          "end_time": "15:16:00"
+        },
+        {
+          "trip_id": "833_1035292",
+          "service_id": "833_1000000006947",
+          "start_time": "15:45:00",
+          "end_time": "16:21:00"
+        },
+        {
+          "trip_id": "833_1035293",
+          "service_id": "833_1000000006947",
+          "start_time": "19:10:00",
+          "end_time": "19:46:00"
+        },
+        {
+          "trip_id": "833_1035285",
+          "service_id": "833_1000000006959",
+          "start_time": "19:43:00",
+          "end_time": "20:19:00"
+        },
+        {
+          "trip_id": "833_1035294",
+          "service_id": "833_1000000006947",
+          "start_time": "20:53:00",
+          "end_time": "21:29:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Sarsina > Bagno Di Romagna",
+      "capolinea_partenza": {
+        "stop_id": "13302",
+        "stop_name": "Sarsina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "16:43:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031854",
+          "service_id": "833_1000000006959",
+          "start_time": "16:43:00",
+          "end_time": "17:18:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Sarsina > Cesena Punto Bus C2",
+      "capolinea_partenza": {
+        "stop_id": "13301",
+        "stop_name": "Sarsina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999C2",
+        "stop_name": "Cesena Punto Bus C2"
+      },
+      "trip_count": 14,
+      "orari_partenza": [
+        "06:36:00",
+        "06:41:00",
+        "07:21:00",
+        "08:06:00",
+        "08:11:00",
+        "11:06:00",
+        "13:11:00",
+        "13:21:00",
+        "15:11:00",
+        "15:46:00",
+        "16:11:00",
+        "18:11:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038534",
+          "service_id": "833_1000000006947",
+          "start_time": "06:36:00",
+          "end_time": "07:30:00"
+        },
+        {
+          "trip_id": "833_1038528",
+          "service_id": "833_1000000006959",
+          "start_time": "06:41:00",
+          "end_time": "07:43:00"
+        },
+        {
+          "trip_id": "833_1038535",
+          "service_id": "833_1000000006947",
+          "start_time": "07:21:00",
+          "end_time": "08:15:00"
+        },
+        {
+          "trip_id": "833_1038536",
+          "service_id": "833_1000000006947",
+          "start_time": "08:06:00",
+          "end_time": "09:00:00"
+        },
+        {
+          "trip_id": "833_1038529",
+          "service_id": "833_1000000006959",
+          "start_time": "08:11:00",
+          "end_time": "09:13:00"
+        },
+        {
+          "trip_id": "833_1038530",
+          "service_id": "833_1000000006959",
+          "start_time": "11:06:00",
+          "end_time": "12:08:00"
+        },
+        {
+          "trip_id": "833_1038537",
+          "service_id": "833_1000000006947",
+          "start_time": "11:06:00",
+          "end_time": "12:00:00"
+        },
+        {
+          "trip_id": "833_1038531",
+          "service_id": "833_1000000006959",
+          "start_time": "13:11:00",
+          "end_time": "14:13:00"
+        },
+        {
+          "trip_id": "833_1038538",
+          "service_id": "833_1000000006947",
+          "start_time": "13:21:00",
+          "end_time": "14:15:00"
+        },
+        {
+          "trip_id": "833_1038539",
+          "service_id": "833_1000000006947",
+          "start_time": "15:11:00",
+          "end_time": "16:05:00"
+        },
+        {
+          "trip_id": "833_1038532",
+          "service_id": "833_1000000006959",
+          "start_time": "15:46:00",
+          "end_time": "16:48:00"
+        },
+        {
+          "trip_id": "833_1038540",
+          "service_id": "833_1000000006947",
+          "start_time": "16:11:00",
+          "end_time": "17:05:00"
+        },
+        {
+          "trip_id": "833_1038533",
+          "service_id": "833_1000000006953",
+          "start_time": "18:11:00",
+          "end_time": "19:13:00"
+        },
+        {
+          "trip_id": "833_1038541",
+          "service_id": "833_1000000006912",
+          "start_time": "18:11:00",
+          "end_time": "19:05:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Verghereto > Bagno Di Romagna",
+      "capolinea_partenza": {
+        "stop_id": "13551",
+        "stop_name": "Verghereto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:13:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1038553",
+          "service_id": "833_1000000006947",
+          "start_time": "07:13:00",
+          "end_time": "07:28:00"
+        }
+      ]
+    }
+  ]
+}

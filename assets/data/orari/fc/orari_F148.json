@@ -1,0 +1,159 @@
+{
+  "estrazione": "Orari da route_F148.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F148.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F148",
+    "name": "Linea F148",
+    "direzioni_percorso": [
+      "Cesena Punto Bus B1 > Chiesa Sala",
+      "Cesena Punto Bus B1 > Gambettola F.Boario",
+      "Chiesa Sala > Cesena Punto Bus B1",
+      "Gambettola F.Boario > Cesena Punto Bus B1"
+    ],
+    "route_id": "F148"
+  },
+  "totale_trips": 10,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus B1 > Chiesa Sala",
+      "capolinea_partenza": {
+        "stop_id": "999B1",
+        "stop_name": "Cesena Punto Bus B1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13752",
+        "stop_name": "Chiesa Sala"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "12:50:00",
+        "18:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036191",
+          "service_id": "833_1000000006947",
+          "start_time": "12:50:00",
+          "end_time": "13:35:00"
+        },
+        {
+          "trip_id": "833_1036187",
+          "service_id": "833_1000000006947",
+          "start_time": "18:40:00",
+          "end_time": "19:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus B1 > Gambettola F.Boario",
+      "capolinea_partenza": {
+        "stop_id": "999B1",
+        "stop_name": "Cesena Punto Bus B1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "12031",
+        "stop_name": "Gambettola F.Boario"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "08:45:00",
+        "09:45:00",
+        "15:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036188",
+          "service_id": "833_1000000006947",
+          "start_time": "08:45:00",
+          "end_time": "09:05:00"
+        },
+        {
+          "trip_id": "833_1036189",
+          "service_id": "833_1000000006947",
+          "start_time": "09:45:00",
+          "end_time": "10:05:00"
+        },
+        {
+          "trip_id": "833_1036190",
+          "service_id": "833_1000000006947",
+          "start_time": "15:30:00",
+          "end_time": "15:50:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Chiesa Sala > Cesena Punto Bus B1",
+      "capolinea_partenza": {
+        "stop_id": "13751",
+        "stop_name": "Chiesa Sala"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999B1",
+        "stop_name": "Cesena Punto Bus B1"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:05:00",
+        "14:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033914",
+          "service_id": "833_1000000006947",
+          "start_time": "07:05:00",
+          "end_time": "07:45:00"
+        },
+        {
+          "trip_id": "833_1033910",
+          "service_id": "833_1000000006947",
+          "start_time": "14:05:00",
+          "end_time": "14:45:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Gambettola F.Boario > Cesena Punto Bus B1",
+      "capolinea_partenza": {
+        "stop_id": "12032",
+        "stop_name": "Gambettola F.Boario"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999B1",
+        "stop_name": "Cesena Punto Bus B1"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "09:10:00",
+        "10:10:00",
+        "15:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033911",
+          "service_id": "833_1000000006947",
+          "start_time": "09:10:00",
+          "end_time": "09:30:00"
+        },
+        {
+          "trip_id": "833_1033912",
+          "service_id": "833_1000000006947",
+          "start_time": "10:10:00",
+          "end_time": "10:30:00"
+        },
+        {
+          "trip_id": "833_1033913",
+          "service_id": "833_1000000006947",
+          "start_time": "15:55:00",
+          "end_time": "16:15:00"
+        }
+      ]
+    }
+  ]
+}

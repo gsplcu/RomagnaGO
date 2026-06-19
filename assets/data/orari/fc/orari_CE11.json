@@ -1,0 +1,306 @@
+{
+  "estrazione": "Orari da route_CE11.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_CE11.json",
+  "route": {
+    "basin": "FC",
+    "area": "Cesena",
+    "line": "CE11",
+    "name": "Linea CE11",
+    "direzioni_percorso": [
+      "Bagnile > Barriera Terminal",
+      "Bagnile > Cesena Punto Bus F",
+      "Barriera Terminal > Bagnile",
+      "Cesena Punto Bus F > Barriera Terminal"
+    ],
+    "route_id": "CE11"
+  },
+  "totale_trips": 31,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bagnile > Barriera Terminal",
+      "capolinea_partenza": {
+        "stop_id": "13020",
+        "stop_name": "Bagnile"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "5120A",
+        "stop_name": "Barriera Terminal"
+      },
+      "trip_count": 12,
+      "orari_partenza": [
+        "07:00:00",
+        "08:10:00",
+        "08:25:00",
+        "09:20:00",
+        "11:10:00",
+        "12:20:00",
+        "12:25:00",
+        "13:25:00",
+        "14:35:00",
+        "15:45:00",
+        "17:05:00",
+        "20:26:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036631",
+          "service_id": "833_1000000006936",
+          "start_time": "07:00:00",
+          "end_time": "07:34:00"
+        },
+        {
+          "trip_id": "833_1036626",
+          "service_id": "833_1000000006936",
+          "start_time": "08:10:00",
+          "end_time": "08:48:00"
+        },
+        {
+          "trip_id": "833_1036630",
+          "service_id": "833_1000000006940",
+          "start_time": "08:25:00",
+          "end_time": "08:59:00"
+        },
+        {
+          "trip_id": "833_1036632",
+          "service_id": "833_1000000006936",
+          "start_time": "09:20:00",
+          "end_time": "09:54:00"
+        },
+        {
+          "trip_id": "833_1036633",
+          "service_id": "833_1000000006936",
+          "start_time": "11:10:00",
+          "end_time": "11:44:00"
+        },
+        {
+          "trip_id": "833_1036634",
+          "service_id": "833_1000000006936",
+          "start_time": "12:20:00",
+          "end_time": "12:54:00"
+        },
+        {
+          "trip_id": "833_1036629",
+          "service_id": "833_1000000006940",
+          "start_time": "12:25:00",
+          "end_time": "12:59:00"
+        },
+        {
+          "trip_id": "833_1036635",
+          "service_id": "833_1000000006936",
+          "start_time": "13:25:00",
+          "end_time": "13:59:00"
+        },
+        {
+          "trip_id": "833_1036627",
+          "service_id": "833_1000000006936",
+          "start_time": "14:35:00",
+          "end_time": "15:13:00"
+        },
+        {
+          "trip_id": "833_1036636",
+          "service_id": "833_1000000006936",
+          "start_time": "15:45:00",
+          "end_time": "16:19:00"
+        },
+        {
+          "trip_id": "833_1036628",
+          "service_id": "833_1000000006936",
+          "start_time": "17:05:00",
+          "end_time": "17:43:00"
+        },
+        {
+          "trip_id": "833_1036637",
+          "service_id": "833_1000000006936",
+          "start_time": "20:26:00",
+          "end_time": "21:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bagnile > Cesena Punto Bus F",
+      "capolinea_partenza": {
+        "stop_id": "13020",
+        "stop_name": "Bagnile"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999F1",
+        "stop_name": "Cesena Punto Bus F"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "14:25:00",
+        "18:20:00",
+        "18:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036651",
+          "service_id": "833_1000000006940",
+          "start_time": "14:25:00",
+          "end_time": "14:53:00"
+        },
+        {
+          "trip_id": "833_1036649",
+          "service_id": "833_1000000006936",
+          "start_time": "18:20:00",
+          "end_time": "18:48:00"
+        },
+        {
+          "trip_id": "833_1036650",
+          "service_id": "833_1000000006940",
+          "start_time": "18:30:00",
+          "end_time": "18:58:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Barriera Terminal > Bagnile",
+      "capolinea_partenza": {
+        "stop_id": "5120A",
+        "stop_name": "Barriera Terminal"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13020",
+        "stop_name": "Bagnile"
+      },
+      "trip_count": 14,
+      "orari_partenza": [
+        "07:35:00",
+        "07:55:00",
+        "08:50:00",
+        "10:35:00",
+        "11:50:00",
+        "11:55:00",
+        "12:55:00",
+        "13:55:00",
+        "14:00:00",
+        "15:15:00",
+        "16:30:00",
+        "17:45:00",
+        "18:00:00",
+        "19:53:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1034062",
+          "service_id": "833_1000000006936",
+          "start_time": "07:35:00",
+          "end_time": "08:08:00"
+        },
+        {
+          "trip_id": "833_1033412",
+          "service_id": "833_1000000006940",
+          "start_time": "07:55:00",
+          "end_time": "08:24:00"
+        },
+        {
+          "trip_id": "833_1033419",
+          "service_id": "833_1000000006936",
+          "start_time": "08:50:00",
+          "end_time": "09:19:00"
+        },
+        {
+          "trip_id": "833_1034059",
+          "service_id": "833_1000000006936",
+          "start_time": "10:35:00",
+          "end_time": "11:08:00"
+        },
+        {
+          "trip_id": "833_1033407",
+          "service_id": "833_1000000006936",
+          "start_time": "11:50:00",
+          "end_time": "12:19:00"
+        },
+        {
+          "trip_id": "833_1033413",
+          "service_id": "833_1000000006940",
+          "start_time": "11:55:00",
+          "end_time": "12:24:00"
+        },
+        {
+          "trip_id": "833_1033406",
+          "service_id": "833_1000000006936",
+          "start_time": "12:55:00",
+          "end_time": "13:24:00"
+        },
+        {
+          "trip_id": "833_1033414",
+          "service_id": "833_1000000006940",
+          "start_time": "13:55:00",
+          "end_time": "14:24:00"
+        },
+        {
+          "trip_id": "833_1034063",
+          "service_id": "833_1000000006936",
+          "start_time": "14:00:00",
+          "end_time": "14:33:00"
+        },
+        {
+          "trip_id": "833_1033420",
+          "service_id": "833_1000000006936",
+          "start_time": "15:15:00",
+          "end_time": "15:44:00"
+        },
+        {
+          "trip_id": "833_1034064",
+          "service_id": "833_1000000006936",
+          "start_time": "16:30:00",
+          "end_time": "17:03:00"
+        },
+        {
+          "trip_id": "833_1034065",
+          "service_id": "833_1000000006936",
+          "start_time": "17:45:00",
+          "end_time": "18:18:00"
+        },
+        {
+          "trip_id": "833_1033415",
+          "service_id": "833_1000000006940",
+          "start_time": "18:00:00",
+          "end_time": "18:29:00"
+        },
+        {
+          "trip_id": "833_1034066",
+          "service_id": "833_1000000006936",
+          "start_time": "19:53:00",
+          "end_time": "20:26:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus F > Barriera Terminal",
+      "capolinea_partenza": {
+        "stop_id": "999F1",
+        "stop_name": "Cesena Punto Bus F"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "5120A",
+        "stop_name": "Barriera Terminal"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "17:54:00",
+        "19:47:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036621",
+          "service_id": "833_1000000006940",
+          "start_time": "17:54:00",
+          "end_time": "18:00:00"
+        },
+        {
+          "trip_id": "833_1036622",
+          "service_id": "833_1000000006936",
+          "start_time": "19:47:00",
+          "end_time": "19:53:00"
+        }
+      ]
+    }
+  ]
+}

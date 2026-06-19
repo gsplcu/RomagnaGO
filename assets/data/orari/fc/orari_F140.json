@@ -1,0 +1,95 @@
+{
+  "estrazione": "Orari da route_F140.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F140.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F140",
+    "name": "Linea F140",
+    "direzioni_percorso": [
+      "Cesena Punto Bus B1 > Sogliano Capolinea",
+      "Sogliano Capolinea > Cesena Punto Bus B1"
+    ],
+    "route_id": "F140"
+  },
+  "totale_trips": 6,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus B1 > Sogliano Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "999B1",
+        "stop_name": "Cesena Punto Bus B1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "14100",
+        "stop_name": "Sogliano Capolinea"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "11:00:00",
+        "12:50:00",
+        "18:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035585",
+          "service_id": "833_1000000006947",
+          "start_time": "11:00:00",
+          "end_time": "12:00:00"
+        },
+        {
+          "trip_id": "833_1035586",
+          "service_id": "833_1000000006947",
+          "start_time": "12:50:00",
+          "end_time": "13:50:00"
+        },
+        {
+          "trip_id": "833_1035587",
+          "service_id": "833_1000000006947",
+          "start_time": "18:20:00",
+          "end_time": "19:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Sogliano Capolinea > Cesena Punto Bus B1",
+      "capolinea_partenza": {
+        "stop_id": "14100",
+        "stop_name": "Sogliano Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999B1",
+        "stop_name": "Cesena Punto Bus B1"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "06:30:00",
+        "12:00:00",
+        "13:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1087091",
+          "service_id": "833_1000000006947",
+          "start_time": "06:30:00",
+          "end_time": "07:32:00"
+        },
+        {
+          "trip_id": "833_1036519",
+          "service_id": "833_1000000006947",
+          "start_time": "12:00:00",
+          "end_time": "12:57:00"
+        },
+        {
+          "trip_id": "833_1036520",
+          "service_id": "833_1000000006947",
+          "start_time": "13:50:00",
+          "end_time": "14:47:00"
+        }
+      ]
+    }
+  ]
+}

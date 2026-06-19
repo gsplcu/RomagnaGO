@@ -1,0 +1,181 @@
+{
+  "estrazione": "Orari da route_F010.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F010.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F010",
+    "name": "Linea F010",
+    "direzioni_percorso": [
+      "Cesena Punto Bus C1 > Civorio",
+      "Cesena Punto Bus C1 > Pinarella",
+      "Cesena Punto Bus C1 > Spinello S.P.",
+      "Civorio > Cesena Punto Bus C1",
+      "Pinarella > Cesena Punto Bus C1",
+      "Spinello S.P. > Cesena Punto Bus C1"
+    ],
+    "route_id": "F010"
+  },
+  "totale_trips": 8,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus C1 > Civorio",
+      "capolinea_partenza": {
+        "stop_id": "999C1",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "45932",
+        "stop_name": "Civorio"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "18:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035728",
+          "service_id": "833_1000000006947",
+          "start_time": "18:35:00",
+          "end_time": "19:30:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cesena Punto Bus C1 > Pinarella",
+      "capolinea_partenza": {
+        "stop_id": "999C1",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10891",
+        "stop_name": "Pinarella"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:45:00",
+        "15:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033631",
+          "service_id": "833_1000000006947",
+          "start_time": "07:45:00",
+          "end_time": "08:20:00"
+        },
+        {
+          "trip_id": "833_1033632",
+          "service_id": "833_1000000006947",
+          "start_time": "15:20:00",
+          "end_time": "15:55:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus C1 > Spinello S.P.",
+      "capolinea_partenza": {
+        "stop_id": "999C1",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "46902",
+        "stop_name": "Spinello S.P."
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035727",
+          "service_id": "833_1000000006947",
+          "start_time": "12:35:00",
+          "end_time": "13:44:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Civorio > Cesena Punto Bus C1",
+      "capolinea_partenza": {
+        "stop_id": "45931",
+        "stop_name": "Civorio"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999C1",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "14:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033630",
+          "service_id": "833_1000000006947",
+          "start_time": "14:20:00",
+          "end_time": "15:15:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Pinarella > Cesena Punto Bus C1",
+      "capolinea_partenza": {
+        "stop_id": "10892",
+        "stop_name": "Pinarella"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999C1",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "12:00:00",
+        "18:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035729",
+          "service_id": "833_1000000006947",
+          "start_time": "12:00:00",
+          "end_time": "12:31:00"
+        },
+        {
+          "trip_id": "833_1035730",
+          "service_id": "833_1000000006947",
+          "start_time": "18:00:00",
+          "end_time": "18:31:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Spinello S.P. > Cesena Punto Bus C1",
+      "capolinea_partenza": {
+        "stop_id": "46901",
+        "stop_name": "Spinello S.P."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999C1",
+        "stop_name": "Cesena Punto Bus C1"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:31:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033629",
+          "service_id": "833_1000000006947",
+          "start_time": "06:31:00",
+          "end_time": "07:40:00"
+        }
+      ]
+    }
+  ]
+}

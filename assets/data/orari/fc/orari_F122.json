@@ -1,0 +1,173 @@
+{
+  "estrazione": "Orari da route_F122.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F122.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F122",
+    "name": "Linea F122",
+    "direzioni_percorso": [
+      "Capolinea Fratta T. > Centro Forlimpopoli",
+      "Centro Forlimpopoli > Capolinea Fratta T.",
+      "Centro Forlimpopoli > Meldola Capolinea",
+      "Meldola Capolinea 2 > Centro Forlimpopoli"
+    ],
+    "route_id": "F122"
+  },
+  "totale_trips": 12,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Capolinea Fratta T. > Centro Forlimpopoli",
+      "capolinea_partenza": {
+        "stop_id": "15890",
+        "stop_name": "Capolinea Fratta T."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11311",
+        "stop_name": "Centro Forlimpopoli"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:30:00",
+        "14:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033721",
+          "service_id": "833_1000000006948",
+          "start_time": "07:30:00",
+          "end_time": "07:40:00"
+        },
+        {
+          "trip_id": "833_1033722",
+          "service_id": "833_1000000006948",
+          "start_time": "14:10:00",
+          "end_time": "14:20:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Centro Forlimpopoli > Capolinea Fratta T.",
+      "capolinea_partenza": {
+        "stop_id": "11311",
+        "stop_name": "Centro Forlimpopoli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "15890",
+        "stop_name": "Capolinea Fratta T."
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:20:00",
+        "14:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036979",
+          "service_id": "833_1000000006948",
+          "start_time": "07:20:00",
+          "end_time": "07:30:00"
+        },
+        {
+          "trip_id": "833_1036980",
+          "service_id": "833_1000000006948",
+          "start_time": "14:00:00",
+          "end_time": "14:10:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Centro Forlimpopoli > Meldola Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "11311",
+        "stop_name": "Centro Forlimpopoli"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "14850",
+        "stop_name": "Meldola Capolinea"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "08:40:00",
+        "11:33:00",
+        "15:15:00",
+        "18:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036974",
+          "service_id": "833_1000000006948",
+          "start_time": "08:40:00",
+          "end_time": "08:57:00"
+        },
+        {
+          "trip_id": "833_1036975",
+          "service_id": "833_1000000006948",
+          "start_time": "11:33:00",
+          "end_time": "11:50:00"
+        },
+        {
+          "trip_id": "833_1036976",
+          "service_id": "833_1000000006948",
+          "start_time": "15:15:00",
+          "end_time": "15:32:00"
+        },
+        {
+          "trip_id": "833_1036977",
+          "service_id": "833_1000000006948",
+          "start_time": "18:00:00",
+          "end_time": "18:17:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Meldola Capolinea 2 > Centro Forlimpopoli",
+      "capolinea_partenza": {
+        "stop_id": "14852",
+        "stop_name": "Meldola Capolinea 2"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11311",
+        "stop_name": "Centro Forlimpopoli"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "09:00:00",
+        "11:53:00",
+        "15:35:00",
+        "18:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033716",
+          "service_id": "833_1000000006948",
+          "start_time": "09:00:00",
+          "end_time": "09:17:00"
+        },
+        {
+          "trip_id": "833_1033717",
+          "service_id": "833_1000000006948",
+          "start_time": "11:53:00",
+          "end_time": "12:10:00"
+        },
+        {
+          "trip_id": "833_1033718",
+          "service_id": "833_1000000006948",
+          "start_time": "15:35:00",
+          "end_time": "15:52:00"
+        },
+        {
+          "trip_id": "833_1033719",
+          "service_id": "833_1000000006948",
+          "start_time": "18:20:00",
+          "end_time": "18:37:00"
+        }
+      ]
+    }
+  ]
+}

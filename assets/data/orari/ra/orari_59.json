@@ -1,0 +1,361 @@
+{
+  "estrazione": "Orari da route_59.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_59.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "59",
+    "name": "Linea 59",
+    "direzioni_percorso": [
+      "Lugo Cimitero > Lugo Stadio",
+      "Lugo Stadio > Lugo Cimitero"
+    ],
+    "route_id": "59"
+  },
+  "totale_trips": 44,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Lugo Cimitero > Lugo Stadio",
+      "capolinea_partenza": {
+        "stop_id": "761120",
+        "stop_name": "Lugo Cimitero"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "761700",
+        "stop_name": "Lugo Stadio"
+      },
+      "trip_count": 22,
+      "orari_partenza": [
+        "07:30:00",
+        "07:45:00",
+        "08:00:00",
+        "08:15:00",
+        "08:30:00",
+        "08:45:00",
+        "09:00:00",
+        "09:15:00",
+        "09:30:00",
+        "09:45:00",
+        "10:00:00",
+        "10:15:00",
+        "10:30:00",
+        "10:45:00",
+        "11:00:00",
+        "11:15:00",
+        "11:30:00",
+        "11:45:00",
+        "12:00:00",
+        "12:15:00",
+        "12:30:00",
+        "12:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2799047",
+          "service_id": "674_1000000002132",
+          "start_time": "07:30:00",
+          "end_time": "07:45:00"
+        },
+        {
+          "trip_id": "674_2799025",
+          "service_id": "674_1000000002132",
+          "start_time": "07:45:00",
+          "end_time": "08:00:00"
+        },
+        {
+          "trip_id": "674_2799048",
+          "service_id": "674_1000000002132",
+          "start_time": "08:00:00",
+          "end_time": "08:15:00"
+        },
+        {
+          "trip_id": "674_2799030",
+          "service_id": "674_1000000002132",
+          "start_time": "08:15:00",
+          "end_time": "08:30:00"
+        },
+        {
+          "trip_id": "674_2799049",
+          "service_id": "674_1000000002132",
+          "start_time": "08:30:00",
+          "end_time": "08:45:00"
+        },
+        {
+          "trip_id": "674_2799031",
+          "service_id": "674_1000000002132",
+          "start_time": "08:45:00",
+          "end_time": "09:00:00"
+        },
+        {
+          "trip_id": "674_2799050",
+          "service_id": "674_1000000002132",
+          "start_time": "09:00:00",
+          "end_time": "09:15:00"
+        },
+        {
+          "trip_id": "674_2799032",
+          "service_id": "674_1000000002132",
+          "start_time": "09:15:00",
+          "end_time": "09:30:00"
+        },
+        {
+          "trip_id": "674_2799051",
+          "service_id": "674_1000000002132",
+          "start_time": "09:30:00",
+          "end_time": "09:45:00"
+        },
+        {
+          "trip_id": "674_2799033",
+          "service_id": "674_1000000002132",
+          "start_time": "09:45:00",
+          "end_time": "10:00:00"
+        },
+        {
+          "trip_id": "674_2799052",
+          "service_id": "674_1000000002132",
+          "start_time": "10:00:00",
+          "end_time": "10:15:00"
+        },
+        {
+          "trip_id": "674_2799034",
+          "service_id": "674_1000000002132",
+          "start_time": "10:15:00",
+          "end_time": "10:30:00"
+        },
+        {
+          "trip_id": "674_2799053",
+          "service_id": "674_1000000002132",
+          "start_time": "10:30:00",
+          "end_time": "10:45:00"
+        },
+        {
+          "trip_id": "674_2799035",
+          "service_id": "674_1000000002132",
+          "start_time": "10:45:00",
+          "end_time": "11:00:00"
+        },
+        {
+          "trip_id": "674_2799054",
+          "service_id": "674_1000000002132",
+          "start_time": "11:00:00",
+          "end_time": "11:15:00"
+        },
+        {
+          "trip_id": "674_2799026",
+          "service_id": "674_1000000002132",
+          "start_time": "11:15:00",
+          "end_time": "11:30:00"
+        },
+        {
+          "trip_id": "674_2799055",
+          "service_id": "674_1000000002132",
+          "start_time": "11:30:00",
+          "end_time": "11:45:00"
+        },
+        {
+          "trip_id": "674_2799027",
+          "service_id": "674_1000000002132",
+          "start_time": "11:45:00",
+          "end_time": "12:00:00"
+        },
+        {
+          "trip_id": "674_2799056",
+          "service_id": "674_1000000002132",
+          "start_time": "12:00:00",
+          "end_time": "12:15:00"
+        },
+        {
+          "trip_id": "674_2799028",
+          "service_id": "674_1000000002132",
+          "start_time": "12:15:00",
+          "end_time": "12:30:00"
+        },
+        {
+          "trip_id": "674_2799057",
+          "service_id": "674_1000000002132",
+          "start_time": "12:30:00",
+          "end_time": "12:45:00"
+        },
+        {
+          "trip_id": "674_2799029",
+          "service_id": "674_1000000002132",
+          "start_time": "12:45:00",
+          "end_time": "13:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Lugo Stadio > Lugo Cimitero",
+      "capolinea_partenza": {
+        "stop_id": "761700",
+        "stop_name": "Lugo Stadio"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "761120",
+        "stop_name": "Lugo Cimitero"
+      },
+      "trip_count": 22,
+      "orari_partenza": [
+        "07:30:00",
+        "07:45:00",
+        "08:00:00",
+        "08:15:00",
+        "08:30:00",
+        "08:45:00",
+        "09:00:00",
+        "09:15:00",
+        "09:30:00",
+        "09:45:00",
+        "10:00:00",
+        "10:15:00",
+        "10:30:00",
+        "10:45:00",
+        "11:00:00",
+        "11:15:00",
+        "11:30:00",
+        "11:45:00",
+        "12:00:00",
+        "12:15:00",
+        "12:30:00",
+        "12:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2799045",
+          "service_id": "674_1000000002132",
+          "start_time": "07:30:00",
+          "end_time": "07:45:00"
+        },
+        {
+          "trip_id": "674_2799058",
+          "service_id": "674_1000000002132",
+          "start_time": "07:45:00",
+          "end_time": "08:00:00"
+        },
+        {
+          "trip_id": "674_2799046",
+          "service_id": "674_1000000002132",
+          "start_time": "08:00:00",
+          "end_time": "08:15:00"
+        },
+        {
+          "trip_id": "674_2799059",
+          "service_id": "674_1000000002132",
+          "start_time": "08:15:00",
+          "end_time": "08:30:00"
+        },
+        {
+          "trip_id": "674_2799036",
+          "service_id": "674_1000000002132",
+          "start_time": "08:30:00",
+          "end_time": "08:45:00"
+        },
+        {
+          "trip_id": "674_2799060",
+          "service_id": "674_1000000002132",
+          "start_time": "08:45:00",
+          "end_time": "09:00:00"
+        },
+        {
+          "trip_id": "674_2799037",
+          "service_id": "674_1000000002132",
+          "start_time": "09:00:00",
+          "end_time": "09:15:00"
+        },
+        {
+          "trip_id": "674_2799061",
+          "service_id": "674_1000000002132",
+          "start_time": "09:15:00",
+          "end_time": "09:30:00"
+        },
+        {
+          "trip_id": "674_2799038",
+          "service_id": "674_1000000002132",
+          "start_time": "09:30:00",
+          "end_time": "09:45:00"
+        },
+        {
+          "trip_id": "674_2799062",
+          "service_id": "674_1000000002132",
+          "start_time": "09:45:00",
+          "end_time": "10:00:00"
+        },
+        {
+          "trip_id": "674_2799039",
+          "service_id": "674_1000000002132",
+          "start_time": "10:00:00",
+          "end_time": "10:15:00"
+        },
+        {
+          "trip_id": "674_2799063",
+          "service_id": "674_1000000002132",
+          "start_time": "10:15:00",
+          "end_time": "10:30:00"
+        },
+        {
+          "trip_id": "674_2799040",
+          "service_id": "674_1000000002132",
+          "start_time": "10:30:00",
+          "end_time": "10:45:00"
+        },
+        {
+          "trip_id": "674_2799064",
+          "service_id": "674_1000000002132",
+          "start_time": "10:45:00",
+          "end_time": "11:00:00"
+        },
+        {
+          "trip_id": "674_2799041",
+          "service_id": "674_1000000002132",
+          "start_time": "11:00:00",
+          "end_time": "11:15:00"
+        },
+        {
+          "trip_id": "674_2799065",
+          "service_id": "674_1000000002132",
+          "start_time": "11:15:00",
+          "end_time": "11:30:00"
+        },
+        {
+          "trip_id": "674_2799042",
+          "service_id": "674_1000000002132",
+          "start_time": "11:30:00",
+          "end_time": "11:45:00"
+        },
+        {
+          "trip_id": "674_2799066",
+          "service_id": "674_1000000002132",
+          "start_time": "11:45:00",
+          "end_time": "12:00:00"
+        },
+        {
+          "trip_id": "674_2799043",
+          "service_id": "674_1000000002132",
+          "start_time": "12:00:00",
+          "end_time": "12:15:00"
+        },
+        {
+          "trip_id": "674_2799067",
+          "service_id": "674_1000000002132",
+          "start_time": "12:15:00",
+          "end_time": "12:30:00"
+        },
+        {
+          "trip_id": "674_2799044",
+          "service_id": "674_1000000002132",
+          "start_time": "12:30:00",
+          "end_time": "12:45:00"
+        },
+        {
+          "trip_id": "674_2799068",
+          "service_id": "674_1000000002132",
+          "start_time": "12:45:00",
+          "end_time": "13:00:00"
+        }
+      ]
+    }
+  ]
+}

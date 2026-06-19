@@ -1,0 +1,1261 @@
+{
+  "estrazione": "Orari da route_11.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_11.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "11",
+    "name": "Linea 11",
+    "direzioni_percorso": [
+      "21 Firenze > 49 Curiel (Pens.C)",
+      "21 Firenze > Marinai D'Italia",
+      "33 Miramare Camp > 4 Rimini Fs",
+      "4 Rimini Fs > 49 Curiel (Pens.C)",
+      "4 Rimini Fs > Marinai D'Italia",
+      "49 Curiel (Pens.C) > 4 Rimini Fs",
+      "49 Curiel (Pens.C) > S. Girolamo Cap.",
+      "Marinai D'Italia > 4 Rimini Fs",
+      "Marinai D'Italia > S. Girolamo Cap.",
+      "S. Girolamo Cap. > Marinai D'Italia"
+    ],
+    "route_id": "11"
+  },
+  "totale_trips": 152,
+  "totale_direzioni_percorso": 10,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "21 Firenze > 49 Curiel (Pens.C)",
+      "capolinea_partenza": {
+        "stop_id": "A00668",
+        "stop_name": "21 Firenze"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "B00361",
+        "stop_name": "49 Curiel (Pens.C)"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "05:16:00",
+        "05:34:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4113797",
+          "service_id": "404_1000000001814",
+          "start_time": "05:16:00",
+          "end_time": "05:34:00"
+        },
+        {
+          "trip_id": "404_4113798",
+          "service_id": "404_1000000001814",
+          "start_time": "05:34:00",
+          "end_time": "05:52:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "21 Firenze > Marinai D'Italia",
+      "capolinea_partenza": {
+        "stop_id": "A00668",
+        "stop_name": "21 Firenze"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "B00197",
+        "stop_name": "Marinai D'Italia"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:36:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4113838",
+          "service_id": "404_1000000001814",
+          "start_time": "06:36:00",
+          "end_time": "06:59:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "33 Miramare Camp > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "A00685",
+        "stop_name": "33 Miramare Camp"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01175",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "21:04:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4040446",
+          "service_id": "404_1000000001819",
+          "start_time": "21:04:00",
+          "end_time": "21:32:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "4 Rimini Fs > 49 Curiel (Pens.C)",
+      "capolinea_partenza": {
+        "stop_id": "A00006",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "B00361",
+        "stop_name": "49 Curiel (Pens.C)"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "05:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4113800",
+          "service_id": "404_1000000001814",
+          "start_time": "05:35:00",
+          "end_time": "06:07:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "4 Rimini Fs > Marinai D'Italia",
+      "capolinea_partenza": {
+        "stop_id": "A00006",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "B00197",
+        "stop_name": "Marinai D'Italia"
+      },
+      "trip_count": 25,
+      "orari_partenza": [
+        "05:52:00",
+        "06:10:00",
+        "20:28:00",
+        "20:48:00",
+        "21:08:00",
+        "21:18:00",
+        "21:38:00",
+        "21:48:00",
+        "21:58:00",
+        "22:15:00",
+        "22:30:00",
+        "22:45:00",
+        "23:00:00",
+        "23:15:00",
+        "23:30:00",
+        "23:45:00",
+        "24:00:00",
+        "24:15:00",
+        "24:30:00",
+        "24:45:00",
+        "25:00:00",
+        "25:15:00",
+        "25:30:00",
+        "25:45:00",
+        "26:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4113802",
+          "service_id": "404_1000000001814",
+          "start_time": "05:52:00",
+          "end_time": "06:28:00"
+        },
+        {
+          "trip_id": "404_4113820",
+          "service_id": "404_1000000001814",
+          "start_time": "06:10:00",
+          "end_time": "06:46:00"
+        },
+        {
+          "trip_id": "404_4113905",
+          "service_id": "404_1000000001819",
+          "start_time": "20:28:00",
+          "end_time": "21:18:00"
+        },
+        {
+          "trip_id": "404_4113907",
+          "service_id": "404_1000000001819",
+          "start_time": "20:48:00",
+          "end_time": "21:38:00"
+        },
+        {
+          "trip_id": "404_4113909",
+          "service_id": "404_1000000001819",
+          "start_time": "21:08:00",
+          "end_time": "21:58:00"
+        },
+        {
+          "trip_id": "404_4113911",
+          "service_id": "404_1000000001814",
+          "start_time": "21:18:00",
+          "end_time": "22:08:00"
+        },
+        {
+          "trip_id": "404_4113913",
+          "service_id": "404_1000000001814",
+          "start_time": "21:38:00",
+          "end_time": "22:28:00"
+        },
+        {
+          "trip_id": "404_4113914",
+          "service_id": "404_1000000001819",
+          "start_time": "21:48:00",
+          "end_time": "22:38:00"
+        },
+        {
+          "trip_id": "404_4113916",
+          "service_id": "404_1000000001814",
+          "start_time": "21:58:00",
+          "end_time": "22:48:00"
+        },
+        {
+          "trip_id": "404_4113918",
+          "service_id": "404_1000000001819",
+          "start_time": "22:15:00",
+          "end_time": "23:05:00"
+        },
+        {
+          "trip_id": "404_4113920",
+          "service_id": "404_1000000001814",
+          "start_time": "22:30:00",
+          "end_time": "23:20:00"
+        },
+        {
+          "trip_id": "404_4113922",
+          "service_id": "404_1000000001819",
+          "start_time": "22:45:00",
+          "end_time": "23:35:00"
+        },
+        {
+          "trip_id": "404_4113924",
+          "service_id": "404_1000000001814",
+          "start_time": "23:00:00",
+          "end_time": "23:47:00"
+        },
+        {
+          "trip_id": "404_4113926",
+          "service_id": "404_1000000001819",
+          "start_time": "23:15:00",
+          "end_time": "24:01:00"
+        },
+        {
+          "trip_id": "404_4113928",
+          "service_id": "404_1000000001814",
+          "start_time": "23:30:00",
+          "end_time": "24:14:00"
+        },
+        {
+          "trip_id": "404_4113930",
+          "service_id": "404_1000000001819",
+          "start_time": "23:45:00",
+          "end_time": "24:29:00"
+        },
+        {
+          "trip_id": "404_4113932",
+          "service_id": "404_1000000001814",
+          "start_time": "24:00:00",
+          "end_time": "24:44:00"
+        },
+        {
+          "trip_id": "404_4113934",
+          "service_id": "404_1000000001819",
+          "start_time": "24:15:00",
+          "end_time": "24:59:00"
+        },
+        {
+          "trip_id": "404_4113936",
+          "service_id": "404_1000000001814",
+          "start_time": "24:30:00",
+          "end_time": "25:14:00"
+        },
+        {
+          "trip_id": "404_4113938",
+          "service_id": "404_1000000001819",
+          "start_time": "24:45:00",
+          "end_time": "25:29:00"
+        },
+        {
+          "trip_id": "404_4113940",
+          "service_id": "404_1000000001814",
+          "start_time": "25:00:00",
+          "end_time": "25:44:00"
+        },
+        {
+          "trip_id": "404_4113942",
+          "service_id": "404_1000000001819",
+          "start_time": "25:15:00",
+          "end_time": "25:59:00"
+        },
+        {
+          "trip_id": "404_4113943",
+          "service_id": "404_1000000001814",
+          "start_time": "25:30:00",
+          "end_time": "26:14:00"
+        },
+        {
+          "trip_id": "404_4113944",
+          "service_id": "404_1000000001819",
+          "start_time": "25:45:00",
+          "end_time": "26:29:00"
+        },
+        {
+          "trip_id": "404_4113945",
+          "service_id": "404_1000000001814",
+          "start_time": "26:00:00",
+          "end_time": "26:44:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "49 Curiel (Pens.C) > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "B00361",
+        "stop_name": "49 Curiel (Pens.C)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01175",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "05:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4113946",
+          "service_id": "404_1000000001814",
+          "start_time": "05:40:00",
+          "end_time": "06:12:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "49 Curiel (Pens.C) > S. Girolamo Cap.",
+      "capolinea_partenza": {
+        "stop_id": "B00361",
+        "stop_name": "49 Curiel (Pens.C)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01173",
+        "stop_name": "S. Girolamo Cap."
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:00:00",
+        "06:18:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4113799",
+          "service_id": "404_1000000001814",
+          "start_time": "06:00:00",
+          "end_time": "06:35:00"
+        },
+        {
+          "trip_id": "404_4113801",
+          "service_id": "404_1000000001814",
+          "start_time": "06:18:00",
+          "end_time": "06:54:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Marinai D'Italia > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "B00197",
+        "stop_name": "Marinai D'Italia"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01175",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 24,
+      "orari_partenza": [
+        "20:20:00",
+        "20:38:00",
+        "20:58:00",
+        "21:18:00",
+        "21:26:00",
+        "21:36:00",
+        "21:45:00",
+        "22:05:00",
+        "22:15:00",
+        "22:30:00",
+        "22:45:00",
+        "23:00:00",
+        "23:15:00",
+        "23:30:00",
+        "23:45:00",
+        "24:00:00",
+        "24:15:00",
+        "24:30:00",
+        "24:45:00",
+        "25:00:00",
+        "25:15:00",
+        "25:30:00",
+        "25:45:00",
+        "26:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4113947",
+          "service_id": "404_1000000001814",
+          "start_time": "20:20:00",
+          "end_time": "21:02:00"
+        },
+        {
+          "trip_id": "404_4113904",
+          "service_id": "404_1000000001814",
+          "start_time": "20:38:00",
+          "end_time": "21:22:00"
+        },
+        {
+          "trip_id": "404_4113819",
+          "service_id": "404_1000000001814",
+          "start_time": "20:58:00",
+          "end_time": "21:42:00"
+        },
+        {
+          "trip_id": "404_4113837",
+          "service_id": "404_1000000001814",
+          "start_time": "21:18:00",
+          "end_time": "22:02:00"
+        },
+        {
+          "trip_id": "404_4113906",
+          "service_id": "404_1000000001819",
+          "start_time": "21:26:00",
+          "end_time": "22:10:00"
+        },
+        {
+          "trip_id": "404_4113855",
+          "service_id": "404_1000000001814",
+          "start_time": "21:36:00",
+          "end_time": "22:20:00"
+        },
+        {
+          "trip_id": "404_4113908",
+          "service_id": "404_1000000001819",
+          "start_time": "21:45:00",
+          "end_time": "22:29:00"
+        },
+        {
+          "trip_id": "404_4113873",
+          "service_id": "404_1000000001814",
+          "start_time": "22:05:00",
+          "end_time": "22:49:00"
+        },
+        {
+          "trip_id": "404_4113910",
+          "service_id": "404_1000000001819",
+          "start_time": "22:15:00",
+          "end_time": "22:59:00"
+        },
+        {
+          "trip_id": "404_4113912",
+          "service_id": "404_1000000001814",
+          "start_time": "22:30:00",
+          "end_time": "23:14:00"
+        },
+        {
+          "trip_id": "404_4113915",
+          "service_id": "404_1000000001819",
+          "start_time": "22:45:00",
+          "end_time": "23:29:00"
+        },
+        {
+          "trip_id": "404_4113917",
+          "service_id": "404_1000000001814",
+          "start_time": "23:00:00",
+          "end_time": "23:44:00"
+        },
+        {
+          "trip_id": "404_4113919",
+          "service_id": "404_1000000001819",
+          "start_time": "23:15:00",
+          "end_time": "23:58:00"
+        },
+        {
+          "trip_id": "404_4113921",
+          "service_id": "404_1000000001814",
+          "start_time": "23:30:00",
+          "end_time": "24:10:00"
+        },
+        {
+          "trip_id": "404_4113923",
+          "service_id": "404_1000000001819",
+          "start_time": "23:45:00",
+          "end_time": "24:25:00"
+        },
+        {
+          "trip_id": "404_4113925",
+          "service_id": "404_1000000001814",
+          "start_time": "24:00:00",
+          "end_time": "24:39:00"
+        },
+        {
+          "trip_id": "404_4113927",
+          "service_id": "404_1000000001819",
+          "start_time": "24:15:00",
+          "end_time": "24:54:00"
+        },
+        {
+          "trip_id": "404_4113929",
+          "service_id": "404_1000000001814",
+          "start_time": "24:30:00",
+          "end_time": "25:09:00"
+        },
+        {
+          "trip_id": "404_4113931",
+          "service_id": "404_1000000001819",
+          "start_time": "24:45:00",
+          "end_time": "25:24:00"
+        },
+        {
+          "trip_id": "404_4113933",
+          "service_id": "404_1000000001814",
+          "start_time": "25:00:00",
+          "end_time": "25:39:00"
+        },
+        {
+          "trip_id": "404_4113935",
+          "service_id": "404_1000000001819",
+          "start_time": "25:15:00",
+          "end_time": "25:54:00"
+        },
+        {
+          "trip_id": "404_4113937",
+          "service_id": "404_1000000001814",
+          "start_time": "25:30:00",
+          "end_time": "26:09:00"
+        },
+        {
+          "trip_id": "404_4113939",
+          "service_id": "404_1000000001819",
+          "start_time": "25:45:00",
+          "end_time": "26:24:00"
+        },
+        {
+          "trip_id": "404_4113941",
+          "service_id": "404_1000000001814",
+          "start_time": "26:00:00",
+          "end_time": "26:39:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Marinai D'Italia > S. Girolamo Cap.",
+      "capolinea_partenza": {
+        "stop_id": "B00197",
+        "stop_name": "Marinai D'Italia"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01173",
+        "stop_name": "S. Girolamo Cap."
+      },
+      "trip_count": 46,
+      "orari_partenza": [
+        "06:32:00",
+        "06:50:00",
+        "07:08:00",
+        "07:25:00",
+        "07:43:00",
+        "08:01:00",
+        "08:19:00",
+        "08:37:00",
+        "08:55:00",
+        "09:13:00",
+        "09:31:00",
+        "09:49:00",
+        "10:07:00",
+        "10:25:00",
+        "10:43:00",
+        "11:01:00",
+        "11:19:00",
+        "11:37:00",
+        "11:55:00",
+        "12:13:00",
+        "12:31:00",
+        "12:49:00",
+        "13:07:00",
+        "13:25:00",
+        "13:43:00",
+        "14:01:00",
+        "14:19:00",
+        "14:37:00",
+        "14:55:00",
+        "15:13:00",
+        "15:31:00",
+        "15:49:00",
+        "16:07:00",
+        "16:25:00",
+        "16:43:00",
+        "17:01:00",
+        "17:19:00",
+        "17:37:00",
+        "17:55:00",
+        "18:13:00",
+        "18:31:00",
+        "18:49:00",
+        "19:07:00",
+        "19:25:00",
+        "19:43:00",
+        "20:02:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4113803",
+          "service_id": "404_1000000001814",
+          "start_time": "06:32:00",
+          "end_time": "07:14:00"
+        },
+        {
+          "trip_id": "404_4113821",
+          "service_id": "404_1000000001814",
+          "start_time": "06:50:00",
+          "end_time": "07:33:00"
+        },
+        {
+          "trip_id": "404_4113839",
+          "service_id": "404_1000000001814",
+          "start_time": "07:08:00",
+          "end_time": "07:52:00"
+        },
+        {
+          "trip_id": "404_4113857",
+          "service_id": "404_1000000001814",
+          "start_time": "07:25:00",
+          "end_time": "08:09:00"
+        },
+        {
+          "trip_id": "404_4113875",
+          "service_id": "404_1000000001814",
+          "start_time": "07:43:00",
+          "end_time": "08:27:00"
+        },
+        {
+          "trip_id": "404_4113890",
+          "service_id": "404_1000000001814",
+          "start_time": "08:01:00",
+          "end_time": "08:45:00"
+        },
+        {
+          "trip_id": "404_4113805",
+          "service_id": "404_1000000001814",
+          "start_time": "08:19:00",
+          "end_time": "09:03:00"
+        },
+        {
+          "trip_id": "404_4113823",
+          "service_id": "404_1000000001814",
+          "start_time": "08:37:00",
+          "end_time": "09:21:00"
+        },
+        {
+          "trip_id": "404_4113841",
+          "service_id": "404_1000000001814",
+          "start_time": "08:55:00",
+          "end_time": "09:39:00"
+        },
+        {
+          "trip_id": "404_4113859",
+          "service_id": "404_1000000001814",
+          "start_time": "09:13:00",
+          "end_time": "09:57:00"
+        },
+        {
+          "trip_id": "404_4113877",
+          "service_id": "404_1000000001814",
+          "start_time": "09:31:00",
+          "end_time": "10:15:00"
+        },
+        {
+          "trip_id": "404_4113892",
+          "service_id": "404_1000000001814",
+          "start_time": "09:49:00",
+          "end_time": "10:33:00"
+        },
+        {
+          "trip_id": "404_4113807",
+          "service_id": "404_1000000001814",
+          "start_time": "10:07:00",
+          "end_time": "10:51:00"
+        },
+        {
+          "trip_id": "404_4113825",
+          "service_id": "404_1000000001814",
+          "start_time": "10:25:00",
+          "end_time": "11:09:00"
+        },
+        {
+          "trip_id": "404_4113843",
+          "service_id": "404_1000000001814",
+          "start_time": "10:43:00",
+          "end_time": "11:27:00"
+        },
+        {
+          "trip_id": "404_4113861",
+          "service_id": "404_1000000001814",
+          "start_time": "11:01:00",
+          "end_time": "11:45:00"
+        },
+        {
+          "trip_id": "404_4113879",
+          "service_id": "404_1000000001814",
+          "start_time": "11:19:00",
+          "end_time": "12:03:00"
+        },
+        {
+          "trip_id": "404_4113894",
+          "service_id": "404_1000000001814",
+          "start_time": "11:37:00",
+          "end_time": "12:21:00"
+        },
+        {
+          "trip_id": "404_4113809",
+          "service_id": "404_1000000001814",
+          "start_time": "11:55:00",
+          "end_time": "12:39:00"
+        },
+        {
+          "trip_id": "404_4113827",
+          "service_id": "404_1000000001814",
+          "start_time": "12:13:00",
+          "end_time": "12:57:00"
+        },
+        {
+          "trip_id": "404_4113845",
+          "service_id": "404_1000000001814",
+          "start_time": "12:31:00",
+          "end_time": "13:15:00"
+        },
+        {
+          "trip_id": "404_4113863",
+          "service_id": "404_1000000001814",
+          "start_time": "12:49:00",
+          "end_time": "13:33:00"
+        },
+        {
+          "trip_id": "404_4113881",
+          "service_id": "404_1000000001814",
+          "start_time": "13:07:00",
+          "end_time": "13:51:00"
+        },
+        {
+          "trip_id": "404_4113896",
+          "service_id": "404_1000000001814",
+          "start_time": "13:25:00",
+          "end_time": "14:09:00"
+        },
+        {
+          "trip_id": "404_4113811",
+          "service_id": "404_1000000001814",
+          "start_time": "13:43:00",
+          "end_time": "14:27:00"
+        },
+        {
+          "trip_id": "404_4113829",
+          "service_id": "404_1000000001814",
+          "start_time": "14:01:00",
+          "end_time": "14:45:00"
+        },
+        {
+          "trip_id": "404_4113847",
+          "service_id": "404_1000000001814",
+          "start_time": "14:19:00",
+          "end_time": "15:03:00"
+        },
+        {
+          "trip_id": "404_4113865",
+          "service_id": "404_1000000001814",
+          "start_time": "14:37:00",
+          "end_time": "15:21:00"
+        },
+        {
+          "trip_id": "404_4113883",
+          "service_id": "404_1000000001814",
+          "start_time": "14:55:00",
+          "end_time": "15:39:00"
+        },
+        {
+          "trip_id": "404_4113898",
+          "service_id": "404_1000000001814",
+          "start_time": "15:13:00",
+          "end_time": "15:57:00"
+        },
+        {
+          "trip_id": "404_4113813",
+          "service_id": "404_1000000001814",
+          "start_time": "15:31:00",
+          "end_time": "16:15:00"
+        },
+        {
+          "trip_id": "404_4113831",
+          "service_id": "404_1000000001814",
+          "start_time": "15:49:00",
+          "end_time": "16:33:00"
+        },
+        {
+          "trip_id": "404_4113849",
+          "service_id": "404_1000000001814",
+          "start_time": "16:07:00",
+          "end_time": "16:51:00"
+        },
+        {
+          "trip_id": "404_4113867",
+          "service_id": "404_1000000001814",
+          "start_time": "16:25:00",
+          "end_time": "17:09:00"
+        },
+        {
+          "trip_id": "404_4113885",
+          "service_id": "404_1000000001814",
+          "start_time": "16:43:00",
+          "end_time": "17:27:00"
+        },
+        {
+          "trip_id": "404_4113900",
+          "service_id": "404_1000000001814",
+          "start_time": "17:01:00",
+          "end_time": "17:45:00"
+        },
+        {
+          "trip_id": "404_4113815",
+          "service_id": "404_1000000001814",
+          "start_time": "17:19:00",
+          "end_time": "18:03:00"
+        },
+        {
+          "trip_id": "404_4113833",
+          "service_id": "404_1000000001814",
+          "start_time": "17:37:00",
+          "end_time": "18:21:00"
+        },
+        {
+          "trip_id": "404_4113851",
+          "service_id": "404_1000000001814",
+          "start_time": "17:55:00",
+          "end_time": "18:39:00"
+        },
+        {
+          "trip_id": "404_4113869",
+          "service_id": "404_1000000001814",
+          "start_time": "18:13:00",
+          "end_time": "18:57:00"
+        },
+        {
+          "trip_id": "404_4113887",
+          "service_id": "404_1000000001814",
+          "start_time": "18:31:00",
+          "end_time": "19:15:00"
+        },
+        {
+          "trip_id": "404_4113902",
+          "service_id": "404_1000000001814",
+          "start_time": "18:49:00",
+          "end_time": "19:33:00"
+        },
+        {
+          "trip_id": "404_4113817",
+          "service_id": "404_1000000001814",
+          "start_time": "19:07:00",
+          "end_time": "19:51:00"
+        },
+        {
+          "trip_id": "404_4113835",
+          "service_id": "404_1000000001814",
+          "start_time": "19:25:00",
+          "end_time": "20:09:00"
+        },
+        {
+          "trip_id": "404_4113853",
+          "service_id": "404_1000000001814",
+          "start_time": "19:43:00",
+          "end_time": "20:27:00"
+        },
+        {
+          "trip_id": "404_4113871",
+          "service_id": "404_1000000001814",
+          "start_time": "20:02:00",
+          "end_time": "20:46:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S. Girolamo Cap. > Marinai D'Italia",
+      "capolinea_partenza": {
+        "stop_id": "A01173",
+        "stop_name": "S. Girolamo Cap."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "B00197",
+        "stop_name": "Marinai D'Italia"
+      },
+      "trip_count": 49,
+      "orari_partenza": [
+        "06:32:00",
+        "06:50:00",
+        "07:08:00",
+        "07:26:00",
+        "07:44:00",
+        "08:02:00",
+        "08:20:00",
+        "08:38:00",
+        "08:56:00",
+        "09:14:00",
+        "09:32:00",
+        "09:50:00",
+        "10:08:00",
+        "10:26:00",
+        "10:44:00",
+        "11:02:00",
+        "11:20:00",
+        "11:38:00",
+        "11:56:00",
+        "12:14:00",
+        "12:32:00",
+        "12:50:00",
+        "13:08:00",
+        "13:26:00",
+        "13:44:00",
+        "14:02:00",
+        "14:20:00",
+        "14:38:00",
+        "14:56:00",
+        "15:14:00",
+        "15:32:00",
+        "15:50:00",
+        "16:08:00",
+        "16:26:00",
+        "16:44:00",
+        "17:02:00",
+        "17:20:00",
+        "17:38:00",
+        "17:56:00",
+        "18:14:00",
+        "18:32:00",
+        "18:50:00",
+        "19:08:00",
+        "19:26:00",
+        "19:44:00",
+        "20:00:00",
+        "20:18:00",
+        "20:36:00",
+        "20:56:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4113856",
+          "service_id": "404_1000000001814",
+          "start_time": "06:32:00",
+          "end_time": "07:11:00"
+        },
+        {
+          "trip_id": "404_4113874",
+          "service_id": "404_1000000001814",
+          "start_time": "06:50:00",
+          "end_time": "07:31:00"
+        },
+        {
+          "trip_id": "404_4113889",
+          "service_id": "404_1000000001814",
+          "start_time": "07:08:00",
+          "end_time": "07:49:00"
+        },
+        {
+          "trip_id": "404_4113804",
+          "service_id": "404_1000000001814",
+          "start_time": "07:26:00",
+          "end_time": "08:09:00"
+        },
+        {
+          "trip_id": "404_4113822",
+          "service_id": "404_1000000001814",
+          "start_time": "07:44:00",
+          "end_time": "08:28:00"
+        },
+        {
+          "trip_id": "404_4113840",
+          "service_id": "404_1000000001814",
+          "start_time": "08:02:00",
+          "end_time": "08:47:00"
+        },
+        {
+          "trip_id": "404_4113858",
+          "service_id": "404_1000000001814",
+          "start_time": "08:20:00",
+          "end_time": "09:06:00"
+        },
+        {
+          "trip_id": "404_4113876",
+          "service_id": "404_1000000001814",
+          "start_time": "08:38:00",
+          "end_time": "09:24:00"
+        },
+        {
+          "trip_id": "404_4113891",
+          "service_id": "404_1000000001814",
+          "start_time": "08:56:00",
+          "end_time": "09:42:00"
+        },
+        {
+          "trip_id": "404_4113806",
+          "service_id": "404_1000000001814",
+          "start_time": "09:14:00",
+          "end_time": "10:00:00"
+        },
+        {
+          "trip_id": "404_4113824",
+          "service_id": "404_1000000001814",
+          "start_time": "09:32:00",
+          "end_time": "10:18:00"
+        },
+        {
+          "trip_id": "404_4113842",
+          "service_id": "404_1000000001814",
+          "start_time": "09:50:00",
+          "end_time": "10:36:00"
+        },
+        {
+          "trip_id": "404_4113860",
+          "service_id": "404_1000000001814",
+          "start_time": "10:08:00",
+          "end_time": "10:54:00"
+        },
+        {
+          "trip_id": "404_4113878",
+          "service_id": "404_1000000001814",
+          "start_time": "10:26:00",
+          "end_time": "11:12:00"
+        },
+        {
+          "trip_id": "404_4113893",
+          "service_id": "404_1000000001814",
+          "start_time": "10:44:00",
+          "end_time": "11:30:00"
+        },
+        {
+          "trip_id": "404_4113808",
+          "service_id": "404_1000000001814",
+          "start_time": "11:02:00",
+          "end_time": "11:48:00"
+        },
+        {
+          "trip_id": "404_4113826",
+          "service_id": "404_1000000001814",
+          "start_time": "11:20:00",
+          "end_time": "12:06:00"
+        },
+        {
+          "trip_id": "404_4113844",
+          "service_id": "404_1000000001814",
+          "start_time": "11:38:00",
+          "end_time": "12:24:00"
+        },
+        {
+          "trip_id": "404_4113862",
+          "service_id": "404_1000000001814",
+          "start_time": "11:56:00",
+          "end_time": "12:42:00"
+        },
+        {
+          "trip_id": "404_4113880",
+          "service_id": "404_1000000001814",
+          "start_time": "12:14:00",
+          "end_time": "13:00:00"
+        },
+        {
+          "trip_id": "404_4113895",
+          "service_id": "404_1000000001814",
+          "start_time": "12:32:00",
+          "end_time": "13:18:00"
+        },
+        {
+          "trip_id": "404_4113810",
+          "service_id": "404_1000000001814",
+          "start_time": "12:50:00",
+          "end_time": "13:36:00"
+        },
+        {
+          "trip_id": "404_4113828",
+          "service_id": "404_1000000001814",
+          "start_time": "13:08:00",
+          "end_time": "13:54:00"
+        },
+        {
+          "trip_id": "404_4113846",
+          "service_id": "404_1000000001814",
+          "start_time": "13:26:00",
+          "end_time": "14:12:00"
+        },
+        {
+          "trip_id": "404_4113864",
+          "service_id": "404_1000000001814",
+          "start_time": "13:44:00",
+          "end_time": "14:30:00"
+        },
+        {
+          "trip_id": "404_4113882",
+          "service_id": "404_1000000001814",
+          "start_time": "14:02:00",
+          "end_time": "14:48:00"
+        },
+        {
+          "trip_id": "404_4113897",
+          "service_id": "404_1000000001814",
+          "start_time": "14:20:00",
+          "end_time": "15:06:00"
+        },
+        {
+          "trip_id": "404_4113812",
+          "service_id": "404_1000000001814",
+          "start_time": "14:38:00",
+          "end_time": "15:24:00"
+        },
+        {
+          "trip_id": "404_4113830",
+          "service_id": "404_1000000001814",
+          "start_time": "14:56:00",
+          "end_time": "15:42:00"
+        },
+        {
+          "trip_id": "404_4113848",
+          "service_id": "404_1000000001814",
+          "start_time": "15:14:00",
+          "end_time": "16:00:00"
+        },
+        {
+          "trip_id": "404_4113866",
+          "service_id": "404_1000000001814",
+          "start_time": "15:32:00",
+          "end_time": "16:18:00"
+        },
+        {
+          "trip_id": "404_4113884",
+          "service_id": "404_1000000001814",
+          "start_time": "15:50:00",
+          "end_time": "16:36:00"
+        },
+        {
+          "trip_id": "404_4113899",
+          "service_id": "404_1000000001814",
+          "start_time": "16:08:00",
+          "end_time": "16:54:00"
+        },
+        {
+          "trip_id": "404_4113814",
+          "service_id": "404_1000000001814",
+          "start_time": "16:26:00",
+          "end_time": "17:12:00"
+        },
+        {
+          "trip_id": "404_4113832",
+          "service_id": "404_1000000001814",
+          "start_time": "16:44:00",
+          "end_time": "17:30:00"
+        },
+        {
+          "trip_id": "404_4113850",
+          "service_id": "404_1000000001814",
+          "start_time": "17:02:00",
+          "end_time": "17:48:00"
+        },
+        {
+          "trip_id": "404_4113868",
+          "service_id": "404_1000000001814",
+          "start_time": "17:20:00",
+          "end_time": "18:06:00"
+        },
+        {
+          "trip_id": "404_4113886",
+          "service_id": "404_1000000001814",
+          "start_time": "17:38:00",
+          "end_time": "18:24:00"
+        },
+        {
+          "trip_id": "404_4113901",
+          "service_id": "404_1000000001814",
+          "start_time": "17:56:00",
+          "end_time": "18:42:00"
+        },
+        {
+          "trip_id": "404_4113816",
+          "service_id": "404_1000000001814",
+          "start_time": "18:14:00",
+          "end_time": "19:00:00"
+        },
+        {
+          "trip_id": "404_4113834",
+          "service_id": "404_1000000001814",
+          "start_time": "18:32:00",
+          "end_time": "19:18:00"
+        },
+        {
+          "trip_id": "404_4113852",
+          "service_id": "404_1000000001814",
+          "start_time": "18:50:00",
+          "end_time": "19:36:00"
+        },
+        {
+          "trip_id": "404_4113870",
+          "service_id": "404_1000000001814",
+          "start_time": "19:08:00",
+          "end_time": "19:54:00"
+        },
+        {
+          "trip_id": "404_4113888",
+          "service_id": "404_1000000001814",
+          "start_time": "19:26:00",
+          "end_time": "20:12:00"
+        },
+        {
+          "trip_id": "404_4113903",
+          "service_id": "404_1000000001814",
+          "start_time": "19:44:00",
+          "end_time": "20:30:00"
+        },
+        {
+          "trip_id": "404_4113818",
+          "service_id": "404_1000000001814",
+          "start_time": "20:00:00",
+          "end_time": "20:49:00"
+        },
+        {
+          "trip_id": "404_4113836",
+          "service_id": "404_1000000001814",
+          "start_time": "20:18:00",
+          "end_time": "21:09:00"
+        },
+        {
+          "trip_id": "404_4113854",
+          "service_id": "404_1000000001814",
+          "start_time": "20:36:00",
+          "end_time": "21:28:00"
+        },
+        {
+          "trip_id": "404_4113872",
+          "service_id": "404_1000000001814",
+          "start_time": "20:56:00",
+          "end_time": "21:48:00"
+        }
+      ]
+    }
+  ]
+}

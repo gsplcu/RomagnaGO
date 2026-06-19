@@ -1,0 +1,145 @@
+{
+  "estrazione": "Orari da route_170.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_170.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "170",
+    "name": "Linea 170",
+    "direzioni_percorso": [
+      "Gioia-Cappellini > Mt Grimano Terme",
+      "Gioia-Cappellini > S.Maria Sopra,58",
+      "Mt Grimano Terme > Gioia-Cappellini",
+      "S.Maria Sopra,58 > Gioia-Cappellini"
+    ],
+    "route_id": "170"
+  },
+  "totale_trips": 8,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Gioia-Cappellini > Mt Grimano Terme",
+      "capolinea_partenza": {
+        "stop_id": "A00406",
+        "stop_name": "Gioia-Cappellini"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "AO0013",
+        "stop_name": "Mt Grimano Terme"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "07:38:00",
+        "12:08:00",
+        "18:48:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4041116",
+          "service_id": "404_1000000001810",
+          "start_time": "07:38:00",
+          "end_time": "08:46:00"
+        },
+        {
+          "trip_id": "404_4041117",
+          "service_id": "404_1000000001810",
+          "start_time": "12:08:00",
+          "end_time": "13:16:00"
+        },
+        {
+          "trip_id": "404_4041118",
+          "service_id": "404_1000000001810",
+          "start_time": "18:48:00",
+          "end_time": "19:56:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Gioia-Cappellini > S.Maria Sopra,58",
+      "capolinea_partenza": {
+        "stop_id": "A00406",
+        "stop_name": "Gioia-Cappellini"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "O00015",
+        "stop_name": "S.Maria Sopra,58"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "15:58:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4041119",
+          "service_id": "404_1000000001810",
+          "start_time": "15:58:00",
+          "end_time": "16:51:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Mt Grimano Terme > Gioia-Cappellini",
+      "capolinea_partenza": {
+        "stop_id": "AO0002",
+        "stop_name": "Mt Grimano Terme"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00406",
+        "stop_name": "Gioia-Cappellini"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "06:27:00",
+        "08:48:00",
+        "13:48:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4042276",
+          "service_id": "404_1000000001810",
+          "start_time": "06:27:00",
+          "end_time": "07:29:00"
+        },
+        {
+          "trip_id": "404_4042274",
+          "service_id": "404_1000000001810",
+          "start_time": "08:48:00",
+          "end_time": "09:58:00"
+        },
+        {
+          "trip_id": "404_4042275",
+          "service_id": "404_1000000001810",
+          "start_time": "13:48:00",
+          "end_time": "14:58:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.Maria Sopra,58 > Gioia-Cappellini",
+      "capolinea_partenza": {
+        "stop_id": "O00015",
+        "stop_name": "S.Maria Sopra,58"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00406",
+        "stop_name": "Gioia-Cappellini"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "17:22:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4042272",
+          "service_id": "404_1000000001810",
+          "start_time": "17:22:00",
+          "end_time": "18:13:00"
+        }
+      ]
+    }
+  ]
+}

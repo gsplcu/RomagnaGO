@@ -1,0 +1,501 @@
+{
+  "estrazione": "Orari da route_F126.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F126.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F126",
+    "name": "Linea F126",
+    "direzioni_percorso": [
+      "Atlantica > Forli Punto Bus",
+      "Cervia - Sacchetti > Lido Di Classe Chiesa",
+      "Faenza Fs (Pens.F) > Forli Punto Bus",
+      "Forli Punto Bus > Atlantica",
+      "Forli Punto Bus > Faenza Fs (Pens.F)",
+      "Forli Punto Bus > Lido Di Classe Chiesa",
+      "Forli Punto Bus > Mirabilandia",
+      "Lido Di Classe Chiesa > Forli Punto Bus",
+      "Mirabilandia > Forli Punto Bus",
+      "Pinarella > Cervia - Sacchetti"
+    ],
+    "route_id": "F126"
+  },
+  "totale_trips": 45,
+  "totale_direzioni_percorso": 10,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Atlantica > Forli Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "30082",
+        "stop_name": "Atlantica"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "08:30:00",
+        "11:30:00",
+        "14:30:00",
+        "17:30:00",
+        "17:38:00",
+        "17:53:00",
+        "18:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1037248",
+          "service_id": "833_1000000006965",
+          "start_time": "08:30:00",
+          "end_time": "09:32:00"
+        },
+        {
+          "trip_id": "833_1037251",
+          "service_id": "833_1000000006947",
+          "start_time": "11:30:00",
+          "end_time": "12:32:00"
+        },
+        {
+          "trip_id": "833_1037252",
+          "service_id": "833_1000000006955",
+          "start_time": "11:30:00",
+          "end_time": "12:32:00"
+        },
+        {
+          "trip_id": "833_1037253",
+          "service_id": "833_1000000006947",
+          "start_time": "14:30:00",
+          "end_time": "15:32:00"
+        },
+        {
+          "trip_id": "833_1037254",
+          "service_id": "833_1000000006955",
+          "start_time": "14:30:00",
+          "end_time": "15:32:00"
+        },
+        {
+          "trip_id": "833_1037249",
+          "service_id": "833_1000000006965",
+          "start_time": "17:30:00",
+          "end_time": "18:32:00"
+        },
+        {
+          "trip_id": "833_1037241",
+          "service_id": "833_1000000006955",
+          "start_time": "17:38:00",
+          "end_time": "18:40:00"
+        },
+        {
+          "trip_id": "833_1037247",
+          "service_id": "833_1000000006947",
+          "start_time": "17:53:00",
+          "end_time": "18:55:00"
+        },
+        {
+          "trip_id": "833_1037250",
+          "service_id": "833_1000000006965",
+          "start_time": "18:15:00",
+          "end_time": "19:17:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cervia - Sacchetti > Lido Di Classe Chiesa",
+      "capolinea_partenza": {
+        "stop_id": "10941",
+        "stop_name": "Cervia - Sacchetti"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "729440",
+        "stop_name": "Lido Di Classe Chiesa"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031213",
+          "service_id": "833_1000000006947",
+          "start_time": "06:00:00",
+          "end_time": "06:19:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Faenza Fs (Pens.F) > Forli Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "19691",
+        "stop_name": "Faenza Fs (Pens.F)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1039351",
+          "service_id": "833_1000000006965",
+          "start_time": "07:50:00",
+          "end_time": "08:15:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Forli Punto Bus > Atlantica",
+      "capolinea_partenza": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30081",
+        "stop_name": "Atlantica"
+      },
+      "trip_count": 10,
+      "orari_partenza": [
+        "07:15:00",
+        "07:56:00",
+        "08:01:00",
+        "08:15:00",
+        "10:15:00",
+        "13:15:00",
+        "16:15:00",
+        "19:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031249",
+          "service_id": "833_1000000006965",
+          "start_time": "07:15:00",
+          "end_time": "08:17:00"
+        },
+        {
+          "trip_id": "833_1031248",
+          "service_id": "833_1000000006947",
+          "start_time": "07:56:00",
+          "end_time": "08:58:00"
+        },
+        {
+          "trip_id": "833_1031242",
+          "service_id": "833_1000000006955",
+          "start_time": "08:01:00",
+          "end_time": "09:03:00"
+        },
+        {
+          "trip_id": "833_1031252",
+          "service_id": "833_1000000006965",
+          "start_time": "08:15:00",
+          "end_time": "09:17:00"
+        },
+        {
+          "trip_id": "833_1031253",
+          "service_id": "833_1000000006947",
+          "start_time": "10:15:00",
+          "end_time": "11:17:00"
+        },
+        {
+          "trip_id": "833_1031254",
+          "service_id": "833_1000000006955",
+          "start_time": "10:15:00",
+          "end_time": "11:17:00"
+        },
+        {
+          "trip_id": "833_1031255",
+          "service_id": "833_1000000006947",
+          "start_time": "13:15:00",
+          "end_time": "14:17:00"
+        },
+        {
+          "trip_id": "833_1031256",
+          "service_id": "833_1000000006955",
+          "start_time": "13:15:00",
+          "end_time": "14:17:00"
+        },
+        {
+          "trip_id": "833_1031250",
+          "service_id": "833_1000000006965",
+          "start_time": "16:15:00",
+          "end_time": "17:17:00"
+        },
+        {
+          "trip_id": "833_1031251",
+          "service_id": "833_1000000006965",
+          "start_time": "19:40:00",
+          "end_time": "20:42:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Forli Punto Bus > Faenza Fs (Pens.F)",
+      "capolinea_partenza": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "19691",
+        "stop_name": "Faenza Fs (Pens.F)"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:25:00",
+        "19:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1039352",
+          "service_id": "833_1000000006965",
+          "start_time": "07:25:00",
+          "end_time": "07:50:00"
+        },
+        {
+          "trip_id": "833_1039353",
+          "service_id": "833_1000000006965",
+          "start_time": "19:40:00",
+          "end_time": "20:05:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Forli Punto Bus > Lido Di Classe Chiesa",
+      "capolinea_partenza": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "729440",
+        "stop_name": "Lido Di Classe Chiesa"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "08:15:00",
+        "12:15:00",
+        "14:15:00",
+        "18:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031218",
+          "service_id": "833_1000000006947",
+          "start_time": "08:15:00",
+          "end_time": "09:00:00"
+        },
+        {
+          "trip_id": "833_1031219",
+          "service_id": "833_1000000006955",
+          "start_time": "08:15:00",
+          "end_time": "09:00:00"
+        },
+        {
+          "trip_id": "833_1031214",
+          "service_id": "833_1000000006965",
+          "start_time": "12:15:00",
+          "end_time": "13:23:00"
+        },
+        {
+          "trip_id": "833_1031215",
+          "service_id": "833_1000000006965",
+          "start_time": "14:15:00",
+          "end_time": "15:23:00"
+        },
+        {
+          "trip_id": "833_1031216",
+          "service_id": "833_1000000006947",
+          "start_time": "18:30:00",
+          "end_time": "19:38:00"
+        },
+        {
+          "trip_id": "833_1031217",
+          "service_id": "833_1000000006955",
+          "start_time": "18:30:00",
+          "end_time": "19:38:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Forli Punto Bus > Mirabilandia",
+      "capolinea_partenza": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "729220",
+        "stop_name": "Mirabilandia"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "09:10:00",
+        "17:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1031221",
+          "service_id": "833_1000000006982",
+          "start_time": "09:10:00",
+          "end_time": "10:28:00"
+        },
+        {
+          "trip_id": "833_1031225",
+          "service_id": "833_1000000006965",
+          "start_time": "09:10:00",
+          "end_time": "10:34:00"
+        },
+        {
+          "trip_id": "833_1031223",
+          "service_id": "833_1000000006965",
+          "start_time": "17:10:00",
+          "end_time": "17:55:00"
+        },
+        {
+          "trip_id": "833_1031224",
+          "service_id": "833_1000000006982",
+          "start_time": "17:10:00",
+          "end_time": "17:55:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Lido Di Classe Chiesa > Forli Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "729440",
+        "stop_name": "Lido Di Classe Chiesa"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "trip_count": 8,
+      "orari_partenza": [
+        "06:20:00",
+        "09:07:00",
+        "11:00:00",
+        "13:30:00",
+        "15:30:00",
+        "19:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036787",
+          "service_id": "833_1000000006965",
+          "start_time": "06:20:00",
+          "end_time": "07:23:00"
+        },
+        {
+          "trip_id": "833_1036791",
+          "service_id": "833_1000000006947",
+          "start_time": "09:07:00",
+          "end_time": "10:10:00"
+        },
+        {
+          "trip_id": "833_1036792",
+          "service_id": "833_1000000006955",
+          "start_time": "09:07:00",
+          "end_time": "10:10:00"
+        },
+        {
+          "trip_id": "833_1036790",
+          "service_id": "833_1000000006965",
+          "start_time": "11:00:00",
+          "end_time": "12:03:00"
+        },
+        {
+          "trip_id": "833_1036788",
+          "service_id": "833_1000000006965",
+          "start_time": "13:30:00",
+          "end_time": "14:33:00"
+        },
+        {
+          "trip_id": "833_1036789",
+          "service_id": "833_1000000006965",
+          "start_time": "15:30:00",
+          "end_time": "16:33:00"
+        },
+        {
+          "trip_id": "833_1036793",
+          "service_id": "833_1000000006947",
+          "start_time": "19:45:00",
+          "end_time": "20:48:00"
+        },
+        {
+          "trip_id": "833_1036794",
+          "service_id": "833_1000000006955",
+          "start_time": "19:45:00",
+          "end_time": "20:48:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Mirabilandia > Forli Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "729220",
+        "stop_name": "Mirabilandia"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "10:35:00",
+        "18:13:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033758",
+          "service_id": "833_1000000006982",
+          "start_time": "10:35:00",
+          "end_time": "11:15:00"
+        },
+        {
+          "trip_id": "833_1033742",
+          "service_id": "833_1000000006982",
+          "start_time": "18:13:00",
+          "end_time": "19:31:00"
+        },
+        {
+          "trip_id": "833_1033755",
+          "service_id": "833_1000000006965",
+          "start_time": "18:13:00",
+          "end_time": "19:37:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Pinarella > Cervia - Sacchetti",
+      "capolinea_partenza": {
+        "stop_id": "10891",
+        "stop_name": "Pinarella"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10941",
+        "stop_name": "Cervia - Sacchetti"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "05:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1037255",
+          "service_id": "833_1000000006947",
+          "start_time": "05:50:00",
+          "end_time": "05:59:00"
+        }
+      ]
+    }
+  ]
+}

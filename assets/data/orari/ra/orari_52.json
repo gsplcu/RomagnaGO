@@ -1,0 +1,369 @@
+{
+  "estrazione": "Orari da route_52.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_52.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "52",
+    "name": "Linea 52",
+    "direzioni_percorso": [
+      "Faenza Fs A > Granarolo Fs",
+      "Faenza Fs A > Le Maioliche",
+      "Granarolo Fs > Faenza Fs A",
+      "Le Maioliche > Faenza Fs A"
+    ],
+    "route_id": "52"
+  },
+  "totale_trips": 40,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Faenza Fs A > Granarolo Fs",
+      "capolinea_partenza": {
+        "stop_id": "780400",
+        "stop_name": "Faenza Fs A"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "787400",
+        "stop_name": "Granarolo Fs"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:12:00",
+        "12:52:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888215",
+          "service_id": "674_1000000002112",
+          "start_time": "08:12:00",
+          "end_time": "08:31:00"
+        },
+        {
+          "trip_id": "674_2888217",
+          "service_id": "674_1000000002112",
+          "start_time": "12:52:00",
+          "end_time": "13:11:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Faenza Fs A > Le Maioliche",
+      "capolinea_partenza": {
+        "stop_id": "780400",
+        "stop_name": "Faenza Fs A"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "784600",
+        "stop_name": "Le Maioliche"
+      },
+      "trip_count": 18,
+      "orari_partenza": [
+        "07:40:00",
+        "08:20:00",
+        "08:52:00",
+        "09:22:00",
+        "09:52:00",
+        "10:22:00",
+        "10:52:00",
+        "11:22:00",
+        "11:52:00",
+        "12:22:00",
+        "12:52:00",
+        "14:22:00",
+        "14:52:00",
+        "16:52:00",
+        "17:22:00",
+        "17:52:00",
+        "18:22:00",
+        "18:52:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888179",
+          "service_id": "674_1000000002108",
+          "start_time": "07:40:00",
+          "end_time": "07:51:00"
+        },
+        {
+          "trip_id": "674_2888181",
+          "service_id": "674_1000000002110",
+          "start_time": "08:20:00",
+          "end_time": "08:31:00"
+        },
+        {
+          "trip_id": "674_2888183",
+          "service_id": "674_1000000002108",
+          "start_time": "08:52:00",
+          "end_time": "09:03:00"
+        },
+        {
+          "trip_id": "674_2888185",
+          "service_id": "674_1000000002108",
+          "start_time": "09:22:00",
+          "end_time": "09:33:00"
+        },
+        {
+          "trip_id": "674_2888187",
+          "service_id": "674_1000000002108",
+          "start_time": "09:52:00",
+          "end_time": "10:03:00"
+        },
+        {
+          "trip_id": "674_2888189",
+          "service_id": "674_1000000002108",
+          "start_time": "10:22:00",
+          "end_time": "10:33:00"
+        },
+        {
+          "trip_id": "674_2888191",
+          "service_id": "674_1000000002108",
+          "start_time": "10:52:00",
+          "end_time": "11:03:00"
+        },
+        {
+          "trip_id": "674_2888193",
+          "service_id": "674_1000000002108",
+          "start_time": "11:22:00",
+          "end_time": "11:33:00"
+        },
+        {
+          "trip_id": "674_2888195",
+          "service_id": "674_1000000002108",
+          "start_time": "11:52:00",
+          "end_time": "12:03:00"
+        },
+        {
+          "trip_id": "674_2888197",
+          "service_id": "674_1000000002108",
+          "start_time": "12:22:00",
+          "end_time": "12:33:00"
+        },
+        {
+          "trip_id": "674_2888199",
+          "service_id": "674_1000000002110",
+          "start_time": "12:52:00",
+          "end_time": "13:03:00"
+        },
+        {
+          "trip_id": "674_2888201",
+          "service_id": "674_1000000002108",
+          "start_time": "14:22:00",
+          "end_time": "14:33:00"
+        },
+        {
+          "trip_id": "674_2888203",
+          "service_id": "674_1000000002108",
+          "start_time": "14:52:00",
+          "end_time": "15:03:00"
+        },
+        {
+          "trip_id": "674_2888205",
+          "service_id": "674_1000000002108",
+          "start_time": "16:52:00",
+          "end_time": "17:03:00"
+        },
+        {
+          "trip_id": "674_2888207",
+          "service_id": "674_1000000002108",
+          "start_time": "17:22:00",
+          "end_time": "17:33:00"
+        },
+        {
+          "trip_id": "674_2888209",
+          "service_id": "674_1000000002108",
+          "start_time": "17:52:00",
+          "end_time": "18:03:00"
+        },
+        {
+          "trip_id": "674_2888211",
+          "service_id": "674_1000000002108",
+          "start_time": "18:22:00",
+          "end_time": "18:33:00"
+        },
+        {
+          "trip_id": "674_2888213",
+          "service_id": "674_1000000002108",
+          "start_time": "18:52:00",
+          "end_time": "19:03:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Granarolo Fs > Faenza Fs A",
+      "capolinea_partenza": {
+        "stop_id": "787400",
+        "stop_name": "Granarolo Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780400",
+        "stop_name": "Faenza Fs A"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:32:00",
+        "13:12:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888216",
+          "service_id": "674_1000000002112",
+          "start_time": "08:32:00",
+          "end_time": "08:50:00"
+        },
+        {
+          "trip_id": "674_2888218",
+          "service_id": "674_1000000002112",
+          "start_time": "13:12:00",
+          "end_time": "13:30:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Le Maioliche > Faenza Fs A",
+      "capolinea_partenza": {
+        "stop_id": "784600",
+        "stop_name": "Le Maioliche"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "780400",
+        "stop_name": "Faenza Fs A"
+      },
+      "trip_count": 18,
+      "orari_partenza": [
+        "07:52:00",
+        "08:32:00",
+        "09:04:00",
+        "09:34:00",
+        "10:04:00",
+        "10:34:00",
+        "11:04:00",
+        "11:34:00",
+        "12:04:00",
+        "12:34:00",
+        "13:04:00",
+        "14:34:00",
+        "15:04:00",
+        "17:08:00",
+        "17:34:00",
+        "18:04:00",
+        "18:34:00",
+        "19:04:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2888180",
+          "service_id": "674_1000000002108",
+          "start_time": "07:52:00",
+          "end_time": "08:04:00"
+        },
+        {
+          "trip_id": "674_2888182",
+          "service_id": "674_1000000002110",
+          "start_time": "08:32:00",
+          "end_time": "08:44:00"
+        },
+        {
+          "trip_id": "674_2888184",
+          "service_id": "674_1000000002108",
+          "start_time": "09:04:00",
+          "end_time": "09:16:00"
+        },
+        {
+          "trip_id": "674_2888186",
+          "service_id": "674_1000000002108",
+          "start_time": "09:34:00",
+          "end_time": "09:46:00"
+        },
+        {
+          "trip_id": "674_2888188",
+          "service_id": "674_1000000002108",
+          "start_time": "10:04:00",
+          "end_time": "10:16:00"
+        },
+        {
+          "trip_id": "674_2888190",
+          "service_id": "674_1000000002108",
+          "start_time": "10:34:00",
+          "end_time": "10:46:00"
+        },
+        {
+          "trip_id": "674_2888192",
+          "service_id": "674_1000000002108",
+          "start_time": "11:04:00",
+          "end_time": "11:16:00"
+        },
+        {
+          "trip_id": "674_2888194",
+          "service_id": "674_1000000002108",
+          "start_time": "11:34:00",
+          "end_time": "11:46:00"
+        },
+        {
+          "trip_id": "674_2888196",
+          "service_id": "674_1000000002108",
+          "start_time": "12:04:00",
+          "end_time": "12:16:00"
+        },
+        {
+          "trip_id": "674_2888198",
+          "service_id": "674_1000000002108",
+          "start_time": "12:34:00",
+          "end_time": "12:46:00"
+        },
+        {
+          "trip_id": "674_2888200",
+          "service_id": "674_1000000002110",
+          "start_time": "13:04:00",
+          "end_time": "13:16:00"
+        },
+        {
+          "trip_id": "674_2888202",
+          "service_id": "674_1000000002108",
+          "start_time": "14:34:00",
+          "end_time": "14:46:00"
+        },
+        {
+          "trip_id": "674_2888204",
+          "service_id": "674_1000000002108",
+          "start_time": "15:04:00",
+          "end_time": "15:16:00"
+        },
+        {
+          "trip_id": "674_2888206",
+          "service_id": "674_1000000002108",
+          "start_time": "17:08:00",
+          "end_time": "17:20:00"
+        },
+        {
+          "trip_id": "674_2888208",
+          "service_id": "674_1000000002108",
+          "start_time": "17:34:00",
+          "end_time": "17:46:00"
+        },
+        {
+          "trip_id": "674_2888210",
+          "service_id": "674_1000000002108",
+          "start_time": "18:04:00",
+          "end_time": "18:16:00"
+        },
+        {
+          "trip_id": "674_2888212",
+          "service_id": "674_1000000002108",
+          "start_time": "18:34:00",
+          "end_time": "18:46:00"
+        },
+        {
+          "trip_id": "674_2888214",
+          "service_id": "674_1000000002108",
+          "start_time": "19:04:00",
+          "end_time": "19:16:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "estrazione": "Orari da route_181.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_181.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "181",
+    "name": "Linea 181",
+    "direzioni_percorso": [
+      "Lugo Punto Bus > S.M. In Fabriago",
+      "S.M. In Fabriago > Lugo Punto Bus"
+    ],
+    "route_id": "181"
+  },
+  "totale_trips": 2,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Lugo Punto Bus > S.M. In Fabriago",
+      "capolinea_partenza": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "766710",
+        "stop_name": "S.M. In Fabriago"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "11:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2799024",
+          "service_id": "674_1000000002132",
+          "start_time": "11:10:00",
+          "end_time": "11:55:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.M. In Fabriago > Lugo Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "766700",
+        "stop_name": "S.M. In Fabriago"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "760140",
+        "stop_name": "Lugo Punto Bus"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "08:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2799069",
+          "service_id": "674_1000000002132",
+          "start_time": "08:10:00",
+          "end_time": "08:55:00"
+        }
+      ]
+    }
+  ]
+}

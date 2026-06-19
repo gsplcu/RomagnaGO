@@ -1,0 +1,145 @@
+{
+  "estrazione": "Orari da route_161.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_161.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "161",
+    "name": "Linea 161",
+    "direzioni_percorso": [
+      "Novafeltria Capolinea > P.Te Messa Fr.Scuole",
+      "Novafeltria Capolinea > Pianacci",
+      "P.Te Messa Fr.Scuole > Novafeltria Capolinea",
+      "Pianacci > Novafeltria Capolinea"
+    ],
+    "route_id": "161"
+  },
+  "totale_trips": 8,
+  "totale_direzioni_percorso": 4,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Novafeltria Capolinea > P.Te Messa Fr.Scuole",
+      "capolinea_partenza": {
+        "stop_id": "AC0009",
+        "stop_name": "Novafeltria Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "AH0048",
+        "stop_name": "P.Te Messa Fr.Scuole"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "14:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4030643",
+          "service_id": "404_1000000001810",
+          "start_time": "14:10:00",
+          "end_time": "14:35:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Novafeltria Capolinea > Pianacci",
+      "capolinea_partenza": {
+        "stop_id": "AC0009",
+        "stop_name": "Novafeltria Capolinea"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "AH0011",
+        "stop_name": "Pianacci"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "06:00:00",
+        "09:10:00",
+        "17:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4027350",
+          "service_id": "404_1000000001810",
+          "start_time": "06:00:00",
+          "end_time": "06:18:00"
+        },
+        {
+          "trip_id": "404_4027352",
+          "service_id": "404_1000000001812",
+          "start_time": "09:10:00",
+          "end_time": "09:28:00"
+        },
+        {
+          "trip_id": "404_4027351",
+          "service_id": "404_1000000001812",
+          "start_time": "17:10:00",
+          "end_time": "17:28:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Te Messa Fr.Scuole > Novafeltria Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "AH0048",
+        "stop_name": "P.Te Messa Fr.Scuole"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "AC0009",
+        "stop_name": "Novafeltria Capolinea"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "14:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4074344",
+          "service_id": "404_1000000001810",
+          "start_time": "14:35:00",
+          "end_time": "14:53:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Pianacci > Novafeltria Capolinea",
+      "capolinea_partenza": {
+        "stop_id": "AH0011",
+        "stop_name": "Pianacci"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "AC0009",
+        "stop_name": "Novafeltria Capolinea"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "06:18:00",
+        "09:28:00",
+        "17:28:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4082210",
+          "service_id": "404_1000000001810",
+          "start_time": "06:18:00",
+          "end_time": "06:43:00"
+        },
+        {
+          "trip_id": "404_4082212",
+          "service_id": "404_1000000001812",
+          "start_time": "09:28:00",
+          "end_time": "09:59:00"
+        },
+        {
+          "trip_id": "404_4082211",
+          "service_id": "404_1000000001812",
+          "start_time": "17:28:00",
+          "end_time": "17:59:00"
+        }
+      ]
+    }
+  ]
+}

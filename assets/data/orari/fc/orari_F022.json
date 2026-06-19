@@ -1,0 +1,203 @@
+{
+  "estrazione": "Orari da route_F022.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F022.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F022",
+    "name": "Linea F022",
+    "direzioni_percorso": [
+      "Bagno Di Romagna > Bv.Para Massa",
+      "Bucci Almerici > Bv.Para Massa",
+      "Bucci Almerici > S.Mauro Mare",
+      "Bv.Para Massa > Bagno Di Romagna",
+      "Bv.Para Massa > Bucci Almerici",
+      "S.Mauro Mare > Bucci Almerici"
+    ],
+    "route_id": "F022"
+  },
+  "totale_trips": 12,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bagno Di Romagna > Bv.Para Massa",
+      "capolinea_partenza": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13351",
+        "stop_name": "Bv.Para Massa"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036247",
+          "service_id": "833_1000000006970",
+          "start_time": "07:30:00",
+          "end_time": "07:48:00"
+        },
+        {
+          "trip_id": "833_1036248",
+          "service_id": "833_1000000006968",
+          "start_time": "07:30:00",
+          "end_time": "07:48:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bucci Almerici > Bv.Para Massa",
+      "capolinea_partenza": {
+        "stop_id": "5901",
+        "stop_name": "Bucci Almerici"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13352",
+        "stop_name": "Bv.Para Massa"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "18:18:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033647",
+          "service_id": "833_1000000006970",
+          "start_time": "18:18:00",
+          "end_time": "18:58:00"
+        },
+        {
+          "trip_id": "833_1033648",
+          "service_id": "833_1000000006968",
+          "start_time": "18:18:00",
+          "end_time": "18:58:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bucci Almerici > S.Mauro Mare",
+      "capolinea_partenza": {
+        "stop_id": "5902",
+        "stop_name": "Bucci Almerici"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "11830",
+        "stop_name": "S.Mauro Mare"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:41:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036252",
+          "service_id": "833_1000000006970",
+          "start_time": "08:41:00",
+          "end_time": "09:37:00"
+        },
+        {
+          "trip_id": "833_1036253",
+          "service_id": "833_1000000006968",
+          "start_time": "08:41:00",
+          "end_time": "09:37:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Bv.Para Massa > Bagno Di Romagna",
+      "capolinea_partenza": {
+        "stop_id": "13352",
+        "stop_name": "Bv.Para Massa"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13480",
+        "stop_name": "Bagno Di Romagna"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "19:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033650",
+          "service_id": "833_1000000006970",
+          "start_time": "19:00:00",
+          "end_time": "19:25:00"
+        },
+        {
+          "trip_id": "833_1033651",
+          "service_id": "833_1000000006968",
+          "start_time": "19:00:00",
+          "end_time": "19:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Bv.Para Massa > Bucci Almerici",
+      "capolinea_partenza": {
+        "stop_id": "13351",
+        "stop_name": "Bv.Para Massa"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "5902",
+        "stop_name": "Bucci Almerici"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036250",
+          "service_id": "833_1000000006970",
+          "start_time": "07:50:00",
+          "end_time": "08:39:00"
+        },
+        {
+          "trip_id": "833_1036251",
+          "service_id": "833_1000000006968",
+          "start_time": "07:50:00",
+          "end_time": "08:39:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.Mauro Mare > Bucci Almerici",
+      "capolinea_partenza": {
+        "stop_id": "11830",
+        "stop_name": "S.Mauro Mare"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "5901",
+        "stop_name": "Bucci Almerici"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "17:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086301",
+          "service_id": "833_1000000006968",
+          "start_time": "17:15:00",
+          "end_time": "18:16:00"
+        },
+        {
+          "trip_id": "833_1086309",
+          "service_id": "833_1000000006970",
+          "start_time": "17:15:00",
+          "end_time": "18:16:00"
+        }
+      ]
+    }
+  ]
+}

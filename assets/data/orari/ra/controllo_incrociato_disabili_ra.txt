@@ -1,0 +1,17 @@
+Controllo incrociato disabili RA
+PDF codes estratti: 112
+ID attesi nel JSON (mappati): 112
+ID presenti nel JSON: 2543
+ID marcati disabili=yes nel JSON: 109
+
+ID attesi ma NON presenti nel JSON: 3
+- PDF 113 -> JSON 701130
+- PDF 165 -> JSON 701650
+- PDF 385 -> JSON 703850
+
+ID attesi ma NON marcati yes: 3
+- PDF 113 -> JSON 701130
+- PDF 165 -> JSON 701650
+- PDF 385 -> JSON 703850
+
+ID marcati yes ma NON presenti nel PDF: 0

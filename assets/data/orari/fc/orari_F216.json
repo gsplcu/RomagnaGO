@@ -1,0 +1,49 @@
+{
+  "estrazione": "Orari da route_F216.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F216.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F216",
+    "name": "Linea F216",
+    "direzioni_percorso": [
+      "Cesena Punto Bus B1 > Cesena Punto Bus B1"
+    ],
+    "route_id": "F216"
+  },
+  "totale_trips": 2,
+  "totale_direzioni_percorso": 1,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cesena Punto Bus B1 > Cesena Punto Bus B1",
+      "capolinea_partenza": {
+        "stop_id": "999B1",
+        "stop_name": "Cesena Punto Bus B1"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999B1",
+        "stop_name": "Cesena Punto Bus B1"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:20:00",
+        "11:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036360",
+          "service_id": "833_1000000006931",
+          "start_time": "07:20:00",
+          "end_time": "08:10:00"
+        },
+        {
+          "trip_id": "833_1036060",
+          "service_id": "833_1000000006931",
+          "start_time": "11:30:00",
+          "end_time": "12:25:00"
+        }
+      ]
+    }
+  ]
+}

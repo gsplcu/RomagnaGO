@@ -1,0 +1,179 @@
+{
+  "estrazione": "Orari da route_S096.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_S096.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "S096",
+    "name": "Linea S096",
+    "direzioni_percorso": [
+      "Forli Punto Bus > Meldola Casa Serena",
+      "Meldola Casa Serena > Forli Punto Bus"
+    ],
+    "route_id": "S096"
+  },
+  "totale_trips": 18,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Forli Punto Bus > Meldola Casa Serena",
+      "capolinea_partenza": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "47070",
+        "stop_name": "Meldola Casa Serena"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "06:05:00",
+        "06:35:00",
+        "08:35:00",
+        "10:35:00",
+        "12:35:00",
+        "14:05:00",
+        "14:35:00",
+        "16:35:00",
+        "18:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036817",
+          "service_id": "833_1000000006947",
+          "start_time": "06:05:00",
+          "end_time": "06:41:00"
+        },
+        {
+          "trip_id": "833_1036818",
+          "service_id": "833_1000000006947",
+          "start_time": "06:35:00",
+          "end_time": "07:11:00"
+        },
+        {
+          "trip_id": "833_1036819",
+          "service_id": "833_1000000006947",
+          "start_time": "08:35:00",
+          "end_time": "09:11:00"
+        },
+        {
+          "trip_id": "833_1036820",
+          "service_id": "833_1000000006947",
+          "start_time": "10:35:00",
+          "end_time": "11:11:00"
+        },
+        {
+          "trip_id": "833_1036821",
+          "service_id": "833_1000000006947",
+          "start_time": "12:35:00",
+          "end_time": "13:11:00"
+        },
+        {
+          "trip_id": "833_1036822",
+          "service_id": "833_1000000006947",
+          "start_time": "14:05:00",
+          "end_time": "14:41:00"
+        },
+        {
+          "trip_id": "833_1036823",
+          "service_id": "833_1000000006947",
+          "start_time": "14:35:00",
+          "end_time": "15:11:00"
+        },
+        {
+          "trip_id": "833_1036824",
+          "service_id": "833_1000000006947",
+          "start_time": "16:35:00",
+          "end_time": "17:11:00"
+        },
+        {
+          "trip_id": "833_1036825",
+          "service_id": "833_1000000006947",
+          "start_time": "18:35:00",
+          "end_time": "19:11:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Meldola Casa Serena > Forli Punto Bus",
+      "capolinea_partenza": {
+        "stop_id": "47070",
+        "stop_name": "Meldola Casa Serena"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "1660",
+        "stop_name": "Forli Punto Bus"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "06:49:00",
+        "07:19:00",
+        "09:19:00",
+        "11:19:00",
+        "13:19:00",
+        "14:49:00",
+        "15:19:00",
+        "17:19:00",
+        "19:19:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035250",
+          "service_id": "833_1000000006947",
+          "start_time": "06:49:00",
+          "end_time": "07:24:00"
+        },
+        {
+          "trip_id": "833_1035224",
+          "service_id": "833_1000000006947",
+          "start_time": "07:19:00",
+          "end_time": "07:54:00"
+        },
+        {
+          "trip_id": "833_1035225",
+          "service_id": "833_1000000006947",
+          "start_time": "09:19:00",
+          "end_time": "09:54:00"
+        },
+        {
+          "trip_id": "833_1035226",
+          "service_id": "833_1000000006947",
+          "start_time": "11:19:00",
+          "end_time": "11:54:00"
+        },
+        {
+          "trip_id": "833_1035227",
+          "service_id": "833_1000000006947",
+          "start_time": "13:19:00",
+          "end_time": "13:54:00"
+        },
+        {
+          "trip_id": "833_1035228",
+          "service_id": "833_1000000006947",
+          "start_time": "14:49:00",
+          "end_time": "15:24:00"
+        },
+        {
+          "trip_id": "833_1035229",
+          "service_id": "833_1000000006947",
+          "start_time": "15:19:00",
+          "end_time": "15:54:00"
+        },
+        {
+          "trip_id": "833_1035230",
+          "service_id": "833_1000000006947",
+          "start_time": "17:19:00",
+          "end_time": "17:54:00"
+        },
+        {
+          "trip_id": "833_1035231",
+          "service_id": "833_1000000006947",
+          "start_time": "19:19:00",
+          "end_time": "19:54:00"
+        }
+      ]
+    }
+  ]
+}

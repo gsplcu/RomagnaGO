@@ -1,0 +1,79 @@
+{
+  "estrazione": "Orari da route_CE13.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_CE13.json",
+  "route": {
+    "basin": "FC",
+    "area": "Cesena",
+    "line": "CE13",
+    "name": "Linea CE13",
+    "direzioni_percorso": [
+      "Capolinea Tipano > Cesena Punto Bus F",
+      "Cesena Punto Bus F > Capolinea Tipano"
+    ],
+    "route_id": "CE13"
+  },
+  "totale_trips": 4,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Capolinea Tipano > Cesena Punto Bus F",
+      "capolinea_partenza": {
+        "stop_id": "12340",
+        "stop_name": "Capolinea Tipano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999F1",
+        "stop_name": "Cesena Punto Bus F"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036673",
+          "service_id": "833_1000000006916",
+          "start_time": "08:35:00",
+          "end_time": "09:01:00"
+        },
+        {
+          "trip_id": "833_1036678",
+          "service_id": "833_1000000006932",
+          "start_time": "08:35:00",
+          "end_time": "09:01:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cesena Punto Bus F > Capolinea Tipano",
+      "capolinea_partenza": {
+        "stop_id": "999F1",
+        "stop_name": "Cesena Punto Bus F"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "12340",
+        "stop_name": "Capolinea Tipano"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "11:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1036744",
+          "service_id": "833_1000000006916",
+          "start_time": "11:00:00",
+          "end_time": "11:26:00"
+        },
+        {
+          "trip_id": "833_1036750",
+          "service_id": "833_1000000006932",
+          "start_time": "11:00:00",
+          "end_time": "11:26:00"
+        }
+      ]
+    }
+  ]
+}

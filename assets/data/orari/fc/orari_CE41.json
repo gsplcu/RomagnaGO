@@ -1,0 +1,249 @@
+{
+  "estrazione": "Orari da route_CE41.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_CE41.json",
+  "route": {
+    "basin": "FC",
+    "area": "Cesena",
+    "line": "CE41",
+    "name": "Linea CE41",
+    "direzioni_percorso": [
+      "Cesena Punto Bus F > S.Andrea In Bagnolo",
+      "S.Andrea In Bagnolo > Cesena Punto Bus F"
+    ],
+    "route_id": "CE41"
+  },
+  "totale_trips": 28,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Cesena Punto Bus F > S.Andrea In Bagnolo",
+      "capolinea_partenza": {
+        "stop_id": "999F1",
+        "stop_name": "Cesena Punto Bus F"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "12590",
+        "stop_name": "S.Andrea In Bagnolo"
+      },
+      "trip_count": 14,
+      "orari_partenza": [
+        "06:55:00",
+        "07:55:00",
+        "08:55:00",
+        "09:55:00",
+        "10:55:00",
+        "11:55:00",
+        "12:55:00",
+        "13:55:00",
+        "14:55:00",
+        "15:55:00",
+        "16:55:00",
+        "17:55:00",
+        "18:55:00",
+        "19:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086983",
+          "service_id": "833_1000000006950",
+          "start_time": "06:55:00",
+          "end_time": "07:24:00"
+        },
+        {
+          "trip_id": "833_1086984",
+          "service_id": "833_1000000006950",
+          "start_time": "07:55:00",
+          "end_time": "08:24:00"
+        },
+        {
+          "trip_id": "833_1086985",
+          "service_id": "833_1000000006950",
+          "start_time": "08:55:00",
+          "end_time": "09:24:00"
+        },
+        {
+          "trip_id": "833_1086989",
+          "service_id": "833_1000000006936",
+          "start_time": "09:55:00",
+          "end_time": "10:24:00"
+        },
+        {
+          "trip_id": "833_1086986",
+          "service_id": "833_1000000006950",
+          "start_time": "10:55:00",
+          "end_time": "11:24:00"
+        },
+        {
+          "trip_id": "833_1086987",
+          "service_id": "833_1000000006950",
+          "start_time": "11:55:00",
+          "end_time": "12:24:00"
+        },
+        {
+          "trip_id": "833_1086990",
+          "service_id": "833_1000000006936",
+          "start_time": "12:55:00",
+          "end_time": "13:24:00"
+        },
+        {
+          "trip_id": "833_1086991",
+          "service_id": "833_1000000006936",
+          "start_time": "13:55:00",
+          "end_time": "14:24:00"
+        },
+        {
+          "trip_id": "833_1086995",
+          "service_id": "833_1000000006940",
+          "start_time": "14:55:00",
+          "end_time": "15:24:00"
+        },
+        {
+          "trip_id": "833_1086992",
+          "service_id": "833_1000000006936",
+          "start_time": "15:55:00",
+          "end_time": "16:24:00"
+        },
+        {
+          "trip_id": "833_1086988",
+          "service_id": "833_1000000006950",
+          "start_time": "16:55:00",
+          "end_time": "17:24:00"
+        },
+        {
+          "trip_id": "833_1086993",
+          "service_id": "833_1000000006936",
+          "start_time": "17:55:00",
+          "end_time": "18:24:00"
+        },
+        {
+          "trip_id": "833_1086994",
+          "service_id": "833_1000000006936",
+          "start_time": "18:55:00",
+          "end_time": "19:24:00"
+        },
+        {
+          "trip_id": "833_1086996",
+          "service_id": "833_1000000006940",
+          "start_time": "19:00:00",
+          "end_time": "19:29:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "S.Andrea In Bagnolo > Cesena Punto Bus F",
+      "capolinea_partenza": {
+        "stop_id": "12590",
+        "stop_name": "S.Andrea In Bagnolo"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999F1",
+        "stop_name": "Cesena Punto Bus F"
+      },
+      "trip_count": 14,
+      "orari_partenza": [
+        "07:25:00",
+        "08:25:00",
+        "09:25:00",
+        "10:25:00",
+        "11:25:00",
+        "12:25:00",
+        "13:25:00",
+        "14:25:00",
+        "15:25:00",
+        "16:25:00",
+        "17:25:00",
+        "18:25:00",
+        "19:25:00",
+        "19:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086969",
+          "service_id": "833_1000000006950",
+          "start_time": "07:25:00",
+          "end_time": "07:51:00"
+        },
+        {
+          "trip_id": "833_1086970",
+          "service_id": "833_1000000006950",
+          "start_time": "08:25:00",
+          "end_time": "08:51:00"
+        },
+        {
+          "trip_id": "833_1086971",
+          "service_id": "833_1000000006950",
+          "start_time": "09:25:00",
+          "end_time": "09:51:00"
+        },
+        {
+          "trip_id": "833_1086975",
+          "service_id": "833_1000000006936",
+          "start_time": "10:25:00",
+          "end_time": "10:51:00"
+        },
+        {
+          "trip_id": "833_1086972",
+          "service_id": "833_1000000006950",
+          "start_time": "11:25:00",
+          "end_time": "11:51:00"
+        },
+        {
+          "trip_id": "833_1086973",
+          "service_id": "833_1000000006950",
+          "start_time": "12:25:00",
+          "end_time": "12:51:00"
+        },
+        {
+          "trip_id": "833_1086976",
+          "service_id": "833_1000000006936",
+          "start_time": "13:25:00",
+          "end_time": "13:51:00"
+        },
+        {
+          "trip_id": "833_1086977",
+          "service_id": "833_1000000006936",
+          "start_time": "14:25:00",
+          "end_time": "14:51:00"
+        },
+        {
+          "trip_id": "833_1086981",
+          "service_id": "833_1000000006940",
+          "start_time": "15:25:00",
+          "end_time": "15:51:00"
+        },
+        {
+          "trip_id": "833_1086978",
+          "service_id": "833_1000000006936",
+          "start_time": "16:25:00",
+          "end_time": "16:51:00"
+        },
+        {
+          "trip_id": "833_1086974",
+          "service_id": "833_1000000006950",
+          "start_time": "17:25:00",
+          "end_time": "17:51:00"
+        },
+        {
+          "trip_id": "833_1086979",
+          "service_id": "833_1000000006936",
+          "start_time": "18:25:00",
+          "end_time": "18:51:00"
+        },
+        {
+          "trip_id": "833_1086980",
+          "service_id": "833_1000000006936",
+          "start_time": "19:25:00",
+          "end_time": "19:51:00"
+        },
+        {
+          "trip_id": "833_1086982",
+          "service_id": "833_1000000006940",
+          "start_time": "19:30:00",
+          "end_time": "19:56:00"
+        }
+      ]
+    }
+  ]
+}

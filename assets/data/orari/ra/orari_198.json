@@ -1,0 +1,181 @@
+{
+  "estrazione": "Orari da route_198.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_198.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "198",
+    "name": "Linea 198",
+    "direzioni_percorso": [
+      "Autostazione > Riolo Istituto Alberghiero",
+      "Biblioteca > Autostazione",
+      "Biblioteca > Imola Zona Ind.",
+      "Imola Zona Ind. > Riolo Istituto Alberghiero",
+      "Riolo Istituto Alberghiero > Autostazione",
+      "Riolo Istituto Alberghiero > Imola Zona Ind."
+    ],
+    "route_id": "198"
+  },
+  "totale_trips": 8,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Autostazione > Riolo Istituto Alberghiero",
+      "capolinea_partenza": {
+        "stop_id": "592000",
+        "stop_name": "Autostazione"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "775000",
+        "stop_name": "Riolo Istituto Alberghiero"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:50:00",
+        "13:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796786",
+          "service_id": "674_1000000002133",
+          "start_time": "07:50:00",
+          "end_time": "08:13:00"
+        },
+        {
+          "trip_id": "674_2796475",
+          "service_id": "674_1000000002117",
+          "start_time": "13:45:00",
+          "end_time": "14:13:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Biblioteca > Autostazione",
+      "capolinea_partenza": {
+        "stop_id": "779010",
+        "stop_name": "Biblioteca"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "592010",
+        "stop_name": "Autostazione"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796787",
+          "service_id": "674_1000000002133",
+          "start_time": "06:40:00",
+          "end_time": "07:26:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Biblioteca > Imola Zona Ind.",
+      "capolinea_partenza": {
+        "stop_id": "779010",
+        "stop_name": "Biblioteca"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "592260",
+        "stop_name": "Imola Zona Ind."
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2798984",
+          "service_id": "674_1000000002113",
+          "start_time": "06:40:00",
+          "end_time": "07:35:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Imola Zona Ind. > Riolo Istituto Alberghiero",
+      "capolinea_partenza": {
+        "stop_id": "592260",
+        "stop_name": "Imola Zona Ind."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "775000",
+        "stop_name": "Riolo Istituto Alberghiero"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:35:00",
+        "17:31:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2798986",
+          "service_id": "674_1000000002113",
+          "start_time": "07:35:00",
+          "end_time": "08:13:00"
+        },
+        {
+          "trip_id": "674_2798987",
+          "service_id": "674_1000000002113",
+          "start_time": "17:31:00",
+          "end_time": "18:06:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Riolo Istituto Alberghiero > Autostazione",
+      "capolinea_partenza": {
+        "stop_id": "775000",
+        "stop_name": "Riolo Istituto Alberghiero"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "592010",
+        "stop_name": "Autostazione"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "12:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796474",
+          "service_id": "674_1000000002117",
+          "start_time": "12:35:00",
+          "end_time": "13:00:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Riolo Istituto Alberghiero > Imola Zona Ind.",
+      "capolinea_partenza": {
+        "stop_id": "775000",
+        "stop_name": "Riolo Istituto Alberghiero"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "592260",
+        "stop_name": "Imola Zona Ind."
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "16:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2798985",
+          "service_id": "674_1000000002113",
+          "start_time": "16:55:00",
+          "end_time": "17:27:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "estrazione": "Orari da route_151.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_151.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "151",
+    "name": "Linea 151",
+    "direzioni_percorso": [
+      "Circ.Ne Al Molino > Fusignano",
+      "Circ.Ne Al Molino > P.Zza V. Prati",
+      "Circ.Ne Al Molino > Santerno Piazza",
+      "Farini Liceo > Santerno Piazza",
+      "Fusignano > Farini Liceo",
+      "Fusignano > Marina Traghetto",
+      "Marina Traghetto > Fusignano",
+      "P.Zza V. Prati > Circ.Ne Al Molino",
+      "Santerno Piazza > Circ.Ne Al Molino"
+    ],
+    "route_id": "151"
+  },
+  "totale_trips": 20,
+  "totale_direzioni_percorso": 9,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Circ.Ne Al Molino > Fusignano",
+      "capolinea_partenza": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "750000",
+        "stop_name": "Fusignano"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "18:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2800634",
+          "service_id": "674_1000000002126",
+          "start_time": "18:45:00",
+          "end_time": "19:44:00"
+        },
+        {
+          "trip_id": "674_2800641",
+          "service_id": "674_1000000002128",
+          "start_time": "18:45:00",
+          "end_time": "19:44:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Circ.Ne Al Molino > P.Zza V. Prati",
+      "capolinea_partenza": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "754900",
+        "stop_name": "P.Zza V. Prati"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "11:31:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2800636",
+          "service_id": "674_1000000002126",
+          "start_time": "11:31:00",
+          "end_time": "12:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Circ.Ne Al Molino > Santerno Piazza",
+      "capolinea_partenza": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "722500",
+        "stop_name": "Santerno Piazza"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "17:16:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2800640",
+          "service_id": "674_1000000002126",
+          "start_time": "17:16:00",
+          "end_time": "17:46:00"
+        },
+        {
+          "trip_id": "674_2800650",
+          "service_id": "674_1000000002125",
+          "start_time": "17:16:00",
+          "end_time": "17:46:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Farini Liceo > Santerno Piazza",
+      "capolinea_partenza": {
+        "stop_id": "700390",
+        "stop_name": "Farini Liceo"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "722500",
+        "stop_name": "Santerno Piazza"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "13:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889343",
+          "service_id": "674_1000000002126",
+          "start_time": "13:25:00",
+          "end_time": "14:11:00"
+        },
+        {
+          "trip_id": "674_2889344",
+          "service_id": "674_1000000002125",
+          "start_time": "13:25:00",
+          "end_time": "14:11:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Fusignano > Farini Liceo",
+      "capolinea_partenza": {
+        "stop_id": "750000",
+        "stop_name": "Fusignano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700390",
+        "stop_name": "Farini Liceo"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2800633",
+          "service_id": "674_1000000002126",
+          "start_time": "06:30:00",
+          "end_time": "07:33:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Fusignano > Marina Traghetto",
+      "capolinea_partenza": {
+        "stop_id": "750000",
+        "stop_name": "Fusignano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "713240",
+        "stop_name": "Marina Traghetto"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "06:30:00",
+        "10:30:00",
+        "13:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2800646",
+          "service_id": "674_1000000002125",
+          "start_time": "06:30:00",
+          "end_time": "08:02:00"
+        },
+        {
+          "trip_id": "674_2800652",
+          "service_id": "674_1000000002127",
+          "start_time": "10:30:00",
+          "end_time": "12:03:00"
+        },
+        {
+          "trip_id": "674_2800647",
+          "service_id": "674_1000000002125",
+          "start_time": "13:45:00",
+          "end_time": "15:18:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Marina Traghetto > Fusignano",
+      "capolinea_partenza": {
+        "stop_id": "713240",
+        "stop_name": "Marina Traghetto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "750000",
+        "stop_name": "Fusignano"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "11:00:00",
+        "18:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889341",
+          "service_id": "674_1000000002125",
+          "start_time": "11:00:00",
+          "end_time": "12:37:00"
+        },
+        {
+          "trip_id": "674_2889342",
+          "service_id": "674_1000000002125",
+          "start_time": "18:15:00",
+          "end_time": "19:52:00"
+        },
+        {
+          "trip_id": "674_2889345",
+          "service_id": "674_1000000002127",
+          "start_time": "18:15:00",
+          "end_time": "19:52:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "P.Zza V. Prati > Circ.Ne Al Molino",
+      "capolinea_partenza": {
+        "stop_id": "754910",
+        "stop_name": "P.Zza V. Prati"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "13:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2800637",
+          "service_id": "674_1000000002126",
+          "start_time": "13:50:00",
+          "end_time": "14:44:00"
+        },
+        {
+          "trip_id": "674_2800642",
+          "service_id": "674_1000000002128",
+          "start_time": "13:50:00",
+          "end_time": "14:44:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Santerno Piazza > Circ.Ne Al Molino",
+      "capolinea_partenza": {
+        "stop_id": "722500",
+        "stop_name": "Santerno Piazza"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "07:44:00",
+        "10:55:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2800638",
+          "service_id": "674_1000000002126",
+          "start_time": "07:44:00",
+          "end_time": "08:14:00"
+        },
+        {
+          "trip_id": "674_2800648",
+          "service_id": "674_1000000002125",
+          "start_time": "07:44:00",
+          "end_time": "08:14:00"
+        },
+        {
+          "trip_id": "674_2800639",
+          "service_id": "674_1000000002126",
+          "start_time": "10:55:00",
+          "end_time": "11:25:00"
+        },
+        {
+          "trip_id": "674_2800649",
+          "service_id": "674_1000000002125",
+          "start_time": "10:55:00",
+          "end_time": "11:25:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "estrazione": "Orari da route_1-2CO.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_1-2CO.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "1-2CO",
+    "name": "Linea 1-2CO",
+    "direzioni_percorso": [
+      "Cesenatico (P.Le Trento) > Gatteo Mare (Via Euclide)",
+      "Gatteo Mare (Via Euclide) > Cesenatico (P.Le Trento)",
+      "Gatteo Mare (Via Euclide) > Zadina",
+      "Sagittario > Zadina",
+      "Zadina > Gatteo Mare (Via Euclide)",
+      "Zadina > Sagittario"
+    ],
+    "route_id": "1-2CO"
+  },
+  "totale_trips": 14,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesenatico (P.Le Trento) > Gatteo Mare (Via Euclide)",
+      "capolinea_partenza": {
+        "stop_id": "10821",
+        "stop_name": "Cesenatico (P.Le Trento)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "09:01:00",
+        "10:01:00",
+        "10:41:00",
+        "11:21:00",
+        "12:01:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1030343",
+          "service_id": "833_1000000006944",
+          "start_time": "09:01:00",
+          "end_time": "09:17:00"
+        },
+        {
+          "trip_id": "833_1030344",
+          "service_id": "833_1000000006944",
+          "start_time": "10:01:00",
+          "end_time": "10:17:00"
+        },
+        {
+          "trip_id": "833_1030345",
+          "service_id": "833_1000000006944",
+          "start_time": "10:41:00",
+          "end_time": "10:57:00"
+        },
+        {
+          "trip_id": "833_1030346",
+          "service_id": "833_1000000006944",
+          "start_time": "11:21:00",
+          "end_time": "11:37:00"
+        },
+        {
+          "trip_id": "833_1030347",
+          "service_id": "833_1000000006944",
+          "start_time": "12:01:00",
+          "end_time": "12:17:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Gatteo Mare (Via Euclide) > Cesenatico (P.Le Trento)",
+      "capolinea_partenza": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "10822",
+        "stop_name": "Cesenatico (P.Le Trento)"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "08:40:00",
+        "09:20:00",
+        "10:20:00",
+        "11:00:00",
+        "11:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035510",
+          "service_id": "833_1000000006944",
+          "start_time": "08:40:00",
+          "end_time": "08:56:00"
+        },
+        {
+          "trip_id": "833_1035511",
+          "service_id": "833_1000000006944",
+          "start_time": "09:20:00",
+          "end_time": "09:36:00"
+        },
+        {
+          "trip_id": "833_1035512",
+          "service_id": "833_1000000006944",
+          "start_time": "10:20:00",
+          "end_time": "10:36:00"
+        },
+        {
+          "trip_id": "833_1035513",
+          "service_id": "833_1000000006944",
+          "start_time": "11:00:00",
+          "end_time": "11:16:00"
+        },
+        {
+          "trip_id": "833_1035514",
+          "service_id": "833_1000000006944",
+          "start_time": "11:40:00",
+          "end_time": "11:56:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Gatteo Mare (Via Euclide) > Zadina",
+      "capolinea_partenza": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30090",
+        "stop_name": "Zadina"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "10:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086570",
+          "service_id": "833_1000000006963",
+          "start_time": "10:40:00",
+          "end_time": "11:18:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Sagittario > Zadina",
+      "capolinea_partenza": {
+        "stop_id": "30411",
+        "stop_name": "Sagittario"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30090",
+        "stop_name": "Zadina"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "09:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1086569",
+          "service_id": "833_1000000006963",
+          "start_time": "09:15:00",
+          "end_time": "09:58:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Zadina > Gatteo Mare (Via Euclide)",
+      "capolinea_partenza": {
+        "stop_id": "30090",
+        "stop_name": "Zadina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "20310",
+        "stop_name": "Gatteo Mare (Via Euclide)"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "10:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1030342",
+          "service_id": "833_1000000006963",
+          "start_time": "10:00:00",
+          "end_time": "10:33:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Zadina > Sagittario",
+      "capolinea_partenza": {
+        "stop_id": "30090",
+        "stop_name": "Zadina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "30412",
+        "stop_name": "Sagittario"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "11:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1030349",
+          "service_id": "833_1000000006963",
+          "start_time": "11:20:00",
+          "end_time": "11:56:00"
+        }
+      ]
+    }
+  ]
+}

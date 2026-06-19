@@ -1,0 +1,824 @@
+{
+  "estrazione": "Orari da route_8.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_8.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "8",
+    "name": "Linea 8",
+    "direzioni_percorso": [
+      "4 Rimini Fs > Italia Miniatura",
+      "Arco D'Augusto > Italia Miniatura",
+      "Arco D'Augusto > John Lennon",
+      "Ausl > Italia Miniatura",
+      "Ausl > John Lennon",
+      "Ausl > Togliatti",
+      "Coriano-P.Rotto > Italia Miniatura",
+      "Gros-Bl 78 > Italia Miniatura",
+      "Gros-Bl 78 > Togliatti",
+      "Italia Miniatura > 4 Rimini Fs",
+      "Italia Miniatura > Arco D'Augusto",
+      "Italia Miniatura > Ausl",
+      "Italia Miniatura > Gros-Bl 87",
+      "John Lennon > Coriano-P.Rotto",
+      "S.Martino-Chiesa > Togliatti",
+      "Togliatti > 4 Rimini Fs",
+      "Togliatti > Ausl",
+      "Togliatti > Gros-Bl 87"
+    ],
+    "route_id": "8"
+  },
+  "totale_trips": 69,
+  "totale_direzioni_percorso": 18,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "4 Rimini Fs > Italia Miniatura",
+      "capolinea_partenza": {
+        "stop_id": "A00007",
+        "stop_name": "4 Rimini Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00569",
+        "stop_name": "Italia Miniatura"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "08:06:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4047350",
+          "service_id": "404_1000000001812",
+          "start_time": "08:06:00",
+          "end_time": "08:29:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Arco D'Augusto > Italia Miniatura",
+      "capolinea_partenza": {
+        "stop_id": "A01252",
+        "stop_name": "Arco D'Augusto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00569",
+        "stop_name": "Italia Miniatura"
+      },
+      "trip_count": 8,
+      "orari_partenza": [
+        "09:14:00",
+        "10:34:00",
+        "11:54:00",
+        "13:14:00",
+        "14:34:00",
+        "15:54:00",
+        "17:14:00",
+        "18:34:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4056833",
+          "service_id": "404_1000000001812",
+          "start_time": "09:14:00",
+          "end_time": "09:43:00"
+        },
+        {
+          "trip_id": "404_4056834",
+          "service_id": "404_1000000001812",
+          "start_time": "10:34:00",
+          "end_time": "11:03:00"
+        },
+        {
+          "trip_id": "404_4056835",
+          "service_id": "404_1000000001812",
+          "start_time": "11:54:00",
+          "end_time": "12:23:00"
+        },
+        {
+          "trip_id": "404_4056836",
+          "service_id": "404_1000000001812",
+          "start_time": "13:14:00",
+          "end_time": "13:43:00"
+        },
+        {
+          "trip_id": "404_4056837",
+          "service_id": "404_1000000001812",
+          "start_time": "14:34:00",
+          "end_time": "15:03:00"
+        },
+        {
+          "trip_id": "404_4056838",
+          "service_id": "404_1000000001812",
+          "start_time": "15:54:00",
+          "end_time": "16:23:00"
+        },
+        {
+          "trip_id": "404_4056839",
+          "service_id": "404_1000000001812",
+          "start_time": "17:14:00",
+          "end_time": "17:43:00"
+        },
+        {
+          "trip_id": "404_4056840",
+          "service_id": "404_1000000001812",
+          "start_time": "18:34:00",
+          "end_time": "19:03:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Arco D'Augusto > John Lennon",
+      "capolinea_partenza": {
+        "stop_id": "A01252",
+        "stop_name": "Arco D'Augusto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01096",
+        "stop_name": "John Lennon"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "19:54:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4056871",
+          "service_id": "404_1000000001812",
+          "start_time": "19:54:00",
+          "end_time": "20:19:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ausl > Italia Miniatura",
+      "capolinea_partenza": {
+        "stop_id": "A00628",
+        "stop_name": "Ausl"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00569",
+        "stop_name": "Italia Miniatura"
+      },
+      "trip_count": 8,
+      "orari_partenza": [
+        "08:20:00",
+        "09:40:00",
+        "10:20:00",
+        "11:40:00",
+        "13:30:00",
+        "14:10:00",
+        "15:20:00",
+        "16:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4077323",
+          "service_id": "404_1000000001810",
+          "start_time": "08:20:00",
+          "end_time": "09:03:00"
+        },
+        {
+          "trip_id": "404_4077316",
+          "service_id": "404_1000000001810",
+          "start_time": "09:40:00",
+          "end_time": "10:23:00"
+        },
+        {
+          "trip_id": "404_4077321",
+          "service_id": "404_1000000001810",
+          "start_time": "10:20:00",
+          "end_time": "11:03:00"
+        },
+        {
+          "trip_id": "404_4077318",
+          "service_id": "404_1000000001810",
+          "start_time": "11:40:00",
+          "end_time": "12:23:00"
+        },
+        {
+          "trip_id": "404_4077317",
+          "service_id": "404_1000000001810",
+          "start_time": "13:30:00",
+          "end_time": "14:12:00"
+        },
+        {
+          "trip_id": "404_4077320",
+          "service_id": "404_1000000001810",
+          "start_time": "14:10:00",
+          "end_time": "14:52:00"
+        },
+        {
+          "trip_id": "404_4077319",
+          "service_id": "404_1000000001810",
+          "start_time": "15:20:00",
+          "end_time": "16:03:00"
+        },
+        {
+          "trip_id": "404_4077322",
+          "service_id": "404_1000000001810",
+          "start_time": "16:00:00",
+          "end_time": "16:43:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ausl > John Lennon",
+      "capolinea_partenza": {
+        "stop_id": "A00628",
+        "stop_name": "Ausl"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01096",
+        "stop_name": "John Lennon"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "20:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4029582",
+          "service_id": "404_1000000001810",
+          "start_time": "20:00:00",
+          "end_time": "20:37:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ausl > Togliatti",
+      "capolinea_partenza": {
+        "stop_id": "A00628",
+        "stop_name": "Ausl"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01032",
+        "stop_name": "Togliatti"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "11:00:00",
+        "16:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4091602",
+          "service_id": "404_1000000001810",
+          "start_time": "11:00:00",
+          "end_time": "11:45:00"
+        },
+        {
+          "trip_id": "404_4091601",
+          "service_id": "404_1000000001810",
+          "start_time": "16:40:00",
+          "end_time": "17:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Coriano-P.Rotto > Italia Miniatura",
+      "capolinea_partenza": {
+        "stop_id": "A00930",
+        "stop_name": "Coriano-P.Rotto"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00569",
+        "stop_name": "Italia Miniatura"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:39:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4033083",
+          "service_id": "404_1000000001810",
+          "start_time": "06:39:00",
+          "end_time": "07:16:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Gros-Bl 78 > Italia Miniatura",
+      "capolinea_partenza": {
+        "stop_id": "A01120",
+        "stop_name": "Gros-Bl 78"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00569",
+        "stop_name": "Italia Miniatura"
+      },
+      "trip_count": 6,
+      "orari_partenza": [
+        "07:17:00",
+        "08:57:00",
+        "12:17:00",
+        "17:17:00",
+        "17:57:00",
+        "19:17:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4109623",
+          "service_id": "404_1000000001810",
+          "start_time": "07:17:00",
+          "end_time": "08:01:00"
+        },
+        {
+          "trip_id": "404_4109624",
+          "service_id": "404_1000000001810",
+          "start_time": "08:57:00",
+          "end_time": "09:43:00"
+        },
+        {
+          "trip_id": "404_4109627",
+          "service_id": "404_1000000001810",
+          "start_time": "12:17:00",
+          "end_time": "13:03:00"
+        },
+        {
+          "trip_id": "404_4109625",
+          "service_id": "404_1000000001810",
+          "start_time": "17:17:00",
+          "end_time": "18:03:00"
+        },
+        {
+          "trip_id": "404_4109628",
+          "service_id": "404_1000000001810",
+          "start_time": "17:57:00",
+          "end_time": "18:43:00"
+        },
+        {
+          "trip_id": "404_4109626",
+          "service_id": "404_1000000001810",
+          "start_time": "19:17:00",
+          "end_time": "20:03:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Gros-Bl 78 > Togliatti",
+      "capolinea_partenza": {
+        "stop_id": "A01120",
+        "stop_name": "Gros-Bl 78"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01032",
+        "stop_name": "Togliatti"
+      },
+      "trip_count": 4,
+      "orari_partenza": [
+        "07:47:00",
+        "12:57:00",
+        "14:37:00",
+        "18:37:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4051908",
+          "service_id": "404_1000000001810",
+          "start_time": "07:47:00",
+          "end_time": "08:35:00"
+        },
+        {
+          "trip_id": "404_4051909",
+          "service_id": "404_1000000001810",
+          "start_time": "12:57:00",
+          "end_time": "13:44:00"
+        },
+        {
+          "trip_id": "404_4051910",
+          "service_id": "404_1000000001810",
+          "start_time": "14:37:00",
+          "end_time": "15:25:00"
+        },
+        {
+          "trip_id": "404_4051907",
+          "service_id": "404_1000000001810",
+          "start_time": "18:37:00",
+          "end_time": "19:25:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Italia Miniatura > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "A00569",
+        "stop_name": "Italia Miniatura"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01175",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "20:03:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4061618",
+          "service_id": "404_1000000001810",
+          "start_time": "20:03:00",
+          "end_time": "20:37:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Italia Miniatura > Arco D'Augusto",
+      "capolinea_partenza": {
+        "stop_id": "A00569",
+        "stop_name": "Italia Miniatura"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01252",
+        "stop_name": "Arco D'Augusto"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "08:29:00",
+        "09:43:00",
+        "11:03:00",
+        "12:23:00",
+        "13:43:00",
+        "15:03:00",
+        "16:23:00",
+        "17:43:00",
+        "19:03:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4087118",
+          "service_id": "404_1000000001812",
+          "start_time": "08:29:00",
+          "end_time": "09:12:00"
+        },
+        {
+          "trip_id": "404_4087119",
+          "service_id": "404_1000000001812",
+          "start_time": "09:43:00",
+          "end_time": "10:27:00"
+        },
+        {
+          "trip_id": "404_4087120",
+          "service_id": "404_1000000001812",
+          "start_time": "11:03:00",
+          "end_time": "11:47:00"
+        },
+        {
+          "trip_id": "404_4087121",
+          "service_id": "404_1000000001812",
+          "start_time": "12:23:00",
+          "end_time": "13:07:00"
+        },
+        {
+          "trip_id": "404_4087122",
+          "service_id": "404_1000000001812",
+          "start_time": "13:43:00",
+          "end_time": "14:27:00"
+        },
+        {
+          "trip_id": "404_4087123",
+          "service_id": "404_1000000001812",
+          "start_time": "15:03:00",
+          "end_time": "15:48:00"
+        },
+        {
+          "trip_id": "404_4087124",
+          "service_id": "404_1000000001812",
+          "start_time": "16:23:00",
+          "end_time": "17:08:00"
+        },
+        {
+          "trip_id": "404_4087125",
+          "service_id": "404_1000000001812",
+          "start_time": "17:43:00",
+          "end_time": "18:28:00"
+        },
+        {
+          "trip_id": "404_4087126",
+          "service_id": "404_1000000001812",
+          "start_time": "19:03:00",
+          "end_time": "19:46:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Italia Miniatura > Ausl",
+      "capolinea_partenza": {
+        "stop_id": "A00569",
+        "stop_name": "Italia Miniatura"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00628",
+        "stop_name": "Ausl"
+      },
+      "trip_count": 10,
+      "orari_partenza": [
+        "07:18:00",
+        "08:03:00",
+        "09:03:00",
+        "09:43:00",
+        "10:23:00",
+        "12:23:00",
+        "13:03:00",
+        "14:13:00",
+        "14:53:00",
+        "18:47:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4103487",
+          "service_id": "404_1000000001810",
+          "start_time": "07:18:00",
+          "end_time": "08:18:00"
+        },
+        {
+          "trip_id": "404_4103480",
+          "service_id": "404_1000000001810",
+          "start_time": "08:03:00",
+          "end_time": "09:02:00"
+        },
+        {
+          "trip_id": "404_4103488",
+          "service_id": "404_1000000001810",
+          "start_time": "09:03:00",
+          "end_time": "10:01:00"
+        },
+        {
+          "trip_id": "404_4103481",
+          "service_id": "404_1000000001810",
+          "start_time": "09:43:00",
+          "end_time": "10:41:00"
+        },
+        {
+          "trip_id": "404_4103482",
+          "service_id": "404_1000000001810",
+          "start_time": "10:23:00",
+          "end_time": "11:21:00"
+        },
+        {
+          "trip_id": "404_4103483",
+          "service_id": "404_1000000001810",
+          "start_time": "12:23:00",
+          "end_time": "13:21:00"
+        },
+        {
+          "trip_id": "404_4103485",
+          "service_id": "404_1000000001810",
+          "start_time": "13:03:00",
+          "end_time": "14:01:00"
+        },
+        {
+          "trip_id": "404_4103484",
+          "service_id": "404_1000000001810",
+          "start_time": "14:13:00",
+          "end_time": "15:11:00"
+        },
+        {
+          "trip_id": "404_4103486",
+          "service_id": "404_1000000001810",
+          "start_time": "14:53:00",
+          "end_time": "15:51:00"
+        },
+        {
+          "trip_id": "404_4059095",
+          "service_id": "404_1000000001810",
+          "start_time": "18:47:00",
+          "end_time": "19:41:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Italia Miniatura > Gros-Bl 87",
+      "capolinea_partenza": {
+        "stop_id": "A00569",
+        "stop_name": "Italia Miniatura"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01119",
+        "stop_name": "Gros-Bl 87"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "06:15:00",
+        "11:03:00",
+        "16:03:00",
+        "16:43:00",
+        "18:03:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4100216",
+          "service_id": "404_1000000001810",
+          "start_time": "06:15:00",
+          "end_time": "07:12:00"
+        },
+        {
+          "trip_id": "404_4100220",
+          "service_id": "404_1000000001810",
+          "start_time": "11:03:00",
+          "end_time": "12:03:00"
+        },
+        {
+          "trip_id": "404_4100217",
+          "service_id": "404_1000000001810",
+          "start_time": "16:03:00",
+          "end_time": "17:03:00"
+        },
+        {
+          "trip_id": "404_4100219",
+          "service_id": "404_1000000001810",
+          "start_time": "16:43:00",
+          "end_time": "17:43:00"
+        },
+        {
+          "trip_id": "404_4100218",
+          "service_id": "404_1000000001810",
+          "start_time": "18:03:00",
+          "end_time": "19:03:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "John Lennon > Coriano-P.Rotto",
+      "capolinea_partenza": {
+        "stop_id": "A00652",
+        "stop_name": "John Lennon"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00902",
+        "stop_name": "Coriano-P.Rotto"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:00:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4035528",
+          "service_id": "404_1000000001810",
+          "start_time": "06:00:00",
+          "end_time": "06:35:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "S.Martino-Chiesa > Togliatti",
+      "capolinea_partenza": {
+        "stop_id": "A01087",
+        "stop_name": "S.Martino-Chiesa"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01032",
+        "stop_name": "Togliatti"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "06:56:00",
+        "07:46:00",
+        "08:46:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4098147",
+          "service_id": "404_1000000001810",
+          "start_time": "06:56:00",
+          "end_time": "06:58:00"
+        },
+        {
+          "trip_id": "404_4098145",
+          "service_id": "404_1000000001810",
+          "start_time": "07:46:00",
+          "end_time": "07:48:00"
+        },
+        {
+          "trip_id": "404_4098146",
+          "service_id": "404_1000000001810",
+          "start_time": "08:46:00",
+          "end_time": "08:48:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Togliatti > 4 Rimini Fs",
+      "capolinea_partenza": {
+        "stop_id": "A01032",
+        "stop_name": "Togliatti"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01175",
+        "stop_name": "4 Rimini Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "19:30:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4040727",
+          "service_id": "404_1000000001810",
+          "start_time": "19:30:00",
+          "end_time": "19:53:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Togliatti > Ausl",
+      "capolinea_partenza": {
+        "stop_id": "A01032",
+        "stop_name": "Togliatti"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00628",
+        "stop_name": "Ausl"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "08:50:00",
+        "15:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4026724",
+          "service_id": "404_1000000001810",
+          "start_time": "08:50:00",
+          "end_time": "09:31:00"
+        },
+        {
+          "trip_id": "404_4026725",
+          "service_id": "404_1000000001810",
+          "start_time": "15:40:00",
+          "end_time": "16:21:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Togliatti > Gros-Bl 87",
+      "capolinea_partenza": {
+        "stop_id": "A01032",
+        "stop_name": "Togliatti"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A01119",
+        "stop_name": "Gros-Bl 87"
+      },
+      "trip_count": 5,
+      "orari_partenza": [
+        "07:00:00",
+        "07:50:00",
+        "12:00:00",
+        "13:50:00",
+        "17:40:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4059038",
+          "service_id": "404_1000000001810",
+          "start_time": "07:00:00",
+          "end_time": "07:42:00"
+        },
+        {
+          "trip_id": "404_4059036",
+          "service_id": "404_1000000001810",
+          "start_time": "07:50:00",
+          "end_time": "08:34:00"
+        },
+        {
+          "trip_id": "404_4059039",
+          "service_id": "404_1000000001810",
+          "start_time": "12:00:00",
+          "end_time": "12:43:00"
+        },
+        {
+          "trip_id": "404_4059040",
+          "service_id": "404_1000000001810",
+          "start_time": "13:50:00",
+          "end_time": "14:33:00"
+        },
+        {
+          "trip_id": "404_4059037",
+          "service_id": "404_1000000001810",
+          "start_time": "17:40:00",
+          "end_time": "18:23:00"
+        }
+      ]
+    }
+  ]
+}

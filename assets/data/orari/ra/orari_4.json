@@ -1,0 +1,708 @@
+{
+  "estrazione": "Orari da route_4.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_4.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "4",
+    "name": "Linea 4",
+    "direzioni_percorso": [
+      "Classecantoniera > Tribunale Randi",
+      "Liburna Cap. > Ravenna Fs",
+      "Liburna Cap. > Tribunale Randi",
+      "Marabina-P.Nuovo > Tribunale Randi",
+      "Mirabilandia > Tribunale Randi",
+      "Piccarda > Ravenna Fs",
+      "Piccarda > Tribunale Randi",
+      "Q. N. Baldini > Ravenna Fs",
+      "Ravenna Fs > Tribunale Randi",
+      "Ravennafs-R.Taxi > Liburna Cap.",
+      "Ravennafs-R.Taxi > Piccarda",
+      "Tribunale Randi > Classecantoniera",
+      "Tribunale Randi > Liburna Cap.",
+      "Tribunale Randi > Mirabilandia",
+      "Tribunale Randi > Piccarda",
+      "Tribunale Randi > Ravenna Fs-P.Bus",
+      "Tribunale Randi > Ravennafs-R.Taxi"
+    ],
+    "route_id": "4"
+  },
+  "totale_trips": 55,
+  "totale_direzioni_percorso": 17,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Classecantoniera > Tribunale Randi",
+      "capolinea_partenza": {
+        "stop_id": "709210",
+        "stop_name": "Classecantoniera"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "704090",
+        "stop_name": "Tribunale Randi"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "06:04:00",
+        "07:06:00",
+        "08:23:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889277",
+          "service_id": "674_1000000002118",
+          "start_time": "06:04:00",
+          "end_time": "06:47:00"
+        },
+        {
+          "trip_id": "674_2889275",
+          "service_id": "674_1000000002106",
+          "start_time": "07:06:00",
+          "end_time": "07:51:00"
+        },
+        {
+          "trip_id": "674_2889273",
+          "service_id": "674_1000000002106",
+          "start_time": "08:23:00",
+          "end_time": "09:07:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Liburna Cap. > Ravenna Fs",
+      "capolinea_partenza": {
+        "stop_id": "709550",
+        "stop_name": "Liburna Cap."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700010",
+        "stop_name": "Ravenna Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "09:18:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795756",
+          "service_id": "674_1000000002118",
+          "start_time": "09:18:00",
+          "end_time": "09:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Liburna Cap. > Tribunale Randi",
+      "capolinea_partenza": {
+        "stop_id": "709550",
+        "stop_name": "Liburna Cap."
+      },
+      "capolinea_arrivo": {
+        "stop_id": "704090",
+        "stop_name": "Tribunale Randi"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:49:00",
+        "07:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889296",
+          "service_id": "674_1000000002118",
+          "start_time": "06:49:00",
+          "end_time": "07:41:00"
+        },
+        {
+          "trip_id": "674_2889280",
+          "service_id": "674_1000000002118",
+          "start_time": "07:50:00",
+          "end_time": "08:37:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Marabina-P.Nuovo > Tribunale Randi",
+      "capolinea_partenza": {
+        "stop_id": "709870",
+        "stop_name": "Marabina-P.Nuovo"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "704090",
+        "stop_name": "Tribunale Randi"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:25:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889278",
+          "service_id": "674_1000000002118",
+          "start_time": "06:25:00",
+          "end_time": "07:12:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Mirabilandia > Tribunale Randi",
+      "capolinea_partenza": {
+        "stop_id": "729220",
+        "stop_name": "Mirabilandia"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "704090",
+        "stop_name": "Tribunale Randi"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "10:14:00",
+        "10:54:00",
+        "11:34:00",
+        "12:51:00",
+        "14:14:00",
+        "15:34:00",
+        "16:54:00",
+        "18:14:00",
+        "19:31:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889256",
+          "service_id": "674_1000000002106",
+          "start_time": "10:14:00",
+          "end_time": "11:07:00"
+        },
+        {
+          "trip_id": "674_2889257",
+          "service_id": "674_1000000002106",
+          "start_time": "10:54:00",
+          "end_time": "11:47:00"
+        },
+        {
+          "trip_id": "674_2889258",
+          "service_id": "674_1000000002106",
+          "start_time": "11:34:00",
+          "end_time": "12:27:00"
+        },
+        {
+          "trip_id": "674_2889260",
+          "service_id": "674_1000000002106",
+          "start_time": "12:51:00",
+          "end_time": "13:47:00"
+        },
+        {
+          "trip_id": "674_2889262",
+          "service_id": "674_1000000002106",
+          "start_time": "14:14:00",
+          "end_time": "15:07:00"
+        },
+        {
+          "trip_id": "674_2889264",
+          "service_id": "674_1000000002106",
+          "start_time": "15:34:00",
+          "end_time": "16:27:00"
+        },
+        {
+          "trip_id": "674_2889266",
+          "service_id": "674_1000000002106",
+          "start_time": "16:54:00",
+          "end_time": "17:47:00"
+        },
+        {
+          "trip_id": "674_2889268",
+          "service_id": "674_1000000002106",
+          "start_time": "18:14:00",
+          "end_time": "19:07:00"
+        },
+        {
+          "trip_id": "674_2889270",
+          "service_id": "674_1000000002106",
+          "start_time": "19:31:00",
+          "end_time": "20:27:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Piccarda > Ravenna Fs",
+      "capolinea_partenza": {
+        "stop_id": "717280",
+        "stop_name": "Piccarda"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700010",
+        "stop_name": "Ravenna Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "20:12:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796721",
+          "service_id": "674_1000000002106",
+          "start_time": "20:12:00",
+          "end_time": "20:43:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Piccarda > Tribunale Randi",
+      "capolinea_partenza": {
+        "stop_id": "717280",
+        "stop_name": "Piccarda"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "704090",
+        "stop_name": "Tribunale Randi"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "06:34:00",
+        "08:53:00",
+        "09:29:00",
+        "12:12:00",
+        "13:32:00",
+        "14:49:00",
+        "16:12:00",
+        "17:29:00",
+        "18:52:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889276",
+          "service_id": "674_1000000002106",
+          "start_time": "06:34:00",
+          "end_time": "07:34:00"
+        },
+        {
+          "trip_id": "674_2889272",
+          "service_id": "674_1000000002106",
+          "start_time": "08:53:00",
+          "end_time": "09:47:00"
+        },
+        {
+          "trip_id": "674_2889271",
+          "service_id": "674_1000000002106",
+          "start_time": "09:29:00",
+          "end_time": "10:27:00"
+        },
+        {
+          "trip_id": "674_2889259",
+          "service_id": "674_1000000002106",
+          "start_time": "12:12:00",
+          "end_time": "13:07:00"
+        },
+        {
+          "trip_id": "674_2889261",
+          "service_id": "674_1000000002106",
+          "start_time": "13:32:00",
+          "end_time": "14:27:00"
+        },
+        {
+          "trip_id": "674_2889263",
+          "service_id": "674_1000000002106",
+          "start_time": "14:49:00",
+          "end_time": "15:47:00"
+        },
+        {
+          "trip_id": "674_2889265",
+          "service_id": "674_1000000002106",
+          "start_time": "16:12:00",
+          "end_time": "17:07:00"
+        },
+        {
+          "trip_id": "674_2889267",
+          "service_id": "674_1000000002106",
+          "start_time": "17:29:00",
+          "end_time": "18:27:00"
+        },
+        {
+          "trip_id": "674_2889269",
+          "service_id": "674_1000000002106",
+          "start_time": "18:52:00",
+          "end_time": "19:47:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Q. N. Baldini > Ravenna Fs",
+      "capolinea_partenza": {
+        "stop_id": "705130",
+        "stop_name": "Q. N. Baldini"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700010",
+        "stop_name": "Ravenna Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "05:56:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795748",
+          "service_id": "674_1000000002118",
+          "start_time": "05:56:00",
+          "end_time": "06:15:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Ravenna Fs > Tribunale Randi",
+      "capolinea_partenza": {
+        "stop_id": "700010",
+        "stop_name": "Ravenna Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "704090",
+        "stop_name": "Tribunale Randi"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "08:07:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889274",
+          "service_id": "674_1000000002106",
+          "start_time": "08:07:00",
+          "end_time": "08:27:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ravennafs-R.Taxi > Liburna Cap.",
+      "capolinea_partenza": {
+        "stop_id": "700050",
+        "stop_name": "Ravennafs-R.Taxi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "709550",
+        "stop_name": "Liburna Cap."
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:24:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795755",
+          "service_id": "674_1000000002118",
+          "start_time": "06:24:00",
+          "end_time": "06:46:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Ravennafs-R.Taxi > Piccarda",
+      "capolinea_partenza": {
+        "stop_id": "700050",
+        "stop_name": "Ravennafs-R.Taxi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "717280",
+        "stop_name": "Piccarda"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:04:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796780",
+          "service_id": "674_1000000002106",
+          "start_time": "06:04:00",
+          "end_time": "06:31:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Tribunale Randi > Classecantoniera",
+      "capolinea_partenza": {
+        "stop_id": "704090",
+        "stop_name": "Tribunale Randi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "709210",
+        "stop_name": "Classecantoniera"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:34:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796782",
+          "service_id": "674_1000000002106",
+          "start_time": "07:34:00",
+          "end_time": "08:11:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Tribunale Randi > Liburna Cap.",
+      "capolinea_partenza": {
+        "stop_id": "704090",
+        "stop_name": "Tribunale Randi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "709550",
+        "stop_name": "Liburna Cap."
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "07:12:00",
+        "08:37:00",
+        "19:47:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795765",
+          "service_id": "674_1000000002118",
+          "start_time": "07:12:00",
+          "end_time": "07:42:00"
+        },
+        {
+          "trip_id": "674_2795754",
+          "service_id": "674_1000000002118",
+          "start_time": "08:37:00",
+          "end_time": "09:10:00"
+        },
+        {
+          "trip_id": "674_2796711",
+          "service_id": "674_1000000002106",
+          "start_time": "19:47:00",
+          "end_time": "20:24:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Tribunale Randi > Mirabilandia",
+      "capolinea_partenza": {
+        "stop_id": "704090",
+        "stop_name": "Tribunale Randi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "729220",
+        "stop_name": "Mirabilandia"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "09:07:00",
+        "09:47:00",
+        "10:27:00",
+        "11:47:00",
+        "13:07:00",
+        "14:27:00",
+        "15:47:00",
+        "17:07:00",
+        "18:27:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796695",
+          "service_id": "674_1000000002106",
+          "start_time": "09:07:00",
+          "end_time": "09:55:00"
+        },
+        {
+          "trip_id": "674_2796699",
+          "service_id": "674_1000000002106",
+          "start_time": "09:47:00",
+          "end_time": "10:35:00"
+        },
+        {
+          "trip_id": "674_2796701",
+          "service_id": "674_1000000002106",
+          "start_time": "10:27:00",
+          "end_time": "11:15:00"
+        },
+        {
+          "trip_id": "674_2889179",
+          "service_id": "674_1000000002106",
+          "start_time": "11:47:00",
+          "end_time": "12:38:00"
+        },
+        {
+          "trip_id": "674_2796720",
+          "service_id": "674_1000000002106",
+          "start_time": "13:07:00",
+          "end_time": "13:55:00"
+        },
+        {
+          "trip_id": "674_2796729",
+          "service_id": "674_1000000002106",
+          "start_time": "14:27:00",
+          "end_time": "15:15:00"
+        },
+        {
+          "trip_id": "674_2796725",
+          "service_id": "674_1000000002106",
+          "start_time": "15:47:00",
+          "end_time": "16:35:00"
+        },
+        {
+          "trip_id": "674_2889180",
+          "service_id": "674_1000000002106",
+          "start_time": "17:07:00",
+          "end_time": "17:58:00"
+        },
+        {
+          "trip_id": "674_2796727",
+          "service_id": "674_1000000002106",
+          "start_time": "18:27:00",
+          "end_time": "19:15:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Tribunale Randi > Piccarda",
+      "capolinea_partenza": {
+        "stop_id": "704090",
+        "stop_name": "Tribunale Randi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "717280",
+        "stop_name": "Piccarda"
+      },
+      "trip_count": 9,
+      "orari_partenza": [
+        "07:51:00",
+        "08:27:00",
+        "11:07:00",
+        "12:27:00",
+        "13:47:00",
+        "15:07:00",
+        "16:27:00",
+        "17:47:00",
+        "19:07:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2889080",
+          "service_id": "674_1000000002106",
+          "start_time": "07:51:00",
+          "end_time": "08:42:00"
+        },
+        {
+          "trip_id": "674_2796693",
+          "service_id": "674_1000000002106",
+          "start_time": "08:27:00",
+          "end_time": "09:22:00"
+        },
+        {
+          "trip_id": "674_2889176",
+          "service_id": "674_1000000002106",
+          "start_time": "11:07:00",
+          "end_time": "11:58:00"
+        },
+        {
+          "trip_id": "674_2796689",
+          "service_id": "674_1000000002106",
+          "start_time": "12:27:00",
+          "end_time": "13:18:00"
+        },
+        {
+          "trip_id": "674_2796709",
+          "service_id": "674_1000000002106",
+          "start_time": "13:47:00",
+          "end_time": "14:38:00"
+        },
+        {
+          "trip_id": "674_2796705",
+          "service_id": "674_1000000002106",
+          "start_time": "15:07:00",
+          "end_time": "15:58:00"
+        },
+        {
+          "trip_id": "674_2796713",
+          "service_id": "674_1000000002106",
+          "start_time": "16:27:00",
+          "end_time": "17:18:00"
+        },
+        {
+          "trip_id": "674_2889177",
+          "service_id": "674_1000000002106",
+          "start_time": "17:47:00",
+          "end_time": "18:38:00"
+        },
+        {
+          "trip_id": "674_2796723",
+          "service_id": "674_1000000002106",
+          "start_time": "19:07:00",
+          "end_time": "20:01:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Tribunale Randi > Ravenna Fs-P.Bus",
+      "capolinea_partenza": {
+        "stop_id": "704090",
+        "stop_name": "Tribunale Randi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700030",
+        "stop_name": "Ravenna Fs-P.Bus"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:47:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795752",
+          "service_id": "674_1000000002118",
+          "start_time": "06:47:00",
+          "end_time": "07:06:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Tribunale Randi > Ravennafs-R.Taxi",
+      "capolinea_partenza": {
+        "stop_id": "704090",
+        "stop_name": "Tribunale Randi"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "700050",
+        "stop_name": "Ravennafs-R.Taxi"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:41:00",
+        "20:27:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2795750",
+          "service_id": "674_1000000002118",
+          "start_time": "07:41:00",
+          "end_time": "07:55:00"
+        },
+        {
+          "trip_id": "674_2889083",
+          "service_id": "674_1000000002106",
+          "start_time": "20:27:00",
+          "end_time": "20:41:00"
+        }
+      ]
+    }
+  ]
+}

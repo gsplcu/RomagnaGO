@@ -1,0 +1,181 @@
+{
+  "estrazione": "Orari da route_F139.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\FC\\route_F139.json",
+  "route": {
+    "basin": "FC",
+    "area": "Suburbano ed Extraurbano",
+    "line": "F139",
+    "name": "Linea F139",
+    "direzioni_percorso": [
+      "Cesena Punto Bus C2 > Sarsina",
+      "Pieve S. Stefano > Sarsina",
+      "Pieve S.Stefano > Sarsina",
+      "Sarsina > Cesena Punto Bus C2",
+      "Sarsina > Pieve S. Stefano",
+      "Sarsina > Pieve S.Stefano"
+    ],
+    "route_id": "F139"
+  },
+  "totale_trips": 8,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Cesena Punto Bus C2 > Sarsina",
+      "capolinea_partenza": {
+        "stop_id": "999C2",
+        "stop_name": "Cesena Punto Bus C2"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13302",
+        "stop_name": "Sarsina"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "07:15:00",
+        "15:20:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035580",
+          "service_id": "833_1000000006990",
+          "start_time": "07:15:00",
+          "end_time": "07:50:00"
+        },
+        {
+          "trip_id": "833_1035581",
+          "service_id": "833_1000000006506",
+          "start_time": "15:20:00",
+          "end_time": "15:50:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Pieve S. Stefano > Sarsina",
+      "capolinea_partenza": {
+        "stop_id": "19660",
+        "stop_name": "Pieve S. Stefano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13301",
+        "stop_name": "Sarsina"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "13:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033876",
+          "service_id": "833_1000000006506",
+          "start_time": "13:50:00",
+          "end_time": "14:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Pieve S.Stefano > Sarsina",
+      "capolinea_partenza": {
+        "stop_id": "46220",
+        "stop_name": "Pieve S.Stefano"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "13301",
+        "stop_name": "Sarsina"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "05:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033877",
+          "service_id": "833_1000000006990",
+          "start_time": "05:45:00",
+          "end_time": "06:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Sarsina > Cesena Punto Bus C2",
+      "capolinea_partenza": {
+        "stop_id": "13301",
+        "stop_name": "Sarsina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "999C2",
+        "stop_name": "Cesena Punto Bus C2"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "06:41:00",
+        "14:41:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1033879",
+          "service_id": "833_1000000006990",
+          "start_time": "06:41:00",
+          "end_time": "07:10:00"
+        },
+        {
+          "trip_id": "833_1033878",
+          "service_id": "833_1000000006506",
+          "start_time": "14:41:00",
+          "end_time": "15:15:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Sarsina > Pieve S. Stefano",
+      "capolinea_partenza": {
+        "stop_id": "13302",
+        "stop_name": "Sarsina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "19660",
+        "stop_name": "Pieve S. Stefano"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "07:51:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035578",
+          "service_id": "833_1000000006990",
+          "start_time": "07:51:00",
+          "end_time": "08:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Sarsina > Pieve S.Stefano",
+      "capolinea_partenza": {
+        "stop_id": "13302",
+        "stop_name": "Sarsina"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "46220",
+        "stop_name": "Pieve S.Stefano"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "15:51:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "833_1035579",
+          "service_id": "833_1000000006506",
+          "start_time": "15:51:00",
+          "end_time": "16:40:00"
+        }
+      ]
+    }
+  ]
+}

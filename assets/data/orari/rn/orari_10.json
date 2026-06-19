@@ -1,0 +1,151 @@
+{
+  "estrazione": "Orari da route_10.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_10.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "10",
+    "name": "Linea 10",
+    "direzioni_percorso": [
+      "33 Miramare Camp > Fiera",
+      "Fiera > 33 Miramare Camp"
+    ],
+    "route_id": "10"
+  },
+  "totale_trips": 14,
+  "totale_direzioni_percorso": 2,
+  "direzioni_orari": [
+    {
+      "direction_id": "0",
+      "direzione_percorso": "33 Miramare Camp > Fiera",
+      "capolinea_partenza": {
+        "stop_id": "A00685",
+        "stop_name": "33 Miramare Camp"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00229",
+        "stop_name": "Fiera"
+      },
+      "trip_count": 7,
+      "orari_partenza": [
+        "08:35:00",
+        "09:05:00",
+        "10:05:00",
+        "11:05:00",
+        "16:05:00",
+        "17:05:00",
+        "18:05:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4055865",
+          "service_id": "404_1000000001794",
+          "start_time": "08:35:00",
+          "end_time": "09:08:00"
+        },
+        {
+          "trip_id": "404_4055866",
+          "service_id": "404_1000000001794",
+          "start_time": "09:05:00",
+          "end_time": "09:38:00"
+        },
+        {
+          "trip_id": "404_4055867",
+          "service_id": "404_1000000001794",
+          "start_time": "10:05:00",
+          "end_time": "10:38:00"
+        },
+        {
+          "trip_id": "404_4055868",
+          "service_id": "404_1000000001794",
+          "start_time": "11:05:00",
+          "end_time": "11:38:00"
+        },
+        {
+          "trip_id": "404_4055869",
+          "service_id": "404_1000000001794",
+          "start_time": "16:05:00",
+          "end_time": "16:38:00"
+        },
+        {
+          "trip_id": "404_4055870",
+          "service_id": "404_1000000001794",
+          "start_time": "17:05:00",
+          "end_time": "17:38:00"
+        },
+        {
+          "trip_id": "404_4055871",
+          "service_id": "404_1000000001794",
+          "start_time": "18:05:00",
+          "end_time": "18:38:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Fiera > 33 Miramare Camp",
+      "capolinea_partenza": {
+        "stop_id": "A00229",
+        "stop_name": "Fiera"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "A00680",
+        "stop_name": "33 Miramare Camp"
+      },
+      "trip_count": 7,
+      "orari_partenza": [
+        "09:20:00",
+        "09:50:00",
+        "15:20:00",
+        "16:20:00",
+        "17:20:00",
+        "18:20:00",
+        "18:50:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4090764",
+          "service_id": "404_1000000001794",
+          "start_time": "09:20:00",
+          "end_time": "09:53:00"
+        },
+        {
+          "trip_id": "404_4090765",
+          "service_id": "404_1000000001794",
+          "start_time": "09:50:00",
+          "end_time": "10:23:00"
+        },
+        {
+          "trip_id": "404_4090766",
+          "service_id": "404_1000000001794",
+          "start_time": "15:20:00",
+          "end_time": "15:53:00"
+        },
+        {
+          "trip_id": "404_4090767",
+          "service_id": "404_1000000001794",
+          "start_time": "16:20:00",
+          "end_time": "16:53:00"
+        },
+        {
+          "trip_id": "404_4090768",
+          "service_id": "404_1000000001794",
+          "start_time": "17:20:00",
+          "end_time": "17:53:00"
+        },
+        {
+          "trip_id": "404_4090769",
+          "service_id": "404_1000000001794",
+          "start_time": "18:20:00",
+          "end_time": "18:53:00"
+        },
+        {
+          "trip_id": "404_4090770",
+          "service_id": "404_1000000001794",
+          "start_time": "18:50:00",
+          "end_time": "19:23:00"
+        }
+      ]
+    }
+  ]
+}

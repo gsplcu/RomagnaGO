@@ -1,0 +1,201 @@
+{
+  "estrazione": "Orari da route_175.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RN\\route_175.json",
+  "route": {
+    "basin": "RN",
+    "area": "Rimini",
+    "line": "175",
+    "name": "Linea 175",
+    "direzioni_percorso": [
+      "Montegridolfo > P.Risorgimento",
+      "P.Risorgimento > Montegridolfo",
+      "P.Risorgimento > P.Zza Castello",
+      "P.Risorgimento > P.Zza V.Emanuele",
+      "P.Zza Castello > P.Risorgimento",
+      "P.Zza V.Emanuele > P.Risorgimento"
+    ],
+    "route_id": "175"
+  },
+  "totale_trips": 11,
+  "totale_direzioni_percorso": 6,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Montegridolfo > P.Risorgimento",
+      "capolinea_partenza": {
+        "stop_id": "N00002",
+        "stop_name": "Montegridolfo"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "P00027",
+        "stop_name": "P.Risorgimento"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:41:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4036100",
+          "service_id": "404_1000000001810",
+          "start_time": "06:41:00",
+          "end_time": "07:09:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "P.Risorgimento > Montegridolfo",
+      "capolinea_partenza": {
+        "stop_id": "P00001",
+        "stop_name": "P.Risorgimento"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "N00001",
+        "stop_name": "Montegridolfo"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "06:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4041547",
+          "service_id": "404_1000000001810",
+          "start_time": "06:15:00",
+          "end_time": "06:40:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "P.Risorgimento > P.Zza Castello",
+      "capolinea_partenza": {
+        "stop_id": "P00001",
+        "stop_name": "P.Risorgimento"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "K00005",
+        "stop_name": "P.Zza Castello"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "09:10:00",
+        "14:10:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4048422",
+          "service_id": "404_1000000001812",
+          "start_time": "09:10:00",
+          "end_time": "09:32:00"
+        },
+        {
+          "trip_id": "404_4048421",
+          "service_id": "404_1000000001810",
+          "start_time": "14:10:00",
+          "end_time": "14:32:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "P.Risorgimento > P.Zza V.Emanuele",
+      "capolinea_partenza": {
+        "stop_id": "P00001",
+        "stop_name": "P.Risorgimento"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "X00003",
+        "stop_name": "P.Zza V.Emanuele"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "13:05:00",
+        "19:10:00",
+        "19:15:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4017030",
+          "service_id": "404_1000000001810",
+          "start_time": "13:05:00",
+          "end_time": "13:40:00"
+        },
+        {
+          "trip_id": "404_4017031",
+          "service_id": "404_1000000001812",
+          "start_time": "19:10:00",
+          "end_time": "19:45:00"
+        },
+        {
+          "trip_id": "404_4030352",
+          "service_id": "404_1000000001810",
+          "start_time": "19:15:00",
+          "end_time": "19:57:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Zza Castello > P.Risorgimento",
+      "capolinea_partenza": {
+        "stop_id": "K00006",
+        "stop_name": "P.Zza Castello"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "P00027",
+        "stop_name": "P.Risorgimento"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "09:36:00",
+        "14:36:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4049166",
+          "service_id": "404_1000000001812",
+          "start_time": "09:36:00",
+          "end_time": "09:59:00"
+        },
+        {
+          "trip_id": "404_4049165",
+          "service_id": "404_1000000001810",
+          "start_time": "14:36:00",
+          "end_time": "14:59:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "P.Zza V.Emanuele > P.Risorgimento",
+      "capolinea_partenza": {
+        "stop_id": "X00004",
+        "stop_name": "P.Zza V.Emanuele"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "P00027",
+        "stop_name": "P.Risorgimento"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "05:58:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "404_4044602",
+          "service_id": "404_1000000001810",
+          "start_time": "05:58:00",
+          "end_time": "06:34:00"
+        },
+        {
+          "trip_id": "404_4044603",
+          "service_id": "404_1000000001812",
+          "start_time": "05:58:00",
+          "end_time": "06:34:00"
+        }
+      ]
+    }
+  ]
+}

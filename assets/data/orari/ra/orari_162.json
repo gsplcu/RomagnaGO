@@ -1,0 +1,111 @@
+{
+  "estrazione": "Orari da route_162.json (direzioni da nomi fermata)",
+  "file_sorgente": "C:\\Users\\lucag\\Desktop\\start-romagna-gtfs-estivo\\data\\estivo\\RA\\route_162.json",
+  "route": {
+    "basin": "RA",
+    "area": "Ravenna",
+    "line": "162",
+    "name": "Linea 162",
+    "direzioni_percorso": [
+      "Alfonsine Fs > Filo Di Argenta",
+      "Circ.Ne Al Molino > Alfonsine Fs",
+      "Filo Di Argenta > Circ.Ne Al Molino"
+    ],
+    "route_id": "162"
+  },
+  "totale_trips": 6,
+  "totale_direzioni_percorso": 3,
+  "direzioni_orari": [
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Alfonsine Fs > Filo Di Argenta",
+      "capolinea_partenza": {
+        "stop_id": "740000",
+        "stop_name": "Alfonsine Fs"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "690200",
+        "stop_name": "Filo Di Argenta"
+      },
+      "trip_count": 2,
+      "orari_partenza": [
+        "14:06:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796784",
+          "service_id": "674_1000000002133",
+          "start_time": "14:06:00",
+          "end_time": "14:43:00"
+        },
+        {
+          "trip_id": "674_2798976",
+          "service_id": "674_1000000002113",
+          "start_time": "14:06:00",
+          "end_time": "14:43:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "1",
+      "direzione_percorso": "Circ.Ne Al Molino > Alfonsine Fs",
+      "capolinea_partenza": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "740000",
+        "stop_name": "Alfonsine Fs"
+      },
+      "trip_count": 1,
+      "orari_partenza": [
+        "13:35:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796429",
+          "service_id": "674_1000000002117",
+          "start_time": "13:35:00",
+          "end_time": "14:04:00"
+        }
+      ]
+    },
+    {
+      "direction_id": "0",
+      "direzione_percorso": "Filo Di Argenta > Circ.Ne Al Molino",
+      "capolinea_partenza": {
+        "stop_id": "690200",
+        "stop_name": "Filo Di Argenta"
+      },
+      "capolinea_arrivo": {
+        "stop_id": "704240",
+        "stop_name": "Circ.Ne Al Molino"
+      },
+      "trip_count": 3,
+      "orari_partenza": [
+        "06:22:00",
+        "14:45:00"
+      ],
+      "corse": [
+        {
+          "trip_id": "674_2796428",
+          "service_id": "674_1000000002117",
+          "start_time": "06:22:00",
+          "end_time": "07:28:00"
+        },
+        {
+          "trip_id": "674_2796783",
+          "service_id": "674_1000000002133",
+          "start_time": "14:45:00",
+          "end_time": "15:51:00"
+        },
+        {
+          "trip_id": "674_2798977",
+          "service_id": "674_1000000002113",
+          "start_time": "14:45:00",
+          "end_time": "15:51:00"
+        }
+      ]
+    }
+  ]
+}

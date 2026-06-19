@@ -1,0 +1,315 @@
+{
+  "sourceUrl": "https://www.startromagna.it/abbonamenti/abbonamenti-2/",
+  "mensili": {
+    "intro": "Gli abbonamenti mensili sono personali e consentono di viaggiare con più mezzi nell’ambito delle zone prescelte. Sono validi dal primo all’ultimo giorno del mese (1 mese solare) e vengono caricati su tessera Mi Muovo.",
+    "ricaricaBullets": [
+      "Dal 1° al 21° giorno del mese: validità dal 1° all’ultimo giorno del mese in corso",
+      "Dal 22° all’ultimo giorno del mese: validità dal 1° all’ultimo giorno del mese successivo"
+    ],
+    "tariffarioGenerale": [
+      {
+        "titolo": "Mensile 1 zona",
+        "prezzo": "€ 38,00"
+      },
+      {
+        "titolo": "Mensile 2 zone",
+        "prezzo": "€ 52,00"
+      },
+      {
+        "titolo": "Mensile 3 zone",
+        "prezzo": "€ 58,00"
+      },
+      {
+        "titolo": "Mensile 4 zone",
+        "prezzo": "€ 60,00"
+      },
+      {
+        "titolo": "Mensile 5 zone",
+        "prezzo": "€ 65,00"
+      },
+      {
+        "titolo": "Mensile 6 zone",
+        "prezzo": "€ 68,00"
+      },
+      {
+        "titolo": "Mensile 7 zone",
+        "prezzo": "€ 70,00"
+      },
+      {
+        "titolo": "Mensile 8 zone",
+        "prezzo": "€ 75,00"
+      }
+    ],
+    "forli": {
+      "title": "Forlì (zona 860)",
+      "intro": "Abbonamenti mensili personali (1 mese solare) nella zona 860 di Forlì a tariffa scontata.",
+      "rows": [
+        {
+          "titolo": "Personale",
+          "prezzo": "€ 31,00"
+        },
+        {
+          "titolo": "Università",
+          "prezzo": "€ 24,00",
+          "nota": "Studenti universitari"
+        },
+        {
+          "titolo": "Senior",
+          "prezzo": "€ 24,00",
+          "nota": "Pensionati e non occupati oltre 65 anni, residenti a Forlì"
+        },
+        {
+          "titolo": "Job Ticket",
+          "prezzo": "€ 24,00",
+          "nota": "Chi lavora nel territorio comunale di Forlì"
+        },
+        {
+          "titolo": "Job Ticket Dipendenti Comunali",
+          "prezzo": "€ 17,00",
+          "nota": "Dipendenti del Comune di Forlì"
+        }
+      ]
+    },
+    "cesena": {
+      "title": "Cesena (zone 880 + 881 Borello)",
+      "intro": "Abbonamenti mensili personali (1 mese solare) nella zona 880 Cesena e 881 Borello.",
+      "rows": [
+        {
+          "titolo": "Personale",
+          "prezzo": "€ 38,00"
+        },
+        {
+          "titolo": "Università (titolo 8883)",
+          "prezzo": "—",
+          "nota": "Vedi nota sotto"
+        },
+        {
+          "titolo": "Senior",
+          "prezzo": "€ 28,00",
+          "nota": "Pensionati e non occupati oltre 65 anni, residenti a Cesena"
+        },
+        {
+          "titolo": "Job Ticket",
+          "prezzo": "€ 12,00",
+          "nota": "Insegnanti scuole statali di Cesena e dipendenti Comune, Unione Valle del Savio, ASP, biblioteca"
+        }
+      ],
+      "note": "Dal 01/01/2026 è disponibile il titolo 8883 – Abbonamento Mensile Università Cesena, al costo di € 18,00, valido nel blocco Cesena (zone 880 + 881 Borello)."
+    },
+    "jobTicketCesena": {
+      "title": "Abbonamento mensile Job Ticket",
+      "intro": "Riservato agli insegnanti di scuole pubbliche statali con sede a Cesena e ai dipendenti di: Comune di Cesena, Unione Valle del Savio, ASP Cesena, biblioteca comunale di Cesena.",
+      "rows": [
+        {
+          "titolo": "Job Ticket mensile 1 zona",
+          "prezzo": "€ 12,00"
+        },
+        {
+          "titolo": "Job Ticket mensile 2 zone",
+          "prezzo": "€ 26,00"
+        },
+        {
+          "titolo": "Job Ticket mensile 3 zone",
+          "prezzo": "€ 32,00"
+        },
+        {
+          "titolo": "Job Ticket mensile 4 zone",
+          "prezzo": "€ 34,00"
+        },
+        {
+          "titolo": "Job Ticket mensile 5 zone",
+          "prezzo": "€ 39,00"
+        },
+        {
+          "titolo": "Job Ticket mensile 6 zone",
+          "prezzo": "€ 42,00"
+        },
+        {
+          "titolo": "Job Ticket mensile 7 zone",
+          "prezzo": "€ 44,00"
+        }
+      ]
+    }
+  },
+  "annuali": {
+    "intro": "Gli abbonamenti annuali sono personali e consentono di viaggiare con più mezzi nell’ambito delle zone prescelte. Vengono caricati elettronicamente su tessera Mi Muovo da parte delle biglietterie Start Romagna.",
+    "validitaBullets": [
+      "Dal 1° al 21° giorno del mese: validi dal 1° giorno del mese in corso",
+      "Dal 22° all’ultimo giorno del mese: validi dal 1° giorno del mese successivo"
+    ],
+    "validitaNota": "Durata in mesi solari: 12 mesi = fino alla fine dell’11° mese successivo a quello di inizio validità.",
+    "tariffarioGenerale": [
+      {
+        "titolo": "Annuale 1 zona",
+        "prezzo": "€ 256,00"
+      },
+      {
+        "titolo": "Annuale 2 zone",
+        "prezzo": "€ 329,00"
+      },
+      {
+        "titolo": "Annuale 3 zone",
+        "prezzo": "€ 413,00"
+      },
+      {
+        "titolo": "Annuale 4 zone",
+        "prezzo": "€ 465,00"
+      },
+      {
+        "titolo": "Annuale 5 zone",
+        "prezzo": "€ 512,00"
+      },
+      {
+        "titolo": "Annuale 6 zone",
+        "prezzo": "€ 554,00"
+      },
+      {
+        "titolo": "Annuale 7 zone",
+        "prezzo": "€ 596,00"
+      }
+    ],
+    "forli": {
+      "title": "Forlì (zona 860)",
+      "intro": "Abbonamenti annuali personali (12 mesi solari) nella zona 860 di Forlì.",
+      "rows": [
+        {
+          "titolo": "Personale",
+          "prezzo": "€ 200,00"
+        },
+        {
+          "titolo": "Università",
+          "prezzo": "Variabile",
+          "nota": "Integrato da Comune di Forlì e UniBO; prezzo in base a ISEE e contributi"
+        },
+        {
+          "titolo": "Scolastico per classi",
+          "prezzo": "€ 50,00",
+          "nota": "Classe scuola dell’obbligo + 2 insegnanti, giorni scolastici, anno scolastico"
+        },
+        {
+          "titolo": "Senior",
+          "prezzo": "€ 150,00",
+          "nota": "Pensionati e non occupati oltre 65 anni, residenti a Forlì"
+        },
+        {
+          "titolo": "Job Ticket",
+          "prezzo": "€ 150,00",
+          "nota": "Chi lavora nel territorio comunale di Forlì"
+        },
+        {
+          "titolo": "Job Ticket Dipendenti Comunali",
+          "prezzo": "€ 80,00",
+          "nota": "Dipendenti del Comune di Forlì"
+        }
+      ]
+    },
+    "cesena": {
+      "title": "Cesena (zone 880 + 881 Borello)",
+      "intro": "Abbonamenti annuali personali (12 mesi solari) nella zona 880 Cesena e 881 Borello.",
+      "rows": [
+        {
+          "titolo": "Personale",
+          "prezzo": "€ 256,00"
+        },
+        {
+          "titolo": "Scolastico per classi",
+          "prezzo": "€ 50,00",
+          "nota": "Classe scuola dell’obbligo + 2 insegnanti, giorni scolastici, anno scolastico"
+        },
+        {
+          "titolo": "Senior",
+          "prezzo": "€ 131,00",
+          "nota": "Pensionati e non occupati oltre 65 anni, residenti a Cesena"
+        },
+        {
+          "titolo": "Job Ticket",
+          "prezzo": "€ 44,00",
+          "nota": "Insegnanti scuole statali di Cesena e dipendenti Comune, Unione Valle del Savio, ASP, biblioteca"
+        }
+      ]
+    },
+    "jobTicketCesena": {
+      "title": "Abbonamento annuale Job Ticket",
+      "intro": "Riservato agli insegnanti di scuole pubbliche statali con sede a Cesena e ai dipendenti di: Comune di Cesena, Unione Valle del Savio, ASP Cesena, biblioteca comunale di Cesena.",
+      "rows": [
+        {
+          "titolo": "Job Ticket annuale 1 zona",
+          "prezzo": "€ 44,00"
+        },
+        {
+          "titolo": "Job Ticket annuale 2 zone",
+          "prezzo": "€ 114,00"
+        },
+        {
+          "titolo": "Job Ticket annuale 3 zone",
+          "prezzo": "€ 193,00"
+        },
+        {
+          "titolo": "Job Ticket annuale 4 zone",
+          "prezzo": "€ 243,00"
+        },
+        {
+          "titolo": "Job Ticket annuale 5 zone",
+          "prezzo": "€ 287,00"
+        },
+        {
+          "titolo": "Job Ticket annuale 6 zone",
+          "prezzo": "€ 327,00"
+        },
+        {
+          "titolo": "Job Ticket annuale 7 zone",
+          "prezzo": "€ 367,00"
+        }
+      ]
+    },
+    "mobility": {
+      "title": "Abbonamento annuale Mobility",
+      "intro": "Validità annuale (12 mesi solari dal 1° giorno del mese prescelto) nel percorso indicato sulla tessera. In vendita solo presso le biglietterie Start Romagna, riservato ai dipendenti di aziende convenzionate – Bacino di Ravenna.",
+      "rows": [
+        {
+          "titolo": "Mobility 1 zona",
+          "prezzo": "€ 243,00"
+        },
+        {
+          "titolo": "Mobility 2 zone",
+          "prezzo": "€ 313,00"
+        },
+        {
+          "titolo": "Mobility 3 zone",
+          "prezzo": "€ 392,00"
+        },
+        {
+          "titolo": "Mobility 4 zone",
+          "prezzo": "€ 442,00"
+        },
+        {
+          "titolo": "Mobility 5 zone",
+          "prezzo": "€ 486,00"
+        },
+        {
+          "titolo": "Mobility 6 zone",
+          "prezzo": "€ 526,00"
+        },
+        {
+          "titolo": "Mobility 7 zone",
+          "prezzo": "€ 566,00"
+        }
+      ]
+    },
+    "over70Ravenna": {
+      "title": "Abbonamento annuale Over 70 – Ravenna",
+      "intro": "Riservato a chi ha compiuto 70 anni alla data di avvio validità e risiede nel Comune o nella Provincia di Ravenna. Consente di viaggiare sull’intera rete del bacino di Ravenna (12 mesi solari dal 1° giorno del mese prescelto).",
+      "rows": [
+        {
+          "titolo": "Over 70 intero bacino – Residenti Comune di Ravenna",
+          "prezzo": "€ 256,00 (€ 77,00*)"
+        },
+        {
+          "titolo": "Over 70 intero bacino – Residenti Provincia di Ravenna",
+          "prezzo": "€ 156,00"
+        }
+      ],
+      "note": "* I residenti nel Comune di Ravenna possono beneficiare del rimborso idrocarburi (70% del costo): costo reale € 77,00."
+    }
+  }
+}
