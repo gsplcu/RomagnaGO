@@ -1,0 +1,74 @@
+# Sincronizza i contenuti Start Romagna e li pubblica nella repo (JSON su GitHub).
+#
+# L'app legge da:
+#   https://raw.githubusercontent.com/gsplcu/RomagnaGO/main/assets/data/start_content/
+#
+# Nessun Firebase Storage: push su main → raw URL aggiornato → app al prossimo refresh.
+#
+# Trigger:
+#   • ogni giorno alle 06:00 UTC (parser dalle pagine startromagna.it)
+#   • push su main che modifica baseline/parser/tool
+#   • manuale (workflow_dispatch)
+
+name: Sync start content
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'lib/start_content/**'
+      - 'tool/gen_start_content_baseline.dart'
+      - 'tool/sync_start_content.dart'
+      - '.github/workflows/sync-start-content.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Dart
+        uses: dart-lang/setup-dart@v1
+        with:
+          sdk: stable
+
+      - name: Install dependencies
+        run: dart pub get
+
+      - name: Regenerate JSON from Dart baselines
+        run: dart run tool/gen_start_content_baseline.dart
+
+      - name: Sync from Start Romagna websites (parsers)
+        run: dart run tool/sync_start_content.dart
+
+      - name: Commit and push if content changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/data/start_content/
+          if git diff --staged --quiet; then
+            echo "Nessuna modifica ai contenuti."
+            exit 0
+          fi
+          git commit -m "$(cat <<'EOF'
+          chore(start_content): sync from Start Romagna
+
+          Automated update via GitHub Actions (parser + manifest hash).
+          EOF
+          )"
+          git push
+
+      - name: Verify manifest on GitHub raw
+        run: |
+          sleep 3
+          curl -fsSL \
+            "https://raw.githubusercontent.com/gsplcu/RomagnaGO/main/assets/data/start_content/manifest.json" \
+            | head -c 300
+          echo ""

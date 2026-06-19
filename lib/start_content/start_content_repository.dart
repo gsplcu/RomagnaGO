@@ -204,11 +204,13 @@ class StartContentRepository {
   Future<void> _tryRefreshRemoteManifest({required bool force}) async {
     if (kStartContentRemoteManifestUrl.isEmpty) return;
     try {
+      final uri = Uri.parse(kStartContentRemoteManifestUrl).replace(
+        queryParameters: force
+            ? {'t': '${DateTime.now().toUtc().millisecondsSinceEpoch}'}
+            : null,
+      );
       final res = await http
-          .get(
-            Uri.parse(kStartContentRemoteManifestUrl),
-            headers: kStartContentHttpHeaders,
-          )
+          .get(uri, headers: kStartContentHttpHeaders)
           .timeout(kStartContentHttpTimeout);
       if (res.statusCode < 200 || res.statusCode >= 300) return;
       final remote = StartContentManifest.decode(res.body);
@@ -229,7 +231,10 @@ class StartContentRepository {
     }
 
     try {
-      final url = startContentRemoteJsonUrl(id.fileKey);
+      final url = startContentRemoteJsonUrl(
+        id.fileKey,
+        cacheBust: entry?.contentHash,
+      );
       final res = await http
           .get(Uri.parse(url), headers: kStartContentHttpHeaders)
           .timeout(kStartContentHttpTimeout);
