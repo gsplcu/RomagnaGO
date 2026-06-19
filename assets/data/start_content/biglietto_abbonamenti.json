@@ -1,22 +1,22 @@
 {
   "sourceUrl": "https://www.startromagna.it/abbonamenti/abbonamenti-2/",
-  "overviewIntro": "Gli abbonamenti Start Romagna (mensili e annuali) si caricano sulla tessera personale Mi Muovo e valgono sulle zone che scegli al momento dell’acquisto, nei bacini Forlì-Cesena, Ravenna e Rimini.",
+  "overviewIntro": "In vigore dal 1° giugno 2026 . Gli abbonamenti sono caricati su tessera Mi Muovo e permettono di viaggiare sui servizi Start Romagna nei bacini di Forlì-Cesena, Ravenna e Rimini.",
   "overviewChips": [
-    "Tessera Mi Muovo",
-    "Mensili e annuali",
-    "Più zone"
+    "Mensili e annuali su tessera Mi Muovo",
+    "Validi su più mezzi nelle zone selezionate"
   ],
   "tesseraBullets": [
-    "Supporto personale per abbonamenti mensili, annuali e Under 26",
-    "Prima emissione € 5,00 con fototessera presso i Punto Bus Start Romagna",
-    "Porta sempre la tessera a bordo e convalida al primo utilizzo"
+    "La tessera a microchip Mi Muovo è il supporto per tutti gli abbonamenti Start Romagna mensili , annuali e Under 26 .",
+    "La tessera è strettamente personale, ha validità pluriennale e viene rilasciata al costo di 5,00 € .",
+    "Per il rilascio è necessaria una fototessera recente.",
+    "Tutti gli abbonamenti Start Romagna sono caricati elettronicamente su tessera Mi Muovo. Ricorda di portarla sempre con te a bordo e di mostrarla in caso di controllo."
   ],
-  "zoneBody": "La tariffa dipende dal numero di zone del percorso. Le paline indicano la zona di ogni fermata; puoi calcolare le zone del tuo abbonamento con il Trova Zona in app.",
-  "ordinariBody": "Mensili e annuali personali su tessera Mi Muovo, con tariffe per numero di zone e titoli dedicati per alcuni comuni.",
+  "zoneBody": "Il territorio regionale è suddiviso in zone e la tariffa è calcolata in base al numero di zone attraversate per collegare la località di partenza a quella di destinazione del viaggio. Le paline di fermata riportano l’indicazione della zona in cui la fermata è ubicata, in modo da poter verificare con facilità quale sia la propria zona di partenza e quella di arrivo.",
+  "ordinariBody": "Gli abbonamenti mensili sono personali e consentono di viaggiare con più mezzi nell’ambito delle zone prescelte . Sono validi dal primo all’ultimo giorno del mese (1 mese solare) e vengono caricati su tessera Mi Muovo.",
   "under26": {
-    "title": "Under 26",
-    "body": "Per chi non ha ancora compiuto 27 anni: abbonamento annuale valido 365 giorni dalla data scelta, su più mezzi nelle zone selezionate.",
-    "buttonLabel": "Dettagli Under 26 sul sito",
+    "title": "Abbonamenti annuali Under 26",
+    "body": "Gli abbonamenti Under 26 sono riservati a coloro che non hanno ancora compiuto 27 anni alla data di avvio della validità del titolo di viaggio. Sono validi 365 giorni dalla data prescelta e consentono di viaggiare con più mezzi nell’ambito delle zone selezionate .",
+    "buttonLabel": "Vai alla pagina Under 26",
     "url": "https://www.startromagna.it/under-26-2025/"
   },
   "saltaSu": {
@@ -39,13 +39,13 @@
     "buttonLabel": "Dettagli agevolazioni sul sito",
     "url": "https://www.startromagna.it/abbonamenti/agevolazioni/"
   },
-  "rinnovoTitle": "Rinnovo e ricarica",
+  "rinnovoTitle": "Rinnovare l’abbonamento",
   "rinnovoBullets": [
-    "Online con il servizio di ricarica (numero tessera e cognome).",
-    "Da smartphone con app MooneyGo.",
-    "Presso Punto Bus Start e rivendite autorizzate."
+    "Online con il servizio di ricarica dedicato;",
+    "Direttamente dallo smartphone tramite app MooneyGo ;",
+    "Ai Punto Bus Start Romagna o presso rivendite autorizzate alla ricarica di abbonamenti."
   ],
-  "ricaricaButtonLabel": "Ricarica abbonamento online",
+  "ricaricaButtonLabel": "Vai al servizio di ricarica",
   "ricaricaUrl": "https://www.startromagna.it/abbonamenti/ricarica-abbonamento/",
   "guidaButtonLabel": "Guida completa abbonamenti sul sito",
   "guidaUrl": "https://www.startromagna.it/abbonamenti/abbonamenti-2/"

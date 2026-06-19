@@ -8,51 +8,57 @@
     "sanzioniRules": "https://www.startromagna.it/wp-content/uploads/2023/11/Sanzioni-Amministrative.pdf",
     "moduloReclamo": "https://www.startromagna.it/downloads/Modulo_reclamo_ART.pdf"
   },
-  "titoliIntro": "Per accedere al servizio occorre munirsi di regolare titolo di viaggio e provvedere alla sua convalida appena saliti a bordo.",
+  "titoliIntro": "Per accedere al servizio occorre munirsi di regolare titolo di viaggio e provvedere alla sua convalida. È possibile acquistare il biglietto:",
   "titoliBullets": [
-    "Acquisto presso punti vendita autorizzati e emettitrici automatiche.",
-    "Acquisto a bordo con sistema EMV StarTap, dove disponibile.",
-    "Acquisto dalle emettitrici di bordo con eventuale sovrapprezzo.",
-    "Acquisto da smartphone tramite app dedicate o canali WhatsApp disponibili."
+    "a terra, presso i punti vendita autorizzati e dalle emettitrici automatiche;",
+    "a bordo utilizzando il sistema EMV StarTap;",
+    "dove disponibili, con sovrapprezzo, dalle emettitrici di bordo;",
+    "tramite smartphone con le App DropTicket, MooneyGo, Roger e i canali dedicati WhatsApp (dove disponibili)."
   ],
-  "qrIntro": "La validazione del biglietto avviene esponendo il lato con il QR Code al lettore ottico posto sotto il validatore verde. Un messaggio sul display e un segnale acustico confermano la convalida.",
+  "qrIntro": "La validazione del biglietto avviene esponendo il lato del biglietto con il QR Code al lettore ottico posto sotto l’apparato di convalida (validatore verde smeraldo, utilizzabile anche per il pagamento con carta di credito – sistema StarTap).",
   "qrBullets": [
-    "Sul display puoi verificare lo stato del biglietto premendo il tasto \"i\".",
-    "I titoli acquistati dalle emettitrici di bordo non necessitano di convalida.",
-    "In caso di errore di timbratura avvisa subito il conducente."
+    "Il nuovo sistema non prevede stampigliatura sul titolo: è sempre possibile verificare lo stato del biglietto premendo il tasto “i” sulla validatrice verde e ripassando il titolo sotto il lettore, per visualizzare sul display tutte le informazioni di validità.",
+    "Sul sito di Start Romagna è possibile verificare la validità residua del biglietto, le corse rimanenti di un multicorsa o la validità del titolo anche prima di iniziare il viaggio: accedi alla pagina di verifica biglietto QR e scannerizza il QR Code o digita il codice del biglietto."
   ],
   "bigliettazioneBullets": [
-    "Sali dalla porta anteriore e mostra il titolo di viaggio al conducente.",
-    "Convalida appena salito a bordo e segnala subito eventuali guasti del validatore.",
-    "I titoli devono essere integri, riconoscibili e non alterati."
+    "Acquista il biglietto a terra o a bordo con carta contactless senza sovrapprezzo, oppure alle emettitrici automatiche ove presenti (con eventuale sovrapprezzo).",
+    "Puoi acquistare il biglietto anche utilizzando una delle app disponibili.",
+    "Sali dalla porta anteriore e mostra al conducente il titolo di viaggio: la presenza di passeggeri non in regola a bordo viene segnalata all’Azienda.",
+    "Convalida il titolo di viaggio appena salito a bordo e avvisa subito l’autista in caso di malfunzionamento del validatore."
   ],
-  "regolamentoIntro": "Il Regolamento di viaggio Start Romagna contiene le norme che regolano diritti e doveri dei passeggeri nei bacini di Forlì-Cesena, Ravenna e Rimini.",
+  "regolamentoIntro": "Il Regolamento di viaggio Start Romagna, valido per tutti i bacini in cui l’Azienda opera (Forlì-Cesena, Ravenna e Rimini), contiene le norme che regolano diritti e doveri dei passeggeri, favorendone l’accesso e la fruizione del servizio.",
   "sciopero": [
     {
       "title": "Forlì-Cesena",
       "lines": [
-        "Fasce garantite: 5:30–8:30",
-        "Fasce garantite: 13:00–16:00"
+        "In base alla legge 12.6.1990 n. 146 sono definite fasce giornaliere in cui è garantito il servizio minimo di trasporto.",
+        "tutte le corse in partenza dalle 5:30 alle 8:30;",
+        "tutte le corse in partenza dalle 13:00 alle 16:00.",
+        "Per le linee concesse dalla Provincia di Ravenna (149–156) valgono le fasce garantite del bacino ravennate: 5:30–8:30 e 12:00–15:00."
       ]
     },
     {
       "title": "Ravenna",
       "lines": [
-        "Servizio minimo complessivo di 6 ore.",
-        "Fasce: 5:30–8:30 e 12:00–15:00.",
-        "Garantiti i servizi riservati fuori fascia."
+        "In caso di sciopero del personale viene comunque assicurato il servizio per un totale di 6 ore:",
+        "1ª fascia: 5:30–8:30;",
+        "2ª fascia: 12:00–15:00.",
+        "Sono garantiti i servizi riservati scolastici e operai non rientranti nelle fasce. Le corse urbane in partenza entro l’inizio dello sciopero vengono completate fino al capolinea; durante lo sciopero le fermate sono utilizzate solo per la discesa. Alla ripresa del servizio le corse ripartono secondo gli orari programmati.",
+        "Per il servizio litorale ed extraurbano si effettuano le corse in partenza dal capolinea dopo l’inizio e entro la fine della fascia; il servizio traghetto è interrotto e ripreso alla banchina di Porto Corsini."
       ]
     },
     {
       "title": "Rimini",
       "lines": [
-        "Corse escluse dagli scioperi: 6:00–9:00 e 13:00–16:00.",
-        "Garantiti anche i servizi per studenti dell’obbligo.",
-        "Le corse avviate entro 30 minuti dall’inizio dello sciopero proseguono fino al capolinea."
+        "Sono escluse dagli scioperi tutte le corse che si svolgono nelle seguenti fasce:",
+        "6:00–9:00;",
+        "13:00–16:00.",
+        "Sono altresì esclusi i servizi dedicati agli studenti delle scuole dell’obbligo. Tutte le corse extraurbane e le corse urbane che partono entro 30 minuti dall’inizio dello sciopero vengono effettuate fino al capolinea di destinazione.",
+        "Nel caso di importanti manifestazioni, convegni o congressi nel territorio riminese, i servizi programmati per tali eventi sono esclusi dagli scioperi."
       ]
     }
   ],
-  "reclamiIntro": "I clienti Start Romagna possono inviare segnalazioni e reclami tramite i canali dedicati del Customer Care. Per i casi previsti dalla normativa europea è disponibile anche il modulo di reclamo ART.",
-  "sanzioniIntro": "Qui trovi le sanzioni in vigore per i viaggiatori sprovvisti di regolare titolo di viaggio e la normativa di riferimento. Se vuoi presentare ricorso, puoi usare la pagina dedicata di Start Romagna.",
+  "reclamiIntro": "I clienti Start Romagna possono in qualsiasi momento inviare segnalazioni e reclami relativi ai servizi prestati nei diversi bacini. Per facilitare il contatto con l’Azienda sono attivi diversi canali presidiati da un servizio di Customer care dedicato.",
+  "sanzioniIntro": "In questa sezione è possibile consultare le sanzioni in corso di validità per i viaggiatori sprovvisti di regolare titolo di viaggio e la normativa di riferimento in materia di sanzioni amministrative.",
   "helpIntro": "Per dubbi su regole, reclami o sanzioni puoi contattare il Servizio Clienti."
 }

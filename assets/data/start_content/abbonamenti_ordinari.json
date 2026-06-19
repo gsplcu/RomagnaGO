@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://www.startromagna.it/abbonamenti/abbonamenti-2/",
   "mensili": {
-    "intro": "Gli abbonamenti mensili sono personali e consentono di viaggiare con più mezzi nell’ambito delle zone prescelte. Sono validi dal primo all’ultimo giorno del mese (1 mese solare) e vengono caricati su tessera Mi Muovo.",
+    "intro": "Gli abbonamenti mensili sono personali e consentono di viaggiare con più mezzi nell’ambito delle zone prescelte . Sono validi dal primo all’ultimo giorno del mese (1 mese solare) e vengono caricati su tessera Mi Muovo.",
     "ricaricaBullets": [
-      "Dal 1° al 21° giorno del mese: validità dal 1° all’ultimo giorno del mese in corso",
-      "Dal 22° all’ultimo giorno del mese: validità dal 1° all’ultimo giorno del mese successivo"
+      "se la ricarica avviene dal 1° al 21° giorno del mese , la validità decorre dal 1° fino all’ultimo giorno del mese in corso;",
+      "se la ricarica avviene dal 22° all’ultimo giorno del mese , la validità decorre dal 1° fino all’ultimo giorno del mese successivo."
     ],
     "tariffarioGenerale": [
       {
@@ -41,64 +41,57 @@
       }
     ],
     "forli": {
-      "title": "Forlì (zona 860)",
-      "intro": "Abbonamenti mensili personali (1 mese solare) nella zona 860 di Forlì a tariffa scontata.",
+      "title": "Abbonamenti mensili Forlì (zona 860)",
+      "intro": "Abbonamenti mensili personali (1 mese solare) che consentono di viaggiare con più mezzi all’interno della zona 860 della città di Forlì a tariffa scontata.",
       "rows": [
         {
           "titolo": "Personale",
           "prezzo": "€ 31,00"
         },
         {
-          "titolo": "Università",
-          "prezzo": "€ 24,00",
-          "nota": "Studenti universitari"
+          "titolo": "UniversitàRiservato agli studenti universitari",
+          "prezzo": "€ 24,00"
         },
         {
-          "titolo": "Senior",
-          "prezzo": "€ 24,00",
-          "nota": "Pensionati e non occupati oltre 65 anni, residenti a Forlì"
+          "titolo": "SeniorRiservato a pensionati e non occupati di oltre 65 anni residenti nel Comune di Forlì",
+          "prezzo": "€ 24,00"
         },
         {
-          "titolo": "Job Ticket",
-          "prezzo": "€ 24,00",
-          "nota": "Chi lavora nel territorio comunale di Forlì"
+          "titolo": "Job TicketRiservato a chi lavora nel territorio comunale di Forlì",
+          "prezzo": "€ 24,00"
         },
         {
-          "titolo": "Job Ticket Dipendenti Comunali",
-          "prezzo": "€ 17,00",
-          "nota": "Dipendenti del Comune di Forlì"
+          "titolo": "Job Ticket Dipendenti ComunaliRiservato ai dipendenti del Comune di Forlì",
+          "prezzo": "€ 17,00"
         }
       ]
     },
     "cesena": {
-      "title": "Cesena (zone 880 + 881 Borello)",
-      "intro": "Abbonamenti mensili personali (1 mese solare) nella zona 880 Cesena e 881 Borello.",
+      "title": "Abbonamenti mensili Cesena",
+      "intro": "Abbonamenti mensili personali (1 mese solare) che consentono di viaggiare con più mezzi all’interno della zona 880 Cesena e 881 Borello .",
       "rows": [
         {
           "titolo": "Personale",
           "prezzo": "€ 38,00"
         },
         {
-          "titolo": "Università (titolo 8883)",
-          "prezzo": "—",
-          "nota": "Vedi nota sotto"
+          "titolo": "UniversitàAbbonamento mensile Università Cesena (titolo 8883)",
+          "prezzo": "–"
         },
         {
-          "titolo": "Senior",
-          "prezzo": "€ 28,00",
-          "nota": "Pensionati e non occupati oltre 65 anni, residenti a Cesena"
+          "titolo": "SeniorRiservato a pensionati e non occupati di oltre 65 anni residenti nel Comune di Cesena",
+          "prezzo": "€ 28,00"
         },
         {
-          "titolo": "Job Ticket",
-          "prezzo": "€ 12,00",
-          "nota": "Insegnanti scuole statali di Cesena e dipendenti Comune, Unione Valle del Savio, ASP, biblioteca"
+          "titolo": "Job TicketRiservato agli insegnanti di scuole pubbliche statali di Cesena e ai dipendenti di: Comune di Cesena, Unione Valle del Savio, ASP, biblioteca comunale",
+          "prezzo": "€ 12,00"
         }
       ],
-      "note": "Dal 01/01/2026 è disponibile il titolo 8883 – Abbonamento Mensile Università Cesena, al costo di € 18,00, valido nel blocco Cesena (zone 880 + 881 Borello)."
+      "note": "Dal 01/01/2026 sarà nuovamente disponibile alla vendita il titolo 8883 – Abbonamento Mensile Università Cesena , al costo di 18,00 € , valido nel blocco Cesena ( zone 880 + 881 Borello )."
     },
     "jobTicketCesena": {
       "title": "Abbonamento mensile Job Ticket",
-      "intro": "Riservato agli insegnanti di scuole pubbliche statali con sede a Cesena e ai dipendenti di: Comune di Cesena, Unione Valle del Savio, ASP Cesena, biblioteca comunale di Cesena.",
+      "intro": "Abbonamenti mensili personali (1 mese solare) che consentono di viaggiare con più mezzi nell’ambito delle zone prescelte. Il titolo Job Ticket è riservato agli insegnanti di scuole pubbliche statali con sede a Cesena e ai dipendenti di: Comune di Cesena, Unione Valle del Savio, ASP Cesena, biblioteca comunale di Cesena.",
       "rows": [
         {
           "titolo": "Job Ticket mensile 1 zona",
@@ -132,12 +125,12 @@
     }
   },
   "annuali": {
-    "intro": "Gli abbonamenti annuali sono personali e consentono di viaggiare con più mezzi nell’ambito delle zone prescelte. Vengono caricati elettronicamente su tessera Mi Muovo da parte delle biglietterie Start Romagna.",
+    "intro": "Gli abbonamenti annuali sono personali e consentono di viaggiare con più mezzi nell’ambito delle zone prescelte . Vengono caricati elettronicamente su tessera Mi Muovo da parte delle biglietterie Start Romagna.",
     "validitaBullets": [
-      "Dal 1° al 21° giorno del mese: validi dal 1° giorno del mese in corso",
-      "Dal 22° all’ultimo giorno del mese: validi dal 1° giorno del mese successivo"
+      "se acquistati dal 1° al 21° giorno del mese , sono validi a partire dal 1° giorno del mese in corso;",
+      "se acquistati dal 22° all’ultimo giorno del mese , sono validi dal 1° giorno del mese successivo."
     ],
-    "validitaNota": "Durata in mesi solari: 12 mesi = fino alla fine dell’11° mese successivo a quello di inizio validità.",
+    "validitaNota": "La durata del titolo è calcolata in mesi solari : 12 mesi = fino alla fine dell’11° mese successivo a quello di inizio validità.",
     "tariffarioGenerale": [
       {
         "titolo": "Annuale 1 zona",
@@ -169,68 +162,60 @@
       }
     ],
     "forli": {
-      "title": "Forlì (zona 860)",
-      "intro": "Abbonamenti annuali personali (12 mesi solari) nella zona 860 di Forlì.",
+      "title": "Abbonamenti annuali Forlì (zona 860)",
+      "intro": "Abbonamenti annuali personali (12 mesi solari) che consentono di viaggiare con più mezzi all’interno della zona 860 della città di Forlì.",
       "rows": [
         {
           "titolo": "Personale",
           "prezzo": "€ 200,00"
         },
         {
-          "titolo": "Università",
-          "prezzo": "Variabile",
-          "nota": "Integrato da Comune di Forlì e UniBO; prezzo in base a ISEE e contributi"
+          "titolo": "UniversitàRiservato agli studenti universitari (integrato da Comune di Forlì e UniBO)",
+          "prezzo": "Variabile*"
         },
         {
-          "titolo": "Scolastico per classi",
-          "prezzo": "€ 50,00",
-          "nota": "Classe scuola dell’obbligo + 2 insegnanti, giorni scolastici, anno scolastico"
+          "titolo": "Scolastico per classiRiservato ad un’intera classe della scuola dell’obbligo, compresi 2 insegnanti, per spostamenti nei giorni scolastici (valido per l’intero anno scolastico)",
+          "prezzo": "€ 50,00"
         },
         {
-          "titolo": "Senior",
-          "prezzo": "€ 150,00",
-          "nota": "Pensionati e non occupati oltre 65 anni, residenti a Forlì"
+          "titolo": "SeniorRiservato a pensionati e non occupati di oltre 65 anni residenti nel Comune di Forlì",
+          "prezzo": "€ 150,00"
         },
         {
-          "titolo": "Job Ticket",
-          "prezzo": "€ 150,00",
-          "nota": "Chi lavora nel territorio comunale di Forlì"
+          "titolo": "Job TicketRiservato a chi lavora nel territorio comunale di Forlì",
+          "prezzo": "€ 150,00"
         },
         {
-          "titolo": "Job Ticket Dipendenti Comunali",
-          "prezzo": "€ 80,00",
-          "nota": "Dipendenti del Comune di Forlì"
+          "titolo": "Job Ticket Dipendenti ComunaliRiservato ai dipendenti del Comune di Forlì",
+          "prezzo": "€ 80,00"
         }
       ]
     },
     "cesena": {
-      "title": "Cesena (zone 880 + 881 Borello)",
-      "intro": "Abbonamenti annuali personali (12 mesi solari) nella zona 880 Cesena e 881 Borello.",
+      "title": "Abbonamenti annuali Cesena",
+      "intro": "Abbonamenti annuali personali (12 mesi solari) che consentono di viaggiare con più mezzi all’interno della zona 880 Cesena e 881 Borello .",
       "rows": [
         {
           "titolo": "Personale",
           "prezzo": "€ 256,00"
         },
         {
-          "titolo": "Scolastico per classi",
-          "prezzo": "€ 50,00",
-          "nota": "Classe scuola dell’obbligo + 2 insegnanti, giorni scolastici, anno scolastico"
+          "titolo": "Scolastico per classiRiservato ad un’intera classe della scuola dell’obbligo, compresi 2 insegnanti, per spostamenti nei giorni scolastici (valido per l’intero anno scolastico)",
+          "prezzo": "€ 50,00"
         },
         {
-          "titolo": "Senior",
-          "prezzo": "€ 131,00",
-          "nota": "Pensionati e non occupati oltre 65 anni, residenti a Cesena"
+          "titolo": "SeniorRiservato a pensionati e non occupati di oltre 65 anni residenti nel Comune di Cesena",
+          "prezzo": "€ 131,00"
         },
         {
-          "titolo": "Job Ticket",
-          "prezzo": "€ 44,00",
-          "nota": "Insegnanti scuole statali di Cesena e dipendenti Comune, Unione Valle del Savio, ASP, biblioteca"
+          "titolo": "Job TicketRiservato agli insegnanti di scuole pubbliche statali di Cesena e ai dipendenti di: Comune di Cesena, Unione Valle del Savio, ASP, biblioteca comunale",
+          "prezzo": "€ 44,00"
         }
       ]
     },
     "jobTicketCesena": {
       "title": "Abbonamento annuale Job Ticket",
-      "intro": "Riservato agli insegnanti di scuole pubbliche statali con sede a Cesena e ai dipendenti di: Comune di Cesena, Unione Valle del Savio, ASP Cesena, biblioteca comunale di Cesena.",
+      "intro": "Abbonamenti annuali personali (12 mesi solari) che consentono di viaggiare con più mezzi nell’ambito delle zone prescelte. Il titolo Job Ticket è riservato agli insegnanti di scuole pubbliche statali con sede a Cesena e ai dipendenti di: Comune di Cesena, Unione Valle del Savio, ASP Cesena, biblioteca comunale di Cesena.",
       "rows": [
         {
           "titolo": "Job Ticket annuale 1 zona",
@@ -257,14 +242,14 @@
           "prezzo": "€ 327,00"
         },
         {
-          "titolo": "Job Ticket annuale 7 zone",
+          "titolo": "Job Ticket annuale 7 zona",
           "prezzo": "€ 367,00"
         }
       ]
     },
     "mobility": {
       "title": "Abbonamento annuale Mobility",
-      "intro": "Validità annuale (12 mesi solari dal 1° giorno del mese prescelto) nel percorso indicato sulla tessera. In vendita solo presso le biglietterie Start Romagna, riservato ai dipendenti di aziende convenzionate – Bacino di Ravenna.",
+      "intro": "Abbonamenti personali con validità annuale (12 mesi solari dal 1° giorno del mese prescelto) che consentono di viaggiare con più mezzi nell’ambito del percorso indicato sulla tessera . Sono in vendita solo presso le biglietterie Start Romagna e sono riservati ai dipendenti di aziende convenzionate con Start Romagna – Bacino di Ravenna. Per il rilascio è necessaria una fototessera recente.",
       "rows": [
         {
           "titolo": "Mobility 1 zona",
@@ -297,19 +282,19 @@
       ]
     },
     "over70Ravenna": {
-      "title": "Abbonamento annuale Over 70 – Ravenna",
-      "intro": "Riservato a chi ha compiuto 70 anni alla data di avvio validità e risiede nel Comune o nella Provincia di Ravenna. Consente di viaggiare sull’intera rete del bacino di Ravenna (12 mesi solari dal 1° giorno del mese prescelto).",
+      "title": "Abbonamento annuale Over 70",
+      "intro": "Riservato a coloro che hanno già compiuto 70 anni alla data di avvio validità del titolo di viaggio e sono residenti nel Comune o nella Provincia di Ravenna . Abbonamento annuale personale (12 mesi solari dal 1° giorno del mese prescelto) che consente di viaggiare con più mezzi nell’ intera rete del bacino di Ravenna .",
       "rows": [
         {
-          "titolo": "Over 70 intero bacino – Residenti Comune di Ravenna",
-          "prezzo": "€ 256,00 (€ 77,00*)"
+          "titolo": "Over 70 intero bacino – Residenti nel Comune di Ravenna",
+          "prezzo": "€ 256,00"
         },
         {
-          "titolo": "Over 70 intero bacino – Residenti Provincia di Ravenna",
+          "titolo": "Over 70 intero bacino – Residenti nella Provincia di Ravenna",
           "prezzo": "€ 156,00"
         }
       ],
-      "note": "* I residenti nel Comune di Ravenna possono beneficiare del rimborso idrocarburi (70% del costo): costo reale € 77,00."
+      "note": "* I residenti nel Comune di Ravenna possono beneficiare del rimborso idrocarburi , che vale il 70% del costo sostenuto, per cui il costo reale dell’abbonamento è di 77,00 €. Scopri qui come richiedere il rimborso idrocarburi ."
     }
   }
 }

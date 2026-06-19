@@ -1,7 +1,7 @@
 {
   "sourceUrl": "https://www.startromagna.it/chat-go/",
   "whatsapp": {
-    "intro": "Con Chat&Go acquisti biglietti per autobus urbani, interurbani e traghetto di Ravenna direttamente su WhatsApp, senza app aggiuntive e senza registrazione.",
+    "intro": "Con Chat&Go di Start Romagna puoi acquistare i biglietti per autobus urbani, interurbani e per il traghetto di Ravenna direttamente su WhatsApp, senza app aggiuntive e senza registrazione.",
     "chips": [
       "Bus e traghetto",
       "Pagamento digitale sicuro",
@@ -11,29 +11,29 @@
       {
         "number": 1,
         "title": "Avvia la chat su WhatsApp",
-        "text": "Clicca il pulsante qui sotto oppure inquadra il QR Code alle fermate."
+        "text": "Puoi iniziare in due modi: cliccando sul pulsante Avvia Chat&Go su WhatsApp in questa pagina; inquadrando il QR Code che trovi alle fermate e sui materiali informativi."
       },
       {
         "number": 2,
-        "title": "Scegli il biglietto",
-        "text": "L’assistente virtuale propone i titoli per TPL e traghetto di Ravenna."
+        "title": "Scegli il tuo biglietto",
+        "text": "L’assistente virtuale ti propone i titoli disponibili: biglietti per il trasporto pubblico locale (bus urbani e interurbani); biglietti per il traghetto di Ravenna."
       },
       {
         "number": 3,
-        "title": "Paga e ricevi il QR Code",
-        "text": "Concludi il pagamento e ricevi in chat il link al biglietto digitale."
+        "title": "Paga e ricevi il biglietto digitale",
+        "text": "Concludi il pagamento in pochi secondi e ricevi in chat il link al tuo biglietto con QR Code, pronto da utilizzare."
       }
     ],
     "bullets": [
-      "Non serve scaricare nuove app: basta WhatsApp.",
-      "Puoi acquistare anche all’ultimo momento prima di salire.",
-      "I biglietti restano nella chat anche se chiudi l’app.",
-      "È possibile acquistare per più passeggeri che viaggiano insieme."
+      "Non devi scaricare nuove app: ti basta WhatsApp.",
+      "Puoi acquistare anche all’ultimo momento, prima di salire sul mezzo.",
+      "I biglietti sono sempre disponibili nella chat, anche se chiudi l’app.",
+      "È possibile acquistare più titoli per i passeggeri che viaggiano insieme."
     ],
-    "note": "I titoli bus vanno convalidati sul validatore verde. I biglietti acquistati su WhatsApp sono personali e non trasferibili."
+    "note": "Per i biglietti bus è necessario convalidare il titolo a bordo avvicinando il QR Code al validatore verde. Alcuni titoli possono prevedere modalità diverse, indicate in modo chiaro durante l’acquisto."
   },
   "onboard": {
-    "intro": "StarTap è il pagamento contactless con carta, smartphone o smartwatch sul validatore verde di bordo. Selezioni il titolo da 1 a 4 zone e la convalida avviene in pochi secondi.",
+    "intro": "StarTap è la nuova modalità di pagamento con carte contactless di credito, debito, prepagate o virtualizzate su smartphone e smartwatch, utilizzabile con il nuovo validatore di bordo verde smeraldo che utilizza la tecnologia EMV.",
     "primaDiSalireBullets": [
       "Carta contactless Mastercard, Maestro, Visa o VPay.",
       "Anche smartphone e smartwatch con NFC abilitato.",
@@ -62,14 +62,14 @@
         "validity": "90 min"
       },
       {
-        "ticket": "4 zone",
-        "price": "€ 5,00",
-        "validity": "105 min"
+        "ticket": "4 o più zone",
+        "price": "€ 5,10",
+        "validity": "135 min"
       }
     ]
   },
   "app": {
-    "intro": "Con le app partner puoi acquistare titoli digitali Start Romagna dal telefono, attivarli e convalidarli secondo le istruzioni dell’app scelta.",
+    "intro": "Con le app Chat&Go, MooneyGo, Roger e DropTicket puoi acquistare i titoli di viaggio Start Romagna direttamente dal tuo smartphone, ovunque ti trovi. I biglietti digitali sono validi sui servizi Start Romagna secondo le regole di utilizzo e di validazione previste per ciascun titolo.",
     "apps": [
       {
         "name": "Chat&Go",
@@ -93,9 +93,7 @@
   "emettitrice": {
     "intro": "Le emettitrici automatiche permettono di acquistare biglietti e, in molti casi, multicorsa e abbonamenti con contanti o carte, h24.",
     "terraBullets": [
-      "Presenti a Rimini, Riccione, Forlì, Cesena, Santarcangelo e altre località.",
-      "Biglietti da 1 a 9 zone, multicorsa e Day Ticket.",
-      "Pagamento con monete, banconote, Bancomat e carte di credito."
+      "vendita carnet 10 corse da 1 zona a 3 zone;"
     ],
     "traghettoBody": "Agli imbarchi di Porto Corsini e Marina di Ravenna per pedoni e ciclisti, con pagamento in moneta e banconote.",
     "bordoBullets": [
@@ -106,29 +104,144 @@
     ],
     "fareTable": [
       {
-        "ticket": "1 zona",
+        "ticket": "Biglietto 1 zona",
         "price": "€ 3,00",
         "validity": "60 min"
       },
       {
-        "ticket": "2 zone",
+        "ticket": "Biglietto 2 zone",
         "price": "€ 4,00",
         "validity": "75 min"
       },
       {
-        "ticket": "3 zone",
+        "ticket": "Biglietto 3 zone",
         "price": "€ 5,00",
         "validity": "90 min"
       },
       {
-        "ticket": "4 zone",
+        "ticket": "Biglietto 4 zone",
         "price": "€ 6,00",
         "validity": "105 min"
       },
       {
-        "ticket": "5 zone",
+        "ticket": "Biglietto 5 zone",
         "price": "€ 7,00",
         "validity": "135 min"
+      },
+      {
+        "ticket": "1-zone ticket",
+        "price": "€3.00",
+        "validity": "60 min"
+      },
+      {
+        "ticket": "2-zone ticket",
+        "price": "€4.00",
+        "validity": "75 min"
+      },
+      {
+        "ticket": "3-zone ticket",
+        "price": "€54.00",
+        "validity": "90 min"
+      },
+      {
+        "ticket": "4-zone ticket",
+        "price": "€6.00",
+        "validity": "105 min"
+      },
+      {
+        "ticket": "5-zone ticket",
+        "price": "€7.00",
+        "validity": "135 min"
+      },
+      {
+        "ticket": "Billete 1 zona",
+        "price": "€ 3,00",
+        "validity": "60 min"
+      },
+      {
+        "ticket": "Billete 2 zonas",
+        "price": "€ 4,00",
+        "validity": "75 min"
+      },
+      {
+        "ticket": "Billete 3 zonas",
+        "price": "€ 5,00",
+        "validity": "90 min"
+      },
+      {
+        "ticket": "Billete 4 zonas",
+        "price": "€ 6,00",
+        "validity": "105 min"
+      },
+      {
+        "ticket": "Billete 5 zonas",
+        "price": "€ 7,00",
+        "validity": "135 min"
+      },
+      {
+        "ticket": "Ticket 1 Zone",
+        "price": "€ 3,00",
+        "validity": "60 min"
+      },
+      {
+        "ticket": "Ticket 2 Zonen",
+        "price": "€ 4,00",
+        "validity": "75 min"
+      },
+      {
+        "ticket": "Ticket 3 Zonen",
+        "price": "€ 5,00",
+        "validity": "90 min"
+      },
+      {
+        "ticket": "Ticket 4 Zonen",
+        "price": "€ 6,00",
+        "validity": "105 min"
+      },
+      {
+        "ticket": "Ticket 5 Zonen",
+        "price": "€ 7,00",
+        "validity": "135 min"
+      },
+      {
+        "ticket": "Metromare 75 minuti",
+        "price": "€ 3,00",
+        "validity": "75 min"
+      },
+      {
+        "ticket": "Metromare 24h",
+        "price": "€ 5,00",
+        "validity": "24 ore"
+      },
+      {
+        "ticket": "Metromare 75 minutes",
+        "price": "€2.50",
+        "validity": "75 min"
+      },
+      {
+        "ticket": "Metromare 24h",
+        "price": "€5.00",
+        "validity": "24 hours"
+      },
+      {
+        "ticket": "Metromare 75 minutos",
+        "price": "€ 3,00",
+        "validity": "75 min"
+      },
+      {
+        "ticket": "Metromare 24h",
+        "price": "€ 5,00",
+        "validity": "24 horas"
+      },
+      {
+        "ticket": "Metromare 75 Minuten",
+        "price": "€ 3,00",
+        "validity": "75 min"
+      },
+      {
+        "ticket": "Metromare 24h",
+        "price": "€ 5,00",
+        "validity": "24 Stunden"
       }
     ]
   }

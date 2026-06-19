@@ -1,7 +1,10 @@
+import 'package:html/parser.dart' show parse;
+
 import '../baseline/start_content_baselines.dart';
 import '../start_content_id.dart';
 import '../start_content_parser.dart';
 import 'start_content_fetch.dart';
+import 'start_content_page_extract.dart';
 
 class ServizioClientiParser implements StartContentParser {
   @override
@@ -31,6 +34,15 @@ class ServizioClientiParser implements StartContentParser {
     final wa = RegExp(r'331[\s.]*65[\s.]*66[\s.]*555').firstMatch(html);
     if (wa != null) {
       patch['whatsAppDisplay'] = '331.65.66.555';
+    }
+
+    final root = startContentSrRoot(parse(html), '.sr-servizi-clienti');
+    if (root != null) {
+      final intro = startContentParagraphUnderHeading(
+        root,
+        'Come contattare',
+      );
+      if (intro != null) patch['intro'] = intro;
     }
 
     if (patch.isEmpty) return null;

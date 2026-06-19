@@ -1,12 +1,12 @@
 {
   "sourceUrl": "https://www.startromagna.it/shuttlemare-2026/",
-  "onboardIntro": "Minibus fino a 18 passeggeri, riconoscibili dal logo Shuttlemare.",
+  "onboardIntro": "I mezzi utilizzati per il servizio sono minibus fino a 18 passeggeri, riconoscibili grazie al logo Shuttlemare.",
   "onboardRuleGroups": [
     {
       "title": "Accessibilità e comfort",
       "bullets": [
-        "Mezzi accessibili in sedia a rotelle selezionando l'opzione in fase di prenotazione.",
-        "Il passeggino deve essere chiuso e caricato nel bagagliaio.",
+        "I mezzi sono accessibili anche a utenti in sedia a rotelle selezionando l’opzione in fase di prenotazione.",
+        "Il passeggino deve essere chiuso e caricato nel bagagliaio del mezzo.",
         "È necessario prenotare anche per il bambino."
       ]
     },
@@ -20,45 +20,40 @@
     }
   ],
   "bookingSteps": [
-    "Scarica l'app My Start Romagna",
-    "Scegli il punto di partenza e la destinazione (zona arancione ↔ zona azzurra)",
-    "Seleziona il numero di passeggeri (max 5) e conferma",
-    "Raggiungi la fermata del bus indicata nell'app",
-    "Sali su Shuttlemare e segui il mezzo sulla mappa"
+    "Scarica l’app My Start Romagna",
+    "Scegli il punto di partenza e la destinazione",
+    "Seleziona il n. di passeggeri (max 5) e conferma",
+    "Raggiungi la fermata del bus indicata",
+    "Sali su Shuttlemare!"
   ],
   "parkingLots": [
     {
-      "name": "Ponte di Tiberio",
-      "address": "Viale Tiberio, 47921 Rimini RN"
+      "name": "Ponte di Tiberio"
     },
     {
-      "name": "Caduti di Marzabotto",
-      "address": "Via Caduti di Marzabotto 36, 47921 Rimini RN"
+      "name": "Caduti di Marzabotto"
     },
     {
       "name": "Settebello",
-      "address": "Via Roma 70, 47921 Rimini RN",
       "unavailable": true
     },
     {
-      "name": "Fantoni",
-      "address": "Via Giovanni Fantoni, 47921 Rimini RN"
+      "name": "Fantoni"
     },
     {
-      "name": "Sindacati",
-      "address": "Via Staccoli, 47921 Rimini RN"
+      "name": "Sindacati"
     },
     {
-      "name": "Clementini",
-      "address": "Largo Martiri d'Ungheria, 47921 Rimini RN"
+      "name": "Clementini"
     },
     {
-      "name": "Chiabrera",
-      "address": "Via Chiabrera, 47921 Rimini RN"
+      "name": "Chiabrera"
     },
     {
-      "name": "Palacongressi",
-      "address": "Via della Fiera 23, 47923 Rimini RN"
+      "name": "Palacongressi"
+    },
+    {
+      "name": "Settebello Temporarily unavailable"
     }
   ],
   "helpLinks": [
