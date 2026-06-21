@@ -1,72 +1,72 @@
 {
   "version": 2,
-  "publishedAt": "2026-06-20T09:22:06.980440Z",
+  "publishedAt": "2026-06-21T09:55:57.499337Z",
   "sources": [
     {
       "id": "biglietto_informazioni",
       "sourceUrl": "https://www.startromagna.it/ticket-qr-code/",
       "contentHash": "7189cf019fa0efeb7212ec1423398d07ed6a6bc2cac82ad8bd66bc75a7e17b9c",
-      "updatedAt": "2026-06-20T09:22:02.304325Z"
+      "updatedAt": "2026-06-21T09:55:48.519800Z"
     },
     {
       "id": "biglietto_acquista",
       "sourceUrl": "https://www.startromagna.it/chat-go/",
       "contentHash": "5976420900b027ad5c0ab77c5d2c7677afdc68bd2ccdc8069955071c7a793269",
-      "updatedAt": "2026-06-20T09:22:02.886459Z"
+      "updatedAt": "2026-06-21T09:55:49.722247Z"
     },
     {
       "id": "biglietto_abbonamenti",
       "sourceUrl": "https://www.startromagna.it/abbonamenti/abbonamenti-2/",
       "contentHash": "936397eb0c34db3f1366674a5ff0fe8e44b770478ff3c2ea91adf00b8cd0eb63",
-      "updatedAt": "2026-06-20T09:22:03.315849Z"
+      "updatedAt": "2026-06-21T09:55:50.437844Z"
     },
     {
       "id": "abbonamenti_ordinari",
       "sourceUrl": "https://www.startromagna.it/abbonamenti/abbonamenti-2/",
       "contentHash": "5248456768a68386296630856b63972773fc689e5c4370ccd9efd62d35595515",
-      "updatedAt": "2026-06-20T09:22:03.822571Z"
+      "updatedAt": "2026-06-21T09:55:51.180098Z"
     },
     {
       "id": "biglietto_regolamento",
       "sourceUrl": "https://www.startromagna.it/biglietti/regolamenti-sanzioni-regole-di-viaggio/",
       "contentHash": "27a6b82d2e595b6c1048490ab8462ecab663183e23c67e3770c82a4428849279",
-      "updatedAt": "2026-06-20T09:22:04.302212Z"
+      "updatedAt": "2026-06-21T09:55:51.902415Z"
     },
     {
       "id": "servizio_clienti",
       "sourceUrl": "https://www.startromagna.it/servizio-clienti/",
       "contentHash": "bffbfcae16daa5371ed4d9391e14fcea33d1163b6a15bebde2b8e1fac1b37dbd",
-      "updatedAt": "2026-06-20T09:22:04.764895Z"
+      "updatedAt": "2026-06-21T09:55:52.597342Z"
     },
     {
       "id": "navetta_cesenatico",
       "sourceUrl": "https://www.startromagna.it/navetta-cesenatico/",
       "contentHash": "11022608868a3f340316b16841e1cba658064941fef36724511c117986f1306f",
-      "updatedAt": "2026-06-20T09:22:05.176322Z"
+      "updatedAt": "2026-06-21T09:55:54.482968Z"
     },
     {
       "id": "navetta_shuttlemare",
       "sourceUrl": "https://www.startromagna.it/shuttlemare-2026/",
       "contentHash": "19be7942b9e2080469e7eb9e34f2a0ccbdcc3b014c8e08dde322cd3ff8079e4d",
-      "updatedAt": "2026-06-20T09:22:05.605241Z"
+      "updatedAt": "2026-06-21T09:55:55.182414Z"
     },
     {
       "id": "navetta_navettomare",
       "sourceUrl": "https://www.startromagna.it/navetto-mare-2026/",
       "contentHash": "06b3ec10919b9667f1fc1a839202ef5d6da319f88bfa30e5c368241c039a865a",
-      "updatedAt": "2026-06-20T09:22:06.082602Z"
+      "updatedAt": "2026-06-21T09:55:55.862622Z"
     },
     {
       "id": "navetta_milano_marittima",
       "sourceUrl": "https://www.startromagna.it/navetta-gratuita-milano-marittima-percorsi-e-orari-2026/",
       "contentHash": "aaebb9638c05d0428b43b3aa2b88ce3221465de62752caa9aecfb0c9156656c9",
-      "updatedAt": "2026-06-20T09:22:06.558012Z"
+      "updatedAt": "2026-06-21T09:55:56.811830Z"
     },
     {
       "id": "navetta_bussi",
       "sourceUrl": "https://www.startromagna.it/bussi/",
       "contentHash": "0e4a29cb08988531fff23f4d7f280da65ffdb8a114c34e39912b2411b9df107b",
-      "updatedAt": "2026-06-20T09:22:06.980365Z"
+      "updatedAt": "2026-06-21T09:55:57.499283Z"
     }
   ]
 }
